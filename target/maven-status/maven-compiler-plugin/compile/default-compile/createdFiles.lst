@@ -1,0 +1,5 @@
+com\saucedemo\utilities\CsvHelper.class
+com\saucedemo\objects\Product.class
+com\saucedemo\utilities\MyFileWriter.class
+com\saucedemo\utilities\UserBuilder.class
+com\saucedemo\objects\TestUser.class
