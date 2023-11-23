@@ -1,5 +1,6 @@
-com\saucedemo\utilities\CsvHelper.class
-com\saucedemo\objects\Product.class
-com\saucedemo\utilities\MyFileWriter.class
-com\saucedemo\utilities\UserBuilder.class
-com\saucedemo\objects\TestUser.class
+test\opencart\objects\Product.class
+test\opencart\utilities\UserBuilder.class
+test\opencart\utilities\CsvHelper.class
+test\opencart\objects\TestUser.class
+test\opencart\utilities\DbConnector.class
+test\opencart\utilities\MyFileWriter.class

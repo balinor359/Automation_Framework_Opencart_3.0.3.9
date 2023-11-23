@@ -1,6 +1,5 @@
 package test.opencart.tests.checkout;
 
-import com.saucedemo.pom.*;
 import test.opencart.pom.*;
 import test.opencart.utilities.MyFileWriter;
 import test.opencart.utilities.TestUtilities;
