@@ -3,10 +3,15 @@ package StepDefinitions;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
+import test.opencart.utilities.DbConnector;
+import test.opencart.utilities.DbCrud;
 
+import java.sql.Connection;
+import java.sql.SQLException;
 import java.sql.SQLOutput;
 
 public class Steps {
+
     @Given("the user is on login page")
     public void the_user_is_on_login_page() {
         System.out.println("The user is on login page");
@@ -14,6 +19,9 @@ public class Steps {
     @When("the user enters valid credentials")
     public void the_user_enters_valid_credentials() {
         System.out.println("Entered username and password");
+
+        DbCrud dbCrud = new DbCrud();
+        dbCrud.readUser("select * from oc_customer");
     }
     @When("hits submit")
     public void hits_submit() {
@@ -22,5 +30,6 @@ public class Steps {
     @Then("the user should be logged in successfully")
     public void the_user_should_be_logged_in_successfully() {
         System.out.println("Yeah I am logged in");
+
     }
 }
