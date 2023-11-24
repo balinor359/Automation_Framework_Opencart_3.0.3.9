@@ -3,12 +3,15 @@ package StepDefinitions;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
+import org.testng.Assert;
+import test.opencart.objects.Customer;
 import test.opencart.utilities.DbConnector;
 import test.opencart.utilities.DbCrud;
 
 import java.sql.Connection;
 import java.sql.SQLException;
 import java.sql.SQLOutput;
+
 
 public class Steps {
 
@@ -21,7 +24,35 @@ public class Steps {
         System.out.println("Entered username and password");
 
         DbCrud dbCrud = new DbCrud();
-        dbCrud.readUser("select * from oc_customer");
+
+        dbCrud.readDbCustomers();
+        // create customer to the DB
+        dbCrud.createDbCustomer();
+
+//        dbCrud.readDbCustomers();
+        Assert.assertEquals(dbCrud.customersList.get(4).getLastname(), "Georgiev", "The lastname in DB is different!");
+
+        // read customers from DB
+        dbCrud.readDbCustomers();
+
+
+        //update customer phone in DB
+        dbCrud.updateCustomerPhone(4,"111111");
+        // Assert for testing user phone in DB
+//        System.out.println("dbCrud.customersList.get(3) " + dbCrud.customersList.get(3));
+//        dbCrud.testCustomerPhone(dbCrud.customersList.get(3),"000000");
+
+        dbCrud.readDbCustomers();
+
+
+        //delete customer from DB
+        dbCrud.deleteCustomer("testercho@test.test");
+        dbCrud.readDbCustomers();
+
+        // Clear Customers list //todo Да се изместят накрая в TestUtilities при затваряне на драйвъра
+        dbCrud.customersList.clear();
+        System.out.println("customersList " + dbCrud.customersList);
+
     }
     @When("hits submit")
     public void hits_submit() {

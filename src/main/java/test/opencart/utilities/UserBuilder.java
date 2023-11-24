@@ -34,8 +34,8 @@ public class UserBuilder extends TestUser {
         for (String user : emptyUsersList) {
             TestUser testUser;
             String[] userFields = user.split(",");
-            testUser = new TestUser(userFields[0], userFields[1]);
-            fullUsersList.add(testUser);
+//            testUser = new TestUser(userFields[0], userFields[1]);
+//            fullUsersList.add(testUser);
         }
         /* Return full user list*/
         return fullUsersList;

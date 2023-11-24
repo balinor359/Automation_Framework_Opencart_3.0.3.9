@@ -18,3 +18,959 @@ ________________________________________________________________________________
 23/11/2023 17:58:51 : TC1: Login in website with valid data
 23/11/2023 17:58:51 : Test End!
 _________________________________________________________________________________________
+24/11/2023 14:00:51 : Customer ID: 1, First Name: test, Last Name: test, Email: test@test.test, Telephone: 123123123, Newsletter: 1, Date Added: 2023-11-21 22:05:59
+24/11/2023 14:28:57 : Customer ID: 1, First Name: test, Last Name: test, Email: test@test.test, Telephone: 123123123, Newsletter: 1, Date Added: 2023-11-21 22:05:59
+24/11/2023 14:32:11 : Customer ID: 1, First Name: test, Last Name: test, Email: test@test.test, Telephone: 123123123, Newsletter: 1, Date Added: 2023-11-21 22:05:59
+
+24/11/2023 14:52:14 : Customer ID: 1, First Name: test, Last Name: test, Email: test@test.test, Telephone: 123123123, Address: Ivan Vazov 22, City: Varna, Country: Jersey, Newsletter: 1, Date Added: 2023-11-21 22:05:59
+
+24/11/2023 15:10:24 : Customer ID: 1, First Name: test, Last Name: test, Email: test@test.test, Telephone: 123123123, Address: Ivan Vazov 22, City: Varna, Country: Bulgaria, Newsletter: 1, Date Added: 2023-11-21 22:05:59
+
+24/11/2023 15:16:26 : Customer ID: 3, First Name: Gergana, Last Name: Dimitrova, Email: gergana@test.test, Telephone: 0887334457, Address: Hristo Botev 15, City: Berlin, Country: Germany, Newsletter: 1, Date Added: 2023-11-24 15:16:16
+
+24/11/2023 15:17:48 : Customer ID: 3, First Name: Gergana, Last Name: Dimitrova, Email: gergana@test.test, Telephone: 0887334457, Address: Hristo Botev 15, City: Berlin, Country: Germany, Newsletter: 1, Date Added: 2023-11-24 15:16:16
+
+24/11/2023 15:18:16 : Customer ID: 3, First Name: Gergana, Last Name: Dimitrova, Email: gergana@test.test, Telephone: 0887334457, Address: Hristo Botev 15, City: Berlin, Country: Germany, Newsletter: 1, Date Added: 2023-11-24 15:16:16
+
+24/11/2023 15:20:07 : Customer ID: 3, First Name: Gergana, Last Name: Dimitrova, Email: gergana@test.test, Telephone: 0887334457, Address: Hristo Botev 15, City: Berlin, Country: Jersey, Newsletter: 1, Date Added: 2023-11-24 15:16:16
+
+24/11/2023 15:20:17 : Customer ID: 3, First Name: Gergana, Last Name: Dimitrova, Email: gergana@test.test, Telephone: 0887334457, Address: Hristo Botev 15, City: Berlin, Country: Jersey, Newsletter: 1, Date Added: 2023-11-24 15:16:16
+
+24/11/2023 15:21:55 : Customer ID: 3, First Name: Gergana, Last Name: Dimitrova, Email: gergana@test.test, Telephone: 0887334457, Newsletter: 1, Date Added: 2023-11-24 15:16:16
+
+24/11/2023 15:24:24 : Customer ID: 3, First Name: Gergana, Last Name: Dimitrova, Email: gergana@test.test, Telephone: 0887334457, Address: Hristo Botev 15, City: Berlin, Country: Germany, Newsletter: 1, Date Added: 2023-11-24 15:16:16
+
+24/11/2023 15:30:23 : Customer ID: 1, First Name: test, Last Name: test, Email: test@test.test, Telephone: 123123123, Address: Ivan Vazov 22, City: Varna, Country: null, Newsletter: 1, Date Added: 2023-11-21 22:05:59
+
+24/11/2023 15:38:23 : Customer ID: 1, First Name: test, Last Name: test, Email: test@test.test, Telephone: 123123123, Address: Ivan Vazov 22, City: Varna, Country: Bulgaria, Newsletter: 1, Date Added: 2023-11-21 22:05:59
+
+24/11/2023 15:39:16 : Customer ID: 1, First Name: test, Last Name: test, Email: test@test.test, Telephone: 123123123, Address: Ivan Vazov 22, City: Varna, Country: Bulgaria, Newsletter: 1, Date Added: 2023-11-21 22:05:59
+
+24/11/2023 15:39:50 : Customer ID: 1, First Name: test, Last Name: test, Email: test@test.test, Telephone: 123123123, Address: Ivan Vazov 22, City: Varna, Country: Bulgaria, Newsletter: 1, Date Added: 2023-11-21 22:05:59
+
+24/11/2023 15:40:15 : Customer ID: 1, First Name: test, Last Name: test, Email: test@test.test, Telephone: 123123123, Address: Ivan Vazov 22, City: Varna, Country: Bulgaria, Newsletter: 1, Date Added: 2023-11-21 22:05:59
+
+24/11/2023 15:42:41 : Customer ID: 1, First Name: test, Last Name: test, Email: test@test.test, Telephone: 123123123, Address: Ivan Vazov 22, City: Varna, Country: Bulgaria, Newsletter: 1, Date Added: 2023-11-21 22:05:59
+
+24/11/2023 15:42:41 : Customer ID: 2, First Name: Georgi, Last Name: Petrov, Email: petrov@test.test, Telephone: 0883225512, Address: ul.Vasil Levski 32, City: Sofia, Country: Bulgaria, Newsletter: 0, Date Added: 2023-11-24 15:13:50
+
+24/11/2023 15:42:41 : Customer ID: 3, First Name: Gergana, Last Name: Dimitrova, Email: gergana@test.test, Telephone: 0887334457, Address: Hristo Botev 15, City: Berlin, Country: Germany, Newsletter: 1, Date Added: 2023-11-24 15:16:16
+
+24/11/2023 15:44:33 : Customer ID: 1, First Name: test, Last Name: test, Email: test@test.test, Telephone: 123123123, Address: Ivan Vazov 22, City: Varna, Country: Bulgaria, Newsletter: 1, Date Added: 2023-11-21 22:05:59
+
+24/11/2023 15:44:33 : Customer ID: 2, First Name: Georgi, Last Name: Petrov, Email: petrov@test.test, Telephone: 0883225512, Address: ul.Vasil Levski 32, City: Sofia, Country: Bulgaria, Newsletter: 0, Date Added: 2023-11-24 15:13:50
+
+24/11/2023 15:44:33 : Customer ID: 3, First Name: Gergana, Last Name: Dimitrova, Email: gergana@test.test, Telephone: 0887334457, Address: Hristo Botev 15, City: Berlin, Country: Germany, Newsletter: 1, Date Added: 2023-11-24 15:16:16
+
+24/11/2023 15:45:40 : Customer ID: 1, First Name: test, Last Name: test, Email: test@test.test, Telephone: 123123123, Address: Ivan Vazov 22, City: Varna, Country: Bulgaria, Newsletter: 1, Date Added: 2023-11-21 22:05:59
+
+24/11/2023 15:45:40 : Customer ID: 2, First Name: Georgi, Last Name: Petrov, Email: petrov@test.test, Telephone: 0883225512, Address: ul.Vasil Levski 32, City: Sofia, Country: Bulgaria, Newsletter: 0, Date Added: 2023-11-24 15:13:50
+
+24/11/2023 15:45:40 : Customer ID: 3, First Name: Gergana, Last Name: Dimitrova, Email: gergana@test.test, Telephone: 0887334457, Address: Hristo Botev 15, City: Berlin, Country: Germany, Newsletter: 1, Date Added: 2023-11-24 15:16:16
+
+24/11/2023 15:46:03 : Customer ID: 1, First Name: test, Last Name: test, Email: test@test.test, Telephone: 123123123, Address: Ivan Vazov 22, City: Varna, Country: Bulgaria, Newsletter: 1, Date Added: 2023-11-21 22:05:59
+
+24/11/2023 15:46:03 : Customer ID: 2, First Name: Georgi, Last Name: Petrov, Email: petrov@test.test, Telephone: 0883225512, Address: ul.Vasil Levski 32, City: Sofia, Country: Bulgaria, Newsletter: 0, Date Added: 2023-11-24 15:13:50
+
+24/11/2023 15:46:03 : Customer ID: 3, First Name: Gergana, Last Name: Dimitrova, Email: gergana@test.test, Telephone: 0887334457, Address: Hristo Botev 15, City: Berlin, Country: Germany, Newsletter: 1, Date Added: 2023-11-24 15:16:16
+
+24/11/2023 15:46:18 : Customer ID: 1, First Name: test, Last Name: test, Email: test@test.test, Telephone: 123123123, Address: Ivan Vazov 22, City: Varna, Country: Bulgaria, Newsletter: 1, Date Added: 2023-11-21 22:05:59
+24/11/2023 15:46:18 : Customer ID: 2, First Name: Georgi, Last Name: Petrov, Email: petrov@test.test, Telephone: 0883225512, Address: ul.Vasil Levski 32, City: Sofia, Country: Bulgaria, Newsletter: 0, Date Added: 2023-11-24 15:13:50
+24/11/2023 15:46:18 : Customer ID: 3, First Name: Gergana, Last Name: Dimitrova, Email: gergana@test.test, Telephone: 0887334457, Address: Hristo Botev 15, City: Berlin, Country: Germany, Newsletter: 1, Date Added: 2023-11-24 15:16:16
+24/11/2023 15:49:28 : Customer ID:1|First Name:test|Last Name:test|Email:test@test.test|Telephone:123123123|Address:Ivan Vazov 22|City:Varna|Country:Bulgaria|Newsletter:1|Date Added:2023-11-21 22:05:59
+24/11/2023 15:49:28 : Customer ID:2|First Name:Georgi|Last Name:Petrov|Email:petrov@test.test|Telephone:0883225512|Address:ul.Vasil Levski 32|City:Sofia|Country:Bulgaria|Newsletter:0|Date Added:2023-11-24 15:13:50
+24/11/2023 15:49:28 : Customer ID:3|First Name:Gergana|Last Name:Dimitrova|Email:gergana@test.test|Telephone:0887334457|Address:Hristo Botev 15|City:Berlin|Country:Germany|Newsletter:1|Date Added:2023-11-24 15:16:16
+24/11/2023 15:50:02 : Customer ID:1 | First Name:test | Last Name:test | Email:test@test.test | Telephone:123123123 | Address:Ivan Vazov 22 | City:Varna | Country:Bulgaria | Newsletter:1 | Date Added:2023-11-21 22:05:59
+24/11/2023 15:50:02 : Customer ID:2 | First Name:Georgi | Last Name:Petrov | Email:petrov@test.test | Telephone:0883225512 | Address:ul.Vasil Levski 32 | City:Sofia | Country:Bulgaria | Newsletter:0 | Date Added:2023-11-24 15:13:50
+24/11/2023 15:50:02 : Customer ID:3 | First Name:Gergana | Last Name:Dimitrova | Email:gergana@test.test | Telephone:0887334457 | Address:Hristo Botev 15 | City:Berlin | Country:Germany | Newsletter:1 | Date Added:2023-11-24 15:16:16
+24/11/2023 15:50:14 : Customer ID:1 | First Name:test | Last Name:test | Email:test@test.test | Telephone:123123123 | Address:Ivan Vazov 22 | City:Varna | Country:Bulgaria | Newsletter:1 | Date Added:2023-11-21 22:05:59
+24/11/2023 15:50:14 : Customer ID:2 | First Name:Georgi | Last Name:Petrov | Email:petrov@test.test | Telephone:0883225512 | Address:ul.Vasil Levski 32 | City:Sofia | Country:Bulgaria | Newsletter:0 | Date Added:2023-11-24 15:13:50
+24/11/2023 15:50:14 : Customer ID:3 | First Name:Gergana | Last Name:Dimitrova | Email:gergana@test.test | Telephone:0887334457 | Address:Hristo Botev 15 | City:Berlin | Country:Germany | Newsletter:1 | Date Added:2023-11-24 15:16:16
+24/11/2023 16:31:02 : Customer ID:1 | First Name:test | Last Name:test | Email:test@test.test | Telephone:123123123 | Address:Ivan Vazov 22 | City:Varna | Country:Bulgaria | Newsletter:1 | Date Added:2023-11-21 22:05:59
+24/11/2023 16:31:02 : Customer ID:2 | First Name:Georgi | Last Name:Petrov | Email:petrov@test.test | Telephone:0883225512 | Address:ul.Vasil Levski 32 | City:Sofia | Country:Bulgaria | Newsletter:0 | Date Added:2023-11-24 15:13:50
+24/11/2023 16:31:02 : Customer ID:3 | First Name:Gergana | Last Name:Dimitrova | Email:gergana@test.test | Telephone:0887334457 | Address:Hristo Botev 15 | City:Berlin | Country:Germany | Newsletter:1 | Date Added:2023-11-24 15:16:16
+24/11/2023 16:32:24 : Customer ID:1 | First Name:test | Last Name:test | Email:test@test.test | Telephone:123123123 | Address:Ivan Vazov 22 | City:Varna | Country:Bulgaria | Newsletter:1 | Date Added:2023-11-21 22:05:59
+24/11/2023 16:32:24 : Customer ID:2 | First Name:Georgi | Last Name:Petrov | Email:petrov@test.test | Telephone:0883225512 | Address:ul.Vasil Levski 32 | City:Sofia | Country:Bulgaria | Newsletter:0 | Date Added:2023-11-24 15:13:50
+24/11/2023 16:32:24 : Customer ID:3 | First Name:Gergana | Last Name:Dimitrova | Email:gergana@test.test | Telephone:0887334457 | Address:Hristo Botev 15 | City:Berlin | Country:Germany | Newsletter:1 | Date Added:2023-11-24 15:16:16
+24/11/2023 16:34:28 : Customer ID:1 | First Name:test | Last Name:test | Email:test@test.test | Telephone:123123123 | Address:Ivan Vazov 22 | City:Varna | Country:Bulgaria | Newsletter:1 | Date Added:2023-11-21 22:05:59
+24/11/2023 16:34:28 : Customer ID:2 | First Name:Georgi | Last Name:Petrov | Email:petrov@test.test | Telephone:0883225512 | Address:ul.Vasil Levski 32 | City:Sofia | Country:Bulgaria | Newsletter:0 | Date Added:2023-11-24 15:13:50
+24/11/2023 16:34:28 : Customer ID:3 | First Name:Gergana | Last Name:Dimitrova | Email:gergana@test.test | Telephone:0887334457 | Address:Hristo Botev 15 | City:Berlin | Country:Germany | Newsletter:1 | Date Added:2023-11-24 15:16:16
+24/11/2023 16:35:13 : Customer ID:1 | First Name:test | Last Name:test | Email:test@test.test | Telephone:123123123 | Address:Ivan Vazov 22 | City:Varna | Country:Bulgaria | Newsletter:1 | Date Added:2023-11-21 22:05:59
+24/11/2023 16:35:13 : Customer ID:2 | First Name:Georgi | Last Name:Petrov | Email:petrov@test.test | Telephone:0883225512 | Address:ul.Vasil Levski 32 | City:Sofia | Country:Bulgaria | Newsletter:0 | Date Added:2023-11-24 15:13:50
+24/11/2023 16:35:13 : Customer ID:3 | First Name:Gergana | Last Name:Dimitrova | Email:gergana@test.test | Telephone:0887334457 | Address:Hristo Botev 15 | City:Berlin | Country:Germany | Newsletter:1 | Date Added:2023-11-24 15:16:16
+24/11/2023 16:48:24 : Customer ID:1 | First Name:test | Last Name:test | Email:test@test.test | Telephone:123123123 | Address:Ivan Vazov 22 | City:Varna | Country:Bulgaria | Newsletter:1 | Date Added:2023-11-21 22:05:59
+24/11/2023 16:48:24 : Customer ID:2 | First Name:Georgi | Last Name:Petrov | Email:petrov@test.test | Telephone:0883225512 | Address:ul.Vasil Levski 32 | City:Sofia | Country:Bulgaria | Newsletter:0 | Date Added:2023-11-24 15:13:50
+24/11/2023 16:48:24 : Customer ID:3 | First Name:Gergana | Last Name:Dimitrova | Email:gergana@test.test | Telephone:0887334457 | Address:Hristo Botev 15 | City:Berlin | Country:Germany | Newsletter:1 | Date Added:2023-11-24 15:16:16
+24/11/2023 16:54:59 : Customer ID:1 | First Name:test | Last Name:test | Email:test@test.test | Telephone:123123123 | Address:Ivan Vazov 22 | City:Varna | Country:Bulgaria | Newsletter:1 | Date Added:2023-11-21 22:05:59
+24/11/2023 16:54:59 : Customer ID:2 | First Name:Georgi | Last Name:Petrov | Email:petrov@test.test | Telephone:0883225512 | Address:ul.Vasil Levski 32 | City:Sofia | Country:Bulgaria | Newsletter:0 | Date Added:2023-11-24 15:13:50
+24/11/2023 16:54:59 : Customer ID:3 | First Name:Gergana | Last Name:Dimitrova | Email:gergana@test.test | Telephone:0887334457 | Address:Hristo Botev 15 | City:Berlin | Country:Germany | Newsletter:1 | Date Added:2023-11-24 15:16:16
+24/11/2023 17:28:40 : Customer ID:1 | First Name:test | Last Name:test | Email:test@test.test | Telephone:123123123 | Address:Ivan Vazov 22 | City:Varna | Country:Bulgaria | Newsletter:1 | Date Added:2023-11-21 22:05:59
+24/11/2023 17:28:40 : Customer ID:2 | First Name:Georgi | Last Name:Petrov | Email:petrov@test.test | Telephone:0883225512 | Address:ul.Vasil Levski 32 | City:Sofia | Country:Bulgaria | Newsletter:0 | Date Added:2023-11-24 15:13:50
+24/11/2023 17:28:40 : Customer ID:3 | First Name:Gergana | Last Name:Dimitrova | Email:gergana@test.test | Telephone:0887334457 | Address:Hristo Botev 15 | City:Berlin | Country:Germany | Newsletter:1 | Date Added:2023-11-24 15:16:16
+24/11/2023 17:28:40 : Customer ID:4 | First Name:test123 | Last Name:test123 | Email:test123@abv.bg | Telephone:123456 | Address:Hristo Botev 15 | City:Berlin | Country:Germany | Newsletter:0 | Date Added:2023-11-24 16:58:00
+24/11/2023 17:33:40 : Customer ID:1 | First Name:test | Last Name:test | Email:test@test.test | Telephone:123123123 | Newsletter:1 | Date Added:2023-11-21 22:05:59
+24/11/2023 17:33:40 : Customer ID:2 | First Name:Georgi | Last Name:Petrov | Email:petrov@test.test | Telephone:0883225512 | Newsletter:0 | Date Added:2023-11-24 15:13:50
+24/11/2023 17:33:40 : Customer ID:3 | First Name:Gergana | Last Name:Dimitrova | Email:gergana@test.test | Telephone:0887334457 | Newsletter:1 | Date Added:2023-11-24 15:16:16
+24/11/2023 17:33:40 : Customer ID:4 | First Name:test123 | Last Name:test123 | Email:test123@abv.bg | Telephone:123456 | Newsletter:0 | Date Added:2023-11-24 16:58:00
+24/11/2023 18:49:50 : Customer ID:1 | First Name:test | Last Name:test | Email:test@test.test | Telephone:123123123 | Newsletter:1 | Date Added:2023-11-21 22:05:59
+24/11/2023 18:49:50 : Customer ID:2 | First Name:Georgi | Last Name:Petrov | Email:petrov@test.test | Telephone:0883225512 | Newsletter:0 | Date Added:2023-11-24 15:13:50
+24/11/2023 18:49:50 : Customer ID:3 | First Name:Gergana | Last Name:Dimitrova | Email:gergana@test.test | Telephone:0887334457 | Newsletter:1 | Date Added:2023-11-24 15:16:16
+24/11/2023 18:49:50 : Customer ID:4 | First Name:test123 | Last Name:test123 | Email:test123@abv.bg | Telephone:123456 | Newsletter:0 | Date Added:2023-11-24 16:58:00
+24/11/2023 18:50:00 : Customer ID:1 | First Name:test | Last Name:test | Email:test@test.test | Telephone:123123123 | Newsletter:1 | Date Added:2023-11-21 22:05:59
+24/11/2023 18:50:00 : Customer ID:2 | First Name:Georgi | Last Name:Petrov | Email:petrov@test.test | Telephone:0883225512 | Newsletter:0 | Date Added:2023-11-24 15:13:50
+24/11/2023 18:50:00 : Customer ID:3 | First Name:Gergana | Last Name:Dimitrova | Email:gergana@test.test | Telephone:0887334457 | Newsletter:1 | Date Added:2023-11-24 15:16:16
+24/11/2023 18:50:00 : Customer ID:4 | First Name:test123 | Last Name:test123 | Email:test123@abv.bg | Telephone:123456 | Newsletter:0 | Date Added:2023-11-24 16:58:00
+24/11/2023 18:50:08 : Customer ID:1 | First Name:test | Last Name:test | Email:test@test.test | Telephone:123123123 | Newsletter:1 | Date Added:2023-11-21 22:05:59
+24/11/2023 18:50:08 : Customer ID:2 | First Name:Georgi | Last Name:Petrov | Email:petrov@test.test | Telephone:0883225512 | Newsletter:0 | Date Added:2023-11-24 15:13:50
+24/11/2023 18:50:08 : Customer ID:3 | First Name:Gergana | Last Name:Dimitrova | Email:gergana@test.test | Telephone:0887334457 | Newsletter:1 | Date Added:2023-11-24 15:16:16
+24/11/2023 18:50:08 : Customer ID:4 | First Name:test123 | Last Name:test123 | Email:test123@abv.bg | Telephone:123456 | Newsletter:0 | Date Added:2023-11-24 16:58:00
+24/11/2023 18:56:14 : Customer ID:1 | First Name:test | Last Name:test | Email:test@test.test | Telephone:123123123 | Newsletter:1 | Date Added:2023-11-21 22:05:59
+24/11/2023 18:56:14 : Customer ID:2 | First Name:Georgi | Last Name:Petrov | Email:petrov@test.test | Telephone:0883225512 | Newsletter:0 | Date Added:2023-11-24 15:13:50
+24/11/2023 18:56:14 : Customer ID:3 | First Name:Gergana | Last Name:Dimitrova | Email:gergana@test.test | Telephone:0887334457 | Newsletter:1 | Date Added:2023-11-24 15:16:16
+24/11/2023 18:56:14 : Customer ID:4 | First Name:test123 | Last Name:test123 | Email:test123@abv.bg | Telephone:123456 | Newsletter:0 | Date Added:2023-11-24 16:58:00
+24/11/2023 18:56:24 : Customer ID:1 | First Name:test | Last Name:test | Email:test@test.test | Telephone:123123123 | Newsletter:1 | Date Added:2023-11-21 22:05:59
+24/11/2023 18:56:24 : Customer ID:2 | First Name:Georgi | Last Name:Petrov | Email:petrov@test.test | Telephone:0883225512 | Newsletter:0 | Date Added:2023-11-24 15:13:50
+24/11/2023 18:56:24 : Customer ID:3 | First Name:Gergana | Last Name:Dimitrova | Email:gergana@test.test | Telephone:0887334457 | Newsletter:1 | Date Added:2023-11-24 15:16:16
+24/11/2023 18:56:24 : Customer ID:4 | First Name:test123 | Last Name:test123 | Email:test123@abv.bg | Telephone:123456 | Newsletter:0 | Date Added:2023-11-24 16:58:00
+24/11/2023 18:56:24 : Customer ID:1 | First Name:test | Last Name:test | Email:test@test.test | Telephone:123123123 | Newsletter:1 | Date Added:2023-11-21 22:05:59
+24/11/2023 18:56:24 : Customer ID:2 | First Name:Georgi | Last Name:Petrov | Email:petrov@test.test | Telephone:0883225512 | Newsletter:0 | Date Added:2023-11-24 15:13:50
+24/11/2023 18:56:24 : Customer ID:3 | First Name:Gergana | Last Name:Dimitrova | Email:gergana@test.test | Telephone:0887334457 | Newsletter:1 | Date Added:2023-11-24 15:16:16
+24/11/2023 18:56:24 : Customer ID:4 | First Name:test123 | Last Name:test123 | Email:test123@abv.bg | Telephone:123456 | Newsletter:0 | Date Added:2023-11-24 16:58:00
+24/11/2023 18:58:09 : Customer ID:1 | First Name:test | Last Name:test | Email:test@test.test | Telephone:123123123 | Newsletter:1 | Date Added:2023-11-21 22:05:59
+24/11/2023 18:58:09 : Customer ID:2 | First Name:Georgi | Last Name:Petrov | Email:petrov@test.test | Telephone:0883225512 | Newsletter:0 | Date Added:2023-11-24 15:13:50
+24/11/2023 18:58:09 : Customer ID:3 | First Name:Gergana | Last Name:Dimitrova | Email:gergana@test.test | Telephone:0887334457 | Newsletter:1 | Date Added:2023-11-24 15:16:16
+24/11/2023 18:58:09 : Customer ID:4 | First Name:test123 | Last Name:test123 | Email:test123@abv.bg | Telephone:123456 | Newsletter:0 | Date Added:2023-11-24 16:58:00
+24/11/2023 18:58:09 : Customer ID:1 | First Name:test | Last Name:test | Email:test@test.test | Telephone:123123123 | Newsletter:1 | Date Added:2023-11-21 22:05:59
+24/11/2023 18:58:09 : Customer ID:2 | First Name:Georgi | Last Name:Petrov | Email:petrov@test.test | Telephone:0883225512 | Newsletter:0 | Date Added:2023-11-24 15:13:50
+24/11/2023 18:58:09 : Customer ID:3 | First Name:Gergana | Last Name:Dimitrova | Email:gergana@test.test | Telephone:0887334457 | Newsletter:1 | Date Added:2023-11-24 15:16:16
+24/11/2023 18:58:09 : Customer ID:4 | First Name:test123 | Last Name:test123 | Email:test123@abv.bg | Telephone:123456 | Newsletter:0 | Date Added:2023-11-24 16:58:00
+24/11/2023 18:59:05 : Customer ID:1 | First Name:test | Last Name:test | Email:test@test.test | Telephone:123123123 | Newsletter:1 | Date Added:2023-11-21 22:05:59
+24/11/2023 18:59:05 : Customer ID:2 | First Name:Georgi | Last Name:Petrov | Email:petrov@test.test | Telephone:0883225512 | Newsletter:0 | Date Added:2023-11-24 15:13:50
+24/11/2023 18:59:05 : Customer ID:3 | First Name:Gergana | Last Name:Dimitrova | Email:gergana@test.test | Telephone:0887334457 | Newsletter:1 | Date Added:2023-11-24 15:16:16
+24/11/2023 18:59:05 : Customer ID:4 | First Name:test123 | Last Name:test123 | Email:test123@abv.bg | Telephone:123456 | Newsletter:0 | Date Added:2023-11-24 16:58:00
+24/11/2023 18:59:05 : Customer ID:1 | First Name:test | Last Name:test | Email:test@test.test | Telephone:123123123 | Newsletter:1 | Date Added:2023-11-21 22:05:59
+24/11/2023 18:59:05 : Customer ID:2 | First Name:Georgi | Last Name:Petrov | Email:petrov@test.test | Telephone:0883225512 | Newsletter:0 | Date Added:2023-11-24 15:13:50
+24/11/2023 18:59:05 : Customer ID:3 | First Name:Gergana | Last Name:Dimitrova | Email:gergana@test.test | Telephone:0887334457 | Newsletter:1 | Date Added:2023-11-24 15:16:16
+24/11/2023 18:59:05 : Customer ID:4 | First Name:test123 | Last Name:test123 | Email:test123@abv.bg | Telephone:123456 | Newsletter:0 | Date Added:2023-11-24 16:58:00
+24/11/2023 19:02:39 : Customer ID:1 | First Name:test | Last Name:test | Email:test@test.test | Telephone:123123123 | Newsletter:1 | Date Added:2023-11-21 22:05:59
+24/11/2023 19:02:39 : Customer ID:2 | First Name:Georgi | Last Name:Petrov | Email:petrov@test.test | Telephone:0883225512 | Newsletter:0 | Date Added:2023-11-24 15:13:50
+24/11/2023 19:02:39 : Customer ID:3 | First Name:Gergana | Last Name:Dimitrova | Email:gergana@test.test | Telephone:0887334457 | Newsletter:1 | Date Added:2023-11-24 15:16:16
+24/11/2023 19:02:39 : Customer ID:4 | First Name:test123 | Last Name:test123 | Email:test123@abv.bg | Telephone:123456 | Newsletter:0 | Date Added:2023-11-24 16:58:00
+24/11/2023 19:02:39 : Customer ID:1 | First Name:test | Last Name:test | Email:test@test.test | Telephone:123123123 | Newsletter:1 | Date Added:2023-11-21 22:05:59
+24/11/2023 19:02:39 : Customer ID:2 | First Name:Georgi | Last Name:Petrov | Email:petrov@test.test | Telephone:0883225512 | Newsletter:0 | Date Added:2023-11-24 15:13:50
+24/11/2023 19:02:39 : Customer ID:3 | First Name:Gergana | Last Name:Dimitrova | Email:gergana@test.test | Telephone:0887334457 | Newsletter:1 | Date Added:2023-11-24 15:16:16
+24/11/2023 19:02:39 : Customer ID:4 | First Name:test123 | Last Name:test123 | Email:test123@abv.bg | Telephone:888888888 | Newsletter:0 | Date Added:2023-11-24 16:58:00
+24/11/2023 19:09:42 : Customer ID:1 | First Name:test | Last Name:test | Email:test@test.test | Telephone:123123123 | Newsletter:1 | Date Added:2023-11-21 22:05:59
+24/11/2023 19:09:42 : Customer ID:2 | First Name:Georgi | Last Name:Petrov | Email:petrov@test.test | Telephone:0883225512 | Newsletter:0 | Date Added:2023-11-24 15:13:50
+24/11/2023 19:09:42 : Customer ID:3 | First Name:Gergana | Last Name:Dimitrova | Email:gergana@test.test | Telephone:0887334457 | Newsletter:1 | Date Added:2023-11-24 15:16:16
+24/11/2023 19:09:42 : Customer ID:4 | First Name:test123 | Last Name:test123 | Email:test123@abv.bg | Telephone:888888888 | Newsletter:0 | Date Added:2023-11-24 16:58:00
+24/11/2023 19:10:15 : Customer ID:1 | First Name:test | Last Name:test | Email:test@test.test | Telephone:123123123 | Newsletter:1 | Date Added:2023-11-21 22:05:59
+24/11/2023 19:10:15 : Customer ID:2 | First Name:Georgi | Last Name:Petrov | Email:petrov@test.test | Telephone:0883225512 | Newsletter:0 | Date Added:2023-11-24 15:13:50
+24/11/2023 19:10:15 : Customer ID:3 | First Name:Gergana | Last Name:Dimitrova | Email:gergana@test.test | Telephone:0887334457 | Newsletter:1 | Date Added:2023-11-24 15:16:16
+24/11/2023 19:10:15 : Customer ID:4 | First Name:test123 | Last Name:test123 | Email:test123@abv.bg | Telephone:888888888 | Newsletter:0 | Date Added:2023-11-24 16:58:00
+24/11/2023 19:10:59 : Customer ID:1 | First Name:test | Last Name:test | Email:test@test.test | Telephone:123123123 | Newsletter:1 | Date Added:2023-11-21 22:05:59
+24/11/2023 19:10:59 : Customer ID:2 | First Name:Georgi | Last Name:Petrov | Email:petrov@test.test | Telephone:0883225512 | Newsletter:0 | Date Added:2023-11-24 15:13:50
+24/11/2023 19:10:59 : Customer ID:3 | First Name:Gergana | Last Name:Dimitrova | Email:gergana@test.test | Telephone:0887334457 | Newsletter:1 | Date Added:2023-11-24 15:16:16
+24/11/2023 19:10:59 : Customer ID:4 | First Name:test123 | Last Name:test123 | Email:test123@abv.bg | Telephone:888888888 | Newsletter:0 | Date Added:2023-11-24 16:58:00
+24/11/2023 19:10:59 : Customer ID:1 | First Name:test | Last Name:test | Email:test@test.test | Telephone:123123123 | Newsletter:1 | Date Added:2023-11-21 22:05:59
+24/11/2023 19:10:59 : Customer ID:2 | First Name:Georgi | Last Name:Petrov | Email:petrov@test.test | Telephone:0883225512 | Newsletter:0 | Date Added:2023-11-24 15:13:50
+24/11/2023 19:10:59 : Customer ID:3 | First Name:Gergana | Last Name:Dimitrova | Email:gergana@test.test | Telephone:0887334457 | Newsletter:1 | Date Added:2023-11-24 15:16:16
+24/11/2023 19:10:59 : Customer ID:4 | First Name:test123 | Last Name:test123 | Email:test123@abv.bg | Telephone:0888888888 | Newsletter:0 | Date Added:2023-11-24 16:58:00
+24/11/2023 19:11:24 : Customer ID:1 | First Name:test | Last Name:test | Email:test@test.test | Telephone:123123123 | Newsletter:1 | Date Added:2023-11-21 22:05:59
+24/11/2023 19:11:24 : Customer ID:2 | First Name:Georgi | Last Name:Petrov | Email:petrov@test.test | Telephone:0883225512 | Newsletter:0 | Date Added:2023-11-24 15:13:50
+24/11/2023 19:11:24 : Customer ID:3 | First Name:Gergana | Last Name:Dimitrova | Email:gergana@test.test | Telephone:0887334457 | Newsletter:1 | Date Added:2023-11-24 15:16:16
+24/11/2023 19:11:24 : Customer ID:4 | First Name:test123 | Last Name:test123 | Email:test123@abv.bg | Telephone:0888888888 | Newsletter:0 | Date Added:2023-11-24 16:58:00
+24/11/2023 19:11:24 : Customer ID:1 | First Name:test | Last Name:test | Email:test@test.test | Telephone:123123123 | Newsletter:1 | Date Added:2023-11-21 22:05:59
+24/11/2023 19:11:24 : Customer ID:2 | First Name:Georgi | Last Name:Petrov | Email:petrov@test.test | Telephone:0883225512 | Newsletter:0 | Date Added:2023-11-24 15:13:50
+24/11/2023 19:11:24 : Customer ID:3 | First Name:Gergana | Last Name:Dimitrova | Email:gergana@test.test | Telephone:0887334457 | Newsletter:1 | Date Added:2023-11-24 15:16:16
+24/11/2023 19:11:24 : Customer ID:4 | First Name:test123 | Last Name:test123 | Email:test123@abv.bg | Telephone:0888888888 | Newsletter:0 | Date Added:2023-11-24 16:58:00
+24/11/2023 19:11:32 : Customer ID:1 | First Name:test | Last Name:test | Email:test@test.test | Telephone:123123123 | Newsletter:1 | Date Added:2023-11-21 22:05:59
+24/11/2023 19:11:32 : Customer ID:2 | First Name:Georgi | Last Name:Petrov | Email:petrov@test.test | Telephone:0883225512 | Newsletter:0 | Date Added:2023-11-24 15:13:50
+24/11/2023 19:11:32 : Customer ID:3 | First Name:Gergana | Last Name:Dimitrova | Email:gergana@test.test | Telephone:0887334457 | Newsletter:1 | Date Added:2023-11-24 15:16:16
+24/11/2023 19:11:32 : Customer ID:4 | First Name:test123 | Last Name:test123 | Email:test123@abv.bg | Telephone:0888888888 | Newsletter:0 | Date Added:2023-11-24 16:58:00
+24/11/2023 19:11:32 : Customer ID:1 | First Name:test | Last Name:test | Email:test@test.test | Telephone:123123123 | Newsletter:1 | Date Added:2023-11-21 22:05:59
+24/11/2023 19:11:32 : Customer ID:2 | First Name:Georgi | Last Name:Petrov | Email:petrov@test.test | Telephone:0883225512 | Newsletter:0 | Date Added:2023-11-24 15:13:50
+24/11/2023 19:11:32 : Customer ID:3 | First Name:Gergana | Last Name:Dimitrova | Email:gergana@test.test | Telephone:0887334457 | Newsletter:1 | Date Added:2023-11-24 15:16:16
+24/11/2023 19:11:32 : Customer ID:4 | First Name:test123 | Last Name:test123 | Email:test123@abv.bg | Telephone:052 66 55 44 | Newsletter:0 | Date Added:2023-11-24 16:58:00
+24/11/2023 19:25:40 : Customer ID:1 | First Name:test | Last Name:test | Email:test@test.test | Telephone:123123123 | Newsletter:1 | Date Added:2023-11-21 22:05:59
+24/11/2023 19:25:40 : Customer ID:2 | First Name:Georgi | Last Name:Petrov | Email:petrov@test.test | Telephone:0883225512 | Newsletter:0 | Date Added:2023-11-24 15:13:50
+24/11/2023 19:25:40 : Customer ID:3 | First Name:Gergana | Last Name:Dimitrova | Email:gergana@test.test | Telephone:0887334457 | Newsletter:1 | Date Added:2023-11-24 15:16:16
+24/11/2023 19:25:40 : Customer ID:4 | First Name:test123 | Last Name:test123 | Email:test123@abv.bg | Telephone:052 66 55 44 | Newsletter:0 | Date Added:2023-11-24 16:58:00
+24/11/2023 19:25:40 : Customer ID:1 | First Name:test | Last Name:test | Email:test@test.test | Telephone:123123123 | Newsletter:1 | Date Added:2023-11-21 22:05:59
+24/11/2023 19:25:40 : Customer ID:2 | First Name:Georgi | Last Name:Petrov | Email:petrov@test.test | Telephone:0883225512 | Newsletter:0 | Date Added:2023-11-24 15:13:50
+24/11/2023 19:25:40 : Customer ID:3 | First Name:Gergana | Last Name:Dimitrova | Email:gergana@test.test | Telephone:0887334457 | Newsletter:1 | Date Added:2023-11-24 15:16:16
+24/11/2023 19:25:40 : Customer ID:4 | First Name:test123 | Last Name:test123 | Email:test123@abv.bg | Telephone:052 66 55 44 | Newsletter:0 | Date Added:2023-11-24 16:58:00
+24/11/2023 19:27:39 : Customer ID:1 | First Name:test | Last Name:test | Email:test@test.test | Telephone:123123123 | Newsletter:1 | Date Added:2023-11-21 22:05:59
+24/11/2023 19:27:39 : Customer ID:2 | First Name:Georgi | Last Name:Petrov | Email:petrov@test.test | Telephone:0883225512 | Newsletter:0 | Date Added:2023-11-24 15:13:50
+24/11/2023 19:27:39 : Customer ID:3 | First Name:Gergana | Last Name:Dimitrova | Email:gergana@test.test | Telephone:0887334457 | Newsletter:1 | Date Added:2023-11-24 15:16:16
+24/11/2023 19:27:39 : Customer ID:4 | First Name:test123 | Last Name:test123 | Email:test123@abv.bg | Telephone:052 66 55 44 | Newsletter:0 | Date Added:2023-11-24 16:58:00
+24/11/2023 19:27:39 : Customer ID:1 | First Name:test | Last Name:test | Email:test@test.test | Telephone:123123123 | Newsletter:1 | Date Added:2023-11-21 22:05:59
+24/11/2023 19:27:39 : Customer ID:2 | First Name:Georgi | Last Name:Petrov | Email:petrov@test.test | Telephone:0883225512 | Newsletter:0 | Date Added:2023-11-24 15:13:50
+24/11/2023 19:27:39 : Customer ID:3 | First Name:Gergana | Last Name:Dimitrova | Email:gergana@test.test | Telephone:0887334457 | Newsletter:1 | Date Added:2023-11-24 15:16:16
+24/11/2023 19:27:39 : Customer ID:4 | First Name:test123 | Last Name:test123 | Email:test123@abv.bg | Telephone:052 66 55 44 | Newsletter:0 | Date Added:2023-11-24 16:58:00
+24/11/2023 19:28:36 : Customer ID:1 | First Name:test | Last Name:test | Email:test@test.test | Telephone:123123123 | Newsletter:1 | Date Added:2023-11-21 22:05:59
+24/11/2023 19:28:36 : Customer ID:2 | First Name:Georgi | Last Name:Petrov | Email:petrov@test.test | Telephone:0883225512 | Newsletter:0 | Date Added:2023-11-24 15:13:50
+24/11/2023 19:28:36 : Customer ID:3 | First Name:Gergana | Last Name:Dimitrova | Email:gergana@test.test | Telephone:0887334457 | Newsletter:1 | Date Added:2023-11-24 15:16:16
+24/11/2023 19:28:36 : Customer ID:4 | First Name:test123 | Last Name:test123 | Email:test123@abv.bg | Telephone:052 66 55 44 | Newsletter:0 | Date Added:2023-11-24 16:58:00
+24/11/2023 19:28:36 : Customer ID:1 | First Name:test | Last Name:test | Email:test@test.test | Telephone:123123123 | Newsletter:1 | Date Added:2023-11-21 22:05:59
+24/11/2023 19:28:36 : Customer ID:2 | First Name:Georgi | Last Name:Petrov | Email:petrov@test.test | Telephone:0883225512 | Newsletter:0 | Date Added:2023-11-24 15:13:50
+24/11/2023 19:28:36 : Customer ID:3 | First Name:Gergana | Last Name:Dimitrova | Email:gergana@test.test | Telephone:0887334457 | Newsletter:1 | Date Added:2023-11-24 15:16:16
+24/11/2023 19:28:36 : Customer ID:4 | First Name:test123 | Last Name:test123 | Email:test123@abv.bg | Telephone:052 66 55 44 | Newsletter:0 | Date Added:2023-11-24 16:58:00
+24/11/2023 19:29:13 : Customer ID:1 | First Name:test | Last Name:test | Email:test@test.test | Telephone:123123123 | Newsletter:1 | Date Added:2023-11-21 22:05:59
+24/11/2023 19:29:13 : Customer ID:2 | First Name:Georgi | Last Name:Petrov | Email:petrov@test.test | Telephone:0883225512 | Newsletter:0 | Date Added:2023-11-24 15:13:50
+24/11/2023 19:29:13 : Customer ID:3 | First Name:Gergana | Last Name:Dimitrova | Email:gergana@test.test | Telephone:0887334457 | Newsletter:1 | Date Added:2023-11-24 15:16:16
+24/11/2023 19:29:13 : Customer ID:4 | First Name:test123 | Last Name:test123 | Email:test123@abv.bg | Telephone:052 66 55 44 | Newsletter:0 | Date Added:2023-11-24 16:58:00
+24/11/2023 19:29:13 : Customer ID:1 | First Name:test | Last Name:test | Email:test@test.test | Telephone:123123123 | Newsletter:1 | Date Added:2023-11-21 22:05:59
+24/11/2023 19:29:13 : Customer ID:2 | First Name:Georgi | Last Name:Petrov | Email:petrov@test.test | Telephone:0883225512 | Newsletter:0 | Date Added:2023-11-24 15:13:50
+24/11/2023 19:29:13 : Customer ID:3 | First Name:Gergana | Last Name:Dimitrova | Email:gergana@test.test | Telephone:0887334457 | Newsletter:1 | Date Added:2023-11-24 15:16:16
+24/11/2023 19:29:13 : Customer ID:4 | First Name:test123 | Last Name:test123 | Email:test123@abv.bg | Telephone:052 66 55 44 | Newsletter:0 | Date Added:2023-11-24 16:58:00
+24/11/2023 19:29:24 : Customer ID:1 | First Name:test | Last Name:test | Email:test@test.test | Telephone:123123123 | Newsletter:1 | Date Added:2023-11-21 22:05:59
+24/11/2023 19:29:24 : Customer ID:2 | First Name:Georgi | Last Name:Petrov | Email:petrov@test.test | Telephone:0883225512 | Newsletter:0 | Date Added:2023-11-24 15:13:50
+24/11/2023 19:29:24 : Customer ID:3 | First Name:Gergana | Last Name:Dimitrova | Email:gergana@test.test | Telephone:0887334457 | Newsletter:1 | Date Added:2023-11-24 15:16:16
+24/11/2023 19:29:24 : Customer ID:4 | First Name:test123 | Last Name:test123 | Email:test123@abv.bg | Telephone:052 66 55 44 | Newsletter:0 | Date Added:2023-11-24 16:58:00
+24/11/2023 19:29:24 : Customer ID:1 | First Name:test | Last Name:test | Email:test@test.test | Telephone:123123123 | Newsletter:1 | Date Added:2023-11-21 22:05:59
+24/11/2023 19:29:24 : Customer ID:2 | First Name:Georgi | Last Name:Petrov | Email:petrov@test.test | Telephone:0883225512 | Newsletter:0 | Date Added:2023-11-24 15:13:50
+24/11/2023 19:29:24 : Customer ID:3 | First Name:Gergana | Last Name:Dimitrova | Email:gergana@test.test | Telephone:0887334457 | Newsletter:1 | Date Added:2023-11-24 15:16:16
+24/11/2023 19:29:24 : Customer ID:4 | First Name:test123 | Last Name:test123 | Email:test123@abv.bg | Telephone:0568425665 | Newsletter:0 | Date Added:2023-11-24 16:58:00
+24/11/2023 19:46:34 : Customer ID:1 | First Name:test | Last Name:test | Email:test@test.test | Telephone:123123123 | Newsletter:1 | Date Added:2023-11-21 22:05:59
+24/11/2023 19:46:34 : Customer ID:2 | First Name:Georgi | Last Name:Petrov | Email:petrov@test.test | Telephone:0883225512 | Newsletter:0 | Date Added:2023-11-24 15:13:50
+24/11/2023 19:46:34 : Customer ID:3 | First Name:Gergana | Last Name:Dimitrova | Email:gergana@test.test | Telephone:0887334457 | Newsletter:1 | Date Added:2023-11-24 15:16:16
+24/11/2023 19:46:34 : Customer ID:4 | First Name:test123 | Last Name:test123 | Email:test123@abv.bg | Telephone:0568425665 | Newsletter:0 | Date Added:2023-11-24 16:58:00
+24/11/2023 19:46:34 : Customer ID:1 | First Name:test | Last Name:test | Email:test@test.test | Telephone:123123123 | Newsletter:1 | Date Added:2023-11-21 22:05:59
+24/11/2023 19:46:34 : Customer ID:2 | First Name:Georgi | Last Name:Petrov | Email:petrov@test.test | Telephone:0883225512 | Newsletter:0 | Date Added:2023-11-24 15:13:50
+24/11/2023 19:46:34 : Customer ID:3 | First Name:Gergana | Last Name:Dimitrova | Email:gergana@test.test | Telephone:0887334457 | Newsletter:1 | Date Added:2023-11-24 15:16:16
+24/11/2023 19:46:34 : Customer ID:4 | First Name:test123 | Last Name:test123 | Email:test123@abv.bg | Telephone:0568425665 | Newsletter:0 | Date Added:2023-11-24 16:58:00
+24/11/2023 19:49:01 : Customer ID:1 | First Name:test | Last Name:test | Email:test@test.test | Telephone:123123123 | Newsletter:1 | Date Added:2023-11-21 22:05:59
+24/11/2023 19:49:01 : Customer ID:2 | First Name:Georgi | Last Name:Petrov | Email:petrov@test.test | Telephone:0883225512 | Newsletter:0 | Date Added:2023-11-24 15:13:50
+24/11/2023 19:49:01 : Customer ID:3 | First Name:Gergana | Last Name:Dimitrova | Email:gergana@test.test | Telephone:0887334457 | Newsletter:1 | Date Added:2023-11-24 15:16:16
+24/11/2023 19:49:01 : Customer ID:4 | First Name:test123 | Last Name:test123 | Email:test123@abv.bg | Telephone:0568425665 | Newsletter:0 | Date Added:2023-11-24 16:58:00
+24/11/2023 19:49:01 : Customer ID:1 | First Name:test | Last Name:test | Email:test@test.test | Telephone:123123123 | Newsletter:1 | Date Added:2023-11-21 22:05:59
+24/11/2023 19:49:01 : Customer ID:2 | First Name:Georgi | Last Name:Petrov | Email:petrov@test.test | Telephone:0883225512 | Newsletter:0 | Date Added:2023-11-24 15:13:50
+24/11/2023 19:49:01 : Customer ID:3 | First Name:Gergana | Last Name:Dimitrova | Email:gergana@test.test | Telephone:0887334457 | Newsletter:1 | Date Added:2023-11-24 15:16:16
+24/11/2023 19:49:01 : Customer ID:4 | First Name:test123 | Last Name:test123 | Email:test123@abv.bg | Telephone:0568425665 | Newsletter:0 | Date Added:2023-11-24 16:58:00
+24/11/2023 19:49:50 : Customer ID:1 | First Name:test | Last Name:test | Email:test@test.test | Telephone:123123123 | Newsletter:1 | Date Added:2023-11-21 22:05:59
+24/11/2023 19:49:50 : Customer ID:2 | First Name:Georgi | Last Name:Petrov | Email:petrov@test.test | Telephone:0883225512 | Newsletter:0 | Date Added:2023-11-24 15:13:50
+24/11/2023 19:49:50 : Customer ID:3 | First Name:Gergana | Last Name:Dimitrova | Email:gergana@test.test | Telephone:0887334457 | Newsletter:1 | Date Added:2023-11-24 15:16:16
+24/11/2023 19:49:50 : Customer ID:4 | First Name:test123 | Last Name:test123 | Email:test123@abv.bg | Telephone:0568425665 | Newsletter:0 | Date Added:2023-11-24 16:58:00
+24/11/2023 19:49:50 : Customer ID:1 | First Name:test | Last Name:test | Email:test@test.test | Telephone:123123123 | Newsletter:1 | Date Added:2023-11-21 22:05:59
+24/11/2023 19:49:50 : Customer ID:2 | First Name:Georgi | Last Name:Petrov | Email:petrov@test.test | Telephone:0883225512 | Newsletter:0 | Date Added:2023-11-24 15:13:50
+24/11/2023 19:49:50 : Customer ID:3 | First Name:Gergana | Last Name:Dimitrova | Email:gergana@test.test | Telephone:0887334457 | Newsletter:1 | Date Added:2023-11-24 15:16:16
+24/11/2023 19:49:50 : Customer ID:4 | First Name:test123 | Last Name:test123 | Email:test123@abv.bg | Telephone:056842566577777 | Newsletter:0 | Date Added:2023-11-24 16:58:00
+24/11/2023 19:50:19 : Customer ID:1 | First Name:test | Last Name:test | Email:test@test.test | Telephone:123123123 | Newsletter:1 | Date Added:2023-11-21 22:05:59
+24/11/2023 19:50:19 : Customer ID:2 | First Name:Georgi | Last Name:Petrov | Email:petrov@test.test | Telephone:0883225512 | Newsletter:0 | Date Added:2023-11-24 15:13:50
+24/11/2023 19:50:19 : Customer ID:3 | First Name:Gergana | Last Name:Dimitrova | Email:gergana@test.test | Telephone:0887334457 | Newsletter:1 | Date Added:2023-11-24 15:16:16
+24/11/2023 19:50:19 : Customer ID:4 | First Name:test123 | Last Name:test123 | Email:test123@abv.bg | Telephone:056842566577777 | Newsletter:0 | Date Added:2023-11-24 16:58:00
+24/11/2023 19:52:59 : Customer ID:1 | First Name:test | Last Name:test | Email:test@test.test | Telephone:123123123 | Newsletter:1 | Date Added:2023-11-21 22:05:59
+24/11/2023 19:52:59 : Customer ID:2 | First Name:Georgi | Last Name:Petrov | Email:petrov@test.test | Telephone:0883225512 | Newsletter:0 | Date Added:2023-11-24 15:13:50
+24/11/2023 19:52:59 : Customer ID:3 | First Name:Gergana | Last Name:Dimitrova | Email:gergana@test.test | Telephone:0887334457 | Newsletter:1 | Date Added:2023-11-24 15:16:16
+24/11/2023 19:52:59 : Customer ID:4 | First Name:test123 | Last Name:test123 | Email:test123@abv.bg | Telephone:056842566577777 | Newsletter:0 | Date Added:2023-11-24 16:58:00
+24/11/2023 19:53:15 : Customer ID:1 | First Name:test | Last Name:test | Email:test@test.test | Telephone:123123123 | Newsletter:1 | Date Added:2023-11-21 22:05:59
+24/11/2023 19:53:15 : Customer ID:2 | First Name:Georgi | Last Name:Petrov | Email:petrov@test.test | Telephone:0883225512 | Newsletter:0 | Date Added:2023-11-24 15:13:50
+24/11/2023 19:53:15 : Customer ID:3 | First Name:Gergana | Last Name:Dimitrova | Email:gergana@test.test | Telephone:0887334457 | Newsletter:1 | Date Added:2023-11-24 15:16:16
+24/11/2023 19:53:15 : Customer ID:4 | First Name:test123 | Last Name:test123 | Email:test123@abv.bg | Telephone:056842566577777 | Newsletter:0 | Date Added:2023-11-24 16:58:00
+24/11/2023 19:53:23 : Customer ID:1 | First Name:test | Last Name:test | Email:test@test.test | Telephone:123123123 | Newsletter:1 | Date Added:2023-11-21 22:05:59
+24/11/2023 19:53:23 : Customer ID:2 | First Name:Georgi | Last Name:Petrov | Email:petrov@test.test | Telephone:0883225512 | Newsletter:0 | Date Added:2023-11-24 15:13:50
+24/11/2023 19:53:23 : Customer ID:3 | First Name:Gergana | Last Name:Dimitrova | Email:gergana@test.test | Telephone:0887334457 | Newsletter:1 | Date Added:2023-11-24 15:16:16
+24/11/2023 19:53:23 : Customer ID:4 | First Name:test123 | Last Name:test123 | Email:test123@abv.bg | Telephone:056842566577777 | Newsletter:0 | Date Added:2023-11-24 16:58:00
+24/11/2023 19:53:57 : Customer ID:1 | First Name:test | Last Name:test | Email:test@test.test | Telephone:123123123 | Newsletter:1 | Date Added:2023-11-21 22:05:59
+24/11/2023 19:53:57 : Customer ID:2 | First Name:Georgi | Last Name:Petrov | Email:petrov@test.test | Telephone:0883225512 | Newsletter:0 | Date Added:2023-11-24 15:13:50
+24/11/2023 19:53:57 : Customer ID:3 | First Name:Gergana | Last Name:Dimitrova | Email:gergana@test.test | Telephone:0887334457 | Newsletter:1 | Date Added:2023-11-24 15:16:16
+24/11/2023 19:53:57 : Customer ID:4 | First Name:test123 | Last Name:test123 | Email:test123@abv.bg | Telephone:0568425665 | Newsletter:0 | Date Added:2023-11-24 16:58:00
+24/11/2023 19:53:57 : Customer ID:1 | First Name:test | Last Name:test | Email:test@test.test | Telephone:123123123 | Newsletter:1 | Date Added:2023-11-21 22:05:59
+24/11/2023 19:53:57 : Customer ID:2 | First Name:Georgi | Last Name:Petrov | Email:petrov@test.test | Telephone:0883225512 | Newsletter:0 | Date Added:2023-11-24 15:13:50
+24/11/2023 19:53:57 : Customer ID:3 | First Name:Gergana | Last Name:Dimitrova | Email:gergana@test.test | Telephone:0887334457 | Newsletter:1 | Date Added:2023-11-24 15:16:16
+24/11/2023 19:53:57 : Customer ID:4 | First Name:test123 | Last Name:test123 | Email:test123@abv.bg | Telephone:0568425665 | Newsletter:0 | Date Added:2023-11-24 16:58:00
+24/11/2023 20:24:35 : Customer ID:1 | First Name:test | Last Name:test | Email:test@test.test | Telephone:123123123 | Newsletter:1 | Date Added:2023-11-21 22:05:59
+24/11/2023 20:24:35 : Customer ID:2 | First Name:Georgi | Last Name:Petrov | Email:petrov@test.test | Telephone:0883225512 | Newsletter:0 | Date Added:2023-11-24 15:13:50
+24/11/2023 20:24:35 : Customer ID:3 | First Name:Gergana | Last Name:Dimitrova | Email:gergana@test.test | Telephone:0887334457 | Newsletter:1 | Date Added:2023-11-24 15:16:16
+24/11/2023 20:24:35 : Customer ID:4 | First Name:test123 | Last Name:test123 | Email:test123@abv.bg | Telephone:0568425665 | Newsletter:0 | Date Added:2023-11-24 16:58:00
+24/11/2023 20:24:35 : Customer ID:1 | First Name:test | Last Name:test | Email:test@test.test | Telephone:123123123 | Newsletter:1 | Date Added:2023-11-21 22:05:59
+24/11/2023 20:24:35 : Customer ID:2 | First Name:Georgi | Last Name:Petrov | Email:petrov@test.test | Telephone:0883225512 | Newsletter:0 | Date Added:2023-11-24 15:13:50
+24/11/2023 20:24:35 : Customer ID:3 | First Name:Gergana | Last Name:Dimitrova | Email:gergana@test.test | Telephone:0887334457 | Newsletter:1 | Date Added:2023-11-24 15:16:16
+24/11/2023 20:24:35 : Customer ID:4 | First Name:test123 | Last Name:test123 | Email:test123@abv.bg | Telephone:0568425665 | Newsletter:0 | Date Added:2023-11-24 16:58:00
+24/11/2023 20:30:02 : Customer ID:1 | First Name:test | Last Name:test | Email:test@test.test | Telephone:123123123 | Newsletter:1 | Date Added:2023-11-21 22:05:59
+24/11/2023 20:30:02 : Customer ID:2 | First Name:Georgi | Last Name:Petrov | Email:petrov@test.test | Telephone:0883225512 | Newsletter:0 | Date Added:2023-11-24 15:13:50
+24/11/2023 20:30:02 : Customer ID:3 | First Name:Gergana | Last Name:Dimitrova | Email:gergana@test.test | Telephone:0887334457 | Newsletter:1 | Date Added:2023-11-24 15:16:16
+24/11/2023 20:30:02 : Customer ID:4 | First Name:test123 | Last Name:test123 | Email:test123@abv.bg | Telephone:0568425665 | Newsletter:0 | Date Added:2023-11-24 16:58:00
+24/11/2023 20:30:02 : Customer ID:1 | First Name:test | Last Name:test | Email:test@test.test | Telephone:123123123 | Newsletter:1 | Date Added:2023-11-21 22:05:59
+24/11/2023 20:30:02 : Customer ID:2 | First Name:Georgi | Last Name:Petrov | Email:petrov@test.test | Telephone:0883225512 | Newsletter:0 | Date Added:2023-11-24 15:13:50
+24/11/2023 20:30:02 : Customer ID:3 | First Name:Gergana | Last Name:Dimitrova | Email:gergana@test.test | Telephone:0887334457 | Newsletter:1 | Date Added:2023-11-24 15:16:16
+24/11/2023 20:30:02 : Customer ID:4 | First Name:test123 | Last Name:test123 | Email:test123@abv.bg | Telephone:0568425665 | Newsletter:0 | Date Added:2023-11-24 16:58:00
+24/11/2023 20:31:29 : Customer ID:1 | First Name:test | Last Name:test | Email:test@test.test | Telephone:123123123 | Newsletter:1 | Date Added:2023-11-21 22:05:59
+24/11/2023 20:31:29 : Customer ID:2 | First Name:Georgi | Last Name:Petrov | Email:petrov@test.test | Telephone:0883225512 | Newsletter:0 | Date Added:2023-11-24 15:13:50
+24/11/2023 20:31:29 : Customer ID:3 | First Name:Gergana | Last Name:Dimitrova | Email:gergana@test.test | Telephone:0887334457 | Newsletter:1 | Date Added:2023-11-24 15:16:16
+24/11/2023 20:31:29 : Customer ID:4 | First Name:test123 | Last Name:test123 | Email:test123@abv.bg | Telephone:0568425665 | Newsletter:0 | Date Added:2023-11-24 16:58:00
+24/11/2023 20:31:29 : Customer ID:1 | First Name:test | Last Name:test | Email:test@test.test | Telephone:123123123 | Newsletter:1 | Date Added:2023-11-21 22:05:59
+24/11/2023 20:31:29 : Customer ID:2 | First Name:Georgi | Last Name:Petrov | Email:petrov@test.test | Telephone:0883225512 | Newsletter:0 | Date Added:2023-11-24 15:13:50
+24/11/2023 20:31:29 : Customer ID:3 | First Name:Gergana | Last Name:Dimitrova | Email:gergana@test.test | Telephone:0887334457 | Newsletter:1 | Date Added:2023-11-24 15:16:16
+24/11/2023 20:31:29 : Customer ID:4 | First Name:test123 | Last Name:test123 | Email:test123@abv.bg | Telephone:0568425665 | Newsletter:0 | Date Added:2023-11-24 16:58:00
+24/11/2023 20:32:03 : Customer ID:1 | First Name:test | Last Name:test | Email:test@test.test | Telephone:123123123 | Newsletter:1 | Date Added:2023-11-21 22:05:59
+24/11/2023 20:32:03 : Customer ID:2 | First Name:Georgi | Last Name:Petrov | Email:petrov@test.test | Telephone:0883225512 | Newsletter:0 | Date Added:2023-11-24 15:13:50
+24/11/2023 20:32:03 : Customer ID:3 | First Name:Gergana | Last Name:Dimitrova | Email:gergana@test.test | Telephone:0887334457 | Newsletter:1 | Date Added:2023-11-24 15:16:16
+24/11/2023 20:32:03 : Customer ID:4 | First Name:test123 | Last Name:test123 | Email:test123@abv.bg | Telephone:0568425665 | Newsletter:0 | Date Added:2023-11-24 16:58:00
+24/11/2023 20:32:03 : Customer ID:1 | First Name:test | Last Name:test | Email:test@test.test | Telephone:123123123 | Newsletter:1 | Date Added:2023-11-21 22:05:59
+24/11/2023 20:32:03 : Customer ID:2 | First Name:Georgi | Last Name:Petrov | Email:petrov@test.test | Telephone:0883225512 | Newsletter:0 | Date Added:2023-11-24 15:13:50
+24/11/2023 20:32:03 : Customer ID:3 | First Name:Gergana | Last Name:Dimitrova | Email:gergana@test.test | Telephone:0887334457 | Newsletter:1 | Date Added:2023-11-24 15:16:16
+24/11/2023 20:32:03 : Customer ID:4 | First Name:test123 | Last Name:test123 | Email:test123@abv.bg | Telephone:0568425665111 | Newsletter:0 | Date Added:2023-11-24 16:58:00
+24/11/2023 20:33:25 : Customer ID:1 | First Name:test | Last Name:test | Email:test@test.test | Telephone:123123123 | Newsletter:1 | Date Added:2023-11-21 22:05:59
+24/11/2023 20:33:25 : Customer ID:2 | First Name:Georgi | Last Name:Petrov | Email:petrov@test.test | Telephone:0883225512 | Newsletter:0 | Date Added:2023-11-24 15:13:50
+24/11/2023 20:33:25 : Customer ID:3 | First Name:Gergana | Last Name:Dimitrova | Email:gergana@test.test | Telephone:0887334457 | Newsletter:1 | Date Added:2023-11-24 15:16:16
+24/11/2023 20:33:25 : Customer ID:4 | First Name:test123 | Last Name:test123 | Email:test123@abv.bg | Telephone:0568425665111 | Newsletter:0 | Date Added:2023-11-24 16:58:00
+24/11/2023 20:33:43 : Customer ID:1 | First Name:test | Last Name:test | Email:test@test.test | Telephone:123123123 | Newsletter:1 | Date Added:2023-11-21 22:05:59
+24/11/2023 20:33:43 : Customer ID:2 | First Name:Georgi | Last Name:Petrov | Email:petrov@test.test | Telephone:0883225512 | Newsletter:0 | Date Added:2023-11-24 15:13:50
+24/11/2023 20:33:43 : Customer ID:3 | First Name:Gergana | Last Name:Dimitrova | Email:gergana@test.test | Telephone:0887334457 | Newsletter:1 | Date Added:2023-11-24 15:16:16
+24/11/2023 20:33:43 : Customer ID:4 | First Name:test123 | Last Name:test123 | Email:test123@abv.bg | Telephone:0568425665111 | Newsletter:0 | Date Added:2023-11-24 16:58:00
+24/11/2023 20:33:57 : Customer ID:1 | First Name:test | Last Name:test | Email:test@test.test | Telephone:123123123 | Newsletter:1 | Date Added:2023-11-21 22:05:59
+24/11/2023 20:33:57 : Customer ID:2 | First Name:Georgi | Last Name:Petrov | Email:petrov@test.test | Telephone:0883225512 | Newsletter:0 | Date Added:2023-11-24 15:13:50
+24/11/2023 20:33:57 : Customer ID:3 | First Name:Gergana | Last Name:Dimitrova | Email:gergana@test.test | Telephone:0887334457 | Newsletter:1 | Date Added:2023-11-24 15:16:16
+24/11/2023 20:33:57 : Customer ID:4 | First Name:test123 | Last Name:test123 | Email:test123@abv.bg | Telephone:0568425665111 | Newsletter:0 | Date Added:2023-11-24 16:58:00
+24/11/2023 20:34:01 : Customer ID:1 | First Name:test | Last Name:test | Email:test@test.test | Telephone:123123123 | Newsletter:1 | Date Added:2023-11-21 22:05:59
+24/11/2023 20:34:01 : Customer ID:2 | First Name:Georgi | Last Name:Petrov | Email:petrov@test.test | Telephone:0883225512 | Newsletter:0 | Date Added:2023-11-24 15:13:50
+24/11/2023 20:34:01 : Customer ID:3 | First Name:Gergana | Last Name:Dimitrova | Email:gergana@test.test | Telephone:0887334457 | Newsletter:1 | Date Added:2023-11-24 15:16:16
+24/11/2023 20:34:01 : Customer ID:4 | First Name:test123 | Last Name:test123 | Email:test123@abv.bg | Telephone:0568425665111 | Newsletter:0 | Date Added:2023-11-24 16:58:00
+24/11/2023 20:34:08 : Customer ID:1 | First Name:test | Last Name:test | Email:test@test.test | Telephone:123123123 | Newsletter:1 | Date Added:2023-11-21 22:05:59
+24/11/2023 20:34:08 : Customer ID:2 | First Name:Georgi | Last Name:Petrov | Email:petrov@test.test | Telephone:0883225512 | Newsletter:0 | Date Added:2023-11-24 15:13:50
+24/11/2023 20:34:08 : Customer ID:3 | First Name:Gergana | Last Name:Dimitrova | Email:gergana@test.test | Telephone:0887334457 | Newsletter:1 | Date Added:2023-11-24 15:16:16
+24/11/2023 20:34:08 : Customer ID:4 | First Name:test123 | Last Name:test123 | Email:test123@abv.bg | Telephone:0568425665111 | Newsletter:0 | Date Added:2023-11-24 16:58:00
+24/11/2023 20:34:15 : Customer ID:1 | First Name:test | Last Name:test | Email:test@test.test | Telephone:123123123 | Newsletter:1 | Date Added:2023-11-21 22:05:59
+24/11/2023 20:34:15 : Customer ID:2 | First Name:Georgi | Last Name:Petrov | Email:petrov@test.test | Telephone:0883225512 | Newsletter:0 | Date Added:2023-11-24 15:13:50
+24/11/2023 20:34:15 : Customer ID:3 | First Name:Gergana | Last Name:Dimitrova | Email:gergana@test.test | Telephone:0887334457 | Newsletter:1 | Date Added:2023-11-24 15:16:16
+24/11/2023 20:34:15 : Customer ID:4 | First Name:test123 | Last Name:test123 | Email:test123@abv.bg | Telephone:0568425665111 | Newsletter:0 | Date Added:2023-11-24 16:58:00
+24/11/2023 20:34:15 : Customer ID:1 | First Name:test | Last Name:test | Email:test@test.test | Telephone:123123123 | Newsletter:1 | Date Added:2023-11-21 22:05:59
+24/11/2023 20:34:15 : Customer ID:2 | First Name:Georgi | Last Name:Petrov | Email:petrov@test.test | Telephone:0883225512 | Newsletter:0 | Date Added:2023-11-24 15:13:50
+24/11/2023 20:34:15 : Customer ID:3 | First Name:Gergana | Last Name:Dimitrova | Email:gergana@test.test | Telephone:0887334457 | Newsletter:1 | Date Added:2023-11-24 15:16:16
+24/11/2023 20:34:15 : Customer ID:4 | First Name:test123 | Last Name:test123 | Email:test123@abv.bg | Telephone:0568425665111 | Newsletter:0 | Date Added:2023-11-24 16:58:00
+24/11/2023 20:34:34 : Customer ID:1 | First Name:test | Last Name:test | Email:test@test.test | Telephone:123123123 | Newsletter:1 | Date Added:2023-11-21 22:05:59
+24/11/2023 20:34:34 : Customer ID:2 | First Name:Georgi | Last Name:Petrov | Email:petrov@test.test | Telephone:0883225512 | Newsletter:0 | Date Added:2023-11-24 15:13:50
+24/11/2023 20:34:34 : Customer ID:3 | First Name:Gergana | Last Name:Dimitrova | Email:gergana@test.test | Telephone:0887334457 | Newsletter:1 | Date Added:2023-11-24 15:16:16
+24/11/2023 20:34:34 : Customer ID:4 | First Name:test123 | Last Name:test123 | Email:test123@abv.bg | Telephone:0568425665111 | Newsletter:0 | Date Added:2023-11-24 16:58:00
+24/11/2023 20:34:47 : Customer ID:1 | First Name:test | Last Name:test | Email:test@test.test | Telephone:123123123 | Newsletter:1 | Date Added:2023-11-21 22:05:59
+24/11/2023 20:34:47 : Customer ID:2 | First Name:Georgi | Last Name:Petrov | Email:petrov@test.test | Telephone:0883225512 | Newsletter:0 | Date Added:2023-11-24 15:13:50
+24/11/2023 20:34:47 : Customer ID:3 | First Name:Gergana | Last Name:Dimitrova | Email:gergana@test.test | Telephone:0887334457 | Newsletter:1 | Date Added:2023-11-24 15:16:16
+24/11/2023 20:34:47 : Customer ID:4 | First Name:test123 | Last Name:test123 | Email:test123@abv.bg | Telephone:0568425665111 | Newsletter:0 | Date Added:2023-11-24 16:58:00
+24/11/2023 20:34:47 : Customer ID:1 | First Name:test | Last Name:test | Email:test@test.test | Telephone:123123123 | Newsletter:1 | Date Added:2023-11-21 22:05:59
+24/11/2023 20:34:47 : Customer ID:2 | First Name:Georgi | Last Name:Petrov | Email:petrov@test.test | Telephone:0883225512 | Newsletter:0 | Date Added:2023-11-24 15:13:50
+24/11/2023 20:34:47 : Customer ID:3 | First Name:Gergana | Last Name:Dimitrova | Email:gergana@test.test | Telephone:0887334457 | Newsletter:1 | Date Added:2023-11-24 15:16:16
+24/11/2023 20:34:47 : Customer ID:4 | First Name:test123 | Last Name:test123 | Email:test123@abv.bg | Telephone:0568425665111 | Newsletter:0 | Date Added:2023-11-24 16:58:00
+24/11/2023 20:34:58 : Customer ID:1 | First Name:test | Last Name:test | Email:test@test.test | Telephone:123123123 | Newsletter:1 | Date Added:2023-11-21 22:05:59
+24/11/2023 20:34:58 : Customer ID:2 | First Name:Georgi | Last Name:Petrov | Email:petrov@test.test | Telephone:0883225512 | Newsletter:0 | Date Added:2023-11-24 15:13:50
+24/11/2023 20:34:58 : Customer ID:3 | First Name:Gergana | Last Name:Dimitrova | Email:gergana@test.test | Telephone:0887334457 | Newsletter:1 | Date Added:2023-11-24 15:16:16
+24/11/2023 20:34:58 : Customer ID:4 | First Name:test123 | Last Name:test123 | Email:test123@abv.bg | Telephone:0568425665111 | Newsletter:0 | Date Added:2023-11-24 16:58:00
+24/11/2023 20:34:58 : Customer ID:1 | First Name:test | Last Name:test | Email:test@test.test | Telephone:123123123 | Newsletter:1 | Date Added:2023-11-21 22:05:59
+24/11/2023 20:34:58 : Customer ID:2 | First Name:Georgi | Last Name:Petrov | Email:petrov@test.test | Telephone:0883225512 | Newsletter:0 | Date Added:2023-11-24 15:13:50
+24/11/2023 20:34:58 : Customer ID:3 | First Name:Gergana | Last Name:Dimitrova | Email:gergana@test.test | Telephone:0887334457 | Newsletter:1 | Date Added:2023-11-24 15:16:16
+24/11/2023 20:34:58 : Customer ID:4 | First Name:test123 | Last Name:test123 | Email:test123@abv.bg | Telephone:05684256651111 | Newsletter:0 | Date Added:2023-11-24 16:58:00
+24/11/2023 20:35:15 : Customer ID:1 | First Name:test | Last Name:test | Email:test@test.test | Telephone:123123123 | Newsletter:1 | Date Added:2023-11-21 22:05:59
+24/11/2023 20:35:15 : Customer ID:2 | First Name:Georgi | Last Name:Petrov | Email:petrov@test.test | Telephone:0883225512 | Newsletter:0 | Date Added:2023-11-24 15:13:50
+24/11/2023 20:35:15 : Customer ID:3 | First Name:Gergana | Last Name:Dimitrova | Email:gergana@test.test | Telephone:0887334457 | Newsletter:1 | Date Added:2023-11-24 15:16:16
+24/11/2023 20:35:15 : Customer ID:4 | First Name:test123 | Last Name:test123 | Email:test123@abv.bg | Telephone:05684256651111 | Newsletter:0 | Date Added:2023-11-24 16:58:00
+24/11/2023 20:35:38 : Customer ID:1 | First Name:test | Last Name:test | Email:test@test.test | Telephone:123123123 | Newsletter:1 | Date Added:2023-11-21 22:05:59
+24/11/2023 20:35:38 : Customer ID:2 | First Name:Georgi | Last Name:Petrov | Email:petrov@test.test | Telephone:0883225512 | Newsletter:0 | Date Added:2023-11-24 15:13:50
+24/11/2023 20:35:38 : Customer ID:3 | First Name:Gergana | Last Name:Dimitrova | Email:gergana@test.test | Telephone:0887334457 | Newsletter:1 | Date Added:2023-11-24 15:16:16
+24/11/2023 20:35:38 : Customer ID:4 | First Name:test123 | Last Name:test123 | Email:test123@abv.bg | Telephone:05684256651111 | Newsletter:0 | Date Added:2023-11-24 16:58:00
+24/11/2023 20:35:45 : Customer ID:1 | First Name:test | Last Name:test | Email:test@test.test | Telephone:123123123 | Newsletter:1 | Date Added:2023-11-21 22:05:59
+24/11/2023 20:35:45 : Customer ID:2 | First Name:Georgi | Last Name:Petrov | Email:petrov@test.test | Telephone:0883225512 | Newsletter:0 | Date Added:2023-11-24 15:13:50
+24/11/2023 20:35:45 : Customer ID:3 | First Name:Gergana | Last Name:Dimitrova | Email:gergana@test.test | Telephone:0887334457 | Newsletter:1 | Date Added:2023-11-24 15:16:16
+24/11/2023 20:35:45 : Customer ID:4 | First Name:test123 | Last Name:test123 | Email:test123@abv.bg | Telephone:05684256651111 | Newsletter:0 | Date Added:2023-11-24 16:58:00
+24/11/2023 20:35:59 : Customer ID:1 | First Name:test | Last Name:test | Email:test@test.test | Telephone:123123123 | Newsletter:1 | Date Added:2023-11-21 22:05:59
+24/11/2023 20:35:59 : Customer ID:2 | First Name:Georgi | Last Name:Petrov | Email:petrov@test.test | Telephone:0883225512 | Newsletter:0 | Date Added:2023-11-24 15:13:50
+24/11/2023 20:35:59 : Customer ID:3 | First Name:Gergana | Last Name:Dimitrova | Email:gergana@test.test | Telephone:0887334457 | Newsletter:1 | Date Added:2023-11-24 15:16:16
+24/11/2023 20:35:59 : Customer ID:4 | First Name:test123 | Last Name:test123 | Email:test123@abv.bg | Telephone:0568425665111 | Newsletter:0 | Date Added:2023-11-24 16:58:00
+24/11/2023 20:35:59 : Customer ID:1 | First Name:test | Last Name:test | Email:test@test.test | Telephone:123123123 | Newsletter:1 | Date Added:2023-11-21 22:05:59
+24/11/2023 20:35:59 : Customer ID:2 | First Name:Georgi | Last Name:Petrov | Email:petrov@test.test | Telephone:0883225512 | Newsletter:0 | Date Added:2023-11-24 15:13:50
+24/11/2023 20:35:59 : Customer ID:3 | First Name:Gergana | Last Name:Dimitrova | Email:gergana@test.test | Telephone:0887334457 | Newsletter:1 | Date Added:2023-11-24 15:16:16
+24/11/2023 20:35:59 : Customer ID:4 | First Name:test123 | Last Name:test123 | Email:test123@abv.bg | Telephone:0568425665111 | Newsletter:0 | Date Added:2023-11-24 16:58:00
+24/11/2023 21:12:24 : Customer ID:1 | First Name:test | Last Name:test | Email:test@test.test | Telephone:123123123 | Newsletter:1 | Date Added:2023-11-21 22:05:59
+24/11/2023 21:12:24 : Customer ID:2 | First Name:Georgi | Last Name:Petrov | Email:petrov@test.test | Telephone:0883225512 | Newsletter:0 | Date Added:2023-11-24 15:13:50
+24/11/2023 21:12:24 : Customer ID:3 | First Name:Gergana | Last Name:Dimitrova | Email:gergana@test.test | Telephone:0887334457 | Newsletter:1 | Date Added:2023-11-24 15:16:16
+24/11/2023 21:12:24 : Customer ID:4 | First Name:test123 | Last Name:test123 | Email:test123@abv.bg | Telephone:0568425665111 | Newsletter:0 | Date Added:2023-11-24 16:58:00
+24/11/2023 21:12:24 : Customer ID:5 | First Name:asd | Last Name:asd | Email:asd@asd.asd | Telephone:123123 | Newsletter:0 | Date Added:2023-11-24 21:11:43
+24/11/2023 21:12:24 : Customer ID:1 | First Name:test | Last Name:test | Email:test@test.test | Telephone:123123123 | Newsletter:1 | Date Added:2023-11-21 22:05:59
+24/11/2023 21:12:24 : Customer ID:2 | First Name:Georgi | Last Name:Petrov | Email:petrov@test.test | Telephone:0883225512 | Newsletter:0 | Date Added:2023-11-24 15:13:50
+24/11/2023 21:12:24 : Customer ID:3 | First Name:Gergana | Last Name:Dimitrova | Email:gergana@test.test | Telephone:0887334457 | Newsletter:1 | Date Added:2023-11-24 15:16:16
+24/11/2023 21:12:24 : Customer ID:4 | First Name:test123 | Last Name:test123 | Email:test123@abv.bg | Telephone:0568425665111 | Newsletter:0 | Date Added:2023-11-24 16:58:00
+24/11/2023 21:12:24 : Customer ID:5 | First Name:asd | Last Name:asd | Email:asd@asd.asd | Telephone:123123 | Newsletter:0 | Date Added:2023-11-24 21:11:43
+24/11/2023 21:14:12 : Customer ID:1 | First Name:test | Last Name:test | Email:test@test.test | Telephone:123123123 | Newsletter:1 | Date Added:2023-11-21 22:05:59
+24/11/2023 21:14:12 : Customer ID:2 | First Name:Georgi | Last Name:Petrov | Email:petrov@test.test | Telephone:0883225512 | Newsletter:0 | Date Added:2023-11-24 15:13:50
+24/11/2023 21:14:12 : Customer ID:3 | First Name:Gergana | Last Name:Dimitrova | Email:gergana@test.test | Telephone:0887334457 | Newsletter:1 | Date Added:2023-11-24 15:16:16
+24/11/2023 21:14:12 : Customer ID:4 | First Name:test123 | Last Name:test123 | Email:test123@abv.bg | Telephone:0568425665111 | Newsletter:0 | Date Added:2023-11-24 16:58:00
+24/11/2023 21:14:12 : Customer ID:5 | First Name:asd | Last Name:asd | Email:asd@asd.asd | Telephone:123123 | Newsletter:0 | Date Added:2023-11-24 21:11:43
+24/11/2023 21:14:12 : Customer ID:1 | First Name:test | Last Name:test | Email:test@test.test | Telephone:123123123 | Newsletter:1 | Date Added:2023-11-21 22:05:59
+24/11/2023 21:14:12 : Customer ID:2 | First Name:Georgi | Last Name:Petrov | Email:petrov@test.test | Telephone:0883225512 | Newsletter:0 | Date Added:2023-11-24 15:13:50
+24/11/2023 21:14:12 : Customer ID:3 | First Name:Gergana | Last Name:Dimitrova | Email:gergana@test.test | Telephone:0887334457 | Newsletter:1 | Date Added:2023-11-24 15:16:16
+24/11/2023 21:14:12 : Customer ID:4 | First Name:test123 | Last Name:test123 | Email:test123@abv.bg | Telephone:0568425665111 | Newsletter:0 | Date Added:2023-11-24 16:58:00
+24/11/2023 21:14:12 : Customer ID:5 | First Name:asd | Last Name:asd | Email:asd@asd.asd | Telephone:123123 | Newsletter:0 | Date Added:2023-11-24 21:11:43
+24/11/2023 21:14:12 : Customer ID:1 | First Name:test | Last Name:test | Email:test@test.test | Telephone:123123123 | Newsletter:1 | Date Added:2023-11-21 22:05:59
+24/11/2023 21:14:12 : Customer ID:2 | First Name:Georgi | Last Name:Petrov | Email:petrov@test.test | Telephone:0883225512 | Newsletter:0 | Date Added:2023-11-24 15:13:50
+24/11/2023 21:14:12 : Customer ID:3 | First Name:Gergana | Last Name:Dimitrova | Email:gergana@test.test | Telephone:0887334457 | Newsletter:1 | Date Added:2023-11-24 15:16:16
+24/11/2023 21:14:12 : Customer ID:4 | First Name:test123 | Last Name:test123 | Email:test123@abv.bg | Telephone:0568425665111 | Newsletter:0 | Date Added:2023-11-24 16:58:00
+24/11/2023 21:15:33 : Customer ID:1 | First Name:test | Last Name:test | Email:test@test.test | Telephone:123123123 | Newsletter:1 | Date Added:2023-11-21 22:05:59
+24/11/2023 21:15:33 : Customer ID:2 | First Name:Georgi | Last Name:Petrov | Email:petrov@test.test | Telephone:0883225512 | Newsletter:0 | Date Added:2023-11-24 15:13:50
+24/11/2023 21:15:33 : Customer ID:3 | First Name:Gergana | Last Name:Dimitrova | Email:gergana@test.test | Telephone:0887334457 | Newsletter:1 | Date Added:2023-11-24 15:16:16
+24/11/2023 21:15:33 : Customer ID:4 | First Name:test123 | Last Name:test123 | Email:test123@abv.bg | Telephone:0568425665111 | Newsletter:0 | Date Added:2023-11-24 16:58:00
+24/11/2023 21:15:33 : Customer ID:6 | First Name:asd | Last Name:asd | Email:asd@asd.asd | Telephone:asdasd | Newsletter:0 | Date Added:2023-11-24 21:15:17
+24/11/2023 21:15:33 : Customer ID:1 | First Name:test | Last Name:test | Email:test@test.test | Telephone:123123123 | Newsletter:1 | Date Added:2023-11-21 22:05:59
+24/11/2023 21:15:33 : Customer ID:2 | First Name:Georgi | Last Name:Petrov | Email:petrov@test.test | Telephone:0883225512 | Newsletter:0 | Date Added:2023-11-24 15:13:50
+24/11/2023 21:15:33 : Customer ID:3 | First Name:Gergana | Last Name:Dimitrova | Email:gergana@test.test | Telephone:0887334457 | Newsletter:1 | Date Added:2023-11-24 15:16:16
+24/11/2023 21:15:33 : Customer ID:4 | First Name:test123 | Last Name:test123 | Email:test123@abv.bg | Telephone:0568425665111 | Newsletter:0 | Date Added:2023-11-24 16:58:00
+24/11/2023 21:15:33 : Customer ID:6 | First Name:asd | Last Name:asd | Email:asd@asd.asd | Telephone:asdasd | Newsletter:0 | Date Added:2023-11-24 21:15:17
+24/11/2023 21:15:33 : Customer ID:1 | First Name:test | Last Name:test | Email:test@test.test | Telephone:123123123 | Newsletter:1 | Date Added:2023-11-21 22:05:59
+24/11/2023 21:15:33 : Customer ID:2 | First Name:Georgi | Last Name:Petrov | Email:petrov@test.test | Telephone:0883225512 | Newsletter:0 | Date Added:2023-11-24 15:13:50
+24/11/2023 21:15:33 : Customer ID:3 | First Name:Gergana | Last Name:Dimitrova | Email:gergana@test.test | Telephone:0887334457 | Newsletter:1 | Date Added:2023-11-24 15:16:16
+24/11/2023 21:15:33 : Customer ID:4 | First Name:test123 | Last Name:test123 | Email:test123@abv.bg | Telephone:0568425665111 | Newsletter:0 | Date Added:2023-11-24 16:58:00
+24/11/2023 21:15:33 : Customer ID:6 | First Name:asd | Last Name:asd | Email:asd@asd.asd | Telephone:asdasd | Newsletter:0 | Date Added:2023-11-24 21:15:17
+24/11/2023 21:17:45 : Customer ID:1 | First Name:test | Last Name:test | Email:test@test.test | Telephone:123123123 | Newsletter:1 | Date Added:2023-11-21 22:05:59
+24/11/2023 21:17:45 : Customer ID:2 | First Name:Georgi | Last Name:Petrov | Email:petrov@test.test | Telephone:0883225512 | Newsletter:0 | Date Added:2023-11-24 15:13:50
+24/11/2023 21:17:45 : Customer ID:3 | First Name:Gergana | Last Name:Dimitrova | Email:gergana@test.test | Telephone:0887334457 | Newsletter:1 | Date Added:2023-11-24 15:16:16
+24/11/2023 21:17:45 : Customer ID:4 | First Name:test123 | Last Name:test123 | Email:test123@abv.bg | Telephone:0568425665111 | Newsletter:0 | Date Added:2023-11-24 16:58:00
+24/11/2023 21:17:45 : Customer ID:6 | First Name:asd | Last Name:asd | Email:asd@asd.asd | Telephone:asdasd | Newsletter:0 | Date Added:2023-11-24 21:15:17
+24/11/2023 21:17:45 : Customer ID:7 | First Name:asd2 | Last Name:asd2 | Email:asd2@asd.asd | Telephone:123124123 | Newsletter:0 | Date Added:2023-11-24 21:16:35
+24/11/2023 21:17:45 : Customer ID:1 | First Name:test | Last Name:test | Email:test@test.test | Telephone:123123123 | Newsletter:1 | Date Added:2023-11-21 22:05:59
+24/11/2023 21:17:45 : Customer ID:2 | First Name:Georgi | Last Name:Petrov | Email:petrov@test.test | Telephone:0883225512 | Newsletter:0 | Date Added:2023-11-24 15:13:50
+24/11/2023 21:17:45 : Customer ID:3 | First Name:Gergana | Last Name:Dimitrova | Email:gergana@test.test | Telephone:0887334457 | Newsletter:1 | Date Added:2023-11-24 15:16:16
+24/11/2023 21:17:45 : Customer ID:4 | First Name:test123 | Last Name:test123 | Email:test123@abv.bg | Telephone:0568425665111 | Newsletter:0 | Date Added:2023-11-24 16:58:00
+24/11/2023 21:17:45 : Customer ID:6 | First Name:asd | Last Name:asd | Email:asd@asd.asd | Telephone:asdasd | Newsletter:0 | Date Added:2023-11-24 21:15:17
+24/11/2023 21:17:45 : Customer ID:7 | First Name:asd2 | Last Name:asd2 | Email:asd2@asd.asd | Telephone:123124123 | Newsletter:0 | Date Added:2023-11-24 21:16:35
+24/11/2023 21:17:45 : Customer ID:1 | First Name:test | Last Name:test | Email:test@test.test | Telephone:123123123 | Newsletter:1 | Date Added:2023-11-21 22:05:59
+24/11/2023 21:17:45 : Customer ID:2 | First Name:Georgi | Last Name:Petrov | Email:petrov@test.test | Telephone:0883225512 | Newsletter:0 | Date Added:2023-11-24 15:13:50
+24/11/2023 21:17:45 : Customer ID:3 | First Name:Gergana | Last Name:Dimitrova | Email:gergana@test.test | Telephone:0887334457 | Newsletter:1 | Date Added:2023-11-24 15:16:16
+24/11/2023 21:17:45 : Customer ID:4 | First Name:test123 | Last Name:test123 | Email:test123@abv.bg | Telephone:0568425665111 | Newsletter:0 | Date Added:2023-11-24 16:58:00
+24/11/2023 21:17:45 : Customer ID:6 | First Name:asd | Last Name:asd | Email:asd@asd.asd | Telephone:asdasd | Newsletter:0 | Date Added:2023-11-24 21:15:17
+24/11/2023 21:17:45 : Customer ID:7 | First Name:asd2 | Last Name:asd2 | Email:asd2@asd.asd | Telephone:123124123 | Newsletter:0 | Date Added:2023-11-24 21:16:35
+24/11/2023 21:22:22 : Customer ID:1 | First Name:test | Last Name:test | Email:test@test.test | Telephone:123123123 | Newsletter:1 | Date Added:2023-11-21 22:05:59
+24/11/2023 21:22:22 : Customer ID:2 | First Name:Georgi | Last Name:Petrov | Email:petrov@test.test | Telephone:0883225512 | Newsletter:0 | Date Added:2023-11-24 15:13:50
+24/11/2023 21:22:22 : Customer ID:3 | First Name:Gergana | Last Name:Dimitrova | Email:gergana@test.test | Telephone:0887334457 | Newsletter:1 | Date Added:2023-11-24 15:16:16
+24/11/2023 21:22:22 : Customer ID:4 | First Name:test123 | Last Name:test123 | Email:test123@abv.bg | Telephone:0568425665111 | Newsletter:0 | Date Added:2023-11-24 16:58:00
+24/11/2023 21:22:22 : Customer ID:6 | First Name:asd | Last Name:asd | Email:asd@asd.asd | Telephone:asdasd | Newsletter:0 | Date Added:2023-11-24 21:15:17
+24/11/2023 21:22:22 : Customer ID:7 | First Name:asd2 | Last Name:asd2 | Email:asd2@asd.asd | Telephone:123124123 | Newsletter:0 | Date Added:2023-11-24 21:16:35
+24/11/2023 21:22:22 : Customer ID:1 | First Name:test | Last Name:test | Email:test@test.test | Telephone:123123123 | Newsletter:1 | Date Added:2023-11-21 22:05:59
+24/11/2023 21:22:22 : Customer ID:2 | First Name:Georgi | Last Name:Petrov | Email:petrov@test.test | Telephone:0883225512 | Newsletter:0 | Date Added:2023-11-24 15:13:50
+24/11/2023 21:22:22 : Customer ID:3 | First Name:Gergana | Last Name:Dimitrova | Email:gergana@test.test | Telephone:0887334457 | Newsletter:1 | Date Added:2023-11-24 15:16:16
+24/11/2023 21:22:22 : Customer ID:4 | First Name:test123 | Last Name:test123 | Email:test123@abv.bg | Telephone:0568425665111 | Newsletter:0 | Date Added:2023-11-24 16:58:00
+24/11/2023 21:22:22 : Customer ID:6 | First Name:asd | Last Name:asd | Email:asd@asd.asd | Telephone:asdasd | Newsletter:0 | Date Added:2023-11-24 21:15:17
+24/11/2023 21:22:22 : Customer ID:7 | First Name:asd2 | Last Name:asd2 | Email:asd2@asd.asd | Telephone:123124123 | Newsletter:0 | Date Added:2023-11-24 21:16:35
+24/11/2023 21:22:22 : Customer ID:1 | First Name:test | Last Name:test | Email:test@test.test | Telephone:123123123 | Newsletter:1 | Date Added:2023-11-21 22:05:59
+24/11/2023 21:22:22 : Customer ID:2 | First Name:Georgi | Last Name:Petrov | Email:petrov@test.test | Telephone:0883225512 | Newsletter:0 | Date Added:2023-11-24 15:13:50
+24/11/2023 21:22:22 : Customer ID:3 | First Name:Gergana | Last Name:Dimitrova | Email:gergana@test.test | Telephone:0887334457 | Newsletter:1 | Date Added:2023-11-24 15:16:16
+24/11/2023 21:22:22 : Customer ID:4 | First Name:test123 | Last Name:test123 | Email:test123@abv.bg | Telephone:0568425665111 | Newsletter:0 | Date Added:2023-11-24 16:58:00
+24/11/2023 21:22:22 : Customer ID:7 | First Name:asd2 | Last Name:asd2 | Email:asd2@asd.asd | Telephone:123124123 | Newsletter:0 | Date Added:2023-11-24 21:16:35
+24/11/2023 21:23:05 : Customer ID:1 | First Name:test | Last Name:test | Email:test@test.test | Telephone:123123123 | Newsletter:1 | Date Added:2023-11-21 22:05:59
+24/11/2023 21:23:05 : Customer ID:2 | First Name:Georgi | Last Name:Petrov | Email:petrov@test.test | Telephone:0883225512 | Newsletter:0 | Date Added:2023-11-24 15:13:50
+24/11/2023 21:23:05 : Customer ID:3 | First Name:Gergana | Last Name:Dimitrova | Email:gergana@test.test | Telephone:0887334457 | Newsletter:1 | Date Added:2023-11-24 15:16:16
+24/11/2023 21:23:05 : Customer ID:4 | First Name:test123 | Last Name:test123 | Email:test123@abv.bg | Telephone:0568425665111 | Newsletter:0 | Date Added:2023-11-24 16:58:00
+24/11/2023 21:23:05 : Customer ID:7 | First Name:asd2 | Last Name:asd2 | Email:asd2@asd.asd | Telephone:123124123 | Newsletter:0 | Date Added:2023-11-24 21:16:35
+24/11/2023 21:23:05 : Customer ID:1 | First Name:test | Last Name:test | Email:test@test.test | Telephone:123123123 | Newsletter:1 | Date Added:2023-11-21 22:05:59
+24/11/2023 21:23:05 : Customer ID:2 | First Name:Georgi | Last Name:Petrov | Email:petrov@test.test | Telephone:0883225512 | Newsletter:0 | Date Added:2023-11-24 15:13:50
+24/11/2023 21:23:05 : Customer ID:3 | First Name:Gergana | Last Name:Dimitrova | Email:gergana@test.test | Telephone:0887334457 | Newsletter:1 | Date Added:2023-11-24 15:16:16
+24/11/2023 21:23:05 : Customer ID:4 | First Name:test123 | Last Name:test123 | Email:test123@abv.bg | Telephone:0568425665111 | Newsletter:0 | Date Added:2023-11-24 16:58:00
+24/11/2023 21:23:05 : Customer ID:7 | First Name:asd2 | Last Name:asd2 | Email:asd2@asd.asd | Telephone:123124123 | Newsletter:0 | Date Added:2023-11-24 21:16:35
+24/11/2023 21:23:05 : Customer ID:1 | First Name:test | Last Name:test | Email:test@test.test | Telephone:123123123 | Newsletter:1 | Date Added:2023-11-21 22:05:59
+24/11/2023 21:23:05 : Customer ID:2 | First Name:Georgi | Last Name:Petrov | Email:petrov@test.test | Telephone:0883225512 | Newsletter:0 | Date Added:2023-11-24 15:13:50
+24/11/2023 21:23:05 : Customer ID:3 | First Name:Gergana | Last Name:Dimitrova | Email:gergana@test.test | Telephone:0887334457 | Newsletter:1 | Date Added:2023-11-24 15:16:16
+24/11/2023 21:23:05 : Customer ID:4 | First Name:test123 | Last Name:test123 | Email:test123@abv.bg | Telephone:0568425665111 | Newsletter:0 | Date Added:2023-11-24 16:58:00
+24/11/2023 21:32:17 : Customer ID:1 | First Name:test | Last Name:test | Email:test@test.test | Telephone:123123123 | Newsletter:1 | Date Added:2023-11-21 22:05:59
+24/11/2023 21:32:17 : Customer ID:2 | First Name:Georgi | Last Name:Petrov | Email:petrov@test.test | Telephone:0883225512 | Newsletter:0 | Date Added:2023-11-24 15:13:50
+24/11/2023 21:32:17 : Customer ID:3 | First Name:Gergana | Last Name:Dimitrova | Email:gergana@test.test | Telephone:0887334457 | Newsletter:1 | Date Added:2023-11-24 15:16:16
+24/11/2023 21:32:17 : Customer ID:4 | First Name:test123 | Last Name:test123 | Email:test123@abv.bg | Telephone:0568425665111 | Newsletter:0 | Date Added:2023-11-24 16:58:00
+24/11/2023 21:32:17 : ____________________________________________________________________________
+24/11/2023 21:32:17 : Customer ID:1 | First Name:test | Last Name:test | Email:test@test.test | Telephone:123123123 | Newsletter:1 | Date Added:2023-11-21 22:05:59
+24/11/2023 21:32:17 : Customer ID:2 | First Name:Georgi | Last Name:Petrov | Email:petrov@test.test | Telephone:0883225512 | Newsletter:0 | Date Added:2023-11-24 15:13:50
+24/11/2023 21:32:17 : Customer ID:3 | First Name:Gergana | Last Name:Dimitrova | Email:gergana@test.test | Telephone:0887334457 | Newsletter:1 | Date Added:2023-11-24 15:16:16
+24/11/2023 21:32:17 : Customer ID:4 | First Name:test123 | Last Name:test123 | Email:test123@abv.bg | Telephone:0568425665111 | Newsletter:0 | Date Added:2023-11-24 16:58:00
+24/11/2023 21:32:17 : ____________________________________________________________________________
+24/11/2023 21:32:17 : Customer ID:1 | First Name:test | Last Name:test | Email:test@test.test | Telephone:123123123 | Newsletter:1 | Date Added:2023-11-21 22:05:59
+24/11/2023 21:32:17 : Customer ID:2 | First Name:Georgi | Last Name:Petrov | Email:petrov@test.test | Telephone:0883225512 | Newsletter:0 | Date Added:2023-11-24 15:13:50
+24/11/2023 21:32:17 : Customer ID:3 | First Name:Gergana | Last Name:Dimitrova | Email:gergana@test.test | Telephone:0887334457 | Newsletter:1 | Date Added:2023-11-24 15:16:16
+24/11/2023 21:32:17 : Customer ID:4 | First Name:test123 | Last Name:test123 | Email:test123@abv.bg | Telephone:0568425665111 | Newsletter:0 | Date Added:2023-11-24 16:58:00
+24/11/2023 21:32:17 : ____________________________________________________________________________
+24/11/2023 21:37:29 : Customer ID:1 | First Name:test | Last Name:test | Email:test@test.test | Telephone:123123123 | Newsletter:1 | Date Added:2023-11-21 22:05:59
+24/11/2023 21:37:29 : Customer ID:2 | First Name:Georgi | Last Name:Petrov | Email:petrov@test.test | Telephone:0883225512 | Newsletter:0 | Date Added:2023-11-24 15:13:50
+24/11/2023 21:37:29 : Customer ID:3 | First Name:Gergana | Last Name:Dimitrova | Email:gergana@test.test | Telephone:0887334457 | Newsletter:1 | Date Added:2023-11-24 15:16:16
+24/11/2023 21:37:29 : Customer ID:4 | First Name:test123 | Last Name:test123 | Email:test123@abv.bg | Telephone:0568425665111 | Newsletter:0 | Date Added:2023-11-24 16:58:00
+24/11/2023 21:37:29 : ____________________________________________________________________________
+24/11/2023 21:37:29 : Customer ID:1 | First Name:test | Last Name:test | Email:test@test.test | Telephone:123123123 | Newsletter:1 | Date Added:2023-11-21 22:05:59
+24/11/2023 21:37:29 : Customer ID:2 | First Name:Georgi | Last Name:Petrov | Email:petrov@test.test | Telephone:0883225512 | Newsletter:0 | Date Added:2023-11-24 15:13:50
+24/11/2023 21:37:29 : Customer ID:3 | First Name:Gergana | Last Name:Dimitrova | Email:gergana@test.test | Telephone:0887334457 | Newsletter:1 | Date Added:2023-11-24 15:16:16
+24/11/2023 21:37:29 : Customer ID:4 | First Name:test123 | Last Name:test123 | Email:test123@abv.bg | Telephone:0568425665111 | Newsletter:0 | Date Added:2023-11-24 16:58:00
+24/11/2023 21:37:29 : ____________________________________________________________________________
+24/11/2023 21:46:50 : Customer ID:1 | First Name:test | Last Name:test | Email:test@test.test | Telephone:123123123 | Newsletter:1 | Date Added:2023-11-21 22:05:59
+24/11/2023 21:46:50 : Customer ID:2 | First Name:Georgi | Last Name:Petrov | Email:petrov@test.test | Telephone:0883225512 | Newsletter:0 | Date Added:2023-11-24 15:13:50
+24/11/2023 21:46:50 : Customer ID:3 | First Name:Gergana | Last Name:Dimitrova | Email:gergana@test.test | Telephone:0887334457 | Newsletter:1 | Date Added:2023-11-24 15:16:16
+24/11/2023 21:46:50 : Customer ID:4 | First Name:test123 | Last Name:test123 | Email:test123@abv.bg | Telephone:0568425665111 | Newsletter:0 | Date Added:2023-11-24 16:58:00
+24/11/2023 21:46:50 : ____________________________________________________________________________
+24/11/2023 21:46:50 : Customer ID:1 | First Name:test | Last Name:test | Email:test@test.test | Telephone:123123123 | Newsletter:1 | Date Added:2023-11-21 22:05:59
+24/11/2023 21:46:50 : Customer ID:2 | First Name:Georgi | Last Name:Petrov | Email:petrov@test.test | Telephone:0883225512 | Newsletter:0 | Date Added:2023-11-24 15:13:50
+24/11/2023 21:46:50 : Customer ID:3 | First Name:Gergana | Last Name:Dimitrova | Email:gergana@test.test | Telephone:0887334457 | Newsletter:1 | Date Added:2023-11-24 15:16:16
+24/11/2023 21:46:50 : Customer ID:4 | First Name:test123 | Last Name:test123 | Email:test123@abv.bg | Telephone:0568425665111 | Newsletter:0 | Date Added:2023-11-24 16:58:00
+24/11/2023 21:46:50 : ____________________________________________________________________________
+24/11/2023 21:47:23 : Customer ID:1 | First Name:test | Last Name:test | Email:test@test.test | Telephone:123123123 | Newsletter:1 | Date Added:2023-11-21 22:05:59
+24/11/2023 21:47:23 : Customer ID:2 | First Name:Georgi | Last Name:Petrov | Email:petrov@test.test | Telephone:0883225512 | Newsletter:0 | Date Added:2023-11-24 15:13:50
+24/11/2023 21:47:23 : Customer ID:3 | First Name:Gergana | Last Name:Dimitrova | Email:gergana@test.test | Telephone:0887334457 | Newsletter:1 | Date Added:2023-11-24 15:16:16
+24/11/2023 21:47:23 : Customer ID:4 | First Name:test123 | Last Name:test123 | Email:test123@abv.bg | Telephone:0568425665111 | Newsletter:0 | Date Added:2023-11-24 16:58:00
+24/11/2023 21:47:23 : ____________________________________________________________________________
+24/11/2023 21:47:23 : Customer ID:1 | First Name:test | Last Name:test | Email:test@test.test | Telephone:123123123 | Newsletter:1 | Date Added:2023-11-21 22:05:59
+24/11/2023 21:47:23 : Customer ID:2 | First Name:Georgi | Last Name:Petrov | Email:petrov@test.test | Telephone:0883225512 | Newsletter:0 | Date Added:2023-11-24 15:13:50
+24/11/2023 21:47:23 : Customer ID:3 | First Name:Gergana | Last Name:Dimitrova | Email:gergana@test.test | Telephone:0887334457 | Newsletter:1 | Date Added:2023-11-24 15:16:16
+24/11/2023 21:47:23 : Customer ID:4 | First Name:test123 | Last Name:test123 | Email:test123@abv.bg | Telephone:0568425665111 | Newsletter:0 | Date Added:2023-11-24 16:58:00
+24/11/2023 21:47:23 : ____________________________________________________________________________
+24/11/2023 21:50:01 : Customer ID:1 | First Name:test | Last Name:test | Email:test@test.test | Telephone:123123123 | Newsletter:1 | Date Added:2023-11-21 22:05:59
+24/11/2023 21:50:01 : Customer ID:2 | First Name:Georgi | Last Name:Petrov | Email:petrov@test.test | Telephone:0883225512 | Newsletter:0 | Date Added:2023-11-24 15:13:50
+24/11/2023 21:50:01 : Customer ID:3 | First Name:Gergana | Last Name:Dimitrova | Email:gergana@test.test | Telephone:0887334457 | Newsletter:1 | Date Added:2023-11-24 15:16:16
+24/11/2023 21:50:01 : Customer ID:4 | First Name:test123 | Last Name:test123 | Email:test123@abv.bg | Telephone:0568425665111 | Newsletter:0 | Date Added:2023-11-24 16:58:00
+24/11/2023 21:50:01 : ____________________________________________________________________________
+24/11/2023 21:50:01 : Customer ID:1 | First Name:test | Last Name:test | Email:test@test.test | Telephone:123123123 | Newsletter:1 | Date Added:2023-11-21 22:05:59
+24/11/2023 21:50:01 : Customer ID:2 | First Name:Georgi | Last Name:Petrov | Email:petrov@test.test | Telephone:0883225512 | Newsletter:0 | Date Added:2023-11-24 15:13:50
+24/11/2023 21:50:01 : Customer ID:3 | First Name:Gergana | Last Name:Dimitrova | Email:gergana@test.test | Telephone:0887334457 | Newsletter:1 | Date Added:2023-11-24 15:16:16
+24/11/2023 21:50:01 : Customer ID:4 | First Name:test123 | Last Name:test123 | Email:test123@abv.bg | Telephone:0568425665111 | Newsletter:0 | Date Added:2023-11-24 16:58:00
+24/11/2023 21:50:01 : ____________________________________________________________________________
+24/11/2023 21:52:22 : Customer ID:1 | First Name:test | Last Name:test | Email:test@test.test | Telephone:123123123 | Newsletter:1 | Date Added:2023-11-21 22:05:59
+24/11/2023 21:52:22 : Customer ID:2 | First Name:Georgi | Last Name:Petrov | Email:petrov@test.test | Telephone:0883225512 | Newsletter:0 | Date Added:2023-11-24 15:13:50
+24/11/2023 21:52:22 : Customer ID:3 | First Name:Gergana | Last Name:Dimitrova | Email:gergana@test.test | Telephone:0887334457 | Newsletter:1 | Date Added:2023-11-24 15:16:16
+24/11/2023 21:52:22 : Customer ID:4 | First Name:test123 | Last Name:test123 | Email:test123@abv.bg | Telephone:0568425665111 | Newsletter:0 | Date Added:2023-11-24 16:58:00
+24/11/2023 21:52:22 : ____________________________________________________________________________
+24/11/2023 21:52:22 : Customer ID:1 | First Name:test | Last Name:test | Email:test@test.test | Telephone:123123123 | Newsletter:1 | Date Added:2023-11-21 22:05:59
+24/11/2023 21:52:22 : Customer ID:2 | First Name:Georgi | Last Name:Petrov | Email:petrov@test.test | Telephone:0883225512 | Newsletter:0 | Date Added:2023-11-24 15:13:50
+24/11/2023 21:52:22 : Customer ID:3 | First Name:Gergana | Last Name:Dimitrova | Email:gergana@test.test | Telephone:0887334457 | Newsletter:1 | Date Added:2023-11-24 15:16:16
+24/11/2023 21:52:22 : Customer ID:4 | First Name:test123 | Last Name:test123 | Email:test123@abv.bg | Telephone:0568425665111 | Newsletter:0 | Date Added:2023-11-24 16:58:00
+24/11/2023 21:52:22 : ____________________________________________________________________________
+24/11/2023 21:52:52 : Customer ID:1 | First Name:test | Last Name:test | Email:test@test.test | Telephone:123123123 | Newsletter:1 | Date Added:2023-11-21 22:05:59
+24/11/2023 21:52:52 : Customer ID:2 | First Name:Georgi | Last Name:Petrov | Email:petrov@test.test | Telephone:0883225512 | Newsletter:0 | Date Added:2023-11-24 15:13:50
+24/11/2023 21:52:52 : Customer ID:3 | First Name:Gergana | Last Name:Dimitrova | Email:gergana@test.test | Telephone:0887334457 | Newsletter:1 | Date Added:2023-11-24 15:16:16
+24/11/2023 21:52:52 : Customer ID:4 | First Name:test123 | Last Name:test123 | Email:test123@abv.bg | Telephone:0568425665111 | Newsletter:0 | Date Added:2023-11-24 16:58:00
+24/11/2023 21:52:52 : ____________________________________________________________________________
+24/11/2023 21:52:52 : Customer ID:1 | First Name:test | Last Name:test | Email:test@test.test | Telephone:123123123 | Newsletter:1 | Date Added:2023-11-21 22:05:59
+24/11/2023 21:52:52 : Customer ID:2 | First Name:Georgi | Last Name:Petrov | Email:petrov@test.test | Telephone:0883225512 | Newsletter:0 | Date Added:2023-11-24 15:13:50
+24/11/2023 21:52:52 : Customer ID:3 | First Name:Gergana | Last Name:Dimitrova | Email:gergana@test.test | Telephone:0887334457 | Newsletter:1 | Date Added:2023-11-24 15:16:16
+24/11/2023 21:52:52 : Customer ID:4 | First Name:test123 | Last Name:test123 | Email:test123@abv.bg | Telephone:0568425665111 | Newsletter:0 | Date Added:2023-11-24 16:58:00
+24/11/2023 21:52:52 : ____________________________________________________________________________
+24/11/2023 21:53:53 : Customer ID:1 | First Name:test | Last Name:test | Email:test@test.test | Telephone:123123123 | Newsletter:1 | Date Added:2023-11-21 22:05:59
+24/11/2023 21:53:53 : Customer ID:2 | First Name:Georgi | Last Name:Petrov | Email:petrov@test.test | Telephone:0883225512 | Newsletter:0 | Date Added:2023-11-24 15:13:50
+24/11/2023 21:53:53 : Customer ID:3 | First Name:Gergana | Last Name:Dimitrova | Email:gergana@test.test | Telephone:0887334457 | Newsletter:1 | Date Added:2023-11-24 15:16:16
+24/11/2023 21:53:53 : Customer ID:4 | First Name:test123 | Last Name:test123 | Email:test123@abv.bg | Telephone:0568425665111 | Newsletter:0 | Date Added:2023-11-24 16:58:00
+24/11/2023 21:53:53 : ____________________________________________________________________________
+24/11/2023 21:53:53 : Customer ID:1 | First Name:test | Last Name:test | Email:test@test.test | Telephone:123123123 | Newsletter:1 | Date Added:2023-11-21 22:05:59
+24/11/2023 21:53:53 : Customer ID:2 | First Name:Georgi | Last Name:Petrov | Email:petrov@test.test | Telephone:0883225512 | Newsletter:0 | Date Added:2023-11-24 15:13:50
+24/11/2023 21:53:53 : Customer ID:3 | First Name:Gergana | Last Name:Dimitrova | Email:gergana@test.test | Telephone:0887334457 | Newsletter:1 | Date Added:2023-11-24 15:16:16
+24/11/2023 21:53:53 : Customer ID:4 | First Name:test123 | Last Name:test123 | Email:test123@abv.bg | Telephone:0568425665111 | Newsletter:0 | Date Added:2023-11-24 16:58:00
+24/11/2023 21:53:53 : ____________________________________________________________________________
+24/11/2023 22:06:32 : Customer ID:1 | First Name:test | Last Name:test | Email:test@test.test | Telephone:123123123 | Newsletter:1 | Date Added:2023-11-21 22:05:59
+24/11/2023 22:06:32 : Customer ID:2 | First Name:Georgi | Last Name:Petrov | Email:petrov@test.test | Telephone:0883225512 | Newsletter:0 | Date Added:2023-11-24 15:13:50
+24/11/2023 22:06:32 : Customer ID:3 | First Name:Gergana | Last Name:Dimitrova | Email:gergana@test.test | Telephone:0887334457 | Newsletter:1 | Date Added:2023-11-24 15:16:16
+24/11/2023 22:06:32 : Customer ID:4 | First Name:test123 | Last Name:test123 | Email:test123@abv.bg | Telephone:0568425665111 | Newsletter:0 | Date Added:2023-11-24 16:58:00
+24/11/2023 22:06:32 : ____________________________________________________________________________
+24/11/2023 22:06:32 : Customer ID:1 | First Name:test | Last Name:test | Email:test@test.test | Telephone:123123123 | Newsletter:1 | Date Added:2023-11-21 22:05:59
+24/11/2023 22:06:32 : Customer ID:2 | First Name:Georgi | Last Name:Petrov | Email:petrov@test.test | Telephone:0883225512 | Newsletter:0 | Date Added:2023-11-24 15:13:50
+24/11/2023 22:06:32 : Customer ID:3 | First Name:Gergana | Last Name:Dimitrova | Email:gergana@test.test | Telephone:0887334457 | Newsletter:1 | Date Added:2023-11-24 15:16:16
+24/11/2023 22:06:32 : Customer ID:4 | First Name:test123 | Last Name:test123 | Email:test123@abv.bg | Telephone:0568425665111 | Newsletter:0 | Date Added:2023-11-24 16:58:00
+24/11/2023 22:06:32 : ____________________________________________________________________________
+24/11/2023 22:06:46 : Customer ID:1 | First Name:test | Last Name:test | Email:test@test.test | Telephone:123123123 | Newsletter:1 | Date Added:2023-11-21 22:05:59
+24/11/2023 22:06:46 : Customer ID:2 | First Name:Georgi | Last Name:Petrov | Email:petrov@test.test | Telephone:0883225512 | Newsletter:0 | Date Added:2023-11-24 15:13:50
+24/11/2023 22:06:46 : Customer ID:3 | First Name:Gergana | Last Name:Dimitrova | Email:gergana@test.test | Telephone:0887334457 | Newsletter:1 | Date Added:2023-11-24 15:16:16
+24/11/2023 22:06:46 : Customer ID:4 | First Name:test123 | Last Name:test123 | Email:test123@abv.bg | Telephone:0568425665111 | Newsletter:0 | Date Added:2023-11-24 16:58:00
+24/11/2023 22:06:46 : ____________________________________________________________________________
+24/11/2023 22:06:46 : Customer ID:1 | First Name:test | Last Name:test | Email:test@test.test | Telephone:123123123 | Newsletter:1 | Date Added:2023-11-21 22:05:59
+24/11/2023 22:06:46 : Customer ID:2 | First Name:Georgi | Last Name:Petrov | Email:petrov@test.test | Telephone:0883225512 | Newsletter:0 | Date Added:2023-11-24 15:13:50
+24/11/2023 22:06:46 : Customer ID:3 | First Name:Gergana | Last Name:Dimitrova | Email:gergana@test.test | Telephone:0887334457 | Newsletter:1 | Date Added:2023-11-24 15:16:16
+24/11/2023 22:06:46 : Customer ID:4 | First Name:test123 | Last Name:test123 | Email:test123@abv.bg | Telephone:0568425665111 | Newsletter:0 | Date Added:2023-11-24 16:58:00
+24/11/2023 22:06:46 : ____________________________________________________________________________
+24/11/2023 22:08:19 : Customer ID:1 | First Name:test | Last Name:test | Email:test@test.test | Telephone:123123123 | Newsletter:1 | Date Added:2023-11-21 22:05:59
+24/11/2023 22:08:19 : Customer ID:2 | First Name:Georgi | Last Name:Petrov | Email:petrov@test.test | Telephone:0883225512 | Newsletter:0 | Date Added:2023-11-24 15:13:50
+24/11/2023 22:08:19 : Customer ID:3 | First Name:Gergana | Last Name:Dimitrova | Email:gergana@test.test | Telephone:0887334457 | Newsletter:1 | Date Added:2023-11-24 15:16:16
+24/11/2023 22:08:19 : Customer ID:4 | First Name:test123 | Last Name:test123 | Email:test123@abv.bg | Telephone:0568425665111 | Newsletter:0 | Date Added:2023-11-24 16:58:00
+24/11/2023 22:08:19 : ____________________________________________________________________________
+24/11/2023 22:08:19 : Customer ID:1 | First Name:test | Last Name:test | Email:test@test.test | Telephone:123123123 | Newsletter:1 | Date Added:2023-11-21 22:05:59
+24/11/2023 22:08:19 : Customer ID:2 | First Name:Georgi | Last Name:Petrov | Email:petrov@test.test | Telephone:0883225512 | Newsletter:0 | Date Added:2023-11-24 15:13:50
+24/11/2023 22:08:19 : Customer ID:3 | First Name:Gergana | Last Name:Dimitrova | Email:gergana@test.test | Telephone:0887334457 | Newsletter:1 | Date Added:2023-11-24 15:16:16
+24/11/2023 22:08:19 : Customer ID:4 | First Name:test123 | Last Name:test123 | Email:test123@abv.bg | Telephone:0568425665111 | Newsletter:0 | Date Added:2023-11-24 16:58:00
+24/11/2023 22:08:19 : ____________________________________________________________________________
+24/11/2023 22:09:30 : Customer ID:1 | First Name:test | Last Name:test | Email:test@test.test | Telephone:123123123 | Newsletter:1 | Date Added:2023-11-21 22:05:59
+24/11/2023 22:09:30 : Customer ID:2 | First Name:Georgi | Last Name:Petrov | Email:petrov@test.test | Telephone:0883225512 | Newsletter:0 | Date Added:2023-11-24 15:13:50
+24/11/2023 22:09:30 : Customer ID:3 | First Name:Gergana | Last Name:Dimitrova | Email:gergana@test.test | Telephone:0887334457 | Newsletter:1 | Date Added:2023-11-24 15:16:16
+24/11/2023 22:09:30 : Customer ID:4 | First Name:test123 | Last Name:test123 | Email:test123@abv.bg | Telephone:0568425665111 | Newsletter:0 | Date Added:2023-11-24 16:58:00
+24/11/2023 22:09:30 : ____________________________________________________________________________
+24/11/2023 22:09:30 : Customer ID:1 | First Name:test | Last Name:test | Email:test@test.test | Telephone:123123123 | Newsletter:1 | Date Added:2023-11-21 22:05:59
+24/11/2023 22:09:30 : Customer ID:2 | First Name:Georgi | Last Name:Petrov | Email:petrov@test.test | Telephone:0883225512 | Newsletter:0 | Date Added:2023-11-24 15:13:50
+24/11/2023 22:09:30 : Customer ID:3 | First Name:Gergana | Last Name:Dimitrova | Email:gergana@test.test | Telephone:0887334457 | Newsletter:1 | Date Added:2023-11-24 15:16:16
+24/11/2023 22:09:30 : Customer ID:4 | First Name:test123 | Last Name:test123 | Email:test123@abv.bg | Telephone:0568425665111 | Newsletter:0 | Date Added:2023-11-24 16:58:00
+24/11/2023 22:09:30 : ____________________________________________________________________________
+24/11/2023 22:09:48 : Customer ID:1 | First Name:test | Last Name:test | Email:test@test.test | Telephone:123123123 | Newsletter:1 | Date Added:2023-11-21 22:05:59
+24/11/2023 22:09:48 : Customer ID:2 | First Name:Georgi | Last Name:Petrov | Email:petrov@test.test | Telephone:0883225512 | Newsletter:0 | Date Added:2023-11-24 15:13:50
+24/11/2023 22:09:48 : Customer ID:3 | First Name:Gergana | Last Name:Dimitrova | Email:gergana@test.test | Telephone:0887334457 | Newsletter:1 | Date Added:2023-11-24 15:16:16
+24/11/2023 22:09:48 : Customer ID:4 | First Name:test123 | Last Name:test123 | Email:test123@abv.bg | Telephone:0568425665111 | Newsletter:0 | Date Added:2023-11-24 16:58:00
+24/11/2023 22:09:48 : ____________________________________________________________________________
+24/11/2023 22:09:48 : Customer ID:1 | First Name:test | Last Name:test | Email:test@test.test | Telephone:123123123 | Newsletter:1 | Date Added:2023-11-21 22:05:59
+24/11/2023 22:09:48 : Customer ID:2 | First Name:Georgi | Last Name:Petrov | Email:petrov@test.test | Telephone:0883225512 | Newsletter:0 | Date Added:2023-11-24 15:13:50
+24/11/2023 22:09:48 : Customer ID:3 | First Name:Gergana | Last Name:Dimitrova | Email:gergana@test.test | Telephone:0887334457 | Newsletter:1 | Date Added:2023-11-24 15:16:16
+24/11/2023 22:09:48 : Customer ID:4 | First Name:test123 | Last Name:test123 | Email:test123@abv.bg | Telephone:0568425665111 | Newsletter:0 | Date Added:2023-11-24 16:58:00
+24/11/2023 22:09:48 : ____________________________________________________________________________
+24/11/2023 22:10:33 : Customer ID:1 | First Name:test | Last Name:test | Email:test@test.test | Telephone:123123123 | Newsletter:1 | Date Added:2023-11-21 22:05:59
+24/11/2023 22:10:33 : Customer ID:2 | First Name:Georgi | Last Name:Petrov | Email:petrov@test.test | Telephone:0883225512 | Newsletter:0 | Date Added:2023-11-24 15:13:50
+24/11/2023 22:10:33 : Customer ID:3 | First Name:Gergana | Last Name:Dimitrova | Email:gergana@test.test | Telephone:0887334457 | Newsletter:1 | Date Added:2023-11-24 15:16:16
+24/11/2023 22:10:33 : Customer ID:4 | First Name:test123 | Last Name:test123 | Email:test123@abv.bg | Telephone:0568425665111 | Newsletter:0 | Date Added:2023-11-24 16:58:00
+24/11/2023 22:10:33 : ____________________________________________________________________________
+24/11/2023 22:10:34 : Customer ID:1 | First Name:test | Last Name:test | Email:test@test.test | Telephone:123123123 | Newsletter:1 | Date Added:2023-11-21 22:05:59
+24/11/2023 22:10:34 : Customer ID:2 | First Name:Georgi | Last Name:Petrov | Email:petrov@test.test | Telephone:0883225512 | Newsletter:0 | Date Added:2023-11-24 15:13:50
+24/11/2023 22:10:34 : Customer ID:3 | First Name:Gergana | Last Name:Dimitrova | Email:gergana@test.test | Telephone:0887334457 | Newsletter:1 | Date Added:2023-11-24 15:16:16
+24/11/2023 22:10:34 : Customer ID:4 | First Name:test123 | Last Name:test123 | Email:test123@abv.bg | Telephone:0568425665111 | Newsletter:0 | Date Added:2023-11-24 16:58:00
+24/11/2023 22:10:34 : ____________________________________________________________________________
+24/11/2023 22:11:18 : Customer ID:1 | First Name:test | Last Name:test | Email:test@test.test | Telephone:123123123 | Newsletter:1 | Date Added:2023-11-21 22:05:59
+24/11/2023 22:11:18 : Customer ID:2 | First Name:Georgi | Last Name:Petrov | Email:petrov@test.test | Telephone:0883225512 | Newsletter:0 | Date Added:2023-11-24 15:13:50
+24/11/2023 22:11:18 : Customer ID:3 | First Name:Gergana | Last Name:Dimitrova | Email:gergana@test.test | Telephone:0887334457 | Newsletter:1 | Date Added:2023-11-24 15:16:16
+24/11/2023 22:11:18 : Customer ID:4 | First Name:test123 | Last Name:test123 | Email:test123@abv.bg | Telephone:0568425665111 | Newsletter:0 | Date Added:2023-11-24 16:58:00
+24/11/2023 22:11:18 : ____________________________________________________________________________
+24/11/2023 22:11:18 : Customer ID:1 | First Name:test | Last Name:test | Email:test@test.test | Telephone:123123123 | Newsletter:1 | Date Added:2023-11-21 22:05:59
+24/11/2023 22:11:18 : Customer ID:2 | First Name:Georgi | Last Name:Petrov | Email:petrov@test.test | Telephone:0883225512 | Newsletter:0 | Date Added:2023-11-24 15:13:50
+24/11/2023 22:11:18 : Customer ID:3 | First Name:Gergana | Last Name:Dimitrova | Email:gergana@test.test | Telephone:0887334457 | Newsletter:1 | Date Added:2023-11-24 15:16:16
+24/11/2023 22:11:18 : Customer ID:4 | First Name:test123 | Last Name:test123 | Email:test123@abv.bg | Telephone:0568425665111 | Newsletter:0 | Date Added:2023-11-24 16:58:00
+24/11/2023 22:11:18 : ____________________________________________________________________________
+24/11/2023 22:11:52 : Customer ID:1 | First Name:test | Last Name:test | Email:test@test.test | Telephone:123123123 | Newsletter:1 | Date Added:2023-11-21 22:05:59
+24/11/2023 22:11:52 : Customer ID:2 | First Name:Georgi | Last Name:Petrov | Email:petrov@test.test | Telephone:0883225512 | Newsletter:0 | Date Added:2023-11-24 15:13:50
+24/11/2023 22:11:52 : Customer ID:3 | First Name:Gergana | Last Name:Dimitrova | Email:gergana@test.test | Telephone:0887334457 | Newsletter:1 | Date Added:2023-11-24 15:16:16
+24/11/2023 22:11:52 : Customer ID:4 | First Name:test123 | Last Name:test123 | Email:test123@abv.bg | Telephone:0568425665111 | Newsletter:0 | Date Added:2023-11-24 16:58:00
+24/11/2023 22:11:52 : ____________________________________________________________________________
+24/11/2023 22:11:52 : Customer ID:1 | First Name:test | Last Name:test | Email:test@test.test | Telephone:123123123 | Newsletter:1 | Date Added:2023-11-21 22:05:59
+24/11/2023 22:11:52 : Customer ID:2 | First Name:Georgi | Last Name:Petrov | Email:petrov@test.test | Telephone:0883225512 | Newsletter:0 | Date Added:2023-11-24 15:13:50
+24/11/2023 22:11:52 : Customer ID:3 | First Name:Gergana | Last Name:Dimitrova | Email:gergana@test.test | Telephone:0887334457 | Newsletter:1 | Date Added:2023-11-24 15:16:16
+24/11/2023 22:11:52 : Customer ID:4 | First Name:test123 | Last Name:test123 | Email:test123@abv.bg | Telephone:0568425665111 | Newsletter:0 | Date Added:2023-11-24 16:58:00
+24/11/2023 22:11:52 : ____________________________________________________________________________
+24/11/2023 22:13:24 : Customer ID:1 | First Name:test | Last Name:test | Email:test@test.test | Telephone:123123123 | Newsletter:1 | Date Added:2023-11-21 22:05:59
+24/11/2023 22:13:24 : Customer ID:2 | First Name:Georgi | Last Name:Petrov | Email:petrov@test.test | Telephone:0883225512 | Newsletter:0 | Date Added:2023-11-24 15:13:50
+24/11/2023 22:13:24 : Customer ID:3 | First Name:Gergana | Last Name:Dimitrova | Email:gergana@test.test | Telephone:0887334457 | Newsletter:1 | Date Added:2023-11-24 15:16:16
+24/11/2023 22:13:24 : Customer ID:4 | First Name:test123 | Last Name:test123 | Email:test123@abv.bg | Telephone:0568425665111 | Newsletter:0 | Date Added:2023-11-24 16:58:00
+24/11/2023 22:13:24 : ____________________________________________________________________________
+24/11/2023 22:13:24 : Customer ID:1 | First Name:test | Last Name:test | Email:test@test.test | Telephone:123123123 | Newsletter:1 | Date Added:2023-11-21 22:05:59
+24/11/2023 22:13:24 : Customer ID:2 | First Name:Georgi | Last Name:Petrov | Email:petrov@test.test | Telephone:0883225512 | Newsletter:0 | Date Added:2023-11-24 15:13:50
+24/11/2023 22:13:24 : Customer ID:3 | First Name:Gergana | Last Name:Dimitrova | Email:gergana@test.test | Telephone:0887334457 | Newsletter:1 | Date Added:2023-11-24 15:16:16
+24/11/2023 22:13:24 : Customer ID:4 | First Name:test123 | Last Name:test123 | Email:test123@abv.bg | Telephone:0568425665111 | Newsletter:0 | Date Added:2023-11-24 16:58:00
+24/11/2023 22:13:24 : ____________________________________________________________________________
+24/11/2023 22:14:38 : Customer ID:1 | First Name:test | Last Name:test | Email:test@test.test | Telephone:123123123 | Newsletter:1 | Date Added:2023-11-21 22:05:59
+24/11/2023 22:14:38 : Customer ID:2 | First Name:Georgi | Last Name:Petrov | Email:petrov@test.test | Telephone:0883225512 | Newsletter:0 | Date Added:2023-11-24 15:13:50
+24/11/2023 22:14:38 : Customer ID:3 | First Name:Gergana | Last Name:Dimitrova | Email:gergana@test.test | Telephone:0887334457 | Newsletter:1 | Date Added:2023-11-24 15:16:16
+24/11/2023 22:14:38 : Customer ID:4 | First Name:test123 | Last Name:test123 | Email:test123@abv.bg | Telephone:0568425665111 | Newsletter:0 | Date Added:2023-11-24 16:58:00
+24/11/2023 22:14:38 : ____________________________________________________________________________
+24/11/2023 22:14:38 : Customer ID:1 | First Name:test | Last Name:test | Email:test@test.test | Telephone:123123123 | Newsletter:1 | Date Added:2023-11-21 22:05:59
+24/11/2023 22:14:38 : Customer ID:2 | First Name:Georgi | Last Name:Petrov | Email:petrov@test.test | Telephone:0883225512 | Newsletter:0 | Date Added:2023-11-24 15:13:50
+24/11/2023 22:14:38 : Customer ID:3 | First Name:Gergana | Last Name:Dimitrova | Email:gergana@test.test | Telephone:0887334457 | Newsletter:1 | Date Added:2023-11-24 15:16:16
+24/11/2023 22:14:38 : Customer ID:4 | First Name:test123 | Last Name:test123 | Email:test123@abv.bg | Telephone:0568425665111 | Newsletter:0 | Date Added:2023-11-24 16:58:00
+24/11/2023 22:14:38 : ____________________________________________________________________________
+24/11/2023 22:14:52 : Customer ID:1 | First Name:test | Last Name:test | Email:test@test.test | Telephone:123123123 | Newsletter:1 | Date Added:2023-11-21 22:05:59
+24/11/2023 22:14:52 : Customer ID:2 | First Name:Georgi | Last Name:Petrov | Email:petrov@test.test | Telephone:0883225512 | Newsletter:0 | Date Added:2023-11-24 15:13:50
+24/11/2023 22:14:52 : Customer ID:3 | First Name:Gergana | Last Name:Dimitrova | Email:gergana@test.test | Telephone:0887334457 | Newsletter:1 | Date Added:2023-11-24 15:16:16
+24/11/2023 22:14:52 : Customer ID:4 | First Name:test123 | Last Name:test123 | Email:test123@abv.bg | Telephone:0568425665111 | Newsletter:0 | Date Added:2023-11-24 16:58:00
+24/11/2023 22:14:52 : ____________________________________________________________________________
+24/11/2023 22:14:52 : Customer ID:1 | First Name:test | Last Name:test | Email:test@test.test | Telephone:123123123 | Newsletter:1 | Date Added:2023-11-21 22:05:59
+24/11/2023 22:14:52 : Customer ID:2 | First Name:Georgi | Last Name:Petrov | Email:petrov@test.test | Telephone:0883225512 | Newsletter:0 | Date Added:2023-11-24 15:13:50
+24/11/2023 22:14:52 : Customer ID:3 | First Name:Gergana | Last Name:Dimitrova | Email:gergana@test.test | Telephone:0887334457 | Newsletter:1 | Date Added:2023-11-24 15:16:16
+24/11/2023 22:14:52 : Customer ID:4 | First Name:test123 | Last Name:test123 | Email:test123@abv.bg | Telephone:0568425665111 | Newsletter:0 | Date Added:2023-11-24 16:58:00
+24/11/2023 22:14:52 : ____________________________________________________________________________
+24/11/2023 22:16:19 : Customer ID:1 | First Name:test | Last Name:test | Email:test@test.test | Telephone:123123123 | Newsletter:1 | Date Added:2023-11-21 22:05:59
+24/11/2023 22:16:19 : Customer ID:2 | First Name:Georgi | Last Name:Petrov | Email:petrov@test.test | Telephone:0883225512 | Newsletter:0 | Date Added:2023-11-24 15:13:50
+24/11/2023 22:16:19 : Customer ID:3 | First Name:Gergana | Last Name:Dimitrova | Email:gergana@test.test | Telephone:0887334457 | Newsletter:1 | Date Added:2023-11-24 15:16:16
+24/11/2023 22:16:19 : Customer ID:4 | First Name:test123 | Last Name:test123 | Email:test123@abv.bg | Telephone:0568425665111 | Newsletter:0 | Date Added:2023-11-24 16:58:00
+24/11/2023 22:16:19 : ____________________________________________________________________________
+24/11/2023 22:16:19 : Customer ID:1 | First Name:test | Last Name:test | Email:test@test.test | Telephone:123123123 | Newsletter:1 | Date Added:2023-11-21 22:05:59
+24/11/2023 22:16:19 : Customer ID:2 | First Name:Georgi | Last Name:Petrov | Email:petrov@test.test | Telephone:0883225512 | Newsletter:0 | Date Added:2023-11-24 15:13:50
+24/11/2023 22:16:19 : Customer ID:3 | First Name:Gergana | Last Name:Dimitrova | Email:gergana@test.test | Telephone:0887334457 | Newsletter:1 | Date Added:2023-11-24 15:16:16
+24/11/2023 22:16:19 : Customer ID:4 | First Name:test123 | Last Name:test123 | Email:test123@abv.bg | Telephone:0568425665111 | Newsletter:0 | Date Added:2023-11-24 16:58:00
+24/11/2023 22:16:19 : ____________________________________________________________________________
+24/11/2023 22:18:05 : Customer ID:1 | First Name:test | Last Name:test | Email:test@test.test | Telephone:123123123 | Newsletter:1 | Date Added:2023-11-21 22:05:59
+24/11/2023 22:18:05 : Customer ID:2 | First Name:Georgi | Last Name:Petrov | Email:petrov@test.test | Telephone:0883225512 | Newsletter:0 | Date Added:2023-11-24 15:13:50
+24/11/2023 22:18:05 : Customer ID:3 | First Name:Gergana | Last Name:Dimitrova | Email:gergana@test.test | Telephone:0887334457 | Newsletter:1 | Date Added:2023-11-24 15:16:16
+24/11/2023 22:18:05 : Customer ID:4 | First Name:test123 | Last Name:test123 | Email:test123@abv.bg | Telephone:0568425665111 | Newsletter:0 | Date Added:2023-11-24 16:58:00
+24/11/2023 22:18:05 : ____________________________________________________________________________
+24/11/2023 22:18:05 : Customer ID:1 | First Name:test | Last Name:test | Email:test@test.test | Telephone:123123123 | Newsletter:1 | Date Added:2023-11-21 22:05:59
+24/11/2023 22:18:05 : Customer ID:2 | First Name:Georgi | Last Name:Petrov | Email:petrov@test.test | Telephone:0883225512 | Newsletter:0 | Date Added:2023-11-24 15:13:50
+24/11/2023 22:18:05 : Customer ID:3 | First Name:Gergana | Last Name:Dimitrova | Email:gergana@test.test | Telephone:0887334457 | Newsletter:1 | Date Added:2023-11-24 15:16:16
+24/11/2023 22:18:05 : Customer ID:4 | First Name:test123 | Last Name:test123 | Email:test123@abv.bg | Telephone:0568425665111 | Newsletter:0 | Date Added:2023-11-24 16:58:00
+24/11/2023 22:18:05 : Customer ID:8 | First Name:Testercho | Last Name:Georgiev | Email:testercho@test.test | Telephone:0887446682 | Newsletter:1 | Date Added:2023-11-24 22:18:06
+24/11/2023 22:18:05 : ____________________________________________________________________________
+24/11/2023 22:19:29 : Customer ID:1 | First Name:test | Last Name:test | Email:test@test.test | Telephone:123123123 | Newsletter:1 | Date Added:2023-11-21 22:05:59
+24/11/2023 22:19:29 : Customer ID:2 | First Name:Georgi | Last Name:Petrov | Email:petrov@test.test | Telephone:0883225512 | Newsletter:0 | Date Added:2023-11-24 15:13:50
+24/11/2023 22:19:29 : Customer ID:3 | First Name:Gergana | Last Name:Dimitrova | Email:gergana@test.test | Telephone:0887334457 | Newsletter:1 | Date Added:2023-11-24 15:16:16
+24/11/2023 22:19:29 : Customer ID:4 | First Name:test123 | Last Name:test123 | Email:test123@abv.bg | Telephone:0568425665111 | Newsletter:0 | Date Added:2023-11-24 16:58:00
+24/11/2023 22:19:29 : Customer ID:8 | First Name:Testercho | Last Name:Georgiev | Email:testercho@test.test | Telephone:0887446682 | Newsletter:1 | Date Added:2023-11-24 22:18:06
+24/11/2023 22:19:29 : ____________________________________________________________________________
+24/11/2023 22:19:29 : Customer ID:1 | First Name:test | Last Name:test | Email:test@test.test | Telephone:123123123 | Newsletter:1 | Date Added:2023-11-21 22:05:59
+24/11/2023 22:19:29 : Customer ID:2 | First Name:Georgi | Last Name:Petrov | Email:petrov@test.test | Telephone:0883225512 | Newsletter:0 | Date Added:2023-11-24 15:13:50
+24/11/2023 22:19:29 : Customer ID:3 | First Name:Gergana | Last Name:Dimitrova | Email:gergana@test.test | Telephone:0887334457 | Newsletter:1 | Date Added:2023-11-24 15:16:16
+24/11/2023 22:19:29 : Customer ID:4 | First Name:test123 | Last Name:test123 | Email:test123@abv.bg | Telephone:0568425665111 | Newsletter:0 | Date Added:2023-11-24 16:58:00
+24/11/2023 22:19:29 : Customer ID:9 | First Name:Testercho | Last Name:Georgiev | Email:testercho@test.test | Telephone:0887446682 | Newsletter:1 | Date Added:2023-11-24 22:19:29
+24/11/2023 22:19:29 : Customer ID:8 | First Name:Testercho | Last Name:Georgiev | Email:testercho@test.test | Telephone:0887446682 | Newsletter:1 | Date Added:2023-11-24 22:18:06
+24/11/2023 22:19:29 : ____________________________________________________________________________
+24/11/2023 22:23:56 : Customer ID:1 | First Name:test | Last Name:test | Email:test@test.test | Telephone:123123123 | Newsletter:1 | Date Added:2023-11-21 22:05:59
+24/11/2023 22:23:56 : Customer ID:2 | First Name:Georgi | Last Name:Petrov | Email:petrov@test.test | Telephone:0883225512 | Newsletter:0 | Date Added:2023-11-24 15:13:50
+24/11/2023 22:23:56 : Customer ID:3 | First Name:Gergana | Last Name:Dimitrova | Email:gergana@test.test | Telephone:0887334457 | Newsletter:1 | Date Added:2023-11-24 15:16:16
+24/11/2023 22:23:56 : Customer ID:4 | First Name:test123 | Last Name:test123 | Email:test123@abv.bg | Telephone:0568425665111 | Newsletter:0 | Date Added:2023-11-24 16:58:00
+24/11/2023 22:23:56 : ____________________________________________________________________________
+24/11/2023 22:23:56 : Customer ID:1 | First Name:test | Last Name:test | Email:test@test.test | Telephone:123123123 | Newsletter:1 | Date Added:2023-11-21 22:05:59
+24/11/2023 22:23:56 : Customer ID:2 | First Name:Georgi | Last Name:Petrov | Email:petrov@test.test | Telephone:0883225512 | Newsletter:0 | Date Added:2023-11-24 15:13:50
+24/11/2023 22:23:56 : Customer ID:3 | First Name:Gergana | Last Name:Dimitrova | Email:gergana@test.test | Telephone:0887334457 | Newsletter:1 | Date Added:2023-11-24 15:16:16
+24/11/2023 22:23:56 : Customer ID:4 | First Name:test123 | Last Name:test123 | Email:test123@abv.bg | Telephone:0568425665111 | Newsletter:0 | Date Added:2023-11-24 16:58:00
+24/11/2023 22:23:56 : Customer ID:10 | First Name:Testercho | Last Name:Georgiev | Email:testercho1@test.test | Telephone:0887446682 | Newsletter:1 | Date Added:2023-11-24 22:23:57
+24/11/2023 22:23:56 : ____________________________________________________________________________
+24/11/2023 22:46:58 : Customer ID:1 | First Name:test | Last Name:test | Email:test@test.test | Telephone:123123123 | Newsletter:1 | Date Added:2023-11-21 22:05:59
+24/11/2023 22:46:58 : Customer ID:2 | First Name:Georgi | Last Name:Petrov | Email:petrov@test.test | Telephone:0883225512 | Newsletter:0 | Date Added:2023-11-24 15:13:50
+24/11/2023 22:46:58 : Customer ID:3 | First Name:Gergana | Last Name:Dimitrova | Email:gergana@test.test | Telephone:0887334457 | Newsletter:1 | Date Added:2023-11-24 15:16:16
+24/11/2023 22:46:58 : Customer ID:4 | First Name:test123 | Last Name:test123 | Email:test123@abv.bg | Telephone:0568425665111 | Newsletter:0 | Date Added:2023-11-24 16:58:00
+24/11/2023 22:46:58 : ____________________________________________________________________________
+24/11/2023 22:46:58 : Customer ID:1 | First Name:test | Last Name:test | Email:test@test.test | Telephone:123123123 | Newsletter:1 | Date Added:2023-11-21 22:05:59
+24/11/2023 22:46:58 : Customer ID:2 | First Name:Georgi | Last Name:Petrov | Email:petrov@test.test | Telephone:0883225512 | Newsletter:0 | Date Added:2023-11-24 15:13:50
+24/11/2023 22:46:58 : Customer ID:3 | First Name:Gergana | Last Name:Dimitrova | Email:gergana@test.test | Telephone:0887334457 | Newsletter:1 | Date Added:2023-11-24 15:16:16
+24/11/2023 22:46:58 : Customer ID:4 | First Name:test123 | Last Name:test123 | Email:test123@abv.bg | Telephone:0568425665111 | Newsletter:0 | Date Added:2023-11-24 16:58:00
+24/11/2023 22:46:58 : Customer ID:11 | First Name:Testercho | Last Name:Georgiev | Email:testercho1@test.test | Telephone:0887446682 | Newsletter:1 | Date Added:2023-11-24 22:46:59
+24/11/2023 22:46:58 : ____________________________________________________________________________
+24/11/2023 22:49:51 : Customer ID:1 | First Name:test | Last Name:test | Email:test@test.test | Telephone:123123123 | Newsletter:1 | Date Added:2023-11-21 22:05:59
+24/11/2023 22:49:51 : Customer ID:2 | First Name:Georgi | Last Name:Petrov | Email:petrov@test.test | Telephone:0883225512 | Newsletter:0 | Date Added:2023-11-24 15:13:50
+24/11/2023 22:49:51 : Customer ID:3 | First Name:Gergana | Last Name:Dimitrova | Email:gergana@test.test | Telephone:0887334457 | Newsletter:1 | Date Added:2023-11-24 15:16:16
+24/11/2023 22:49:51 : Customer ID:4 | First Name:test123 | Last Name:test123 | Email:test123@abv.bg | Telephone:0568425665111 | Newsletter:0 | Date Added:2023-11-24 16:58:00
+24/11/2023 22:49:51 : Customer ID:11 | First Name:Testercho | Last Name:Georgiev | Email:testercho1@test.test | Telephone:0887446682 | Newsletter:1 | Date Added:2023-11-24 22:46:59
+24/11/2023 22:49:51 : ____________________________________________________________________________
+24/11/2023 22:49:51 : Customer ID:1 | First Name:test | Last Name:test | Email:test@test.test | Telephone:123123123 | Newsletter:1 | Date Added:2023-11-21 22:05:59
+24/11/2023 22:49:51 : Customer ID:2 | First Name:Georgi | Last Name:Petrov | Email:petrov@test.test | Telephone:0883225512 | Newsletter:0 | Date Added:2023-11-24 15:13:50
+24/11/2023 22:49:51 : Customer ID:3 | First Name:Gergana | Last Name:Dimitrova | Email:gergana@test.test | Telephone:0887334457 | Newsletter:1 | Date Added:2023-11-24 15:16:16
+24/11/2023 22:49:51 : Customer ID:4 | First Name:test123 | Last Name:test123 | Email:test123@abv.bg | Telephone:0568425665111 | Newsletter:0 | Date Added:2023-11-24 16:58:00
+24/11/2023 22:49:51 : Customer ID:12 | First Name:Testercho | Last Name:Georgiev | Email:testercho1@test.test | Telephone:0887446682 | Newsletter:1 | Date Added:2023-11-24 22:49:52
+24/11/2023 22:49:51 : Customer ID:11 | First Name:Testercho | Last Name:Georgiev | Email:testercho1@test.test | Telephone:0887446682 | Newsletter:1 | Date Added:2023-11-24 22:46:59
+24/11/2023 22:49:51 : ____________________________________________________________________________
+24/11/2023 22:50:17 : Customer ID:1 | First Name:test | Last Name:test | Email:test@test.test | Telephone:123123123 | Newsletter:1 | Date Added:2023-11-21 22:05:59
+24/11/2023 22:50:17 : Customer ID:2 | First Name:Georgi | Last Name:Petrov | Email:petrov@test.test | Telephone:0883225512 | Newsletter:0 | Date Added:2023-11-24 15:13:50
+24/11/2023 22:50:17 : Customer ID:3 | First Name:Gergana | Last Name:Dimitrova | Email:gergana@test.test | Telephone:0887334457 | Newsletter:1 | Date Added:2023-11-24 15:16:16
+24/11/2023 22:50:17 : Customer ID:4 | First Name:test123 | Last Name:test123 | Email:test123@abv.bg | Telephone:0568425665111 | Newsletter:0 | Date Added:2023-11-24 16:58:00
+24/11/2023 22:50:17 : Customer ID:12 | First Name:Testercho | Last Name:Georgiev | Email:testercho1@test.test | Telephone:0887446682 | Newsletter:1 | Date Added:2023-11-24 22:49:52
+24/11/2023 22:50:17 : Customer ID:11 | First Name:Testercho | Last Name:Georgiev | Email:testercho1@test.test | Telephone:0887446682 | Newsletter:1 | Date Added:2023-11-24 22:46:59
+24/11/2023 22:50:17 : ____________________________________________________________________________
+24/11/2023 22:50:17 : Customer ID:1 | First Name:test | Last Name:test | Email:test@test.test | Telephone:123123123 | Newsletter:1 | Date Added:2023-11-21 22:05:59
+24/11/2023 22:50:17 : Customer ID:2 | First Name:Georgi | Last Name:Petrov | Email:petrov@test.test | Telephone:0883225512 | Newsletter:0 | Date Added:2023-11-24 15:13:50
+24/11/2023 22:50:17 : Customer ID:3 | First Name:Gergana | Last Name:Dimitrova | Email:gergana@test.test | Telephone:0887334457 | Newsletter:1 | Date Added:2023-11-24 15:16:16
+24/11/2023 22:50:17 : Customer ID:4 | First Name:test123 | Last Name:test123 | Email:test123@abv.bg | Telephone:0568425665111 | Newsletter:0 | Date Added:2023-11-24 16:58:00
+24/11/2023 22:50:17 : Customer ID:12 | First Name:Testercho | Last Name:Georgiev | Email:testercho1@test.test | Telephone:0887446682 | Newsletter:1 | Date Added:2023-11-24 22:49:52
+24/11/2023 22:50:17 : Customer ID:11 | First Name:Testercho | Last Name:Georgiev | Email:testercho1@test.test | Telephone:0887446682 | Newsletter:1 | Date Added:2023-11-24 22:46:59
+24/11/2023 22:50:17 : Customer ID:13 | First Name:Testercho | Last Name:Georgiev | Email:testercho1@test.test | Telephone:0887446682 | Newsletter:1 | Date Added:2023-11-24 22:50:18
+24/11/2023 22:50:17 : ____________________________________________________________________________
+24/11/2023 22:55:42 : Customer ID:1 | First Name:test | Last Name:test | Email:test@test.test | Telephone:123123123 | Newsletter:1 | Date Added:2023-11-21 22:05:59
+24/11/2023 22:55:42 : Customer ID:2 | First Name:Georgi | Last Name:Petrov | Email:petrov@test.test | Telephone:0883225512 | Newsletter:0 | Date Added:2023-11-24 15:13:50
+24/11/2023 22:55:42 : Customer ID:3 | First Name:Gergana | Last Name:Dimitrova | Email:gergana@test.test | Telephone:0887334457 | Newsletter:1 | Date Added:2023-11-24 15:16:16
+24/11/2023 22:55:42 : Customer ID:4 | First Name:test123 | Last Name:test123 | Email:test123@abv.bg | Telephone:0568425665111 | Newsletter:0 | Date Added:2023-11-24 16:58:00
+24/11/2023 22:55:42 : Customer ID:12 | First Name:Testercho | Last Name:Georgiev | Email:testercho1@test.test | Telephone:0887446682 | Newsletter:1 | Date Added:2023-11-24 22:49:52
+24/11/2023 22:55:42 : Customer ID:11 | First Name:Testercho | Last Name:Georgiev | Email:testercho1@test.test | Telephone:0887446682 | Newsletter:1 | Date Added:2023-11-24 22:46:59
+24/11/2023 22:55:42 : Customer ID:13 | First Name:Testercho | Last Name:Georgiev | Email:testercho1@test.test | Telephone:0887446682 | Newsletter:1 | Date Added:2023-11-24 22:50:18
+24/11/2023 22:55:42 : ____________________________________________________________________________
+24/11/2023 22:55:42 : Customer ID:12 | First Name:Testercho | Last Name:Georgiev | Email:testercho1@test.test | Telephone:0887446682 | Newsletter:1 | Date Added:2023-11-24 22:49:52
+24/11/2023 22:55:42 : Customer ID:1 | First Name:test | Last Name:test | Email:test@test.test | Telephone:123123123 | Newsletter:1 | Date Added:2023-11-21 22:05:59
+24/11/2023 22:55:42 : Customer ID:2 | First Name:Georgi | Last Name:Petrov | Email:petrov@test.test | Telephone:0883225512 | Newsletter:0 | Date Added:2023-11-24 15:13:50
+24/11/2023 22:55:42 : Customer ID:3 | First Name:Gergana | Last Name:Dimitrova | Email:gergana@test.test | Telephone:0887334457 | Newsletter:1 | Date Added:2023-11-24 15:16:16
+24/11/2023 22:55:42 : Customer ID:4 | First Name:test123 | Last Name:test123 | Email:test123@abv.bg | Telephone:0568425665111 | Newsletter:0 | Date Added:2023-11-24 16:58:00
+24/11/2023 22:55:42 : Customer ID:12 | First Name:Testercho | Last Name:Georgiev | Email:testercho1@test.test | Telephone:0887446682 | Newsletter:1 | Date Added:2023-11-24 22:49:52
+24/11/2023 22:55:42 : Customer ID:11 | First Name:Testercho | Last Name:Georgiev | Email:testercho1@test.test | Telephone:0887446682 | Newsletter:1 | Date Added:2023-11-24 22:46:59
+24/11/2023 22:55:42 : Customer ID:13 | First Name:Testercho | Last Name:Georgiev | Email:testercho1@test.test | Telephone:0887446682 | Newsletter:1 | Date Added:2023-11-24 22:50:18
+24/11/2023 22:55:42 : Customer ID:14 | First Name:Testercho | Last Name:Georgiev | Email:testercho1@test.test | Telephone:0887446682 | Newsletter:1 | Date Added:2023-11-24 22:55:43
+24/11/2023 22:55:42 : ____________________________________________________________________________
+24/11/2023 22:57:15 : Customer ID:1 | First Name:test | Last Name:test | Email:test@test.test | Telephone:123123123 | Newsletter:1 | Date Added:2023-11-21 22:05:59
+24/11/2023 22:57:15 : Customer ID:2 | First Name:Georgi | Last Name:Petrov | Email:petrov@test.test | Telephone:0883225512 | Newsletter:0 | Date Added:2023-11-24 15:13:50
+24/11/2023 22:57:15 : Customer ID:3 | First Name:Gergana | Last Name:Dimitrova | Email:gergana@test.test | Telephone:0887334457 | Newsletter:1 | Date Added:2023-11-24 15:16:16
+24/11/2023 22:57:15 : Customer ID:4 | First Name:test123 | Last Name:test123 | Email:test123@abv.bg | Telephone:0568425665111 | Newsletter:0 | Date Added:2023-11-24 16:58:00
+24/11/2023 22:57:15 : ____________________________________________________________________________
+24/11/2023 22:57:15 : Customer ID:15 | First Name:Testercho | Last Name:Georgiev | Email:testercho1@test.test | Telephone:0887446682 | Newsletter:1 | Date Added:2023-11-24 22:57:15
+24/11/2023 22:57:15 : Customer ID:1 | First Name:test | Last Name:test | Email:test@test.test | Telephone:123123123 | Newsletter:1 | Date Added:2023-11-21 22:05:59
+24/11/2023 22:57:15 : Customer ID:2 | First Name:Georgi | Last Name:Petrov | Email:petrov@test.test | Telephone:0883225512 | Newsletter:0 | Date Added:2023-11-24 15:13:50
+24/11/2023 22:57:15 : Customer ID:3 | First Name:Gergana | Last Name:Dimitrova | Email:gergana@test.test | Telephone:0887334457 | Newsletter:1 | Date Added:2023-11-24 15:16:16
+24/11/2023 22:57:15 : Customer ID:4 | First Name:test123 | Last Name:test123 | Email:test123@abv.bg | Telephone:0568425665111 | Newsletter:0 | Date Added:2023-11-24 16:58:00
+24/11/2023 22:57:15 : Customer ID:15 | First Name:Testercho | Last Name:Georgiev | Email:testercho1@test.test | Telephone:0887446682 | Newsletter:1 | Date Added:2023-11-24 22:57:15
+24/11/2023 22:57:15 : ____________________________________________________________________________
+24/11/2023 23:00:33 : Customer ID:1 | First Name:test | Last Name:test | Email:test@test.test | Telephone:123123123 | Newsletter:1 | Date Added:2023-11-21 22:05:59
+24/11/2023 23:00:33 : Customer ID:2 | First Name:Georgi | Last Name:Petrov | Email:petrov@test.test | Telephone:0883225512 | Newsletter:0 | Date Added:2023-11-24 15:13:50
+24/11/2023 23:00:33 : Customer ID:3 | First Name:Gergana | Last Name:Dimitrova | Email:gergana@test.test | Telephone:0887334457 | Newsletter:1 | Date Added:2023-11-24 15:16:16
+24/11/2023 23:00:33 : Customer ID:4 | First Name:test123 | Last Name:test123 | Email:test123@abv.bg | Telephone:0568425665111 | Newsletter:0 | Date Added:2023-11-24 16:58:00
+24/11/2023 23:00:33 : Customer ID:15 | First Name:Testercho | Last Name:Georgiev | Email:testercho1@test.test | Telephone:0887446682 | Newsletter:1 | Date Added:2023-11-24 22:57:15
+24/11/2023 23:00:33 : ____________________________________________________________________________
+24/11/2023 23:17:15 : Customer ID:1 | First Name:test | Last Name:test | Email:test@test.test | Telephone:123123123 | Newsletter:1 | Date Added:2023-11-21 22:05:59
+24/11/2023 23:17:15 : Customer ID:2 | First Name:Georgi | Last Name:Petrov | Email:petrov@test.test | Telephone:0883225512 | Newsletter:0 | Date Added:2023-11-24 15:13:50
+24/11/2023 23:17:15 : Customer ID:3 | First Name:Gergana | Last Name:Dimitrova | Email:gergana@test.test | Telephone:0887334457 | Newsletter:1 | Date Added:2023-11-24 15:16:16
+24/11/2023 23:17:15 : Customer ID:4 | First Name:test123 | Last Name:test123 | Email:test123@abv.bg | Telephone:0568425665111 | Newsletter:0 | Date Added:2023-11-24 16:58:00
+24/11/2023 23:17:15 : ____________________________________________________________________________
+24/11/2023 23:17:15 : Customer ID:16 | First Name:Testercho | Last Name:Georgiev | Email:testercho@test.test | Telephone:0887446682 | Newsletter:1 | Date Added:2023-11-24 23:17:16
+24/11/2023 23:17:41 : Customer ID:1 | First Name:test | Last Name:test | Email:test@test.test | Telephone:123123123 | Newsletter:1 | Date Added:2023-11-21 22:05:59
+24/11/2023 23:17:41 : Customer ID:2 | First Name:Georgi | Last Name:Petrov | Email:petrov@test.test | Telephone:0883225512 | Newsletter:0 | Date Added:2023-11-24 15:13:50
+24/11/2023 23:17:41 : Customer ID:3 | First Name:Gergana | Last Name:Dimitrova | Email:gergana@test.test | Telephone:0887334457 | Newsletter:1 | Date Added:2023-11-24 15:16:16
+24/11/2023 23:17:41 : Customer ID:4 | First Name:test123 | Last Name:test123 | Email:test123@abv.bg | Telephone:0568425665111 | Newsletter:0 | Date Added:2023-11-24 16:58:00
+24/11/2023 23:17:41 : Customer ID:16 | First Name:Testercho | Last Name:Georgiev | Email:testercho@test.test | Telephone:0887446682 | Newsletter:1 | Date Added:2023-11-24 23:17:16
+24/11/2023 23:17:41 : ____________________________________________________________________________
+24/11/2023 23:17:41 : Customer ID:16 | First Name:Testercho | Last Name:Georgiev | Email:testercho@test.test | Telephone:0887446682 | Newsletter:1 | Date Added:2023-11-24 23:17:16
+24/11/2023 23:18:03 : Customer ID:1 | First Name:test | Last Name:test | Email:test@test.test | Telephone:123123123 | Newsletter:1 | Date Added:2023-11-21 22:05:59
+24/11/2023 23:18:03 : Customer ID:2 | First Name:Georgi | Last Name:Petrov | Email:petrov@test.test | Telephone:0883225512 | Newsletter:0 | Date Added:2023-11-24 15:13:50
+24/11/2023 23:18:03 : Customer ID:3 | First Name:Gergana | Last Name:Dimitrova | Email:gergana@test.test | Telephone:0887334457 | Newsletter:1 | Date Added:2023-11-24 15:16:16
+24/11/2023 23:18:03 : Customer ID:4 | First Name:test123 | Last Name:test123 | Email:test123@abv.bg | Telephone:0568425665111 | Newsletter:0 | Date Added:2023-11-24 16:58:00
+24/11/2023 23:18:03 : Customer ID:16 | First Name:Testercho | Last Name:Georgiev | Email:testercho@test.test | Telephone:0887446682 | Newsletter:1 | Date Added:2023-11-24 23:17:16
+24/11/2023 23:18:03 : Customer ID:17 | First Name:Testercho | Last Name:Georgiev | Email:testercho@test.test | Telephone:0887446682 | Newsletter:1 | Date Added:2023-11-24 23:17:42
+24/11/2023 23:18:03 : ____________________________________________________________________________
+24/11/2023 23:18:03 : Customer ID:18 | First Name:Testercho | Last Name:Georgiev | Email:testercho@test.test | Telephone:0887446682 | Newsletter:1 | Date Added:2023-11-24 23:18:03
+24/11/2023 23:18:03 : Customer ID:1 | First Name:test | Last Name:test | Email:test@test.test | Telephone:123123123 | Newsletter:1 | Date Added:2023-11-21 22:05:59
+24/11/2023 23:18:03 : Customer ID:2 | First Name:Georgi | Last Name:Petrov | Email:petrov@test.test | Telephone:0883225512 | Newsletter:0 | Date Added:2023-11-24 15:13:50
+24/11/2023 23:18:03 : Customer ID:3 | First Name:Gergana | Last Name:Dimitrova | Email:gergana@test.test | Telephone:0887334457 | Newsletter:1 | Date Added:2023-11-24 15:16:16
+24/11/2023 23:18:03 : Customer ID:4 | First Name:test123 | Last Name:test123 | Email:test123@abv.bg | Telephone:0568425665111 | Newsletter:0 | Date Added:2023-11-24 16:58:00
+24/11/2023 23:18:03 : Customer ID:18 | First Name:Testercho | Last Name:Georgiev | Email:testercho@test.test | Telephone:0887446682 | Newsletter:1 | Date Added:2023-11-24 23:18:03
+24/11/2023 23:18:03 : Customer ID:16 | First Name:Testercho | Last Name:Georgiev | Email:testercho@test.test | Telephone:0887446682 | Newsletter:1 | Date Added:2023-11-24 23:17:16
+24/11/2023 23:18:03 : Customer ID:17 | First Name:Testercho | Last Name:Georgiev | Email:testercho@test.test | Telephone:0887446682 | Newsletter:1 | Date Added:2023-11-24 23:17:42
+24/11/2023 23:18:03 : ____________________________________________________________________________
+24/11/2023 23:18:03 : Customer ID:1 | First Name:test | Last Name:test | Email:test@test.test | Telephone:123123123 | Newsletter:1 | Date Added:2023-11-21 22:05:59
+24/11/2023 23:18:03 : Customer ID:2 | First Name:Georgi | Last Name:Petrov | Email:petrov@test.test | Telephone:0883225512 | Newsletter:0 | Date Added:2023-11-24 15:13:50
+24/11/2023 23:18:03 : Customer ID:3 | First Name:Gergana | Last Name:Dimitrova | Email:gergana@test.test | Telephone:0887334457 | Newsletter:1 | Date Added:2023-11-24 15:16:16
+24/11/2023 23:18:03 : Customer ID:4 | First Name:test123 | Last Name:test123 | Email:test123@abv.bg | Telephone:0568425665111 | Newsletter:0 | Date Added:2023-11-24 16:58:00
+24/11/2023 23:18:03 : Customer ID:18 | First Name:Testercho | Last Name:Georgiev | Email:testercho@test.test | Telephone:0887446682 | Newsletter:1 | Date Added:2023-11-24 23:18:03
+24/11/2023 23:18:03 : Customer ID:16 | First Name:Testercho | Last Name:Georgiev | Email:testercho@test.test | Telephone:0887446682 | Newsletter:1 | Date Added:2023-11-24 23:17:16
+24/11/2023 23:18:03 : Customer ID:17 | First Name:Testercho | Last Name:Georgiev | Email:testercho@test.test | Telephone:0887446682 | Newsletter:1 | Date Added:2023-11-24 23:17:42
+24/11/2023 23:18:03 : ____________________________________________________________________________
+24/11/2023 23:18:03 : Customer ID:1 | First Name:test | Last Name:test | Email:test@test.test | Telephone:123123123 | Newsletter:1 | Date Added:2023-11-21 22:05:59
+24/11/2023 23:18:03 : Customer ID:2 | First Name:Georgi | Last Name:Petrov | Email:petrov@test.test | Telephone:0883225512 | Newsletter:0 | Date Added:2023-11-24 15:13:50
+24/11/2023 23:18:03 : Customer ID:3 | First Name:Gergana | Last Name:Dimitrova | Email:gergana@test.test | Telephone:0887334457 | Newsletter:1 | Date Added:2023-11-24 15:16:16
+24/11/2023 23:18:03 : Customer ID:4 | First Name:test123 | Last Name:test123 | Email:test123@abv.bg | Telephone:0568425665111 | Newsletter:0 | Date Added:2023-11-24 16:58:00
+24/11/2023 23:18:03 : ____________________________________________________________________________
+24/11/2023 23:18:55 : Customer ID:1 | First Name:test | Last Name:test | Email:test@test.test | Telephone:123123123 | Newsletter:1 | Date Added:2023-11-21 22:05:59
+24/11/2023 23:18:55 : Customer ID:2 | First Name:Georgi | Last Name:Petrov | Email:petrov@test.test | Telephone:0883225512 | Newsletter:0 | Date Added:2023-11-24 15:13:50
+24/11/2023 23:18:55 : Customer ID:3 | First Name:Gergana | Last Name:Dimitrova | Email:gergana@test.test | Telephone:0887334457 | Newsletter:1 | Date Added:2023-11-24 15:16:16
+24/11/2023 23:18:55 : Customer ID:4 | First Name:test123 | Last Name:test123 | Email:test123@abv.bg | Telephone:0568425665111 | Newsletter:0 | Date Added:2023-11-24 16:58:00
+24/11/2023 23:18:55 : ____________________________________________________________________________
+24/11/2023 23:18:55 : Customer ID:19 | First Name:Testercho | Last Name:Georgiev | Email:testercho@test.test | Telephone:0887446682 | Newsletter:1 | Date Added:2023-11-24 23:18:55
+24/11/2023 23:18:55 : Customer ID:1 | First Name:test | Last Name:test | Email:test@test.test | Telephone:123123123 | Newsletter:1 | Date Added:2023-11-21 22:05:59
+24/11/2023 23:18:55 : Customer ID:2 | First Name:Georgi | Last Name:Petrov | Email:petrov@test.test | Telephone:0883225512 | Newsletter:0 | Date Added:2023-11-24 15:13:50
+24/11/2023 23:18:55 : Customer ID:3 | First Name:Gergana | Last Name:Dimitrova | Email:gergana@test.test | Telephone:0887334457 | Newsletter:1 | Date Added:2023-11-24 15:16:16
+24/11/2023 23:18:55 : Customer ID:4 | First Name:test123 | Last Name:test123 | Email:test123@abv.bg | Telephone:0568425665111 | Newsletter:0 | Date Added:2023-11-24 16:58:00
+24/11/2023 23:18:55 : Customer ID:19 | First Name:Testercho | Last Name:Georgiev | Email:testercho@test.test | Telephone:0887446682 | Newsletter:1 | Date Added:2023-11-24 23:18:55
+24/11/2023 23:18:55 : ____________________________________________________________________________
+24/11/2023 23:18:55 : Customer ID:1 | First Name:test | Last Name:test | Email:test@test.test | Telephone:123123123 | Newsletter:1 | Date Added:2023-11-21 22:05:59
+24/11/2023 23:18:55 : Customer ID:2 | First Name:Georgi | Last Name:Petrov | Email:petrov@test.test | Telephone:0883225512 | Newsletter:0 | Date Added:2023-11-24 15:13:50
+24/11/2023 23:18:55 : Customer ID:3 | First Name:Gergana | Last Name:Dimitrova | Email:gergana@test.test | Telephone:0887334457 | Newsletter:1 | Date Added:2023-11-24 15:16:16
+24/11/2023 23:18:55 : Customer ID:4 | First Name:test123 | Last Name:test123 | Email:test123@abv.bg | Telephone:0568425665111 | Newsletter:0 | Date Added:2023-11-24 16:58:00
+24/11/2023 23:18:55 : Customer ID:19 | First Name:Testercho | Last Name:Georgiev | Email:testercho@test.test | Telephone:0887446682 | Newsletter:1 | Date Added:2023-11-24 23:18:55
+24/11/2023 23:18:55 : ____________________________________________________________________________
+24/11/2023 23:18:55 : Customer ID:1 | First Name:test | Last Name:test | Email:test@test.test | Telephone:123123123 | Newsletter:1 | Date Added:2023-11-21 22:05:59
+24/11/2023 23:18:55 : Customer ID:2 | First Name:Georgi | Last Name:Petrov | Email:petrov@test.test | Telephone:0883225512 | Newsletter:0 | Date Added:2023-11-24 15:13:50
+24/11/2023 23:18:55 : Customer ID:3 | First Name:Gergana | Last Name:Dimitrova | Email:gergana@test.test | Telephone:0887334457 | Newsletter:1 | Date Added:2023-11-24 15:16:16
+24/11/2023 23:18:55 : Customer ID:4 | First Name:test123 | Last Name:test123 | Email:test123@abv.bg | Telephone:0568425665111 | Newsletter:0 | Date Added:2023-11-24 16:58:00
+24/11/2023 23:18:55 : ____________________________________________________________________________
+24/11/2023 23:19:46 : Customer ID:1 | First Name:test | Last Name:test | Email:test@test.test | Telephone:123123123 | Newsletter:1 | Date Added:2023-11-21 22:05:59
+24/11/2023 23:19:46 : Customer ID:2 | First Name:Georgi | Last Name:Petrov | Email:petrov@test.test | Telephone:0883225512 | Newsletter:0 | Date Added:2023-11-24 15:13:50
+24/11/2023 23:19:46 : Customer ID:3 | First Name:Gergana | Last Name:Dimitrova | Email:gergana@test.test | Telephone:0887334457 | Newsletter:1 | Date Added:2023-11-24 15:16:16
+24/11/2023 23:19:46 : Customer ID:4 | First Name:test123 | Last Name:test123 | Email:test123@abv.bg | Telephone:0568425665111 | Newsletter:0 | Date Added:2023-11-24 16:58:00
+24/11/2023 23:19:46 : ____________________________________________________________________________
+24/11/2023 23:19:46 : Customer ID:20 | First Name:Testercho | Last Name:Georgiev | Email:testercho@test.test | Telephone:0887446682 | Newsletter:1 | Date Added:2023-11-24 23:19:46
+24/11/2023 23:19:46 : Customer ID:1 | First Name:test | Last Name:test | Email:test@test.test | Telephone:123123123 | Newsletter:1 | Date Added:2023-11-21 22:05:59
+24/11/2023 23:19:46 : Customer ID:2 | First Name:Georgi | Last Name:Petrov | Email:petrov@test.test | Telephone:0883225512 | Newsletter:0 | Date Added:2023-11-24 15:13:50
+24/11/2023 23:19:46 : Customer ID:3 | First Name:Gergana | Last Name:Dimitrova | Email:gergana@test.test | Telephone:0887334457 | Newsletter:1 | Date Added:2023-11-24 15:16:16
+24/11/2023 23:19:46 : Customer ID:4 | First Name:test123 | Last Name:test123 | Email:test123@abv.bg | Telephone:0568425665111 | Newsletter:0 | Date Added:2023-11-24 16:58:00
+24/11/2023 23:19:46 : Customer ID:20 | First Name:Testercho | Last Name:Georgiev | Email:testercho@test.test | Telephone:0887446682 | Newsletter:1 | Date Added:2023-11-24 23:19:46
+24/11/2023 23:19:46 : ____________________________________________________________________________
+24/11/2023 23:19:46 : Customer ID:1 | First Name:test | Last Name:test | Email:test@test.test | Telephone:123123123 | Newsletter:1 | Date Added:2023-11-21 22:05:59
+24/11/2023 23:19:46 : Customer ID:2 | First Name:Georgi | Last Name:Petrov | Email:petrov@test.test | Telephone:0883225512 | Newsletter:0 | Date Added:2023-11-24 15:13:50
+24/11/2023 23:19:46 : Customer ID:3 | First Name:Gergana | Last Name:Dimitrova | Email:gergana@test.test | Telephone:0887334457 | Newsletter:1 | Date Added:2023-11-24 15:16:16
+24/11/2023 23:19:46 : Customer ID:4 | First Name:test123 | Last Name:test123 | Email:test123@abv.bg | Telephone:0568425665111 | Newsletter:0 | Date Added:2023-11-24 16:58:00
+24/11/2023 23:19:46 : Customer ID:20 | First Name:Testercho | Last Name:Georgiev | Email:testercho@test.test | Telephone:0887446682 | Newsletter:1 | Date Added:2023-11-24 23:19:46
+24/11/2023 23:19:46 : ____________________________________________________________________________
+24/11/2023 23:19:46 : Customer ID:1 | First Name:test | Last Name:test | Email:test@test.test | Telephone:123123123 | Newsletter:1 | Date Added:2023-11-21 22:05:59
+24/11/2023 23:19:46 : Customer ID:2 | First Name:Georgi | Last Name:Petrov | Email:petrov@test.test | Telephone:0883225512 | Newsletter:0 | Date Added:2023-11-24 15:13:50
+24/11/2023 23:19:46 : Customer ID:3 | First Name:Gergana | Last Name:Dimitrova | Email:gergana@test.test | Telephone:0887334457 | Newsletter:1 | Date Added:2023-11-24 15:16:16
+24/11/2023 23:19:46 : Customer ID:4 | First Name:test123 | Last Name:test123 | Email:test123@abv.bg | Telephone:0568425665111 | Newsletter:0 | Date Added:2023-11-24 16:58:00
+24/11/2023 23:19:46 : ____________________________________________________________________________
+24/11/2023 23:21:22 : Customer ID:1 | First Name:test | Last Name:test | Email:test@test.test | Telephone:123123123 | Newsletter:1 | Date Added:2023-11-21 22:05:59
+24/11/2023 23:21:22 : Customer ID:2 | First Name:Georgi | Last Name:Petrov | Email:petrov@test.test | Telephone:0883225512 | Newsletter:0 | Date Added:2023-11-24 15:13:50
+24/11/2023 23:21:22 : Customer ID:3 | First Name:Gergana | Last Name:Dimitrova | Email:gergana@test.test | Telephone:0887334457 | Newsletter:1 | Date Added:2023-11-24 15:16:16
+24/11/2023 23:21:22 : Customer ID:4 | First Name:test123 | Last Name:test123 | Email:test123@abv.bg | Telephone:0568425665111 | Newsletter:0 | Date Added:2023-11-24 16:58:00
+24/11/2023 23:21:22 : ____________________________________________________________________________
+24/11/2023 23:21:22 : Created CustomerCustomer ID:21 | First Name:Testercho | Last Name:Georgiev | Email:testercho@test.test | Telephone:0887446682 | Newsletter:1 | Date Added:2023-11-24 23:21:22
+24/11/2023 23:21:22 : Customer ID:1 | First Name:test | Last Name:test | Email:test@test.test | Telephone:123123123 | Newsletter:1 | Date Added:2023-11-21 22:05:59
+24/11/2023 23:21:22 : Customer ID:2 | First Name:Georgi | Last Name:Petrov | Email:petrov@test.test | Telephone:0883225512 | Newsletter:0 | Date Added:2023-11-24 15:13:50
+24/11/2023 23:21:22 : Customer ID:3 | First Name:Gergana | Last Name:Dimitrova | Email:gergana@test.test | Telephone:0887334457 | Newsletter:1 | Date Added:2023-11-24 15:16:16
+24/11/2023 23:21:22 : Customer ID:4 | First Name:test123 | Last Name:test123 | Email:test123@abv.bg | Telephone:0568425665111 | Newsletter:0 | Date Added:2023-11-24 16:58:00
+24/11/2023 23:21:22 : Customer ID:21 | First Name:Testercho | Last Name:Georgiev | Email:testercho@test.test | Telephone:0887446682 | Newsletter:1 | Date Added:2023-11-24 23:21:22
+24/11/2023 23:21:22 : ____________________________________________________________________________
+24/11/2023 23:21:22 : Customer ID:1 | First Name:test | Last Name:test | Email:test@test.test | Telephone:123123123 | Newsletter:1 | Date Added:2023-11-21 22:05:59
+24/11/2023 23:21:22 : Customer ID:2 | First Name:Georgi | Last Name:Petrov | Email:petrov@test.test | Telephone:0883225512 | Newsletter:0 | Date Added:2023-11-24 15:13:50
+24/11/2023 23:21:22 : Customer ID:3 | First Name:Gergana | Last Name:Dimitrova | Email:gergana@test.test | Telephone:0887334457 | Newsletter:1 | Date Added:2023-11-24 15:16:16
+24/11/2023 23:21:22 : Customer ID:4 | First Name:test123 | Last Name:test123 | Email:test123@abv.bg | Telephone:0568425665111 | Newsletter:0 | Date Added:2023-11-24 16:58:00
+24/11/2023 23:21:22 : Customer ID:21 | First Name:Testercho | Last Name:Georgiev | Email:testercho@test.test | Telephone:0887446682 | Newsletter:1 | Date Added:2023-11-24 23:21:22
+24/11/2023 23:21:22 : ____________________________________________________________________________
+24/11/2023 23:21:22 : Customer ID:1 | First Name:test | Last Name:test | Email:test@test.test | Telephone:123123123 | Newsletter:1 | Date Added:2023-11-21 22:05:59
+24/11/2023 23:21:22 : Customer ID:2 | First Name:Georgi | Last Name:Petrov | Email:petrov@test.test | Telephone:0883225512 | Newsletter:0 | Date Added:2023-11-24 15:13:50
+24/11/2023 23:21:22 : Customer ID:3 | First Name:Gergana | Last Name:Dimitrova | Email:gergana@test.test | Telephone:0887334457 | Newsletter:1 | Date Added:2023-11-24 15:16:16
+24/11/2023 23:21:22 : Customer ID:4 | First Name:test123 | Last Name:test123 | Email:test123@abv.bg | Telephone:0568425665111 | Newsletter:0 | Date Added:2023-11-24 16:58:00
+24/11/2023 23:21:22 : ____________________________________________________________________________
+24/11/2023 23:22:24 : Customer ID:1 | First Name:test | Last Name:test | Email:test@test.test | Telephone:123123123 | Newsletter:1 | Date Added:2023-11-21 22:05:59
+24/11/2023 23:22:24 : Customer ID:2 | First Name:Georgi | Last Name:Petrov | Email:petrov@test.test | Telephone:0883225512 | Newsletter:0 | Date Added:2023-11-24 15:13:50
+24/11/2023 23:22:24 : Customer ID:3 | First Name:Gergana | Last Name:Dimitrova | Email:gergana@test.test | Telephone:0887334457 | Newsletter:1 | Date Added:2023-11-24 15:16:16
+24/11/2023 23:22:24 : Customer ID:4 | First Name:test123 | Last Name:test123 | Email:test123@abv.bg | Telephone:0568425665111 | Newsletter:0 | Date Added:2023-11-24 16:58:00
+24/11/2023 23:22:24 : ____________________________________________________________________________
+24/11/2023 23:22:24 : Customer ID:1 | First Name:test | Last Name:test | Email:test@test.test | Telephone:123123123 | Newsletter:1 | Date Added:2023-11-21 22:05:59
+24/11/2023 23:22:24 : Customer ID:2 | First Name:Georgi | Last Name:Petrov | Email:petrov@test.test | Telephone:0883225512 | Newsletter:0 | Date Added:2023-11-24 15:13:50
+24/11/2023 23:22:24 : Customer ID:3 | First Name:Gergana | Last Name:Dimitrova | Email:gergana@test.test | Telephone:0887334457 | Newsletter:1 | Date Added:2023-11-24 15:16:16
+24/11/2023 23:22:24 : Customer ID:4 | First Name:test123 | Last Name:test123 | Email:test123@abv.bg | Telephone:0568425665111 | Newsletter:0 | Date Added:2023-11-24 16:58:00
+24/11/2023 23:22:24 : Customer ID:22 | First Name:Testercho | Last Name:Georgiev | Email:testercho@test.test | Telephone:0887446682 | Newsletter:1 | Date Added:2023-11-24 23:22:24
+24/11/2023 23:22:24 : ____________________________________________________________________________
+24/11/2023 23:22:24 : Customer ID:1 | First Name:test | Last Name:test | Email:test@test.test | Telephone:123123123 | Newsletter:1 | Date Added:2023-11-21 22:05:59
+24/11/2023 23:22:24 : Customer ID:2 | First Name:Georgi | Last Name:Petrov | Email:petrov@test.test | Telephone:0883225512 | Newsletter:0 | Date Added:2023-11-24 15:13:50
+24/11/2023 23:22:24 : Customer ID:3 | First Name:Gergana | Last Name:Dimitrova | Email:gergana@test.test | Telephone:0887334457 | Newsletter:1 | Date Added:2023-11-24 15:16:16
+24/11/2023 23:22:24 : Customer ID:4 | First Name:test123 | Last Name:test123 | Email:test123@abv.bg | Telephone:0568425665111 | Newsletter:0 | Date Added:2023-11-24 16:58:00
+24/11/2023 23:22:24 : Customer ID:22 | First Name:Testercho | Last Name:Georgiev | Email:testercho@test.test | Telephone:0887446682 | Newsletter:1 | Date Added:2023-11-24 23:22:24
+24/11/2023 23:22:24 : ____________________________________________________________________________
+24/11/2023 23:22:24 : Customer ID:1 | First Name:test | Last Name:test | Email:test@test.test | Telephone:123123123 | Newsletter:1 | Date Added:2023-11-21 22:05:59
+24/11/2023 23:22:24 : Customer ID:2 | First Name:Georgi | Last Name:Petrov | Email:petrov@test.test | Telephone:0883225512 | Newsletter:0 | Date Added:2023-11-24 15:13:50
+24/11/2023 23:22:24 : Customer ID:3 | First Name:Gergana | Last Name:Dimitrova | Email:gergana@test.test | Telephone:0887334457 | Newsletter:1 | Date Added:2023-11-24 15:16:16
+24/11/2023 23:22:24 : Customer ID:4 | First Name:test123 | Last Name:test123 | Email:test123@abv.bg | Telephone:0568425665111 | Newsletter:0 | Date Added:2023-11-24 16:58:00
+24/11/2023 23:22:24 : ____________________________________________________________________________
+24/11/2023 23:23:30 : Customer ID:1 | First Name:test | Last Name:test | Email:test@test.test | Telephone:123123123 | Newsletter:1 | Date Added:2023-11-21 22:05:59
+24/11/2023 23:23:30 : Customer ID:2 | First Name:Georgi | Last Name:Petrov | Email:petrov@test.test | Telephone:0883225512 | Newsletter:0 | Date Added:2023-11-24 15:13:50
+24/11/2023 23:23:30 : Customer ID:3 | First Name:Gergana | Last Name:Dimitrova | Email:gergana@test.test | Telephone:0887334457 | Newsletter:1 | Date Added:2023-11-24 15:16:16
+24/11/2023 23:23:30 : Customer ID:4 | First Name:test123 | Last Name:test123 | Email:test123@abv.bg | Telephone:0568425665111 | Newsletter:0 | Date Added:2023-11-24 16:58:00
+24/11/2023 23:23:30 : ____________________________________________________________________________
+24/11/2023 23:23:30 : Customer ID:1 | First Name:test | Last Name:test | Email:test@test.test | Telephone:123123123 | Newsletter:1 | Date Added:2023-11-21 22:05:59
+24/11/2023 23:23:30 : Customer ID:2 | First Name:Georgi | Last Name:Petrov | Email:petrov@test.test | Telephone:0883225512 | Newsletter:0 | Date Added:2023-11-24 15:13:50
+24/11/2023 23:23:30 : Customer ID:3 | First Name:Gergana | Last Name:Dimitrova | Email:gergana@test.test | Telephone:0887334457 | Newsletter:1 | Date Added:2023-11-24 15:16:16
+24/11/2023 23:23:30 : Customer ID:4 | First Name:test123 | Last Name:test123 | Email:test123@abv.bg | Telephone:0568425665111 | Newsletter:0 | Date Added:2023-11-24 16:58:00
+24/11/2023 23:23:30 : Customer ID:23 | First Name:Testercho | Last Name:Georgiev | Email:testercho@test.test | Telephone:0887446682 | Newsletter:1 | Date Added:2023-11-24 23:23:30
+24/11/2023 23:23:30 : ____________________________________________________________________________
+24/11/2023 23:23:48 : Customer ID:1 | First Name:test | Last Name:test | Email:test@test.test | Telephone:123123123 | Newsletter:1 | Date Added:2023-11-21 22:05:59
+24/11/2023 23:23:48 : Customer ID:2 | First Name:Georgi | Last Name:Petrov | Email:petrov@test.test | Telephone:0883225512 | Newsletter:0 | Date Added:2023-11-24 15:13:50
+24/11/2023 23:23:48 : Customer ID:3 | First Name:Gergana | Last Name:Dimitrova | Email:gergana@test.test | Telephone:0887334457 | Newsletter:1 | Date Added:2023-11-24 15:16:16
+24/11/2023 23:23:48 : Customer ID:4 | First Name:test123 | Last Name:test123 | Email:test123@abv.bg | Telephone:000000 | Newsletter:0 | Date Added:2023-11-24 16:58:00
+24/11/2023 23:23:48 : Customer ID:23 | First Name:Testercho | Last Name:Georgiev | Email:testercho@test.test | Telephone:0887446682 | Newsletter:1 | Date Added:2023-11-24 23:23:30
+24/11/2023 23:23:48 : ____________________________________________________________________________
+24/11/2023 23:23:49 : Customer ID:1 | First Name:test | Last Name:test | Email:test@test.test | Telephone:123123123 | Newsletter:1 | Date Added:2023-11-21 22:05:59
+24/11/2023 23:23:49 : Customer ID:2 | First Name:Georgi | Last Name:Petrov | Email:petrov@test.test | Telephone:0883225512 | Newsletter:0 | Date Added:2023-11-24 15:13:50
+24/11/2023 23:23:49 : Customer ID:3 | First Name:Gergana | Last Name:Dimitrova | Email:gergana@test.test | Telephone:0887334457 | Newsletter:1 | Date Added:2023-11-24 15:16:16
+24/11/2023 23:23:49 : Customer ID:4 | First Name:test123 | Last Name:test123 | Email:test123@abv.bg | Telephone:000000 | Newsletter:0 | Date Added:2023-11-24 16:58:00
+24/11/2023 23:23:49 : Customer ID:24 | First Name:Testercho | Last Name:Georgiev | Email:testercho@test.test | Telephone:0887446682 | Newsletter:1 | Date Added:2023-11-24 23:23:49
+24/11/2023 23:23:49 : Customer ID:23 | First Name:Testercho | Last Name:Georgiev | Email:testercho@test.test | Telephone:0887446682 | Newsletter:1 | Date Added:2023-11-24 23:23:30
+24/11/2023 23:23:49 : ____________________________________________________________________________
+24/11/2023 23:23:49 : Customer ID:1 | First Name:test | Last Name:test | Email:test@test.test | Telephone:123123123 | Newsletter:1 | Date Added:2023-11-21 22:05:59
+24/11/2023 23:23:49 : Customer ID:2 | First Name:Georgi | Last Name:Petrov | Email:petrov@test.test | Telephone:0883225512 | Newsletter:0 | Date Added:2023-11-24 15:13:50
+24/11/2023 23:23:49 : Customer ID:3 | First Name:Gergana | Last Name:Dimitrova | Email:gergana@test.test | Telephone:0887334457 | Newsletter:1 | Date Added:2023-11-24 15:16:16
+24/11/2023 23:23:49 : Customer ID:4 | First Name:test123 | Last Name:test123 | Email:test123@abv.bg | Telephone:000000 | Newsletter:0 | Date Added:2023-11-24 16:58:00
+24/11/2023 23:23:49 : Customer ID:24 | First Name:Testercho | Last Name:Georgiev | Email:testercho@test.test | Telephone:0887446682 | Newsletter:1 | Date Added:2023-11-24 23:23:49
+24/11/2023 23:23:49 : Customer ID:23 | First Name:Testercho | Last Name:Georgiev | Email:testercho@test.test | Telephone:0887446682 | Newsletter:1 | Date Added:2023-11-24 23:23:30
+24/11/2023 23:23:49 : ____________________________________________________________________________
+24/11/2023 23:23:49 : Customer ID:1 | First Name:test | Last Name:test | Email:test@test.test | Telephone:123123123 | Newsletter:1 | Date Added:2023-11-21 22:05:59
+24/11/2023 23:23:49 : Customer ID:2 | First Name:Georgi | Last Name:Petrov | Email:petrov@test.test | Telephone:0883225512 | Newsletter:0 | Date Added:2023-11-24 15:13:50
+24/11/2023 23:23:49 : Customer ID:3 | First Name:Gergana | Last Name:Dimitrova | Email:gergana@test.test | Telephone:0887334457 | Newsletter:1 | Date Added:2023-11-24 15:16:16
+24/11/2023 23:23:49 : Customer ID:4 | First Name:test123 | Last Name:test123 | Email:test123@abv.bg | Telephone:000000 | Newsletter:0 | Date Added:2023-11-24 16:58:00
+24/11/2023 23:23:49 : ____________________________________________________________________________
+24/11/2023 23:27:10 : Customer ID:1 | First Name:test | Last Name:test | Email:test@test.test | Telephone:123123123 | Newsletter:1 | Date Added:2023-11-21 22:05:59
+24/11/2023 23:27:10 : Customer ID:2 | First Name:Georgi | Last Name:Petrov | Email:petrov@test.test | Telephone:0883225512 | Newsletter:0 | Date Added:2023-11-24 15:13:50
+24/11/2023 23:27:10 : Customer ID:3 | First Name:Gergana | Last Name:Dimitrova | Email:gergana@test.test | Telephone:0887334457 | Newsletter:1 | Date Added:2023-11-24 15:16:16
+24/11/2023 23:27:10 : Customer ID:4 | First Name:test123 | Last Name:test123 | Email:test123@abv.bg | Telephone:000000 | Newsletter:0 | Date Added:2023-11-24 16:58:00
+24/11/2023 23:27:10 : ____________________________________________________________________________
+24/11/2023 23:27:10 : Customer ID:1 | First Name:test | Last Name:test | Email:test@test.test | Telephone:123123123 | Newsletter:1 | Date Added:2023-11-21 22:05:59
+24/11/2023 23:27:10 : Customer ID:2 | First Name:Georgi | Last Name:Petrov | Email:petrov@test.test | Telephone:0883225512 | Newsletter:0 | Date Added:2023-11-24 15:13:50
+24/11/2023 23:27:10 : Customer ID:3 | First Name:Gergana | Last Name:Dimitrova | Email:gergana@test.test | Telephone:0887334457 | Newsletter:1 | Date Added:2023-11-24 15:16:16
+24/11/2023 23:27:10 : Customer ID:4 | First Name:test123 | Last Name:test123 | Email:test123@abv.bg | Telephone:000000 | Newsletter:0 | Date Added:2023-11-24 16:58:00
+24/11/2023 23:27:10 : Customer ID:25 | First Name:Testercho | Last Name:Georgiev | Email:testercho@test.test | Telephone:0887446682 | Newsletter:1 | Date Added:2023-11-24 23:27:11
+24/11/2023 23:27:10 : ____________________________________________________________________________
+24/11/2023 23:27:10 : Customer ID:1 | First Name:test | Last Name:test | Email:test@test.test | Telephone:123123123 | Newsletter:1 | Date Added:2023-11-21 22:05:59
+24/11/2023 23:27:10 : Customer ID:2 | First Name:Georgi | Last Name:Petrov | Email:petrov@test.test | Telephone:0883225512 | Newsletter:0 | Date Added:2023-11-24 15:13:50
+24/11/2023 23:27:10 : Customer ID:3 | First Name:Gergana | Last Name:Dimitrova | Email:gergana@test.test | Telephone:0887334457 | Newsletter:1 | Date Added:2023-11-24 15:16:16
+24/11/2023 23:27:10 : Customer ID:4 | First Name:test123 | Last Name:test123 | Email:test123@abv.bg | Telephone:111111 | Newsletter:0 | Date Added:2023-11-24 16:58:00
+24/11/2023 23:27:10 : Customer ID:25 | First Name:Testercho | Last Name:Georgiev | Email:testercho@test.test | Telephone:0887446682 | Newsletter:1 | Date Added:2023-11-24 23:27:11
+24/11/2023 23:27:10 : ____________________________________________________________________________
+24/11/2023 23:27:10 : Customer ID:1 | First Name:test | Last Name:test | Email:test@test.test | Telephone:123123123 | Newsletter:1 | Date Added:2023-11-21 22:05:59
+24/11/2023 23:27:10 : Customer ID:2 | First Name:Georgi | Last Name:Petrov | Email:petrov@test.test | Telephone:0883225512 | Newsletter:0 | Date Added:2023-11-24 15:13:50
+24/11/2023 23:27:10 : Customer ID:3 | First Name:Gergana | Last Name:Dimitrova | Email:gergana@test.test | Telephone:0887334457 | Newsletter:1 | Date Added:2023-11-24 15:16:16
+24/11/2023 23:27:10 : Customer ID:4 | First Name:test123 | Last Name:test123 | Email:test123@abv.bg | Telephone:111111 | Newsletter:0 | Date Added:2023-11-24 16:58:00
+24/11/2023 23:27:10 : ____________________________________________________________________________
