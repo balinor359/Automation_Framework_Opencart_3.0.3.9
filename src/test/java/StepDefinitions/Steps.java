@@ -30,14 +30,14 @@ public class Steps {
         dbCrud.createDbCustomer();
 
 //        dbCrud.readDbCustomers();
-        Assert.assertEquals(dbCrud.customersList.get(4).getLastname(), "Georgiev", "The lastname in DB is different!");
+        Assert.assertEquals(dbCrud.customersList.get(3).getLastname(), "Ivanov", "The lastname in DB is different!");
 
         // read customers from DB
         dbCrud.readDbCustomers();
 
 
         //update customer phone in DB
-        dbCrud.updateCustomerPhone(4,"111111");
+        dbCrud.updateCustomerPhone(3,"111111");
         // Assert for testing user phone in DB
 //        System.out.println("dbCrud.customersList.get(3) " + dbCrud.customersList.get(3));
 //        dbCrud.testCustomerPhone(dbCrud.customersList.get(3),"000000");
@@ -46,7 +46,7 @@ public class Steps {
 
 
         //delete customer from DB
-        dbCrud.deleteCustomer("testercho@test.test");
+        dbCrud.deleteCustomer("ivanov@test.test");
         dbCrud.readDbCustomers();
 
         // Clear Customers list //todo Да се изместят накрая в TestUtilities при затваряне на драйвъра
