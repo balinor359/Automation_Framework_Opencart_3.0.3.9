@@ -1,10 +1,9 @@
 package test.opencart.objects;
 
-import test.opencart.utilities.DbCrud;
-
+/* This class create Customer Object with all constructors , getters and setters */
 public class Customer {
 
-
+    /* Initialise variables for Customer */
     private int customer_id = 0;
     private String firstname = null;
     private String lastname = null;
@@ -13,11 +12,9 @@ public class Customer {
     private int newsletter = 0;
     private String date_added = null;
 
-    public Customer(){
+    public Customer() {
 
     }
-
-
 
     public Customer(int customer_id, String firstname, String lastname, String email, String phone, int newsletter, String date_added) {
         this.customer_id = customer_id;
@@ -76,6 +73,7 @@ public class Customer {
     public void setNewsletter(int newsletter) {
         this.newsletter = newsletter;
     }
+
     public String getDate_added() {
         return date_added;
     }
