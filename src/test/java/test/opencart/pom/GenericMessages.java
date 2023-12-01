@@ -3,8 +3,17 @@ package test.opencart.pom;
 public class GenericMessages {
 
     /*----------------------------------      Generic Messages      ---------------------------------*/
+
+    public static final String DIFFERENT_PAGE_HEADING = "The page heading is different!";
+    public static final String TEST_PASSED_SUCCESSFULLY = "The test pass successfully!";
+
+
+
+
+
     public static final String MISSING_ELEMENT_MESSAGE = "Element ( %s ) is missing!";
     public static final String HOME_PAGE_URL = "https://www.saucedemo.com/inventory.html";
+
     public static final String DIFFERENT_MESSAGE = "The message is different!";
     public static final String PRODUCTS_NAME_MISSING_MESSAGE = "Product name is not displayed!";
     public static final String PRODUCT_PRICE_MISSING_MESSAGE = "Product price is not displayed!";

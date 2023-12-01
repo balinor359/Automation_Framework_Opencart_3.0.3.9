@@ -30,6 +30,7 @@ public class TestUtilities {
 
     @BeforeMethod
     public void setUp() {
+
         /* Print messages into console and log file */
         MyFileWriter.writeToLog("Test Start!");
         System.out.println("Test Start!");
@@ -39,6 +40,9 @@ public class TestUtilities {
 
         /* Create the driver, depending on chosen browser in config.properties */
         setupBrowserDriver();
+
+        /* Driver maximize the browser window */
+        driver.manage().window().maximize();
     }
 
     @AfterMethod

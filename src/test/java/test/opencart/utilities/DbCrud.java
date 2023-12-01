@@ -19,6 +19,9 @@ public class DbCrud extends DbConnector {
     public ArrayList<Customer> customersList = new ArrayList<>();
     private int customer_id = 0;
 
+    public void prepareCreateDbCustomerStatement() {
+
+    }
     /* Create new customer to the oc_customer table */
     public void createDbCustomer() {
 
