@@ -1,3 +1,4 @@
+@Registration
 Feature: Registration via registration page
   User wants to make a registration via registration page
 

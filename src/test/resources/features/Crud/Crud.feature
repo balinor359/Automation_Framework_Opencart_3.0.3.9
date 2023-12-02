@@ -1,3 +1,4 @@
+@Crud
 Feature: Test CRUD methods with JDBC on customer data in database
   Test database response with SQL manipulations.
 

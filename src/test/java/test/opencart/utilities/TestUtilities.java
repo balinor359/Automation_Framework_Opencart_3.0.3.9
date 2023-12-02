@@ -28,7 +28,6 @@ public class TestUtilities {
     private int implicitlyWait;
 
 
-    @BeforeMethod
     public void setUp() {
 
         /* Print messages into console and log file */
@@ -36,7 +35,7 @@ public class TestUtilities {
         System.out.println("Test Start!");
 
         /* Create userList */
-        UserBuilder.createUserList();
+//        UserBuilder.createUserList();
 
         /* Create the driver, depending on chosen browser in config.properties */
         setupBrowserDriver();
@@ -45,24 +44,23 @@ public class TestUtilities {
         driver.manage().window().maximize();
     }
 
-    @AfterMethod
+
     public void tearDown() {
         /* Clear saved list with products after each test */
         clearProductList();
 
         /* Clear saved list with users after each test */
-        clearUserList();
-
-        /* Close the driver*/
-        if (driver != null) {
-            driver.quit();
-        }
+//        clearUserList();
 
         /* Print messages into console and log file */
         MyFileWriter.writeToLog("Test End!" + "\n_________________________________________________________________________________________");
-        System.out.println("Test End!");
-        System.out.println("_________________________________________________________________________________________");
+        System.out.println("Test End!" + "\n_________________________________________________________________________________________");
 
+        /* Close the driver*/
+        if (driver != null) {
+            driver.close();
+            driver.quit();
+        }
     }
 
     /* This is driver creating method who use provided data from config.properties*/
@@ -105,7 +103,7 @@ public class TestUtilities {
     /* Create Chrome Driver */
     private void createChromeDriver(String url, int implicitlyWait) {
         /* Set property from local web-driver folder  */
-        System.setProperty("webdriver.chrome.driver", "saucedemo-webdrivers\\chromedriver\\chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", "webdrivers\\chromedriver\\chromedriver.exe");
         WebDriverManager.chromedriver().setup();
         /* Create new driver */
         usedBrowser = "chrome";
@@ -130,7 +128,7 @@ public class TestUtilities {
     /* Create Firefox Driver */
     private void createFirefoxDriver(String url, int implicitlyWait) {
         /* Set property from local web-driver folder  */
-        System.setProperty("webdriver.gecko.driver", "saucedemo-webdrivers\\geckodriver\\geckodriver.exe");
+        System.setProperty("webdriver.gecko.driver", "webdrivers\\geckodriver\\geckodriver.exe");
         WebDriverManager.firefoxdriver().setup();
         /* Create new driver */
         usedBrowser = "firefox";
@@ -155,7 +153,7 @@ public class TestUtilities {
     /* Create Edge Driver */
     private void createEdgeDriver(String url, int implicitlyWait) {
         /* Set property from local web-driver folder  */
-        System.setProperty("webdriver.edge.driver", "saucedemo-webdrivers\\edgedriver\\msedgedriver.exe");
+        System.setProperty("webdriver.edge.driver", "webdrivers\\edgedriver\\msedgedriver.exe");
         WebDriverManager.edgedriver().setup();
         /* Create new driver */
         usedBrowser = "edge";
@@ -208,9 +206,9 @@ public class TestUtilities {
     public void clearProductList() {
         Product.productList.clear();
     }
-    /* This method clear user list data */
-    public void clearUserList() {
-        UserBuilder.fullUsersList.clear();
-    }
+//    /* This method clear user list data */
+//    public void clearUserList() {
+//        UserBuilder.fullUsersList.clear();
+//    }
 
 }

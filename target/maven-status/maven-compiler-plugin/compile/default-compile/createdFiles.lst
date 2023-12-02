@@ -1,6 +1,6 @@
 test\opencart\objects\Product.class
-test\opencart\utilities\UserBuilder.class
-test\opencart\utilities\CsvHelper.class
 test\opencart\objects\TestUser.class
 test\opencart\utilities\DbConnector.class
 test\opencart\utilities\MyFileWriter.class
+test\opencart\utilities\UserBuilder.class
+test\opencart\utilities\CsvHelper.class

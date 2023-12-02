@@ -1,3 +1,4 @@
+@SearchByKeyword
 Feature: User search products by keyword
   User wants to use search bar in header to see all products with keyword "iPod"
 

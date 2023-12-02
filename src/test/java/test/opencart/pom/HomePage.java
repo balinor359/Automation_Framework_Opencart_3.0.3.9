@@ -147,7 +147,7 @@ public class HomePage extends TestUtilities {
 
     public HomePage clickOnHomepageLink() {
         homepageLink.click();
-        /* Pass the driver to CheckoutInfoPage (POM) */
+        /* Return driver to HomePage (POM) */
         return new HomePage(driver);
     }
 

@@ -23,7 +23,10 @@ public class RegistrationPage extends TestUtilities {
     private static final String ADD_TO_CART_LOCATOR = "//button[@id='add-to-cart-%s']";
     private static final String REMOVE_FROM_CART_LOCATOR = "//button[@id='remove-%s']";
     public static final String REGISTER_PAGE_HEADING = "Register Account";
+    public static final String REGISTRATION_FAILED_MESSAGE = "Registration failed!";
     private static final String REGISTER_PAGE_URL = "https://opencart-test.test/index.php?route=account/register";
+    private static final String REGISTER_SUCCESS_PAGE_URL = "https://opencart-test.test/index.php?route=account/success";
+
     private static final Object RETURN_NULL_OBJECT = null;
     private static String errorMessage = "";
 
@@ -120,29 +123,56 @@ public class RegistrationPage extends TestUtilities {
     /* Click method for "Continue" button */
     public RegistrationSuccessPage clickOnContinueButton() {
 
-        waitClickable(driver, registerBtnContinue, 5);
-        registerBtnContinue.click();
+        try {
+            waitClickable(driver, registerBtnContinue, 5);
+            registerBtnContinue.click();
 
-            /* Check if current page is domain( registration page ) and print messages in console and log file */
+            /* Check if the current page is the registration page */
             if (driver.getCurrentUrl().equals(REGISTER_PAGE_URL)) {
 
-                System.out.println("Error text: " + returnErrorText());
-                MyFileWriter.writeToLog("Error text: " + returnErrorText());
+                // Throw a runtime exception, log the error and stop the test
 
-                return (RegistrationSuccessPage) RETURN_NULL_OBJECT;
+                System.out.println("Registration failed. Error: " + returnErrorText());
+                MyFileWriter.writeToLog("Registration failed. Error: " + returnErrorText());
+
+                Assert.assertEquals(driver.getCurrentUrl(), REGISTER_SUCCESS_PAGE_URL, REGISTRATION_FAILED_MESSAGE + " Error: " + returnErrorText());
+
+                throw new RuntimeException("Registration failed. Error: " + returnErrorText());
             } else {
                 return new RegistrationSuccessPage(driver);
             }
+        } catch (NullPointerException e) {
+            // Log and console print the exception
+            System.err.println("NullPointerException: " + e.getMessage());
+            MyFileWriter.writeToLog("NullPointerException: " + e.getMessage());
 
-        /* Return null driver if haven`t found the product */
-
-
-
-//        if (errorText.isDisplayed()) {
-//            System.out.println("Error text: " + returnErrorText());
-//            MyFileWriter.writeToLog("Error text: " + returnErrorText());
-//        }
-
+            // Throw a runtime exception or log the error and stop the test
+            throw new RuntimeException("Registration failed due to a NullPointerException.", e);
+        }
+//        waitClickable(driver, registerBtnContinue, 5);
+//        registerBtnContinue.click();
+//
+//            /* Check if current page is domain( registration page ) and print messages in console and log file */
+//            if (driver.getCurrentUrl().equals(REGISTER_PAGE_URL)) {
+//
+//                System.out.println("Error text: " + returnErrorText());
+//                MyFileWriter.writeToLog("Error text: " + returnErrorText());
+//
+//
+//                return (RegistrationSuccessPage) RETURN_NULL_OBJECT;
+//            } else {
+//                return new RegistrationSuccessPage(driver);
+//            }
+//
+//        /* Return null driver if haven`t found the product */
+//
+//
+//
+////        if (errorText.isDisplayed()) {
+////            System.out.println("Error text: " + returnErrorText());
+////            MyFileWriter.writeToLog("Error text: " + returnErrorText());
+////        }
+//
 
 
     }
