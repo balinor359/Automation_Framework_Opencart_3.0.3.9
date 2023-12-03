@@ -4278,3 +4278,258 @@ ________________________________________________________________________________
 02/12/2023 19:35:59 : Inside Step - the user should be redirected to search result page and see all products containing provided keyword.
 02/12/2023 19:35:59 : Test End!
 _________________________________________________________________________________________
+03/12/2023 13:19:36 : Test Start!
+03/12/2023 13:19:39 : Inside Step - the user is on home page
+03/12/2023 13:19:39 : Inside Step - the user enter keyword iPod in header search bar
+03/12/2023 13:19:39 : Inside Step - click on search button
+03/12/2023 13:19:40 : Inside Step - the user should be redirected to search result page and see all products containing provided keyword.
+03/12/2023 13:19:40 : Test End!
+_________________________________________________________________________________________
+03/12/2023 13:25:15 : Test Start!
+03/12/2023 13:25:17 : Inside Step - the user is on home page
+03/12/2023 13:25:17 : Inside Step - the user enter keyword iPod in header search bar
+03/12/2023 13:25:17 : Inside Step - click on search button
+03/12/2023 13:25:18 : Inside Step - the user should be redirected to search result page and see all products containing provided keyword.
+03/12/2023 13:25:18 : Test End!
+_________________________________________________________________________________________
+03/12/2023 13:32:37 : Test Start!
+03/12/2023 13:32:41 : Inside Step - the user is on home page
+03/12/2023 13:32:41 : Inside Step - the user enter keyword iPod in header search bar
+03/12/2023 13:32:41 : Inside Step - click on search button
+03/12/2023 13:32:42 : Inside Step - the user should be redirected to search result page and see all products containing provided keyword.
+03/12/2023 13:32:42 : Test End!
+_________________________________________________________________________________________
+03/12/2023 13:32:57 : Test Start!
+03/12/2023 13:32:59 : Inside Step - the user is on home page
+03/12/2023 13:32:59 : Inside Step - the user enter keyword iPod in header search bar
+03/12/2023 13:33:00 : Inside Step - click on search button
+03/12/2023 13:33:00 : Inside Step - the user should be redirected to search result page and see all products containing provided keyword.
+03/12/2023 13:33:00 : Test End!
+_________________________________________________________________________________________
+03/12/2023 13:35:18 : Test Start!
+03/12/2023 13:35:21 : Inside Step - the user is on home page
+03/12/2023 13:35:21 : Inside Step - the user enter keyword iPod in header search bar
+03/12/2023 13:35:21 : Inside Step - click on search button
+03/12/2023 13:35:21 : Inside Step - the user should be redirected to search result page and see all products containing provided keyword.
+03/12/2023 13:35:21 : Test End!
+_________________________________________________________________________________________
+03/12/2023 17:08:15 : Test Start!
+03/12/2023 17:08:19 : Inside Step - the user is on home page
+03/12/2023 17:08:19 : Inside Step - the user enter keyword iPod in header search bar
+03/12/2023 17:08:19 : Inside Step - click on search button
+03/12/2023 17:08:19 : Inside Step - the user should be redirected to search result page and see all products containing provided keyword.
+03/12/2023 17:08:19 : Test End!
+_________________________________________________________________________________________
+03/12/2023 17:08:52 : Test Start!
+03/12/2023 17:08:55 : Inside Step - the user is on home page
+03/12/2023 17:08:55 : Inside Step - the user enter keyword iPod in header search bar
+03/12/2023 17:08:55 : Inside Step - click on search button
+03/12/2023 17:08:55 : Inside Step - the user should be redirected to search result page and see all products containing provided keyword.
+03/12/2023 17:09:00 : Test End!
+_________________________________________________________________________________________
+03/12/2023 17:10:16 : Test Start!
+03/12/2023 17:10:18 : Inside Step - the user is on home page
+03/12/2023 17:10:18 : Inside Step - the user enter keyword iPod in header search bar
+03/12/2023 17:10:18 : Inside Step - click on search button
+03/12/2023 17:10:18 : Inside Step - the user should be redirected to search result page and see all products containing provided keyword.
+03/12/2023 17:10:29 : Test End!
+_________________________________________________________________________________________
+03/12/2023 17:17:37 : Test Start!
+03/12/2023 17:17:39 : Inside Step - the user is on home page
+03/12/2023 17:17:40 : Inside Step - the user enter keyword iPod in header search bar
+03/12/2023 17:17:40 : Inside Step - click on search button
+03/12/2023 17:17:40 : Inside Step - the user should be redirected to search result page and see all products containing provided keyword.
+03/12/2023 17:17:50 : Test End!
+_________________________________________________________________________________________
+03/12/2023 17:18:08 : Test Start!
+03/12/2023 17:18:10 : Inside Step - the user is on home page
+03/12/2023 17:18:10 : Inside Step - the user enter keyword iPod in header search bar
+03/12/2023 17:18:10 : Inside Step - click on search button
+03/12/2023 17:18:10 : Inside Step - the user should be redirected to search result page and see all products containing provided keyword.
+03/12/2023 17:18:21 : Test End!
+_________________________________________________________________________________________
+03/12/2023 17:20:28 : Test Start!
+03/12/2023 17:20:30 : Inside Step - the user is on home page
+03/12/2023 17:20:30 : Inside Step - the user enter keyword iPod in header search bar
+03/12/2023 17:20:30 : Inside Step - click on search button
+03/12/2023 17:20:30 : Inside Step - the user should be redirected to search result page and see all products containing provided keyword.
+03/12/2023 17:20:40 : Test End!
+_________________________________________________________________________________________
+03/12/2023 17:22:37 : Test Start!
+03/12/2023 17:22:39 : Inside Step - the user is on home page
+03/12/2023 17:22:39 : Inside Step - the user enter keyword iPod in header search bar
+03/12/2023 17:22:39 : Inside Step - click on search button
+03/12/2023 17:22:40 : Inside Step - the user should be redirected to search result page and see all products containing provided keyword.
+03/12/2023 17:22:50 : Test End!
+_________________________________________________________________________________________
+03/12/2023 17:24:04 : Test Start!
+03/12/2023 17:24:06 : Inside Step - the user is on home page
+03/12/2023 17:24:06 : Inside Step - the user enter keyword iPod in header search bar
+03/12/2023 17:24:07 : Inside Step - click on search button
+03/12/2023 17:24:07 : Inside Step - the user should be redirected to search result page and see all products containing provided keyword.
+03/12/2023 17:24:17 : Test End!
+_________________________________________________________________________________________
+03/12/2023 17:25:39 : Test Start!
+03/12/2023 17:25:42 : Inside Step - the user is on home page
+03/12/2023 17:25:42 : Inside Step - the user enter keyword iPod in header search bar
+03/12/2023 17:25:42 : Inside Step - click on search button
+03/12/2023 17:25:42 : Inside Step - the user should be redirected to search result page and see all products containing provided keyword.
+03/12/2023 17:25:52 : Test End!
+_________________________________________________________________________________________
+03/12/2023 17:29:21 : Test Start!
+03/12/2023 17:29:23 : Inside Step - the user is on home page
+03/12/2023 17:29:23 : Inside Step - the user enter keyword iPod in header search bar
+03/12/2023 17:29:24 : Inside Step - click on search button
+03/12/2023 17:29:24 : Test End!
+_________________________________________________________________________________________
+03/12/2023 17:30:30 : Test Start!
+03/12/2023 17:30:32 : Inside Step - the user is on home page
+03/12/2023 17:30:32 : Inside Step - the user enter keyword iPod in header search bar
+03/12/2023 17:30:32 : Inside Step - click on search button
+03/12/2023 17:30:33 : Inside Step - the user should be redirected to search result page and see all products containing provided keyword.
+03/12/2023 17:30:33 : Test End!
+_________________________________________________________________________________________
+03/12/2023 17:33:49 : Test Start!
+03/12/2023 17:33:52 : Inside Step - the user is on home page
+03/12/2023 17:33:52 : Inside Step - the user enter keyword iPod in header search bar
+03/12/2023 17:33:52 : Inside Step - click on search button
+03/12/2023 17:33:52 : Inside Step - the user should be redirected to search result page and see all products containing provided keyword.
+03/12/2023 17:33:53 : Test End!
+_________________________________________________________________________________________
+03/12/2023 17:38:13 : Test Start!
+03/12/2023 17:38:15 : Inside Step - the user is on home page
+03/12/2023 17:38:16 : Inside Step - the user enter keyword iPod in header search bar
+03/12/2023 17:38:16 : Inside Step - click on search button
+03/12/2023 17:38:16 : Inside Step - the user should be redirected to search result page and see all products containing provided keyword.
+03/12/2023 17:38:17 : Test End!
+_________________________________________________________________________________________
+03/12/2023 17:38:50 : Test Start!
+03/12/2023 17:38:52 : Inside Step - the user is on home page
+03/12/2023 17:38:52 : Inside Step - the user enter keyword iPod in header search bar
+03/12/2023 17:38:52 : Inside Step - click on search button
+03/12/2023 17:38:52 : Inside Step - the user should be redirected to search result page and see all products containing provided keyword.
+03/12/2023 17:38:53 : Test End!
+_________________________________________________________________________________________
+03/12/2023 18:40:07 : Test Start!
+03/12/2023 18:40:10 : Inside Step - the user is on home page
+03/12/2023 18:40:10 : Inside Step - the user enter keyword iPod in header search bar
+03/12/2023 18:40:10 : Inside Step - click on search button
+03/12/2023 18:40:11 : Inside Step - the user should be redirected to search result page and see all products containing provided keyword.
+03/12/2023 18:40:11 : Test End!
+_________________________________________________________________________________________
+03/12/2023 18:52:00 : Test Start!
+03/12/2023 18:52:03 : Inside Step - the user is on home page
+03/12/2023 18:52:03 : Inside Step - the user enter keyword iPod in header search bar
+03/12/2023 18:52:03 : Inside Step - click on search button
+03/12/2023 18:52:03 : Inside Step - the user should be redirected to search result page and see all products containing provided keyword.
+03/12/2023 18:52:03 : Test End!
+_________________________________________________________________________________________
+03/12/2023 18:52:34 : Test Start!
+03/12/2023 18:52:36 : Inside Step - the user is on home page
+03/12/2023 18:52:36 : Inside Step - the user enter keyword iPod in header search bar
+03/12/2023 18:52:36 : Inside Step - click on search button
+03/12/2023 18:52:37 : Inside Step - the user should be redirected to search result page and see all products containing provided keyword.
+03/12/2023 18:52:37 : Test End!
+_________________________________________________________________________________________
+03/12/2023 18:53:02 : Test Start!
+03/12/2023 18:53:04 : Inside Step - the user is on home page
+03/12/2023 18:53:04 : Inside Step - the user enter keyword iPod in header search bar
+03/12/2023 18:53:04 : Inside Step - click on search button
+03/12/2023 18:53:04 : Inside Step - the user should be redirected to search result page and see all products containing provided keyword.
+03/12/2023 18:53:05 : Test End!
+_________________________________________________________________________________________
+03/12/2023 19:00:44 : Test Start!
+03/12/2023 19:00:46 : Inside Step - the user is on home page
+03/12/2023 19:00:46 : Inside Step - the user enter keyword Mac in header search bar
+03/12/2023 19:00:46 : Inside Step - click on search button
+03/12/2023 19:00:47 : Inside Step - the user should be redirected to search result page and see all products containing provided keyword.
+03/12/2023 19:00:47 : Test End!
+_________________________________________________________________________________________
+03/12/2023 19:03:52 : Test Start!
+03/12/2023 19:03:54 : Inside Step - the user is on home page
+03/12/2023 19:03:54 : Inside Step - the user enter keyword Mac in header search bar
+03/12/2023 19:03:55 : Inside Step - click on search button
+03/12/2023 19:03:55 : Inside Step - the user should be redirected to search result page and see all products containing provided keyword.
+03/12/2023 19:03:55 : Product name: iMac 
+
+03/12/2023 19:03:55 : Product name: MacBook 
+
+03/12/2023 19:03:55 : Product name: MacBook Air 
+
+03/12/2023 19:03:55 : Product name: MacBook Pro 
+
+03/12/2023 19:03:55 : Test End!
+_________________________________________________________________________________________
+03/12/2023 19:04:33 : Test Start!
+03/12/2023 19:04:36 : Inside Step - the user is on home page
+03/12/2023 19:04:36 : Inside Step - the user enter keyword iPod in header search bar
+03/12/2023 19:04:36 : Inside Step - click on search button
+03/12/2023 19:04:36 : Inside Step - the user should be redirected to search result page and see all products containing provided keyword.
+03/12/2023 19:04:37 : Product name: iPod Classic
+03/12/2023 19:04:37 : Product name: iPod Nano
+03/12/2023 19:04:37 : Product name: iPod Shuffle
+03/12/2023 19:04:37 : Product name: iPod Touch
+03/12/2023 19:04:37 : Test End!
+_________________________________________________________________________________________
+03/12/2023 19:05:44 : Test Start!
+03/12/2023 19:05:46 : Inside Step - the user is on home page
+03/12/2023 19:05:46 : Inside Step - the user enter keyword iPod in header search bar
+03/12/2023 19:05:46 : Inside Step - click on search button
+03/12/2023 19:05:47 : Inside Step - the user should be redirected to search result page and see all products containing provided keyword.
+03/12/2023 19:05:47 : Search result - Product name: iPod Classic
+03/12/2023 19:05:47 : Search result - Product name: iPod Nano
+03/12/2023 19:05:47 : Search result - Product name: iPod Shuffle
+03/12/2023 19:05:47 : Search result - Product name: iPod Touch
+03/12/2023 19:05:47 : Test End!
+_________________________________________________________________________________________
+03/12/2023 19:19:20 : Test Start!
+03/12/2023 19:19:22 : Inside Step - the user is on home page
+03/12/2023 19:19:22 : Inside Step - the user enters registration page
+03/12/2023 19:19:23 : Inside Step - insert valid credentials
+03/12/2023 19:19:24 : Inside Step - click on Continue button
+03/12/2023 19:19:24 : Registration failed. Error: Warning: E-Mail Address is already registered!
+03/12/2023 19:19:24 : Test End!
+_________________________________________________________________________________________
+03/12/2023 19:19:24 : Test Start!
+03/12/2023 19:19:26 : Inside Step - the user is on home page
+03/12/2023 19:19:26 : Inside Step - the user enter keyword iPod in header search bar
+03/12/2023 19:19:26 : Inside Step - click on search button
+03/12/2023 19:19:26 : Inside Step - the user should be redirected to search result page and see all products containing provided keyword.
+03/12/2023 19:19:27 : Search result - Product name: iPod Classic
+03/12/2023 19:19:27 : Search result - Product name: iPod Nano
+03/12/2023 19:19:27 : Search result - Product name: iPod Shuffle
+03/12/2023 19:19:27 : Search result - Product name: iPod Touch
+03/12/2023 19:19:27 : Test End!
+_________________________________________________________________________________________
+03/12/2023 19:22:33 : Test Start!
+03/12/2023 19:22:35 : Inside Step - the user is on home page
+03/12/2023 19:22:35 : Test End!
+_________________________________________________________________________________________
+03/12/2023 19:25:27 : Test Start!
+03/12/2023 19:25:29 : Inside Step - the user is on home page
+03/12/2023 19:25:29 : Test End!
+_________________________________________________________________________________________
+03/12/2023 19:25:56 : Test Start!
+03/12/2023 19:25:58 : Inside Step - the user is on home page
+03/12/2023 19:25:58 : Test End!
+_________________________________________________________________________________________
+03/12/2023 19:29:51 : Test Start!
+03/12/2023 19:29:54 : Inside Step - the user is on home page
+03/12/2023 19:29:54 : Inside Step - the user navigate to contact page
+03/12/2023 19:29:54 : Inside Step - fill <Your Name> field as Ivan Ivanov
+03/12/2023 19:29:54 : Inside Step - fill <E-Mail Address> as ivanov@test.test
+03/12/2023 19:29:54 : Inside Step - fill <Enquiry> as This is the test message!
+03/12/2023 19:29:54 : Inside Step - click on <Submit> button
+03/12/2023 19:29:54 : Inside Step - the user should see Your enquiry has been successfully sent to the store owner! message.
+03/12/2023 19:29:54 : Test End!
+_________________________________________________________________________________________
+03/12/2023 19:30:43 : Test Start!
+03/12/2023 19:30:45 : Inside Step - the user is on home page
+03/12/2023 19:30:45 : Inside Step - the user navigate to contact page
+03/12/2023 19:30:45 : Inside Step - fill <Your Name> field as Ivan Ivanov
+03/12/2023 19:30:45 : Inside Step - fill <E-Mail Address> as ivanov@test.test
+03/12/2023 19:30:45 : Inside Step - fill <Enquiry> as This is the test message!
+03/12/2023 19:30:45 : Inside Step - click on <Submit> button
+03/12/2023 19:30:45 : Inside Step - the user should see "Your enquiry has been successfully sent to the store owner!" message.
+03/12/2023 19:30:45 : Test End!
+_________________________________________________________________________________________

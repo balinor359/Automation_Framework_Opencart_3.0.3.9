@@ -10,6 +10,7 @@ import test.opencart.utilities.MyFileWriter;
 import test.opencart.utilities.TestUtilities;
 
 public class RegistrationSuccessPage extends TestUtilities {
+
     /* Declaring web-driver in protected variable */
     protected WebDriver driver;
 
@@ -23,15 +24,19 @@ public class RegistrationSuccessPage extends TestUtilities {
     private WebElement continueButton;
     @FindBy(xpath = ".//a[@qa='homepage_link']")
     private WebElement homepageLink;
+
+    /* This is constructor for registration success page using PageFactory for web-elements */
     public RegistrationSuccessPage(WebDriver driver) {
         this.driver = driver;
         PageFactory.initElements(driver, this);
     }
+
+    /* This method validate heading and continue button on registration success page are visible */
     public void registrationSuccessPageValidator() {
         try {
             Assert.assertEquals(heading.getText(), SUCCESS_REGISTER_PAGE_HEADING, GenericMessages.DIFFERENT_PAGE_HEADING);
-            Assert.assertTrue(continueButton.isDisplayed(), "Continue button is missing");
-        } catch (NoSuchElementException e){
+            Assert.assertTrue(continueButton.isDisplayed(), GenericMessages.CONTINUE_BUTTON_MISSING_MESSAGE);
+        } catch (NoSuchElementException e) {
             System.out.println(String.format(GenericMessages.MISSING_ELEMENT_MESSAGE, heading));
             MyFileWriter.writeToLog(String.format(GenericMessages.MISSING_ELEMENT_MESSAGE, heading));
 
@@ -39,14 +44,11 @@ public class RegistrationSuccessPage extends TestUtilities {
         }
 
     }
-//    public HomePage clickOnHomepageLink() {
-//        homepageLink.click();
-//        /* Pass the driver to CheckoutInfoPage (POM) */
-//        return new HomePage(driver);
-//    }
+
+    /* Click method for "Continue" button */
     public AccountPage clickOnContinueButton() {
         continueButton.click();
-        /* Pass the driver to CheckoutInfoPage (POM) */
+        /* Pass the driver to AccountPage (POM) */
         return new AccountPage(driver);
     }
 }

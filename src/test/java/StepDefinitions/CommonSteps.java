@@ -11,10 +11,17 @@ import test.opencart.utilities.MyFileWriter;
 import test.opencart.utilities.TestUtilities;
 
 public class CommonSteps extends TestUtilities {
+
+    /* Declaring string variables for the current steps */
+    private static final int CUSTOMER_ID = 3;
+    private static final String CUSTOMER_PHONE_NUMBER = "0888888888";
+    private static final String CUSTOMER_EMAIL = "ivanov@test.test";
+
     @Before
     public void setUpBeforeTest() {
         setUp();
     }
+
     @After
     public void tearDownAfterTest() {
         tearDown();
@@ -80,7 +87,7 @@ public class CommonSteps extends TestUtilities {
         MyFileWriter.writeToLog("Inside Step - I send UPDATE HTTP request");
 
         DbCrud dbCrud = new DbCrud();
-        dbCrud.updateCustomerPhone(3, "0888888888");
+        dbCrud.updateCustomerPhone(CUSTOMER_ID, CUSTOMER_PHONE_NUMBER);
     }
 
     @When("I send DELETE HTTP request")
@@ -89,6 +96,6 @@ public class CommonSteps extends TestUtilities {
         MyFileWriter.writeToLog("Inside Step - I send DELETE HTTP request");
 
         DbCrud dbCrud = new DbCrud();
-        dbCrud.deleteCustomer("ivanov@test.test");
+        dbCrud.deleteCustomer(CUSTOMER_EMAIL);
     }
 }

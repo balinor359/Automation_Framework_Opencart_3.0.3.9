@@ -28,7 +28,7 @@ public class HomePage extends TestUtilities {
     private static final String HOME_PAGE_ERROR = "Home page loading Failed.";
     private static final String PRODUCTS_LIST_MISSING_MESSAGE = "Products list is not displayed!";
     private static final String MENU_BUTTON_MISSING_MESSAGE = "Menu button is not displayed!";
-    private static final String SHOPPING_CART_MISSING_MESSAGE = "Shopping cart is not displayed!";
+    //    private static final String SHOPPING_CART_MISSING_MESSAGE = "Shopping cart is not displayed!";
     private static final String TWITTER_LINK_URL = "https://twitter.com";
     private static final String FACEBOOK_LINK_URL = "https://www.facebook.com/saucelabs";
     private static final String LINKEDIN_LINK_URL = "https://www.linkedin.com";
@@ -53,8 +53,7 @@ public class HomePage extends TestUtilities {
     private static final String PRICES_DESC_ERROR_MESSAGE = "Prices are not sorted in descending order!";
     private static final String SORT_BY_PRICE_LOW_TO_HIGH_TEXT = "lohi";
     private static final String SORT_BY_PRICE_HIGH_TO_LOW_TEXT = "hilo";
-    public static ArrayList<Double> originalPriceList = new ArrayList<>();
-    public static ArrayList<Double> productsAfterLoad = new ArrayList<>();
+
 
     /* Declaring page elements */
     @FindBy(className = "shopping_cart_link")
@@ -96,7 +95,18 @@ public class HomePage extends TestUtilities {
     /* ____________________________________________________________________________ NEW CODE */
 
     /* Declaring string variables for the current page */
-    public static final String HOME_PAGE_HEADING = "This Opencart is for testing purposes only!";
+    private static final String HOME_PAGE_HEADING = "This Opencart is for testing purposes only!";
+    private static final String TOP_LINKS_CONTAINER_MISSING_MESSAGE = "Top links container is missing!";
+    private static final String LOGIN_LINK_MISSING_MESSAGE = "Login link is missing!";
+    private static final String REGISTER_LINK_MISSING_MESSAGE = "Register link is missing!";
+    private static final String WISHLIST_LINK_MISSING_MESSAGE = "Wishlist link is missing!";
+    private static final String SHOPPING_CART_MISSING_MESSAGE = "Shopping cart link is missing!";
+    private static final String CHECKOUT_LINK_MISSING_MESSAGE = "Checkout link is missing!";
+    private static final String SEARCH_BAR_INPUT_MISSING_MESSAGE = "Search bar input is missing!";
+    private static final String SEARCH_BAR_SUBMIT_BTN_MISSING_MESSAGE = "Search bar submit button is missing!";
+    public static String SEARCH_KEYWORD = "";
+    public static ArrayList<Double> originalPriceList = new ArrayList<>();
+    public static ArrayList<Double> productsAfterLoad = new ArrayList<>();
 
     /* Declaring page elements */
     @FindBy(xpath = "//li[@qa='my_account']//a")
@@ -117,6 +127,11 @@ public class HomePage extends TestUtilities {
     private WebElement homepageLink;
     @FindBy(xpath = "//div[@id='common-home']//h2")
     private WebElement heading;
+    @FindBy(xpath = ".//input[@qa='search-input']")
+    private WebElement searchInput;
+    @FindBy(xpath = ".//button[@qa='search-submit-btn']")
+    private WebElement searchSubmitBtn;
+
 
     /* This is constructor for home page using PageFactory for web-elements */
     public HomePage(WebDriver driver) {
@@ -124,18 +139,21 @@ public class HomePage extends TestUtilities {
         PageFactory.initElements(driver, this);
     }
 
+    /* This method validate homepage heading */
     public void homepageValidator() {
-        Assert.assertTrue(heading.isDisplayed(), "Homepage heading is missing");
+        Assert.assertTrue(heading.isDisplayed(), GenericMessages.PAGE_HEADING_MISSING_MESSAGE);
         Assert.assertEquals(heading.getText(), HOME_PAGE_HEADING, GenericMessages.DIFFERENT_PAGE_HEADING);
     }
+
+    /* This method validate top links in header are visible */
     public void topLinksValidator() {
-        Assert.assertTrue(headerLinksContainer.isDisplayed(), "Top links container is missing");
+        Assert.assertTrue(headerLinksContainer.isDisplayed(), TOP_LINKS_CONTAINER_MISSING_MESSAGE);
         headerAccountDropdownToggle.click();
-        Assert.assertTrue(headerLoginLink.isDisplayed(), "Login link is missing");
-        Assert.assertTrue(headerRegisterLink.isDisplayed(), "Register link is missing");
-        Assert.assertTrue(headerWishlistLink.isDisplayed(), "Wishlist link is missing");
-        Assert.assertTrue(headerShoppingCartLink.isDisplayed(), "Shopping cart link is missing");
-        Assert.assertTrue(headerCheckoutLink.isDisplayed(), "Checkout link is missing");
+        Assert.assertTrue(headerLoginLink.isDisplayed(), LOGIN_LINK_MISSING_MESSAGE);
+        Assert.assertTrue(headerRegisterLink.isDisplayed(), REGISTER_LINK_MISSING_MESSAGE);
+        Assert.assertTrue(headerWishlistLink.isDisplayed(), WISHLIST_LINK_MISSING_MESSAGE);
+        Assert.assertTrue(headerShoppingCartLink.isDisplayed(), SHOPPING_CART_MISSING_MESSAGE);
+        Assert.assertTrue(headerCheckoutLink.isDisplayed(), CHECKOUT_LINK_MISSING_MESSAGE);
     }
 
     /* Click method for "Register" link in header */
@@ -145,12 +163,37 @@ public class HomePage extends TestUtilities {
         return new RegistrationPage(driver);
     }
 
+    /* Click method for "Logo/homepage" link in header */
     public HomePage clickOnHomepageLink() {
         homepageLink.click();
         /* Return driver to HomePage (POM) */
         return new HomePage(driver);
     }
 
+    /* This method validate search bar is visible */
+    public void searchBarValidator() {
+        Assert.assertTrue(searchInput.isDisplayed(), SEARCH_BAR_INPUT_MISSING_MESSAGE);
+        Assert.assertTrue(searchSubmitBtn.isDisplayed(), SEARCH_BAR_SUBMIT_BTN_MISSING_MESSAGE);
+    }
+
+    /* This method place keyword into search bar input field */
+    public void searchBarInputKeyword(String keyword) {
+        /* Add keyword to public variable */
+        SEARCH_KEYWORD = keyword;
+
+        /* Clear, click and input data into the search field */
+        searchInput.clear();
+        searchInput.click();
+        searchInput.sendKeys(keyword);
+    }
+
+    /* Click method for search bar submit button in header */
+    public SearchResultPage searchBarSubmit() {
+        /* Clear, search bar submit button */
+        searchSubmitBtn.click();
+        /* Pass the driver to RegistrationPage (POM) */
+        return new SearchResultPage(driver);
+    }
 
     /* ____________________________________________________________________________ OLD CODE */
 

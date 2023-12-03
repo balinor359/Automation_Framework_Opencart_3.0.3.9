@@ -20,19 +20,14 @@ public class AccountPage extends TestUtilities {
     @FindBy(xpath = ".//a[@qa='homepage_link']")
     private WebElement homepageLink;
 
+    /* This is constructor for account page using PageFactory for web-elements */
     public AccountPage(WebDriver driver) {
         this.driver = driver;
         PageFactory.initElements(driver, this);
     }
+    /* This method validate account page container is visible */
     public void accountPageValidator() {
         Assert.assertTrue(accountPageContainer.isDisplayed(), ACCOUNT_PAGE_CONTAINER_MISSING);
-//        Assert.assertEquals(heading.getText(), SUCCESS_REGISTER_PAGE_HEADING, GenericMessages.DIFFERENT_PAGE_HEADING);
-//        Assert.assertTrue(continueButton.isDisplayed(), "Continue button is missing");
     }
-//    public HomePage clickOnHomepageLink() {
-//        homepageLink.click();
-//        /* Pass the driver to CheckoutInfoPage (POM) */
-//        return new HomePage(driver);
-//    }
 
 }

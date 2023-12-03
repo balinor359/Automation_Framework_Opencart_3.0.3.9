@@ -20,13 +20,19 @@ public class RegistrationPage extends TestUtilities {
     protected WebDriver driver;
 
     /* Declaring string variables for the current page */
-    private static final String ADD_TO_CART_LOCATOR = "//button[@id='add-to-cart-%s']";
-    private static final String REMOVE_FROM_CART_LOCATOR = "//button[@id='remove-%s']";
-    public static final String REGISTER_PAGE_HEADING = "Register Account";
-    public static final String REGISTRATION_FAILED_MESSAGE = "Registration failed!";
+    private static final String REGISTER_PAGE_HEADING = "Register Account";
+    private static final String REGISTRATION_FAILED_MESSAGE = "Registration failed!";
     private static final String REGISTER_PAGE_URL = "https://opencart-test.test/index.php?route=account/register";
     private static final String REGISTER_SUCCESS_PAGE_URL = "https://opencart-test.test/index.php?route=account/success";
-
+    private static final String REGISTRATION_FORM_MISSING_MESSAGE = "Registration form is missing!";
+    private static final String FIRST_NAME_INPUT_MISSING_MESSAGE = "First name input is missing!";
+    private static final String LAST_NAME_INPUT_MISSING_MESSAGE = "Last name input is missing!";
+    private static final String EMAIL_INPUT_MISSING_MESSAGE = "Email input is missing!";
+    private static final String TELEPHONE_INPUT_MISSING_MESSAGE = "Telephone number input is missing";
+    private static final String PASSWORD_INPUT_MISSING_MESSAGE = "Password input is missing!";
+    private static final String CONFIRM_PASSWORD_INPUT_MISSING_MESSAGE = "Confirm password input is missing!";
+    private static final String POLICY_CHECKBOX_MISSING_MESSAGE = "Privacy Policy checkbox is missing!";
+    private static final String CONTINUE_BUTTON_MISSING_MESSAGE = "Continue button is missing!";
     private static final Object RETURN_NULL_OBJECT = null;
     private static String errorMessage = "";
 
@@ -63,22 +69,28 @@ public class RegistrationPage extends TestUtilities {
         this.driver = driver;
         PageFactory.initElements(driver, this);
     }
+
     /* This method return errorMessage */
     public String returnErrorText() {
         return errorMessage = errorText.getText();
     }
+
+    /* This method validate registration page heading and form elements are visible */
     public void registrationPageValidator() {
+        Assert.assertTrue(heading.isDisplayed(), GenericMessages.PAGE_HEADING_MISSING_MESSAGE);
         Assert.assertEquals(heading.getText(), REGISTER_PAGE_HEADING, GenericMessages.DIFFERENT_PAGE_HEADING);
-        Assert.assertTrue(registrationForm.isDisplayed(), "Registration form is missing");
-        Assert.assertTrue(inputFirstname.isDisplayed(), "First name input is missing");
-        Assert.assertTrue(inputLastname.isDisplayed(), "Last name input is missing");
-        Assert.assertTrue(inputEmail.isDisplayed(), "Email input is missing");
-        Assert.assertTrue(inputTelephone.isDisplayed(), "Telephone number input is missing");
-        Assert.assertTrue(inputPassword.isDisplayed(), "Password input is missing");
-        Assert.assertTrue(inputConfirmPassword.isDisplayed(), "Confirm password input is missing");
-        Assert.assertTrue(agreePolicyCheckbox.isDisplayed(), "Privacy Policy checkbox is missing");
-        Assert.assertTrue(registerBtnContinue.isDisplayed(), "Continue button is missing");
+        Assert.assertTrue(registrationForm.isDisplayed(), REGISTRATION_FORM_MISSING_MESSAGE);
+        Assert.assertTrue(inputFirstname.isDisplayed(), FIRST_NAME_INPUT_MISSING_MESSAGE);
+        Assert.assertTrue(inputLastname.isDisplayed(), LAST_NAME_INPUT_MISSING_MESSAGE);
+        Assert.assertTrue(inputEmail.isDisplayed(), EMAIL_INPUT_MISSING_MESSAGE);
+        Assert.assertTrue(inputTelephone.isDisplayed(), TELEPHONE_INPUT_MISSING_MESSAGE);
+        Assert.assertTrue(inputPassword.isDisplayed(), PASSWORD_INPUT_MISSING_MESSAGE);
+        Assert.assertTrue(inputConfirmPassword.isDisplayed(), CONFIRM_PASSWORD_INPUT_MISSING_MESSAGE);
+        Assert.assertTrue(agreePolicyCheckbox.isDisplayed(), POLICY_CHECKBOX_MISSING_MESSAGE);
+        Assert.assertTrue(registerBtnContinue.isDisplayed(), GenericMessages.CONTINUE_BUTTON_MISSING_MESSAGE);
     }
+
+    /* This method fill registration form */
     public void fillRegistrationForm(String firstName, String lastName, String email, String telephone, String password) {
 
         /* Clear, click and input data into the field */
@@ -116,8 +128,6 @@ public class RegistrationPage extends TestUtilities {
 
         /* Agree with Privacy Policy */
         agreePolicyCheckbox.click();
-
-
     }
 
     /* Click method for "Continue" button */
@@ -130,8 +140,7 @@ public class RegistrationPage extends TestUtilities {
             /* Check if the current page is the registration page */
             if (driver.getCurrentUrl().equals(REGISTER_PAGE_URL)) {
 
-                // Throw a runtime exception, log the error and stop the test
-
+                /* Throw a runtime exception, log the error and stop the test */
                 System.out.println("Registration failed. Error: " + returnErrorText());
                 MyFileWriter.writeToLog("Registration failed. Error: " + returnErrorText());
 
@@ -142,76 +151,11 @@ public class RegistrationPage extends TestUtilities {
                 return new RegistrationSuccessPage(driver);
             }
         } catch (NullPointerException e) {
-            // Log and console print the exception
+            /* Throw a runtime exception, log and console print the exception */
             System.err.println("NullPointerException: " + e.getMessage());
             MyFileWriter.writeToLog("NullPointerException: " + e.getMessage());
 
-            // Throw a runtime exception or log the error and stop the test
             throw new RuntimeException("Registration failed due to a NullPointerException.", e);
         }
-//        waitClickable(driver, registerBtnContinue, 5);
-//        registerBtnContinue.click();
-//
-//            /* Check if current page is domain( registration page ) and print messages in console and log file */
-//            if (driver.getCurrentUrl().equals(REGISTER_PAGE_URL)) {
-//
-//                System.out.println("Error text: " + returnErrorText());
-//                MyFileWriter.writeToLog("Error text: " + returnErrorText());
-//
-//
-//                return (RegistrationSuccessPage) RETURN_NULL_OBJECT;
-//            } else {
-//                return new RegistrationSuccessPage(driver);
-//            }
-//
-//        /* Return null driver if haven`t found the product */
-//
-//
-//
-////        if (errorText.isDisplayed()) {
-////            System.out.println("Error text: " + returnErrorText());
-////            MyFileWriter.writeToLog("Error text: " + returnErrorText());
-////        }
-//
-
-
     }
-
-//    /* Login method who use username and password strings */
-//    public RegistrationPage login(String username, String password) {
-//
-//        /* Clear, click and input data into the field */
-//        userNameField.clear();
-//        userNameField.click();
-//        userNameField.sendKeys(username);
-//
-//        /* Validate the inserted data is the same with provided */
-//        Assert.assertEquals(username, this.userNameField.getAttribute("value"), LOGIN_WRONG_USERNAME_MESSAGE);
-//
-//        /* Clear, click and input data into the field */
-//        userPasswordField.clear();
-//        userPasswordField.click();
-//        userPasswordField.sendKeys(password);
-//
-//        /* Validate the inserted data is the same with provided */
-//        Assert.assertEquals(password, this.userPasswordField.getAttribute("value"), LOGIN_WRONG_PASSWORD_MESSAGE);
-//
-//        loginButton.click();
-//
-//        /* Check if current page is domain( login page ) and print messages in console and log file */
-//        if (driver.getCurrentUrl().equals(LOGIN_PAGE_URL)) {
-//            System.out.println(LOGIN_FAILED_MESSAGE);
-//            System.out.println("Error text: " + returnErrorText());
-//            MyFileWriter.writeToLog(LOGIN_FAILED_MESSAGE + " - " + returnErrorText());
-//
-//            Assert.assertEquals(driver.getCurrentUrl(), GenericMessages.HOME_PAGE_URL, LOGIN_FAILED_MESSAGE);
-//        } else {
-//            System.out.println(LOGIN_SUCCESSFUL_MESSAGE);
-//            MyFileWriter.writeToLog(LOGIN_SUCCESSFUL_MESSAGE);
-//
-//            Assert.assertEquals(driver.getCurrentUrl(), GenericMessages.HOME_PAGE_URL, LOGIN_FAILED_MESSAGE);
-//        }
-//        /* Pass the driver to HomePage (POM) */
-//        return new HomePage(driver);
-//    }
 }

@@ -27,9 +27,8 @@ public class TestUtilities {
     private String browser;
     private int implicitlyWait;
 
-
+    /* This is method initialise the web-driver */
     public void setUp() {
-
         /* Print messages into console and log file */
         MyFileWriter.writeToLog("Test Start!");
         System.out.println("Test Start!");
@@ -44,7 +43,7 @@ public class TestUtilities {
         driver.manage().window().maximize();
     }
 
-
+    /* This is method clear saved data and close the web-driver */
     public void tearDown() {
         /* Clear saved list with products after each test */
         clearProductList();
@@ -63,7 +62,7 @@ public class TestUtilities {
         }
     }
 
-    /* This is driver creating method who use provided data from config.properties*/
+    /* This is driver creating method who use provided data from config.properties */
     public void setupBrowserDriver() {
         try (FileInputStream configFile = new FileInputStream("src\\test\\resources\\config.properties")) {
             Properties config = new Properties();
