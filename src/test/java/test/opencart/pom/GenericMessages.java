@@ -6,7 +6,7 @@ public class GenericMessages {
 
     public static final String PAGE_HEADING_MISSING_MESSAGE = "The page heading is missing!";
     public static final String DIFFERENT_PAGE_HEADING = "The page heading is different!";
-    public static final String TEST_PASSED_SUCCESSFULLY = "The test pass successfully!";
+    public static final String SUBMIT_BUTTON_MISSING_MESSAGE = "Submit button is missing!";
     public static final String CONTINUE_BUTTON_MISSING_MESSAGE = "Continue button is missing!";
     public static final String KEYWORD_IN_PRODUCT_NAME = "The product name doesn't contain the given keyword!";
     public static final String MISSING_ELEMENT_MESSAGE = "Element ( %s ) is missing!";

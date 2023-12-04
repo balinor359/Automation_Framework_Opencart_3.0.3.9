@@ -18,9 +18,8 @@ public class Registration extends TestUtilities {
 
         HomePage homePage = new HomePage(TestUtilities.driver);
         homePage.topLinksValidator();
-        homePage.clickOnRegisterLink();
 
-        RegistrationPage registrationPage = new RegistrationPage(TestUtilities.driver);
+        RegistrationPage registrationPage = homePage.clickOnRegisterLink();
         registrationPage.registrationPageValidator();
 
     }

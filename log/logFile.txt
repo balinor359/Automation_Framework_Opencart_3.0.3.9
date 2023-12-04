@@ -4533,3 +4533,48 @@ ________________________________________________________________________________
 03/12/2023 19:30:45 : Inside Step - the user should see "Your enquiry has been successfully sent to the store owner!" message.
 03/12/2023 19:30:45 : Test End!
 _________________________________________________________________________________________
+04/12/2023 18:45:26 : Test Start!
+04/12/2023 18:45:32 : Inside Step - the user is on home page
+04/12/2023 18:45:32 : Inside Step - the user navigate to contact page
+04/12/2023 18:45:37 : Test End!
+_________________________________________________________________________________________
+04/12/2023 18:46:46 : Test Start!
+04/12/2023 18:46:48 : Inside Step - the user is on home page
+04/12/2023 18:46:48 : Inside Step - the user navigate to contact page
+04/12/2023 18:46:48 : Inside Step - fill <Your Name> field as Ivan Ivanov
+04/12/2023 18:46:48 : Inside Step - fill <E-Mail Address> as ivanov@test.test
+04/12/2023 18:46:48 : Inside Step - fill <Enquiry> as This is the test message!
+04/12/2023 18:46:48 : Inside Step - click on <Submit> button
+04/12/2023 18:46:48 : Inside Step - the user should see "Your enquiry has been successfully sent to the store owner!" message.
+04/12/2023 18:46:48 : Test End!
+_________________________________________________________________________________________
+04/12/2023 19:55:51 : Test Start!
+04/12/2023 19:55:54 : Inside Step - the user is on home page
+04/12/2023 19:55:54 : Inside Step - the user navigate to contact page
+04/12/2023 19:55:54 : Inside Step - fill <Your Name> field as Ivan Ivanov
+04/12/2023 19:55:54 : Inside Step - fill <E-Mail Address> as ivanov@test.test
+04/12/2023 19:55:55 : Inside Step - fill <Enquiry> as This is the test message!
+04/12/2023 19:55:55 : Inside Step - click on <Submit> button
+04/12/2023 19:55:55 : Inside Step - the user should see "Your enquiry has been successfully sent to the store owner!" message.
+04/12/2023 19:55:55 : Test End!
+_________________________________________________________________________________________
+04/12/2023 19:56:49 : Test Start!
+04/12/2023 19:56:51 : Inside Step - the user is on home page
+04/12/2023 19:56:51 : Inside Step - the user navigate to contact page
+04/12/2023 19:56:52 : Inside Step - fill <Your Name> field as Ivan Ivanov
+04/12/2023 19:56:52 : Inside Step - fill <E-Mail Address> as ivanov@test.test
+04/12/2023 19:56:52 : Inside Step - fill <Enquiry> as This is the test message!
+04/12/2023 19:56:52 : Inside Step - click on <Submit> button
+04/12/2023 19:56:52 : Inside Step - the user should see "Your enquiry has been successfully sent to the store owner!" message.
+04/12/2023 19:56:52 : Test End!
+_________________________________________________________________________________________
+04/12/2023 19:58:51 : Test Start!
+04/12/2023 19:58:53 : Inside Step - the user is on home page
+04/12/2023 19:58:53 : Inside Step - the user navigate to contact page
+04/12/2023 19:58:54 : Inside Step - fill <Your Name> field as Ivan Ivanov
+04/12/2023 19:58:54 : Inside Step - fill <E-Mail Address> as ivanov@test.test
+04/12/2023 19:58:54 : Inside Step - fill <Enquiry> as This is the test message!
+04/12/2023 19:58:54 : Inside Step - click on <Submit> button
+04/12/2023 19:58:55 : Inside Step - the user should see "Your enquiry has been successfully sent to the store owner!" message.
+04/12/2023 19:58:55 : Test End!
+_________________________________________________________________________________________

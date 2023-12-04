@@ -32,7 +32,6 @@ public class RegistrationPage extends TestUtilities {
     private static final String PASSWORD_INPUT_MISSING_MESSAGE = "Password input is missing!";
     private static final String CONFIRM_PASSWORD_INPUT_MISSING_MESSAGE = "Confirm password input is missing!";
     private static final String POLICY_CHECKBOX_MISSING_MESSAGE = "Privacy Policy checkbox is missing!";
-    private static final String CONTINUE_BUTTON_MISSING_MESSAGE = "Continue button is missing!";
     private static final Object RETURN_NULL_OBJECT = null;
     private static String errorMessage = "";
 

@@ -1,19 +1,13 @@
 package test.opencart.pom;
 
-import test.opencart.objects.Product;
 import org.openqa.selenium.*;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
-import org.openqa.selenium.support.ui.Select;
 import org.testng.Assert;
-import test.opencart.utilities.MyFileWriter;
 import test.opencart.utilities.TestUtilities;
-import org.openqa.selenium.support.Color;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
 
 public class HomePage extends TestUtilities {
 
@@ -131,7 +125,8 @@ public class HomePage extends TestUtilities {
     private WebElement searchInput;
     @FindBy(xpath = ".//button[@qa='search-submit-btn']")
     private WebElement searchSubmitBtn;
-
+    @FindBy(xpath = ".//a[@qa='footer-contact']")
+    private WebElement contactPageLink;
 
     /* This is constructor for home page using PageFactory for web-elements */
     public HomePage(WebDriver driver) {
@@ -195,6 +190,17 @@ public class HomePage extends TestUtilities {
         return new SearchResultPage(driver);
     }
 
+    /* This method validate footer contact page link is visible and have right text */
+    public void footerContactPageLinkValidator() {
+        Assert.assertTrue(searchInput.isDisplayed(), SEARCH_BAR_INPUT_MISSING_MESSAGE);
+        Assert.assertTrue(searchSubmitBtn.isDisplayed(), SEARCH_BAR_SUBMIT_BTN_MISSING_MESSAGE);
+    }
+    /* Click method for contact page link in footer */
+    public ContactPage clickOnFooterContactPageLink() {
+        contactPageLink.click();
+        /* Return driver to ContactPage (POM) */
+        return new ContactPage(driver);
+    }
     /* ____________________________________________________________________________ OLD CODE */
 
 //    /* Method who add product in the cart, by given productNameUrl, validates add-to-cart button, click it, then validate is remove button is shown */
