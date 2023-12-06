@@ -4578,3 +4578,245 @@ ________________________________________________________________________________
 04/12/2023 19:58:55 : Inside Step - the user should see "Your enquiry has been successfully sent to the store owner!" message.
 04/12/2023 19:58:55 : Test End!
 _________________________________________________________________________________________
+05/12/2023 15:36:09 : Test Start!
+05/12/2023 15:36:14 : Inside Step - the user is on home page
+05/12/2023 15:36:14 : Inside Step - the user navigate to contact page
+05/12/2023 15:36:14 : Inside Step - fill <Your Name> field as Ivan Ivanov
+05/12/2023 15:36:14 : Inside Step - fill <E-Mail Address> as ivanov@test.test
+05/12/2023 15:36:14 : Inside Step - fill <Enquiry> as This is the test message!
+05/12/2023 15:36:15 : Inside Step - click on <Submit> button
+05/12/2023 15:36:15 : Inside Step - the user should see "Your enquiry has been successfully sent to the store owner!" message.
+05/12/2023 15:36:15 : Test End!
+_________________________________________________________________________________________
+05/12/2023 15:36:33 : Test Start!
+05/12/2023 15:36:36 : Inside Step - the user is on home page
+05/12/2023 15:36:36 : Inside Step - the user navigate to contact page
+05/12/2023 15:36:36 : Test End!
+_________________________________________________________________________________________
+05/12/2023 15:37:17 : Test Start!
+05/12/2023 15:37:19 : Inside Step - the user is on home page
+05/12/2023 15:37:20 : Inside Step - the user navigate to contact page
+05/12/2023 15:37:20 : Inside Step - fill <Your Name> field as Ivan Ivanov
+05/12/2023 15:37:20 : Inside Step - fill <E-Mail Address> as ivanov@test.test
+05/12/2023 15:37:20 : Inside Step - fill <Enquiry> as This is the test message!
+05/12/2023 15:37:20 : Inside Step - click on <Submit> button
+05/12/2023 15:37:21 : Inside Step - the user should see "Your enquiry has been successfully sent to the store owner!" message.
+05/12/2023 15:37:21 : Test End!
+_________________________________________________________________________________________
+05/12/2023 17:38:55 : Test Start!
+05/12/2023 17:38:57 : Inside Step - the user is on home page
+05/12/2023 17:38:58 : Test End!
+_________________________________________________________________________________________
+05/12/2023 17:41:01 : Test Start!
+05/12/2023 17:41:03 : Inside Step - the user is on home page
+05/12/2023 17:41:03 : Test End!
+_________________________________________________________________________________________
+05/12/2023 17:50:51 : Test Start!
+05/12/2023 17:50:53 : Inside Step - the user is on home page
+05/12/2023 17:50:53 : Test End!
+_________________________________________________________________________________________
+05/12/2023 19:01:37 : Test Start!
+05/12/2023 19:01:40 : Inside Step - the user is on home page
+05/12/2023 19:01:40 : Inside Step - the user open in new browser tabs <About Us> link, <Delivery Information> link,<Privacy Policy> link, <Terms & Conditions> link
+05/12/2023 19:01:45 : Test End!
+_________________________________________________________________________________________
+05/12/2023 19:02:34 : Test Start!
+05/12/2023 19:02:36 : Inside Step - the user is on home page
+05/12/2023 19:02:37 : Inside Step - the user open in new browser tabs <About Us> link, <Delivery Information> link,<Privacy Policy> link, <Terms & Conditions> link
+05/12/2023 19:02:38 : Test End!
+_________________________________________________________________________________________
+05/12/2023 19:04:04 : Test Start!
+05/12/2023 19:04:06 : Inside Step - the user is on home page
+05/12/2023 19:04:06 : Inside Step - the user open in new browser tabs <About Us> link, <Delivery Information> link,<Privacy Policy> link, <Terms & Conditions> link
+05/12/2023 19:04:07 : Test End!
+_________________________________________________________________________________________
+05/12/2023 19:04:51 : Test Start!
+05/12/2023 19:04:53 : Inside Step - the user is on home page
+05/12/2023 19:04:53 : Inside Step - the user open in new browser tabs <About Us> link, <Delivery Information> link,<Privacy Policy> link, <Terms & Conditions> link
+05/12/2023 19:04:55 : Test End!
+_________________________________________________________________________________________
+05/12/2023 19:14:15 : Test Start!
+05/12/2023 19:14:17 : Inside Step - the user is on home page
+05/12/2023 19:14:18 : Inside Step - the user open in new browser tabs <About Us> link, <Delivery Information> link,<Privacy Policy> link, <Terms & Conditions> link
+05/12/2023 19:14:19 : Test End!
+_________________________________________________________________________________________
+05/12/2023 19:16:05 : Test Start!
+05/12/2023 19:16:07 : Inside Step - the user is on home page
+05/12/2023 19:16:07 : Inside Step - the user open in new browser tabs <About Us> link, <Delivery Information> link,<Privacy Policy> link, <Terms & Conditions> link
+05/12/2023 19:16:08 : Test End!
+_________________________________________________________________________________________
+05/12/2023 19:20:30 : Test Start!
+05/12/2023 19:20:32 : Inside Step - the user is on home page
+05/12/2023 19:20:32 : Inside Step - the user open in new browser tabs <About Us> link, <Delivery Information> link,<Privacy Policy> link, <Terms & Conditions> link
+05/12/2023 19:20:33 : Test End!
+_________________________________________________________________________________________
+05/12/2023 19:21:44 : Test Start!
+05/12/2023 19:21:46 : Inside Step - the user is on home page
+05/12/2023 19:21:46 : Inside Step - the user open in new browser tabs <About Us> link, <Delivery Information> link,<Privacy Policy> link, <Terms & Conditions> link
+05/12/2023 19:21:47 : Test End!
+_________________________________________________________________________________________
+05/12/2023 19:23:33 : Test Start!
+05/12/2023 19:23:35 : Inside Step - the user is on home page
+05/12/2023 19:23:35 : Inside Step - the user open in new browser tabs <About Us> link, <Delivery Information> link,<Privacy Policy> link, <Terms & Conditions> link
+05/12/2023 19:23:36 : Test End!
+_________________________________________________________________________________________
+05/12/2023 19:26:29 : Test Start!
+05/12/2023 19:26:31 : Inside Step - the user is on home page
+05/12/2023 19:26:31 : Inside Step - the user open in new browser tabs <About Us> link, <Delivery Information> link,<Privacy Policy> link, <Terms & Conditions> link
+05/12/2023 19:26:32 : Test End!
+_________________________________________________________________________________________
+05/12/2023 19:29:09 : Test Start!
+05/12/2023 19:29:11 : Inside Step - the user is on home page
+05/12/2023 19:29:11 : Inside Step - the user open in new browser tabs <About Us> link, <Delivery Information> link,<Privacy Policy> link, <Terms & Conditions> link
+05/12/2023 19:29:15 : Inside Step - the user should see correct pages related to the clicked links.
+05/12/2023 19:29:15 : Test End!
+_________________________________________________________________________________________
+05/12/2023 19:31:39 : Test Start!
+05/12/2023 19:31:42 : Inside Step - the user is on home page
+05/12/2023 19:31:42 : Inside Step - the user open in new browser tabs <About Us> link, <Delivery Information> link,<Privacy Policy> link, <Terms & Conditions> link
+05/12/2023 19:31:45 : Inside Step - the user should see correct pages related to the clicked links.
+05/12/2023 19:31:45 : Test End!
+_________________________________________________________________________________________
+05/12/2023 19:35:29 : Test Start!
+05/12/2023 19:35:31 : Inside Step - the user is on home page
+05/12/2023 19:35:31 : Inside Step - the user open in new browser tabs <About Us> link, <Delivery Information> link,<Privacy Policy> link, <Terms & Conditions> link
+05/12/2023 19:35:35 : Inside Step - the user should see correct pages related to the clicked links.
+05/12/2023 19:35:35 : Test End!
+_________________________________________________________________________________________
+05/12/2023 19:36:23 : Test Start!
+05/12/2023 19:36:25 : Inside Step - the user is on home page
+05/12/2023 19:36:25 : Inside Step - the user open in new browser tabs <About Us> link, <Delivery Information> link,<Privacy Policy> link, <Terms & Conditions> link
+05/12/2023 19:36:25 : Inside Step - the user should see correct pages related to the clicked links.
+05/12/2023 19:36:25 : Test End!
+_________________________________________________________________________________________
+06/12/2023 15:06:29 : Test Start!
+06/12/2023 15:06:34 : Inside Step - the user is on home page
+06/12/2023 15:06:34 : Test End!
+_________________________________________________________________________________________
+06/12/2023 15:06:34 : Test Start!
+06/12/2023 15:06:36 : Inside Step - the user is on home page
+06/12/2023 15:06:36 : Test End!
+_________________________________________________________________________________________
+06/12/2023 15:06:36 : Test Start!
+06/12/2023 15:06:37 : Inside Step - the user is on home page
+06/12/2023 15:06:37 : Test End!
+_________________________________________________________________________________________
+06/12/2023 15:06:37 : Test Start!
+06/12/2023 15:06:39 : Inside Step - the user is on home page
+06/12/2023 15:06:39 : Test End!
+_________________________________________________________________________________________
+06/12/2023 15:26:18 : Test Start!
+06/12/2023 15:26:21 : Inside Step - the user is on home page
+06/12/2023 15:26:21 : Inside Step - the user open <About Us> link in footer
+06/12/2023 15:26:21 : Inside Step - the user should see About Us page.
+06/12/2023 15:26:21 : Redirect is successful!
+06/12/2023 15:26:21 : Test End!
+_________________________________________________________________________________________
+06/12/2023 15:26:22 : Test Start!
+06/12/2023 15:26:23 : Inside Step - the user is on home page
+06/12/2023 15:26:23 : Inside Step - the user open <Delivery Information> link in footer
+06/12/2023 15:26:23 : Inside Step - the user should see Delivery Information page.
+06/12/2023 15:26:23 : Redirect is successful!
+06/12/2023 15:26:24 : Test End!
+_________________________________________________________________________________________
+06/12/2023 15:26:24 : Test Start!
+06/12/2023 15:26:25 : Inside Step - the user is on home page
+06/12/2023 15:26:25 : Inside Step - the user open <Privacy Policy> link in footer
+06/12/2023 15:26:26 : Inside Step - the user should see Privacy Policy page.
+06/12/2023 15:26:26 : Redirect is successful!
+06/12/2023 15:26:26 : Test End!
+_________________________________________________________________________________________
+06/12/2023 15:26:26 : Test Start!
+06/12/2023 15:26:27 : Inside Step - the user is on home page
+06/12/2023 15:26:27 : Inside Step - the user open <Terms & Conditions> link in footer
+06/12/2023 15:26:27 : Inside Step - the user should see Terms & Conditions page.
+06/12/2023 15:26:28 : Redirect is successful!
+06/12/2023 15:26:28 : Test End!
+_________________________________________________________________________________________
+06/12/2023 15:27:19 : Test Start!
+06/12/2023 15:27:21 : Inside Step - the user is on home page
+06/12/2023 15:27:21 : Inside Step - the user open <About Us> link in footer
+06/12/2023 15:27:22 : Inside Step - the user should see About Us page.
+06/12/2023 15:27:22 : Redirect is successful!
+06/12/2023 15:27:22 : Test End!
+_________________________________________________________________________________________
+06/12/2023 15:27:22 : Test Start!
+06/12/2023 15:27:23 : Inside Step - the user is on home page
+06/12/2023 15:27:23 : Inside Step - the user open <Delivery Information> link in footer
+06/12/2023 15:27:24 : Inside Step - the user should see Delivery Information page.
+06/12/2023 15:27:24 : Redirect is successful!
+06/12/2023 15:27:24 : Test End!
+_________________________________________________________________________________________
+06/12/2023 15:27:24 : Test Start!
+06/12/2023 15:27:25 : Inside Step - the user is on home page
+06/12/2023 15:27:25 : Inside Step - the user open <Privacy Policy> link in footer
+06/12/2023 15:27:26 : Inside Step - the user should see Privacy Policy page.
+06/12/2023 15:27:26 : Redirect is successful!
+06/12/2023 15:27:26 : Test End!
+_________________________________________________________________________________________
+06/12/2023 15:27:26 : Test Start!
+06/12/2023 15:27:27 : Inside Step - the user is on home page
+06/12/2023 15:27:27 : Inside Step - the user open <Terms & Conditions> link in footer
+06/12/2023 15:27:28 : Inside Step - the user should see Terms & Conditions page.
+06/12/2023 15:27:28 : Redirect is successful!
+06/12/2023 15:27:28 : Test End!
+_________________________________________________________________________________________
+06/12/2023 15:28:10 : Test Start!
+06/12/2023 15:28:12 : Inside Step - the user is on home page
+06/12/2023 15:28:12 : Inside Step - the user open <About Us> link in footer
+06/12/2023 15:28:13 : Inside Step - the user should see About Us page.
+06/12/2023 15:28:13 : Redirect failed!
+06/12/2023 15:28:13 : Test End!
+_________________________________________________________________________________________
+06/12/2023 15:28:13 : Test Start!
+06/12/2023 15:28:14 : Inside Step - the user is on home page
+06/12/2023 15:28:14 : Inside Step - the user open <Delivery Information> link in footer
+06/12/2023 15:28:15 : Inside Step - the user should see Delivery Information page.
+06/12/2023 15:28:15 : Redirect failed!
+06/12/2023 15:28:15 : Test End!
+_________________________________________________________________________________________
+06/12/2023 15:28:15 : Test Start!
+06/12/2023 15:28:16 : Inside Step - the user is on home page
+06/12/2023 15:28:16 : Inside Step - the user open <Privacy Policy> link in footer
+06/12/2023 15:28:16 : Inside Step - the user should see Privacy Policy page.
+06/12/2023 15:28:16 : Redirect failed!
+06/12/2023 15:28:16 : Test End!
+_________________________________________________________________________________________
+06/12/2023 15:28:17 : Test Start!
+06/12/2023 15:28:18 : Inside Step - the user is on home page
+06/12/2023 15:28:18 : Inside Step - the user open <Terms & Conditions> link in footer
+06/12/2023 15:28:18 : Inside Step - the user should see Terms & Conditions page.
+06/12/2023 15:28:18 : Redirect failed!
+06/12/2023 15:28:18 : Test End!
+_________________________________________________________________________________________
+06/12/2023 15:28:46 : Test Start!
+06/12/2023 15:28:48 : Inside Step - the user is on home page
+06/12/2023 15:28:48 : Inside Step - the user open <About Us> link in footer
+06/12/2023 15:28:48 : Inside Step - the user should see About Us page.
+06/12/2023 15:28:49 : Redirect is successful!
+06/12/2023 15:28:49 : Test End!
+_________________________________________________________________________________________
+06/12/2023 15:28:49 : Test Start!
+06/12/2023 15:28:50 : Inside Step - the user is on home page
+06/12/2023 15:28:50 : Inside Step - the user open <Delivery Information> link in footer
+06/12/2023 15:28:51 : Inside Step - the user should see Delivery Information page.
+06/12/2023 15:28:51 : Redirect is successful!
+06/12/2023 15:28:51 : Test End!
+_________________________________________________________________________________________
+06/12/2023 15:28:51 : Test Start!
+06/12/2023 15:28:52 : Inside Step - the user is on home page
+06/12/2023 15:28:52 : Inside Step - the user open <Privacy Policy> link in footer
+06/12/2023 15:28:53 : Inside Step - the user should see Privacy Policy page.
+06/12/2023 15:28:53 : Redirect is successful!
+06/12/2023 15:28:53 : Test End!
+_________________________________________________________________________________________
+06/12/2023 15:28:53 : Test Start!
+06/12/2023 15:28:54 : Inside Step - the user is on home page
+06/12/2023 15:28:54 : Inside Step - the user open <Terms & Conditions> link in footer
+06/12/2023 15:28:55 : Inside Step - the user should see Terms & Conditions page.
+06/12/2023 15:28:55 : Redirect is successful!
+06/12/2023 15:28:55 : Test End!
+_________________________________________________________________________________________
+06/12/2023 15:54:01 : Test Start!
+06/12/2023 15:54:03 : Test End!
+_________________________________________________________________________________________

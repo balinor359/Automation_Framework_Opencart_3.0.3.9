@@ -1,9 +1,11 @@
 package test.opencart.pom;
 
 import org.openqa.selenium.*;
+import org.openqa.selenium.support.Color;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.Assert;
+import test.opencart.utilities.MyFileWriter;
 import test.opencart.utilities.TestUtilities;
 
 import java.util.ArrayList;
@@ -36,8 +38,7 @@ public class HomePage extends TestUtilities {
     private static final String ALL_ITEMS_LINK_TEXT = "All Items";
     private static final String ABOUT_LINK_TEXT = "About";
     private static final String ABOUT_LINK_URL = "https://saucelabs.com/";
-    private static final String REDIRECT_IS_SUCCESSFUL = "Redirect is successful!";
-    private static final String REDIRECT_FAILED = "Redirect failed!";
+
     private static final String LOGOUT_LINK_TEXT = "Logout";
     private static final String RESET_APP_STATE_LINK_TEXT = "Reset App State";
     public static final String CART_BADGE_WRONG_AMOUNT = "Cart have different amount of products!";
@@ -97,10 +98,31 @@ public class HomePage extends TestUtilities {
     private static final String SHOPPING_CART_MISSING_MESSAGE = "Shopping cart link is missing!";
     private static final String CHECKOUT_LINK_MISSING_MESSAGE = "Checkout link is missing!";
     private static final String SEARCH_BAR_INPUT_MISSING_MESSAGE = "Search bar input is missing!";
+    private static final String CONTACT_PAGE_FOOTER_LINK_MISSING_MESSAGE = "Contact page footer link is missing!";
+    private static final String CONTACT_PAGE_FOOTER_LINK_DIFFERENT_TEXT = "The contact page link text is different!";
     private static final String SEARCH_BAR_SUBMIT_BTN_MISSING_MESSAGE = "Search bar submit button is missing!";
+    private static final String ABOUT_US_FOOTER_LINK_MISSING_MESSAGE = "About Us footer link is missing!";
+    private static final String DELIVERY_FOOTER_LINK_MISSING_MESSAGE = "Delivery Information footer link is missing!";
+    private static final String PRIVACY_FOOTER_LINK_MISSING_MESSAGE = "Privacy Policy footer link is missing!";
+    private static final String TERMS_FOOTER_LINK_MISSING_MESSAGE = "Terms & Conditions footer link is missing!";
+    private static final String ABOUT_US_LINK_URL = "https://opencart-test.test/index.php?route=information/information&information_id=4";
+    private static final String DELIVERY_INFORMATION_LINK_URL = "https://opencart-test.test/index.php?route=information/information&information_id=6";
+    private static final String PRIVACY_POLICY_LINK_URL = "https://opencart-test.test/index.php?route=information/information&information_id=3";
+    private static final String TERMS_AND_CONDITIONS_LINK_URL = "https://opencart-test.test/index.php?route=information/information&information_id=5";
+    private static final String ABOUT_US_PAGE_HEADING = "About Us";
+    private static final String DELIVERY_INFORMATION_PAGE_HEADING = "Delivery Information";
+    private static final String PRIVACY_POLICY_PAGE_HEADING = "Privacy Policy";
+    private static final String TERMS_AND_CONDITIONS_PAGE_HEADING = "Terms & Conditions";
+    private static final String REDIRECT_IS_SUCCESSFUL = "Redirect is successful!";
+    private static final String REDIRECT_FAILED = "Redirect failed!";
     public static String SEARCH_KEYWORD = "";
     public static ArrayList<Double> originalPriceList = new ArrayList<>();
     public static ArrayList<Double> productsAfterLoad = new ArrayList<>();
+//
+//    /* Array list with tabs(WindowHandles) */
+//    public ArrayList<String> tabsHandles = new ArrayList<>();
+////    public static String parentWindow = "";
+//
 
     /* Declaring page elements */
     @FindBy(xpath = "//li[@qa='my_account']//a")
@@ -127,6 +149,16 @@ public class HomePage extends TestUtilities {
     private WebElement searchSubmitBtn;
     @FindBy(xpath = ".//a[@qa='footer-contact']")
     private WebElement contactPageLink;
+    @FindBy(xpath = "//li[@qa='footer-info-page-link']//a[contains(text(),'About Us')]")
+    private WebElement footerAboutLink;
+    @FindBy(xpath = "//li[@qa='footer-info-page-link']//a[contains(text(),'Delivery Information')]")
+    private WebElement footerDeliveryLink;
+    @FindBy(xpath = "//li[@qa='footer-info-page-link']//a[contains(text(),'Privacy Policy')]")
+    private WebElement footerPrivacyLink;
+    @FindBy(xpath = "//li[@qa='footer-info-page-link']//a[contains(text(),'Terms & Conditions')]")
+    private WebElement footerTermsLink;
+    @FindBy(xpath = ".//div[@id='information-information']//h1")
+    private WebElement infoPageHeading;
 
     /* This is constructor for home page using PageFactory for web-elements */
     public HomePage(WebDriver driver) {
@@ -192,15 +224,121 @@ public class HomePage extends TestUtilities {
 
     /* This method validate footer contact page link is visible and have right text */
     public void footerContactPageLinkValidator() {
-        Assert.assertTrue(searchInput.isDisplayed(), SEARCH_BAR_INPUT_MISSING_MESSAGE);
-        Assert.assertTrue(searchSubmitBtn.isDisplayed(), SEARCH_BAR_SUBMIT_BTN_MISSING_MESSAGE);
+        Assert.assertTrue(contactPageLink.isDisplayed(), CONTACT_PAGE_FOOTER_LINK_MISSING_MESSAGE);
+        Assert.assertEquals(contactPageLink.getText(), GenericMessages.CONTACT_PAGE_FOOTER_LINK_TEXT, CONTACT_PAGE_FOOTER_LINK_DIFFERENT_TEXT);
     }
+
     /* Click method for contact page link in footer */
     public ContactPage clickOnFooterContactPageLink() {
         contactPageLink.click();
         /* Return driver to ContactPage (POM) */
         return new ContactPage(driver);
     }
+
+    /* This method validate footer information pages links is visible and have right text */
+    public void footerInformationPagesLinksValidator() {
+        Assert.assertTrue(footerAboutLink.isDisplayed(), ABOUT_US_FOOTER_LINK_MISSING_MESSAGE);
+        String fontColorAboutLink = footerAboutLink.getCssValue("color");
+        String fontColorHexAboutLink = Color.fromString(fontColorAboutLink).asHex();
+        Assert.assertEquals(fontColorHexAboutLink, GenericMessages.FOOTER_LINK_FONT_COLOR, GenericMessages.DIFFERENT_CSS_VALUE);
+
+        Assert.assertTrue(footerDeliveryLink.isDisplayed(), DELIVERY_FOOTER_LINK_MISSING_MESSAGE);
+        String fontColorDeliveryLink = footerDeliveryLink.getCssValue("color");
+        String fontColorHexDeliveryLink = Color.fromString(fontColorDeliveryLink).asHex();
+        Assert.assertEquals(fontColorHexDeliveryLink, GenericMessages.FOOTER_LINK_FONT_COLOR, GenericMessages.DIFFERENT_CSS_VALUE);
+
+        Assert.assertTrue(footerPrivacyLink.isDisplayed(), PRIVACY_FOOTER_LINK_MISSING_MESSAGE);
+        String fontColorPrivacyLink = footerPrivacyLink.getCssValue("color");
+        String fontColorHexPrivacyLink = Color.fromString(fontColorPrivacyLink).asHex();
+        Assert.assertEquals(fontColorHexPrivacyLink, GenericMessages.FOOTER_LINK_FONT_COLOR, GenericMessages.DIFFERENT_CSS_VALUE);
+
+        Assert.assertTrue(footerTermsLink.isDisplayed(), TERMS_FOOTER_LINK_MISSING_MESSAGE);
+        String fontColorTermsLink = footerTermsLink.getCssValue("color");
+        String fontColorHexTermsLink = Color.fromString(fontColorTermsLink).asHex();
+        Assert.assertEquals(fontColorHexTermsLink, GenericMessages.FOOTER_LINK_FONT_COLOR, GenericMessages.DIFFERENT_CSS_VALUE);
+
+    }
+
+
+    /* Method who click footer "About Us" link */
+    public void clickFooterAboutLink() {
+        footerAboutLink.click();
+    }
+
+    /* Method who click footer "Delivery Information" link */
+    public void clickFooterDeliveryLink() {
+        footerDeliveryLink.click();
+    }
+
+    /* Method who click footer "Privacy Policy" link */
+    public void clickFooterPrivacyLink() {
+        footerPrivacyLink.click();
+    }
+
+    /* Method who click footer "Terms & Conditions" link */
+    public void clickFooterTermsLink() {
+        footerTermsLink.click();
+    }
+
+    /* Method who validate correctness of the footer link and print right messages in console and log file */
+    public void validateAboutPage() {
+        if (driver.getCurrentUrl().equals(ABOUT_US_LINK_URL)) {
+            System.out.println(REDIRECT_IS_SUCCESSFUL);
+            MyFileWriter.writeToLog(REDIRECT_IS_SUCCESSFUL);
+            Assert.assertEquals(infoPageHeading.getText(), ABOUT_US_PAGE_HEADING, GenericMessages.DIFFERENT_PAGE_HEADING);
+        } else {
+            System.out.println(REDIRECT_FAILED);
+            MyFileWriter.writeToLog(REDIRECT_FAILED);
+            Assert.assertEquals(driver.getCurrentUrl(), ABOUT_US_LINK_URL, REDIRECT_FAILED);
+        }
+    }
+
+    /* Method who validate correctness of the footer link and print right messages in console and log file */
+    public void validateDeliveryPage() {
+        if (driver.getCurrentUrl().equals(DELIVERY_INFORMATION_LINK_URL)) {
+            System.out.println(REDIRECT_IS_SUCCESSFUL);
+            MyFileWriter.writeToLog(REDIRECT_IS_SUCCESSFUL);
+            Assert.assertEquals(infoPageHeading.getText(), DELIVERY_INFORMATION_PAGE_HEADING, GenericMessages.DIFFERENT_PAGE_HEADING);
+        } else {
+            System.out.println(REDIRECT_FAILED);
+            MyFileWriter.writeToLog(REDIRECT_FAILED);
+            Assert.assertEquals(driver.getCurrentUrl(), DELIVERY_INFORMATION_LINK_URL, REDIRECT_FAILED);
+        }
+    }
+
+    /* Method who validate correctness of the footer link and print right messages in console and log file */
+    public void validatePrivacyPage() {
+        if (driver.getCurrentUrl().equals(PRIVACY_POLICY_LINK_URL)) {
+            System.out.println(REDIRECT_IS_SUCCESSFUL);
+            MyFileWriter.writeToLog(REDIRECT_IS_SUCCESSFUL);
+            Assert.assertEquals(infoPageHeading.getText(), PRIVACY_POLICY_PAGE_HEADING, GenericMessages.DIFFERENT_PAGE_HEADING);
+        } else {
+            System.out.println(REDIRECT_FAILED);
+            MyFileWriter.writeToLog(REDIRECT_FAILED);
+            Assert.assertEquals(driver.getCurrentUrl(), PRIVACY_POLICY_LINK_URL, REDIRECT_FAILED);
+        }
+    }
+
+    /* Method who validate correctness of the footer link and print right messages in console and log file */
+    public void validateTermsPage() {
+        if (driver.getCurrentUrl().equals(TERMS_AND_CONDITIONS_LINK_URL)) {
+            System.out.println(REDIRECT_IS_SUCCESSFUL);
+            MyFileWriter.writeToLog(REDIRECT_IS_SUCCESSFUL);
+            Assert.assertEquals(infoPageHeading.getText(), TERMS_AND_CONDITIONS_PAGE_HEADING, GenericMessages.DIFFERENT_PAGE_HEADING);
+        } else {
+            System.out.println(REDIRECT_FAILED);
+            MyFileWriter.writeToLog(REDIRECT_FAILED);
+            Assert.assertEquals(driver.getCurrentUrl(), TERMS_AND_CONDITIONS_LINK_URL, REDIRECT_FAILED);
+        }
+    }
+
+
+
+
+
+
+
+
     /* ____________________________________________________________________________ OLD CODE */
 
 //    /* Method who add product in the cart, by given productNameUrl, validates add-to-cart button, click it, then validate is remove button is shown */

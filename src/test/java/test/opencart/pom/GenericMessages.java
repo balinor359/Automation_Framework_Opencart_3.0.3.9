@@ -10,6 +10,12 @@ public class GenericMessages {
     public static final String CONTINUE_BUTTON_MISSING_MESSAGE = "Continue button is missing!";
     public static final String KEYWORD_IN_PRODUCT_NAME = "The product name doesn't contain the given keyword!";
     public static final String MISSING_ELEMENT_MESSAGE = "Element ( %s ) is missing!";
+    public static final String CONTACT_PAGE_FOOTER_LINK_TEXT = "Contact Us";
+    public static final String DIFFERENT_TEXT = "The text is different!";
+    public static final String DIFFERENT_CSS_VALUE = "The CSS value is different!";
+    public static final String FOOTER_LINK_FONT_COLOR = "#cccccc";
+
+
 
 
 
@@ -21,8 +27,7 @@ public class GenericMessages {
     public static final String PRODUCT_PRICE_MISSING_MESSAGE = "Product price is not displayed!";
     public static final String PRODUCTS_NAME_IS_DIFFERENT_MESSAGE = "Product name is different!";
     public static final String PRODUCT_PRICE_IS_DIFFERENT_MESSAGE = "Product price is different!";
-    public static final String DIFFERENT_TEXT = "The text is different!";
-    public static final String DIFFERENT_CSS_VALUE = "The CSS value is different!";
+
     public static final String CODE_ERROR_REMOVE_BUTTON = "Code error: the 'Remove' button you interact with does not exist!";
     public static final String CART_LIST_MISSING_MESSAGE = "Cart list is not displayed!";
     public static final String CART_HAVE_ITEMS_TEXT = "Cart contains items.";
