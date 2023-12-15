@@ -27,9 +27,7 @@ public class RegistrationPage extends TestUtilities {
     private static final String REGISTRATION_FORM_MISSING_MESSAGE = "Registration form is missing!";
     private static final String FIRST_NAME_INPUT_MISSING_MESSAGE = "First name input is missing!";
     private static final String LAST_NAME_INPUT_MISSING_MESSAGE = "Last name input is missing!";
-    private static final String EMAIL_INPUT_MISSING_MESSAGE = "Email input is missing!";
     private static final String TELEPHONE_INPUT_MISSING_MESSAGE = "Telephone number input is missing";
-    private static final String PASSWORD_INPUT_MISSING_MESSAGE = "Password input is missing!";
     private static final String CONFIRM_PASSWORD_INPUT_MISSING_MESSAGE = "Confirm password input is missing!";
     private static final String POLICY_CHECKBOX_MISSING_MESSAGE = "Privacy Policy checkbox is missing!";
     private static final Object RETURN_NULL_OBJECT = null;
@@ -63,7 +61,7 @@ public class RegistrationPage extends TestUtilities {
     @FindBy(className = "alert")
     private WebElement errorText;
 
-    /* This is constructor for home page using PageFactory for web-elements */
+    /* This is constructor for registration page using PageFactory for web-elements */
     public RegistrationPage(WebDriver driver) {
         this.driver = driver;
         PageFactory.initElements(driver, this);
@@ -81,9 +79,9 @@ public class RegistrationPage extends TestUtilities {
         Assert.assertTrue(registrationForm.isDisplayed(), REGISTRATION_FORM_MISSING_MESSAGE);
         Assert.assertTrue(inputFirstname.isDisplayed(), FIRST_NAME_INPUT_MISSING_MESSAGE);
         Assert.assertTrue(inputLastname.isDisplayed(), LAST_NAME_INPUT_MISSING_MESSAGE);
-        Assert.assertTrue(inputEmail.isDisplayed(), EMAIL_INPUT_MISSING_MESSAGE);
+        Assert.assertTrue(inputEmail.isDisplayed(), GenericMessages.EMAIL_INPUT_MISSING_MESSAGE);
         Assert.assertTrue(inputTelephone.isDisplayed(), TELEPHONE_INPUT_MISSING_MESSAGE);
-        Assert.assertTrue(inputPassword.isDisplayed(), PASSWORD_INPUT_MISSING_MESSAGE);
+        Assert.assertTrue(inputPassword.isDisplayed(), GenericMessages.PASSWORD_INPUT_MISSING_MESSAGE);
         Assert.assertTrue(inputConfirmPassword.isDisplayed(), CONFIRM_PASSWORD_INPUT_MISSING_MESSAGE);
         Assert.assertTrue(agreePolicyCheckbox.isDisplayed(), POLICY_CHECKBOX_MISSING_MESSAGE);
         Assert.assertTrue(registerBtnContinue.isDisplayed(), GenericMessages.CONTINUE_BUTTON_MISSING_MESSAGE);

@@ -42,7 +42,7 @@ public class ContactPage extends TestUtilities {
     private WebElement successMsg;
 
 
-    /* This is constructor for search result page using PageFactory for web-elements */
+    /* This is constructor for contact page using PageFactory for web-elements */
     public ContactPage(WebDriver driver) {
         this.driver = driver;
         PageFactory.initElements(driver, this);

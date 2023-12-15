@@ -8,13 +8,15 @@ public class GenericMessages {
     public static final String DIFFERENT_PAGE_HEADING = "The page heading is different!";
     public static final String SUBMIT_BUTTON_MISSING_MESSAGE = "Submit button is missing!";
     public static final String CONTINUE_BUTTON_MISSING_MESSAGE = "Continue button is missing!";
+    public static final String LOGIN_BUTTON_MISSING_MESSAGE = "Login button is missing!";
     public static final String KEYWORD_IN_PRODUCT_NAME = "The product name doesn't contain the given keyword!";
     public static final String MISSING_ELEMENT_MESSAGE = "Element ( %s ) is missing!";
     public static final String CONTACT_PAGE_FOOTER_LINK_TEXT = "Contact Us";
     public static final String DIFFERENT_TEXT = "The text is different!";
     public static final String DIFFERENT_CSS_VALUE = "The CSS value is different!";
     public static final String FOOTER_LINK_FONT_COLOR = "#cccccc";
-
+    public static final String EMAIL_INPUT_MISSING_MESSAGE = "Email input is missing!";
+    public static final String PASSWORD_INPUT_MISSING_MESSAGE = "Password input is missing!";
 
 
 

@@ -4820,3 +4820,300 @@ ________________________________________________________________________________
 06/12/2023 15:54:01 : Test Start!
 06/12/2023 15:54:03 : Test End!
 _________________________________________________________________________________________
+15/12/2023 15:13:05 : Test Start!
+15/12/2023 15:13:10 : Inside Step - the user have a profile in website and is on home page
+15/12/2023 15:13:10 : Connecting to DB...
+15/12/2023 15:13:10 : __________________________Database Response___________________________________
+15/12/2023 15:13:10 : Customer ID:2 | First Name:Georgi | Last Name:Petrov | Email:petrov@test.test | Telephone:0883225512 | Newsletter:0 | Date Added:2023-11-24 15:13:50
+15/12/2023 15:13:10 : Customer ID:3 | First Name:Gergana | Last Name:Dimitrova | Email:dimitrova@test.test | Telephone:0888888888 | Newsletter:1 | Date Added:2023-11-24 15:16:16
+15/12/2023 15:13:10 : Customer ID:92 | First Name:Vasil | Last Name:Vasilev | Email:vasilev@test.test | Telephone:0884395614 | Newsletter:1 | Date Added:2023-12-02 19:33:22
+15/12/2023 15:13:10 : Customer ID:40 | First Name:Kiril | Last Name:Todorov | Email:todorov@test.test | Telephone:0883198565 | Newsletter:1 | Date Added:2023-11-28 18:26:48
+15/12/2023 15:13:10 : Customer ID:89 | First Name:asd | Last Name:asd | Email:asd@asd.asd | Telephone:123123 | Newsletter:0 | Date Added:2023-12-02 18:52:43
+15/12/2023 15:13:10 : ____________________________________________________________________________
+15/12/2023 15:13:10 : Disconnecting from DB...
+15/12/2023 15:13:10 : Connecting to DB...
+15/12/2023 15:13:10 : __________________________Create Customer___________________________________
+15/12/2023 15:13:10 : Disconnecting from DB...
+15/12/2023 15:13:10 : Connecting to DB...
+15/12/2023 15:13:10 : __________________________Database Response___________________________________
+15/12/2023 15:13:10 : Customer ID:2 | First Name:Georgi | Last Name:Petrov | Email:petrov@test.test | Telephone:0883225512 | Newsletter:0 | Date Added:2023-11-24 15:13:50
+15/12/2023 15:13:10 : Customer ID:3 | First Name:Gergana | Last Name:Dimitrova | Email:dimitrova@test.test | Telephone:0888888888 | Newsletter:1 | Date Added:2023-11-24 15:16:16
+15/12/2023 15:13:10 : Customer ID:92 | First Name:Vasil | Last Name:Vasilev | Email:vasilev@test.test | Telephone:0884395614 | Newsletter:1 | Date Added:2023-12-02 19:33:22
+15/12/2023 15:13:10 : Customer ID:40 | First Name:Kiril | Last Name:Todorov | Email:todorov@test.test | Telephone:0883198565 | Newsletter:1 | Date Added:2023-11-28 18:26:48
+15/12/2023 15:13:10 : Customer ID:93 | First Name:Ivan | Last Name:Ivanov | Email:ivanov@test.test | Telephone:0887446682 | Newsletter:1 | Date Added:2023-12-15 15:13:10
+15/12/2023 15:13:10 : Customer ID:89 | First Name:asd | Last Name:asd | Email:asd@asd.asd | Telephone:123123 | Newsletter:0 | Date Added:2023-12-02 18:52:43
+15/12/2023 15:13:10 : ____________________________________________________________________________
+15/12/2023 15:13:10 : Disconnecting from DB...
+15/12/2023 15:13:10 : Inside Step - the user login into his profile with email ivanov@test.test, and password ivanov
+15/12/2023 15:13:10 : Inside Step - user add product from homepage to his wishlist
+15/12/2023 15:13:10 : Inside Step - click on <Wish List> button in header
+15/12/2023 15:13:10 : Inside Step - the user should be redirected to his wishlist page and see added product there.
+15/12/2023 15:13:10 : Test End!
+_________________________________________________________________________________________
+15/12/2023 15:13:10 : Test Start!
+15/12/2023 15:13:12 : Inside Step - the user is on home page
+15/12/2023 15:13:12 : Inside Step - the user open <About Us> link in footer
+15/12/2023 15:13:12 : Inside Step - the user should see About Us page.
+15/12/2023 15:13:12 : Redirect is successful!
+15/12/2023 15:13:12 : Test End!
+_________________________________________________________________________________________
+15/12/2023 15:13:12 : Test Start!
+15/12/2023 15:13:14 : Inside Step - the user is on home page
+15/12/2023 15:13:14 : Inside Step - the user open <Delivery Information> link in footer
+15/12/2023 15:13:14 : Inside Step - the user should see Delivery Information page.
+15/12/2023 15:13:14 : Redirect is successful!
+15/12/2023 15:13:14 : Test End!
+_________________________________________________________________________________________
+15/12/2023 15:13:15 : Test Start!
+15/12/2023 15:13:16 : Inside Step - the user is on home page
+15/12/2023 15:13:16 : Inside Step - the user open <Privacy Policy> link in footer
+15/12/2023 15:13:16 : Inside Step - the user should see Privacy Policy page.
+15/12/2023 15:13:16 : Redirect is successful!
+15/12/2023 15:13:16 : Test End!
+_________________________________________________________________________________________
+15/12/2023 15:13:16 : Test Start!
+15/12/2023 15:13:18 : Inside Step - the user is on home page
+15/12/2023 15:13:18 : Inside Step - the user open <Terms & Conditions> link in footer
+15/12/2023 15:13:18 : Inside Step - the user should see Terms & Conditions page.
+15/12/2023 15:13:18 : Redirect is successful!
+15/12/2023 15:13:18 : Test End!
+_________________________________________________________________________________________
+15/12/2023 15:13:18 : Test Start!
+15/12/2023 15:13:20 : Inside Step - the user is on home page
+15/12/2023 15:13:20 : Inside Step - the user navigate to contact page
+15/12/2023 15:13:20 : Inside Step - fill <Your Name> field as Ivan Ivanov
+15/12/2023 15:13:20 : Inside Step - fill <E-Mail Address> as ivanov@test.test
+15/12/2023 15:13:20 : Inside Step - fill <Enquiry> as This is the test message!
+15/12/2023 15:13:21 : Inside Step - click on <Submit> button
+15/12/2023 15:13:22 : Inside Step - the user should see "Your enquiry has been successfully sent to the store owner!" message.
+15/12/2023 15:13:22 : Test End!
+_________________________________________________________________________________________
+15/12/2023 15:13:22 : Test Start!
+15/12/2023 15:13:23 : Inside Step - the user is on home page
+15/12/2023 15:13:23 : Inside Step - the user enters registration page
+15/12/2023 15:13:24 : Inside Step - insert valid credentials
+15/12/2023 15:13:25 : Inside Step - click on Continue button
+15/12/2023 15:13:25 : Registration failed. Error: Warning: E-Mail Address is already registered!
+15/12/2023 15:13:25 : Test End!
+_________________________________________________________________________________________
+15/12/2023 15:13:26 : Test Start!
+15/12/2023 15:13:27 : Inside Step - the user is on home page
+15/12/2023 15:13:27 : Inside Step - the user enter keyword iPod in header search bar
+15/12/2023 15:13:27 : Inside Step - click on search button
+15/12/2023 15:13:28 : Inside Step - the user should be redirected to search result page and see all products containing provided keyword.
+15/12/2023 15:13:28 : Search result - Product name: iPod Classic
+15/12/2023 15:13:28 : Search result - Product name: iPod Nano
+15/12/2023 15:13:28 : Search result - Product name: iPod Shuffle
+15/12/2023 15:13:28 : Search result - Product name: iPod Touch
+15/12/2023 15:13:28 : Test End!
+_________________________________________________________________________________________
+15/12/2023 15:18:11 : Test Start!
+15/12/2023 15:18:13 : Inside Step - the user have a profile in website and is on home page
+15/12/2023 15:18:13 : Connecting to DB...
+15/12/2023 15:18:13 : __________________________Database Response___________________________________
+15/12/2023 15:18:13 : Customer ID:2 | First Name:Georgi | Last Name:Petrov | Email:petrov@test.test | Telephone:0883225512 | Newsletter:0 | Date Added:2023-11-24 15:13:50
+15/12/2023 15:18:13 : Customer ID:3 | First Name:Gergana | Last Name:Dimitrova | Email:dimitrova@test.test | Telephone:0888888888 | Newsletter:1 | Date Added:2023-11-24 15:16:16
+15/12/2023 15:18:13 : Customer ID:92 | First Name:Vasil | Last Name:Vasilev | Email:vasilev@test.test | Telephone:0884395614 | Newsletter:1 | Date Added:2023-12-02 19:33:22
+15/12/2023 15:18:13 : Customer ID:40 | First Name:Kiril | Last Name:Todorov | Email:todorov@test.test | Telephone:0883198565 | Newsletter:1 | Date Added:2023-11-28 18:26:48
+15/12/2023 15:18:13 : Customer ID:93 | First Name:Ivan | Last Name:Ivanov | Email:ivanov@test.test | Telephone:0887446682 | Newsletter:1 | Date Added:2023-12-15 15:13:10
+15/12/2023 15:18:13 : Customer ID:89 | First Name:asd | Last Name:asd | Email:asd@asd.asd | Telephone:123123 | Newsletter:0 | Date Added:2023-12-02 18:52:43
+15/12/2023 15:18:13 : ____________________________________________________________________________
+15/12/2023 15:18:13 : Disconnecting from DB...
+15/12/2023 15:18:14 : Inside Step - the user login into his profile with email ivanov@test.test, and password ivanov
+15/12/2023 15:18:14 : Inside Step - user add product from homepage to his wishlist
+15/12/2023 15:18:14 : Inside Step - click on <Wish List> button in header
+15/12/2023 15:18:14 : Inside Step - the user should be redirected to his wishlist page and see added product there.
+15/12/2023 15:18:14 : Test End!
+_________________________________________________________________________________________
+15/12/2023 15:54:41 : Test Start!
+15/12/2023 15:54:43 : Inside Step - the user have a profile in website and is on home page
+15/12/2023 15:54:43 : Connecting to DB...
+15/12/2023 15:54:43 : __________________________Database Response___________________________________
+15/12/2023 15:54:43 : Customer ID:2 | First Name:Georgi | Last Name:Petrov | Email:petrov@test.test | Telephone:0883225512 | Newsletter:0 | Date Added:2023-11-24 15:13:50
+15/12/2023 15:54:43 : Customer ID:3 | First Name:Gergana | Last Name:Dimitrova | Email:dimitrova@test.test | Telephone:0888888888 | Newsletter:1 | Date Added:2023-11-24 15:16:16
+15/12/2023 15:54:43 : Customer ID:92 | First Name:Vasil | Last Name:Vasilev | Email:vasilev@test.test | Telephone:0884395614 | Newsletter:1 | Date Added:2023-12-02 19:33:22
+15/12/2023 15:54:43 : Customer ID:40 | First Name:Kiril | Last Name:Todorov | Email:todorov@test.test | Telephone:0883198565 | Newsletter:1 | Date Added:2023-11-28 18:26:48
+15/12/2023 15:54:43 : Customer ID:93 | First Name:Ivan | Last Name:Ivanov | Email:ivanov@test.test | Telephone:0887446682 | Newsletter:1 | Date Added:2023-12-15 15:13:10
+15/12/2023 15:54:43 : Customer ID:89 | First Name:asd | Last Name:asd | Email:asd@asd.asd | Telephone:123123 | Newsletter:0 | Date Added:2023-12-02 18:52:43
+15/12/2023 15:54:43 : ____________________________________________________________________________
+15/12/2023 15:54:43 : Disconnecting from DB...
+15/12/2023 15:54:43 : Inside Step - the user login into his profile with email ivanov@test.test, and password ivanov2
+15/12/2023 15:54:44 : Inside Step - user add product from homepage to his wishlist
+15/12/2023 15:54:44 : Inside Step - click on <Wish List> button in header
+15/12/2023 15:54:44 : Inside Step - the user should be redirected to his wishlist page and see added product there.
+15/12/2023 15:54:44 : Test End!
+_________________________________________________________________________________________
+15/12/2023 15:55:23 : Test Start!
+15/12/2023 15:55:25 : Inside Step - the user have a profile in website and is on home page
+15/12/2023 15:55:25 : Connecting to DB...
+15/12/2023 15:55:25 : __________________________Database Response___________________________________
+15/12/2023 15:55:25 : Customer ID:2 | First Name:Georgi | Last Name:Petrov | Email:petrov@test.test | Telephone:0883225512 | Newsletter:0 | Date Added:2023-11-24 15:13:50
+15/12/2023 15:55:25 : Customer ID:3 | First Name:Gergana | Last Name:Dimitrova | Email:dimitrova@test.test | Telephone:0888888888 | Newsletter:1 | Date Added:2023-11-24 15:16:16
+15/12/2023 15:55:25 : Customer ID:92 | First Name:Vasil | Last Name:Vasilev | Email:vasilev@test.test | Telephone:0884395614 | Newsletter:1 | Date Added:2023-12-02 19:33:22
+15/12/2023 15:55:25 : Customer ID:40 | First Name:Kiril | Last Name:Todorov | Email:todorov@test.test | Telephone:0883198565 | Newsletter:1 | Date Added:2023-11-28 18:26:48
+15/12/2023 15:55:25 : Customer ID:93 | First Name:Ivan | Last Name:Ivanov | Email:ivanov@test.test | Telephone:0887446682 | Newsletter:1 | Date Added:2023-12-15 15:13:10
+15/12/2023 15:55:25 : Customer ID:89 | First Name:asd | Last Name:asd | Email:asd@asd.asd | Telephone:123123 | Newsletter:0 | Date Added:2023-12-02 18:52:43
+15/12/2023 15:55:25 : ____________________________________________________________________________
+15/12/2023 15:55:25 : Disconnecting from DB...
+15/12/2023 15:55:25 : Inside Step - the user login into his profile with email ivanov@test.test, and password ivanov2
+15/12/2023 15:55:26 : Login failed. Error: Warning: No match for E-Mail Address and/or Password.
+15/12/2023 15:55:26 : Test End!
+_________________________________________________________________________________________
+15/12/2023 15:57:09 : Test Start!
+15/12/2023 15:57:11 : Inside Step - the user have a profile in website and is on home page
+15/12/2023 15:57:11 : Connecting to DB...
+15/12/2023 15:57:11 : __________________________Database Response___________________________________
+15/12/2023 15:57:11 : Customer ID:2 | First Name:Georgi | Last Name:Petrov | Email:petrov@test.test | Telephone:0883225512 | Newsletter:0 | Date Added:2023-11-24 15:13:50
+15/12/2023 15:57:11 : Customer ID:3 | First Name:Gergana | Last Name:Dimitrova | Email:dimitrova@test.test | Telephone:0888888888 | Newsletter:1 | Date Added:2023-11-24 15:16:16
+15/12/2023 15:57:11 : Customer ID:92 | First Name:Vasil | Last Name:Vasilev | Email:vasilev@test.test | Telephone:0884395614 | Newsletter:1 | Date Added:2023-12-02 19:33:22
+15/12/2023 15:57:11 : Customer ID:40 | First Name:Kiril | Last Name:Todorov | Email:todorov@test.test | Telephone:0883198565 | Newsletter:1 | Date Added:2023-11-28 18:26:48
+15/12/2023 15:57:11 : Customer ID:93 | First Name:Ivan | Last Name:Ivanov | Email:ivanov@test.test | Telephone:0887446682 | Newsletter:1 | Date Added:2023-12-15 15:13:10
+15/12/2023 15:57:11 : Customer ID:89 | First Name:asd | Last Name:asd | Email:asd@asd.asd | Telephone:123123 | Newsletter:0 | Date Added:2023-12-02 18:52:43
+15/12/2023 15:57:11 : ____________________________________________________________________________
+15/12/2023 15:57:11 : Disconnecting from DB...
+15/12/2023 15:57:11 : Inside Step - the user login into his profile with email ivanov@test.test, and password ivanov
+15/12/2023 15:57:12 : Inside Step - user add product from homepage to his wishlist
+15/12/2023 15:57:12 : Inside Step - click on <Wish List> button in header
+15/12/2023 15:57:12 : Inside Step - the user should be redirected to his wishlist page and see added product there.
+15/12/2023 15:57:12 : Test End!
+_________________________________________________________________________________________
+15/12/2023 16:22:46 : Test Start!
+15/12/2023 16:22:49 : Inside Step - the user have a profile in website and is on home page
+15/12/2023 16:22:49 : Connecting to DB...
+15/12/2023 16:22:49 : __________________________Database Response___________________________________
+15/12/2023 16:22:49 : Customer ID:2 | First Name:Georgi | Last Name:Petrov | Email:petrov@test.test | Telephone:0883225512 | Newsletter:0 | Date Added:2023-11-24 15:13:50
+15/12/2023 16:22:49 : Customer ID:3 | First Name:Gergana | Last Name:Dimitrova | Email:dimitrova@test.test | Telephone:0888888888 | Newsletter:1 | Date Added:2023-11-24 15:16:16
+15/12/2023 16:22:49 : Customer ID:92 | First Name:Vasil | Last Name:Vasilev | Email:vasilev@test.test | Telephone:0884395614 | Newsletter:1 | Date Added:2023-12-02 19:33:22
+15/12/2023 16:22:49 : Customer ID:40 | First Name:Kiril | Last Name:Todorov | Email:todorov@test.test | Telephone:0883198565 | Newsletter:1 | Date Added:2023-11-28 18:26:48
+15/12/2023 16:22:49 : Customer ID:93 | First Name:Ivan | Last Name:Ivanov | Email:ivanov@test.test | Telephone:0887446682 | Newsletter:1 | Date Added:2023-12-15 15:13:10
+15/12/2023 16:22:49 : Customer ID:89 | First Name:asd | Last Name:asd | Email:asd@asd.asd | Telephone:123123 | Newsletter:0 | Date Added:2023-12-02 18:52:43
+15/12/2023 16:22:49 : ____________________________________________________________________________
+15/12/2023 16:22:49 : Disconnecting from DB...
+15/12/2023 16:22:49 : Inside Step - the user login into his profile with email ivanov@test.test, and password ivanov
+15/12/2023 16:22:50 : Inside Step - user add product from homepage to his wishlist
+15/12/2023 16:23:01 : Inside Step - click on <Wish List> button in header
+15/12/2023 16:23:01 : Inside Step - the user should be redirected to his wishlist page and see added product there.
+15/12/2023 16:23:01 : Test End!
+_________________________________________________________________________________________
+15/12/2023 16:25:38 : Test Start!
+15/12/2023 16:25:40 : Inside Step - the user have a profile in website and is on home page
+15/12/2023 16:25:40 : Connecting to DB...
+15/12/2023 16:25:40 : __________________________Database Response___________________________________
+15/12/2023 16:25:40 : Customer ID:2 | First Name:Georgi | Last Name:Petrov | Email:petrov@test.test | Telephone:0883225512 | Newsletter:0 | Date Added:2023-11-24 15:13:50
+15/12/2023 16:25:40 : Customer ID:3 | First Name:Gergana | Last Name:Dimitrova | Email:dimitrova@test.test | Telephone:0888888888 | Newsletter:1 | Date Added:2023-11-24 15:16:16
+15/12/2023 16:25:40 : Customer ID:92 | First Name:Vasil | Last Name:Vasilev | Email:vasilev@test.test | Telephone:0884395614 | Newsletter:1 | Date Added:2023-12-02 19:33:22
+15/12/2023 16:25:40 : Customer ID:40 | First Name:Kiril | Last Name:Todorov | Email:todorov@test.test | Telephone:0883198565 | Newsletter:1 | Date Added:2023-11-28 18:26:48
+15/12/2023 16:25:40 : Customer ID:93 | First Name:Ivan | Last Name:Ivanov | Email:ivanov@test.test | Telephone:0887446682 | Newsletter:1 | Date Added:2023-12-15 15:13:10
+15/12/2023 16:25:40 : Customer ID:89 | First Name:asd | Last Name:asd | Email:asd@asd.asd | Telephone:123123 | Newsletter:0 | Date Added:2023-12-02 18:52:43
+15/12/2023 16:25:40 : ____________________________________________________________________________
+15/12/2023 16:25:40 : Disconnecting from DB...
+15/12/2023 16:25:40 : Inside Step - the user login into his profile with email ivanov@test.test, and password ivanov
+15/12/2023 16:25:41 : Inside Step - user add product from homepage to his wishlist
+15/12/2023 16:25:42 : Test End!
+_________________________________________________________________________________________
+15/12/2023 16:26:33 : Test Start!
+15/12/2023 16:26:36 : Inside Step - the user have a profile in website and is on home page
+15/12/2023 16:26:36 : Connecting to DB...
+15/12/2023 16:26:36 : __________________________Database Response___________________________________
+15/12/2023 16:26:36 : Customer ID:2 | First Name:Georgi | Last Name:Petrov | Email:petrov@test.test | Telephone:0883225512 | Newsletter:0 | Date Added:2023-11-24 15:13:50
+15/12/2023 16:26:36 : Customer ID:3 | First Name:Gergana | Last Name:Dimitrova | Email:dimitrova@test.test | Telephone:0888888888 | Newsletter:1 | Date Added:2023-11-24 15:16:16
+15/12/2023 16:26:36 : Customer ID:92 | First Name:Vasil | Last Name:Vasilev | Email:vasilev@test.test | Telephone:0884395614 | Newsletter:1 | Date Added:2023-12-02 19:33:22
+15/12/2023 16:26:36 : Customer ID:40 | First Name:Kiril | Last Name:Todorov | Email:todorov@test.test | Telephone:0883198565 | Newsletter:1 | Date Added:2023-11-28 18:26:48
+15/12/2023 16:26:36 : Customer ID:93 | First Name:Ivan | Last Name:Ivanov | Email:ivanov@test.test | Telephone:0887446682 | Newsletter:1 | Date Added:2023-12-15 15:13:10
+15/12/2023 16:26:36 : Customer ID:89 | First Name:asd | Last Name:asd | Email:asd@asd.asd | Telephone:123123 | Newsletter:0 | Date Added:2023-12-02 18:52:43
+15/12/2023 16:26:36 : ____________________________________________________________________________
+15/12/2023 16:26:36 : Disconnecting from DB...
+15/12/2023 16:26:36 : Inside Step - the user login into his profile with email ivanov@test.test, and password ivanov
+15/12/2023 16:26:37 : Inside Step - user add product from homepage to his wishlist
+15/12/2023 16:26:37 : Test End!
+_________________________________________________________________________________________
+15/12/2023 16:28:43 : Test Start!
+15/12/2023 16:28:45 : Inside Step - the user have a profile in website and is on home page
+15/12/2023 16:28:45 : Connecting to DB...
+15/12/2023 16:28:45 : __________________________Database Response___________________________________
+15/12/2023 16:28:45 : Customer ID:2 | First Name:Georgi | Last Name:Petrov | Email:petrov@test.test | Telephone:0883225512 | Newsletter:0 | Date Added:2023-11-24 15:13:50
+15/12/2023 16:28:45 : Customer ID:3 | First Name:Gergana | Last Name:Dimitrova | Email:dimitrova@test.test | Telephone:0888888888 | Newsletter:1 | Date Added:2023-11-24 15:16:16
+15/12/2023 16:28:45 : Customer ID:92 | First Name:Vasil | Last Name:Vasilev | Email:vasilev@test.test | Telephone:0884395614 | Newsletter:1 | Date Added:2023-12-02 19:33:22
+15/12/2023 16:28:45 : Customer ID:40 | First Name:Kiril | Last Name:Todorov | Email:todorov@test.test | Telephone:0883198565 | Newsletter:1 | Date Added:2023-11-28 18:26:48
+15/12/2023 16:28:45 : Customer ID:93 | First Name:Ivan | Last Name:Ivanov | Email:ivanov@test.test | Telephone:0887446682 | Newsletter:1 | Date Added:2023-12-15 15:13:10
+15/12/2023 16:28:45 : Customer ID:89 | First Name:asd | Last Name:asd | Email:asd@asd.asd | Telephone:123123 | Newsletter:0 | Date Added:2023-12-02 18:52:43
+15/12/2023 16:28:45 : ____________________________________________________________________________
+15/12/2023 16:28:45 : Disconnecting from DB...
+15/12/2023 16:28:45 : Inside Step - the user login into his profile with email ivanov@test.test, and password ivanov
+15/12/2023 16:28:46 : Inside Step - user add product from homepage to his wishlist
+15/12/2023 16:28:47 : Inside Step - click on <Wish List> button in header
+15/12/2023 16:28:47 : Inside Step - the user should be redirected to his wishlist page and see added product there.
+15/12/2023 16:28:47 : Test End!
+_________________________________________________________________________________________
+15/12/2023 16:30:15 : Test Start!
+15/12/2023 16:30:17 : Inside Step - the user have a profile in website and is on home page
+15/12/2023 16:30:17 : Connecting to DB...
+15/12/2023 16:30:17 : __________________________Database Response___________________________________
+15/12/2023 16:30:17 : Customer ID:2 | First Name:Georgi | Last Name:Petrov | Email:petrov@test.test | Telephone:0883225512 | Newsletter:0 | Date Added:2023-11-24 15:13:50
+15/12/2023 16:30:17 : Customer ID:3 | First Name:Gergana | Last Name:Dimitrova | Email:dimitrova@test.test | Telephone:0888888888 | Newsletter:1 | Date Added:2023-11-24 15:16:16
+15/12/2023 16:30:17 : Customer ID:92 | First Name:Vasil | Last Name:Vasilev | Email:vasilev@test.test | Telephone:0884395614 | Newsletter:1 | Date Added:2023-12-02 19:33:22
+15/12/2023 16:30:17 : Customer ID:40 | First Name:Kiril | Last Name:Todorov | Email:todorov@test.test | Telephone:0883198565 | Newsletter:1 | Date Added:2023-11-28 18:26:48
+15/12/2023 16:30:17 : Customer ID:93 | First Name:Ivan | Last Name:Ivanov | Email:ivanov@test.test | Telephone:0887446682 | Newsletter:1 | Date Added:2023-12-15 15:13:10
+15/12/2023 16:30:17 : Customer ID:89 | First Name:asd | Last Name:asd | Email:asd@asd.asd | Telephone:123123 | Newsletter:0 | Date Added:2023-12-02 18:52:43
+15/12/2023 16:30:17 : ____________________________________________________________________________
+15/12/2023 16:30:17 : Disconnecting from DB...
+15/12/2023 16:30:17 : Inside Step - the user login into his profile with email ivanov@test.test, and password ivanov
+15/12/2023 16:30:18 : Inside Step - user add product from homepage to his wishlist
+15/12/2023 16:30:19 : Inside Step - click on <Wish List> button in header
+15/12/2023 16:30:19 : Inside Step - the user should be redirected to his wishlist page and see added product there.
+15/12/2023 16:30:19 : Test End!
+_________________________________________________________________________________________
+15/12/2023 16:32:03 : Test Start!
+15/12/2023 16:32:05 : Inside Step - the user have a profile in website and is on home page
+15/12/2023 16:32:05 : Connecting to DB...
+15/12/2023 16:32:05 : __________________________Database Response___________________________________
+15/12/2023 16:32:05 : Customer ID:2 | First Name:Georgi | Last Name:Petrov | Email:petrov@test.test | Telephone:0883225512 | Newsletter:0 | Date Added:2023-11-24 15:13:50
+15/12/2023 16:32:05 : Customer ID:3 | First Name:Gergana | Last Name:Dimitrova | Email:dimitrova@test.test | Telephone:0888888888 | Newsletter:1 | Date Added:2023-11-24 15:16:16
+15/12/2023 16:32:05 : Customer ID:92 | First Name:Vasil | Last Name:Vasilev | Email:vasilev@test.test | Telephone:0884395614 | Newsletter:1 | Date Added:2023-12-02 19:33:22
+15/12/2023 16:32:05 : Customer ID:40 | First Name:Kiril | Last Name:Todorov | Email:todorov@test.test | Telephone:0883198565 | Newsletter:1 | Date Added:2023-11-28 18:26:48
+15/12/2023 16:32:05 : Customer ID:93 | First Name:Ivan | Last Name:Ivanov | Email:ivanov@test.test | Telephone:0887446682 | Newsletter:1 | Date Added:2023-12-15 15:13:10
+15/12/2023 16:32:05 : Customer ID:89 | First Name:asd | Last Name:asd | Email:asd@asd.asd | Telephone:123123 | Newsletter:0 | Date Added:2023-12-02 18:52:43
+15/12/2023 16:32:05 : ____________________________________________________________________________
+15/12/2023 16:32:05 : Disconnecting from DB...
+15/12/2023 16:32:06 : Inside Step - the user login into his profile with email ivanov@test.test, and password ivanov
+15/12/2023 16:32:07 : Inside Step - user add product from homepage to his wishlist
+15/12/2023 16:32:08 : Inside Step - click on <Wish List> button in header
+15/12/2023 16:32:08 : Inside Step - the user should be redirected to his wishlist page and see added product there.
+15/12/2023 16:32:08 : Test End!
+_________________________________________________________________________________________
+15/12/2023 16:46:17 : Test Start!
+15/12/2023 16:46:19 : Inside Step - the user have a profile in website and is on home page
+15/12/2023 16:46:19 : Connecting to DB...
+15/12/2023 16:46:19 : __________________________Database Response___________________________________
+15/12/2023 16:46:19 : Customer ID:2 | First Name:Georgi | Last Name:Petrov | Email:petrov@test.test | Telephone:0883225512 | Newsletter:0 | Date Added:2023-11-24 15:13:50
+15/12/2023 16:46:19 : Customer ID:3 | First Name:Gergana | Last Name:Dimitrova | Email:dimitrova@test.test | Telephone:0888888888 | Newsletter:1 | Date Added:2023-11-24 15:16:16
+15/12/2023 16:46:19 : Customer ID:92 | First Name:Vasil | Last Name:Vasilev | Email:vasilev@test.test | Telephone:0884395614 | Newsletter:1 | Date Added:2023-12-02 19:33:22
+15/12/2023 16:46:19 : Customer ID:40 | First Name:Kiril | Last Name:Todorov | Email:todorov@test.test | Telephone:0883198565 | Newsletter:1 | Date Added:2023-11-28 18:26:48
+15/12/2023 16:46:19 : Customer ID:93 | First Name:Ivan | Last Name:Ivanov | Email:ivanov@test.test | Telephone:0887446682 | Newsletter:1 | Date Added:2023-12-15 15:13:10
+15/12/2023 16:46:19 : Customer ID:89 | First Name:asd | Last Name:asd | Email:asd@asd.asd | Telephone:123123 | Newsletter:0 | Date Added:2023-12-02 18:52:43
+15/12/2023 16:46:19 : ____________________________________________________________________________
+15/12/2023 16:46:19 : Disconnecting from DB...
+15/12/2023 16:46:19 : Inside Step - the user login into his profile with email ivanov@test.test, and password ivanov
+15/12/2023 16:46:20 : Inside Step - user add product from homepage to his wishlist
+15/12/2023 16:46:22 : Inside Step - click on <Wish List> button in header
+15/12/2023 16:46:22 : Inside Step - the user should be redirected to his wishlist page and see added product there.
+15/12/2023 16:46:22 : Test End!
+_________________________________________________________________________________________
+15/12/2023 16:46:54 : Test Start!
+15/12/2023 16:46:56 : Inside Step - the user have a profile in website and is on home page
+15/12/2023 16:46:56 : Connecting to DB...
+15/12/2023 16:46:57 : __________________________Database Response___________________________________
+15/12/2023 16:46:57 : Customer ID:2 | First Name:Georgi | Last Name:Petrov | Email:petrov@test.test | Telephone:0883225512 | Newsletter:0 | Date Added:2023-11-24 15:13:50
+15/12/2023 16:46:57 : Customer ID:3 | First Name:Gergana | Last Name:Dimitrova | Email:dimitrova@test.test | Telephone:0888888888 | Newsletter:1 | Date Added:2023-11-24 15:16:16
+15/12/2023 16:46:57 : Customer ID:92 | First Name:Vasil | Last Name:Vasilev | Email:vasilev@test.test | Telephone:0884395614 | Newsletter:1 | Date Added:2023-12-02 19:33:22
+15/12/2023 16:46:57 : Customer ID:40 | First Name:Kiril | Last Name:Todorov | Email:todorov@test.test | Telephone:0883198565 | Newsletter:1 | Date Added:2023-11-28 18:26:48
+15/12/2023 16:46:57 : Customer ID:93 | First Name:Ivan | Last Name:Ivanov | Email:ivanov@test.test | Telephone:0887446682 | Newsletter:1 | Date Added:2023-12-15 15:13:10
+15/12/2023 16:46:57 : Customer ID:89 | First Name:asd | Last Name:asd | Email:asd@asd.asd | Telephone:123123 | Newsletter:0 | Date Added:2023-12-02 18:52:43
+15/12/2023 16:46:57 : ____________________________________________________________________________
+15/12/2023 16:46:57 : Disconnecting from DB...
+15/12/2023 16:46:57 : Inside Step - the user login into his profile with email ivanov@test.test, and password ivanov
+15/12/2023 16:46:58 : Inside Step - user add product from homepage to his wishlist
+15/12/2023 16:46:59 : Inside Step - click on <Wish List> button in header
+15/12/2023 16:46:59 : Inside Step - the user should be redirected to his wishlist page and see added product there.
+15/12/2023 16:46:59 : Test End!
+_________________________________________________________________________________________

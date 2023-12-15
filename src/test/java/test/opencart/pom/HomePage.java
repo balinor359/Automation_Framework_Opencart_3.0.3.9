@@ -5,6 +5,7 @@ import org.openqa.selenium.support.Color;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.Assert;
+import test.opencart.objects.Product;
 import test.opencart.utilities.MyFileWriter;
 import test.opencart.utilities.TestUtilities;
 
@@ -57,8 +58,7 @@ public class HomePage extends TestUtilities {
     private WebElement shoppingCartBadge;
     @FindBy(xpath = "//div[@class='inventory_list']")
     private WebElement productsList;
-    @FindBy(xpath = "//div[@class='inventory_item']")
-    private List<WebElement> productListLocal;
+
     @FindBy(xpath = "//div[@class='inventory_item_label']//a")
     private WebElement singleProductName;
     @FindBy(xpath = "//div[@class='inventory_item_label']//a[contains(@id,'title_link')]")
@@ -159,6 +159,9 @@ public class HomePage extends TestUtilities {
     private WebElement footerTermsLink;
     @FindBy(xpath = ".//div[@id='information-information']//h1")
     private WebElement infoPageHeading;
+
+    @FindBy(xpath = "//div[contains(@class, 'product-layout')]")
+    private List<WebElement> productListLocal;
 
     /* This is constructor for home page using PageFactory for web-elements */
     public HomePage(WebDriver driver) {
@@ -332,12 +335,51 @@ public class HomePage extends TestUtilities {
         }
     }
 
+    /* Click method for login page link in header */
+    public LoginPage clickOnLoginPageLink() {
+        Assert.assertTrue(headerLinksContainer.isDisplayed(), TOP_LINKS_CONTAINER_MISSING_MESSAGE);
+        headerAccountDropdownToggle.click();
+        Assert.assertTrue(headerLoginLink.isDisplayed(), LOGIN_LINK_MISSING_MESSAGE);
+        headerLoginLink.click();
 
+        /* Return driver to ContactPage (POM) */
+        return new LoginPage(driver);
+    }
 
+    /* Method who add product to wishlist by submitted item name */
+    public void addProductToWishlist(String productName) {
+        /* Go through all products */
+        for (WebElement product : productListLocal) {
 
+            /* Save values for Name/Price/Image src for comparison in other pages */
 
+            /* Take product - Name */
+            WebElement innerProductName = product.findElement(By.cssSelector("div.caption h4 a"));
 
+            /* Take product - Price */
+            WebElement productPrice = product.findElement(By.cssSelector("p.price"));
 
+            /* Take product - Image Src*/
+            WebElement productImageSrc = product.findElement(By.cssSelector("img.img-responsive"));
+            String imageUrl = extractImageUrlWithoutDimensionsAndFileType(productImageSrc.getAttribute("src"));
+
+            /* Locate submitted product and create new product object */
+            if (innerProductName.getText().equals(productName)) {
+
+                /* Create new product with name, price and image src, and add it to the product list */
+                Product newProduct = new Product(innerProductName.getText(), productPrice.getText(), imageUrl);
+                Product.productList.add(newProduct);
+            }
+        }
+    }
+
+    /* Method to extract image URL without dimensions and file type using regex */
+    private String extractImageUrlWithoutDimensionsAndFileType(String imageUrlWithDimensions) {
+        // Define a regex pattern to match the image URL without dimensions
+        String regexPattern = "(.*?)(-\\d+x\\d+)?(\\.\\w+)";
+        // Replace the matched dimensions and file type with an empty string
+        return imageUrlWithDimensions.replaceAll(regexPattern, "$1");
+    }
 
     /* ____________________________________________________________________________ OLD CODE */
 
