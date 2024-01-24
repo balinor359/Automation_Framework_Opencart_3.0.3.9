@@ -1,5 +1,7 @@
 package test.opencart.utilities;
 
+import org.openqa.selenium.By;
+import org.openqa.selenium.interactions.Actions;
 import test.opencart.objects.Product;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.Capabilities;
@@ -191,6 +193,13 @@ public class TestUtilities {
         return element;
 
     }
+    //Scroll to element
+    public static void scrollTo(WebDriver driver, WebElement webElement) {
+        new Actions(driver)
+                .scrollToElement(webElement)
+                .perform();
+    }
+
 
     /* Simple Thread wait when can`t make web-driver to wait specific page load*/
     public static void simpleWait(int millisecond) {

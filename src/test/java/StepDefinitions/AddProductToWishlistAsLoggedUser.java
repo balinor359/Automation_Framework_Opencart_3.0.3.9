@@ -48,7 +48,9 @@ public class AddProductToWishlistAsLoggedUser extends TestUtilities {
         HomePage homePage = new HomePage(TestUtilities.driver);
         homePage.clickOnHomepageLink();
         homePage.homepageValidator();
+
         homePage.addProductToWishlist("MacBook");
+        homePage.validateAddedProductToWishlist("MacBook");
         System.out.println("Product.productList2 " + Product.productList);
 
     }

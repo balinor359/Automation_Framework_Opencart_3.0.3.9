@@ -118,6 +118,7 @@ public class HomePage extends TestUtilities {
     public static String SEARCH_KEYWORD = "";
     public static ArrayList<Double> originalPriceList = new ArrayList<>();
     public static ArrayList<Double> productsAfterLoad = new ArrayList<>();
+    private static String alertMessage = "";
 //
 //    /* Array list with tabs(WindowHandles) */
 //    public ArrayList<String> tabsHandles = new ArrayList<>();
@@ -159,9 +160,22 @@ public class HomePage extends TestUtilities {
     private WebElement footerTermsLink;
     @FindBy(xpath = ".//div[@id='information-information']//h1")
     private WebElement infoPageHeading;
-
+    @FindBy(xpath = ".//button[@qa='add-to-cart-btn']")
+    private WebElement addToCartBtn;
+    @FindBy(xpath = ".//button[@qa='add-to-wishlist-btn']")
+    private WebElement addToWishlistBtn;
+    @FindBy(xpath = ".//button[@qa='add-to-compare-btn']")
+    private WebElement addToCompareBtn;
     @FindBy(xpath = "//div[contains(@class, 'product-layout')]")
     private List<WebElement> productListLocal;
+
+    @FindBy(className = "alert")
+    private WebElement alertText;
+
+    /* This method return errorMessage */
+    public String returnAlertText() {
+        return alertMessage = alertText.getText().replace("×", "").trim();
+    }
 
     /* This is constructor for home page using PageFactory for web-elements */
     public HomePage(WebDriver driver) {
@@ -366,9 +380,17 @@ public class HomePage extends TestUtilities {
             /* Locate submitted product and create new product object */
             if (innerProductName.getText().equals(productName)) {
 
+                /* Take product - Wishlist button */
+                WebElement addToWishlistBtn = product.findElement(By.xpath(".//button[@qa='add-to-wishlist-btn']"));
+
+                /* Scroll to add to wishlist button of the product and click it */
+                TestUtilities.scrollTo(driver,addToWishlistBtn);
+                addToWishlistBtn.click();
+
                 /* Create new product with name, price and image src, and add it to the product list */
                 Product newProduct = new Product(innerProductName.getText(), productPrice.getText(), imageUrl);
                 Product.productList.add(newProduct);
+
             }
         }
     }
@@ -380,6 +402,24 @@ public class HomePage extends TestUtilities {
         // Replace the matched dimensions and file type with an empty string
         return imageUrlWithDimensions.replaceAll(regexPattern, "$1");
     }
+    /* Method who validate notification for added product to wishlist */
+    public void validateAddedProductToWishlist(String productName) {
+        /* Log the alert and print it in the console */
+        System.out.println("<<< Shows Alert: " + returnAlertText() + " >>>");
+        MyFileWriter.writeToLog("<<< Shows Alert: " + returnAlertText() + " >>>");
+
+        /* Validate that message contains product name */
+        Assert.assertTrue(returnAlertText().contains(productName), GenericMessages.DIFFERENT_PRODUCT_ADDED_MESSAGE);
+
+    }
+
+
+
+
+
+
+
+
 
     /* ____________________________________________________________________________ OLD CODE */
 

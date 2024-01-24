@@ -17,7 +17,7 @@ public class GenericMessages {
     public static final String FOOTER_LINK_FONT_COLOR = "#cccccc";
     public static final String EMAIL_INPUT_MISSING_MESSAGE = "Email input is missing!";
     public static final String PASSWORD_INPUT_MISSING_MESSAGE = "Password input is missing!";
-
+    public static final String DIFFERENT_PRODUCT_ADDED_MESSAGE = "The added product is different!";
 
 
 
