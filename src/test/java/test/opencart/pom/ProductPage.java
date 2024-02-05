@@ -8,8 +8,6 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.Assert;
-import org.testng.asserts.SoftAssert;
-
 
 public class ProductPage extends TestUtilities {
 
@@ -17,33 +15,39 @@ public class ProductPage extends TestUtilities {
     protected WebDriver driver;
 
     /* Declaring string variables for the current page */
-    private static final String PRODUCT_PAGE_URL = "https://www.saucedemo.com/inventory-item.html";
-    private static final String PRODUCT_PAGE = "Current page is Product page.";
-    private static final String PRODUCT_PAGE_ERROR = "Product page loading Failed.";
-    private static final String PRODUCT_IMAGE_MISSING_MESSAGE = "Product image is not displayed!";
-    private static final String PRODUCT_IMAGE_IS_DIFFERENT_MESSAGE = "Product image is different!";
-    private static final String BACK_TO_ALL_PRODUCTS_MISSING_MESSAGE = "'Back to products' link is not displayed!";
+    private static final String SUCCESS_MESSAGE_MISSING_MESSAGE = "Success message is missing!";
+    private static final String SUCCESS_MESSAGE_DIFFERENT_MESSAGE = "Success message is different!";
 
     /* Declaring page elements */
-    @FindBy(xpath = "//a[@id='inventory_sidebar_link']")
-    private WebElement menuInventoryButton;
-    @FindBy(xpath = "//button[@id='back-to-products']")
-    private WebElement backToAllProductsButton;
-    @FindBy(xpath = "//div[contains(@class,'inventory_details_name')]")
-    private WebElement productName;
-    @FindBy(xpath = "//div[@class='inventory_details_price']")
-    private WebElement productPrice;
-    @FindBy(xpath = "//img[@class='inventory_details_img']")
-    private WebElement productImage;
-    @FindBy(xpath = "//button[contains(@id,'add-to-cart-')]")
-    private WebElement productAddToCartButton;
-    @FindBy(xpath = "//button[contains(@id,'remove-']")
-    private WebElement productRemoveButton;
-    @FindBy(xpath = "//div[@class='inventory_list']")
-    private WebElement productsList;
+    @FindBy(xpath = ".//h1[@qa='product_name_heading']")
+    private WebElement heading;
+    @FindBy(xpath = ".//a[@qa='tab-description-trigger']")
+    private WebElement tabDescriptionTrigger;
+    @FindBy(xpath = ".//a[@qa='tab-review-trigger']")
+    private WebElement tabReviewTrigger;
+    @FindBy(xpath = "//form[@id='form-review']")
+    private WebElement reviewForm;
+    @FindBy(xpath = ".//h2[@qa='write-a-review-title']")
+    private WebElement reviewBoxTitle;
+    @FindBy(id = "input-name")
+    private WebElement inputName;
+    @FindBy(id = "input-review")
+    private WebElement inputReview;
+    @FindBy(xpath = ".//input[@qa='rating1']")
+    private WebElement reviewRating1;
+    @FindBy(xpath = ".//input[@qa='rating2']")
+    private WebElement reviewRating2;
+    @FindBy(xpath = ".//input[@qa='rating3']")
+    private WebElement reviewRating3;
+    @FindBy(xpath = ".//input[@qa='rating4']")
+    private WebElement reviewRating4;
+    @FindBy(xpath = ".//input[@qa='rating5']")
+    private WebElement reviewRating5;
+    @FindBy(xpath = "//button[@id='button-review']")
+    private WebElement reviewFormSubmitBtn;
+    @FindBy(xpath = "//form[@id='form-review']//div[contains(@class,'alert-success')]")
+    private WebElement reviewSuccessMsg;
 
-    /* Declare soft Assert  - used for problem user, to get all errors at the end of the test */
-    SoftAssert softAssert = new SoftAssert();
 
     /* This is constructor for product page using PageFactory for web-elements */
     public ProductPage(WebDriver driver) {
@@ -51,65 +55,96 @@ public class ProductPage extends TestUtilities {
         PageFactory.initElements(driver, this);
     }
 
-    /* Click method for "Cart" button in header */
-    public void addItemToTheCart() {
-        productAddToCartButton.click();
-    }
 
-    /* Click method for "Back to products" button */
-    public void clickBackToAllProductsButton() {
-        backToAllProductsButton.click();
-    }
-
-    /* Method who validate product page items */
+    /* This method validate product page container is visible */
     public void productPageValidator() {
-        /* Check if current page is one of product pages and print messages in console and log file */
-        if (driver.getCurrentUrl().contains(PRODUCT_PAGE_URL)) {
+        TestUtilities.waitVisible(driver, heading, 5);
+        Assert.assertTrue(heading.isDisplayed(), GenericMessages.PAGE_HEADING_MISSING_MESSAGE);
 
-            System.out.println(PRODUCT_PAGE);
-            MyFileWriter.writeToLog(PRODUCT_PAGE);
+        /* Go through all products in productList */
+        for (Product product : Product.productList) {
 
-            /* Explicit wait elements to be clickable, then check if they are displayed on the page */
-            waitClickable(driver, backToAllProductsButton, 2);
-            Assert.assertTrue(backToAllProductsButton.isDisplayed(), BACK_TO_ALL_PRODUCTS_MISSING_MESSAGE);
+            /* If element from cart match with element from productList compare their name and price */
+            if (driver.getCurrentUrl().contains("route=product/product")) {
 
-            waitClickable(driver, productAddToCartButton, 2);
-            Assert.assertTrue(productAddToCartButton.isDisplayed(), GenericMessages.ADD_TO_CART_MISSING_MESSAGE);
+                /* Validate product page heading */
+                Assert.assertEquals(heading.getText(), product.getName(), GenericMessages.PRODUCTS_NAME_IS_DIFFERENT_MESSAGE);
 
-            /* Validate the product name */
-            validateProductName();
-            /* Validate the product price */
-            validateProductPrice();
-            /* Validate the product image src */
-            validateProductImageSrc();
-
-            /* Calling all soft Asserts */
-            softAssert.assertAll();
-        } else {
-            System.out.println(PRODUCT_PAGE_ERROR);
-            MyFileWriter.writeToLog(PRODUCT_PAGE_ERROR);
+            }
         }
     }
 
-    /* Method who validate the product name */
-    public void validateProductName() {
-        Assert.assertTrue(productName.isDisplayed(), GenericMessages.PRODUCTS_NAME_MISSING_MESSAGE);
-        /* Its use soft assert, to get all errors at the end of the test */
-        softAssert.assertEquals(productName.getText(), Product.productList.get(0).getName(), GenericMessages.PRODUCTS_NAME_IS_DIFFERENT_MESSAGE);
+    /* This method select tab "Reviews" */
+    public void clickTabReviews() {
+        TestUtilities.scrollTo(driver, tabReviewTrigger);
+        TestUtilities.waitClickable(driver, tabReviewTrigger, 5);
+        tabReviewTrigger.click();
     }
 
-    /* Method who validate the product price */
-    public void validateProductPrice() {
-        Assert.assertTrue(productPrice.isDisplayed(), GenericMessages.PRODUCT_PRICE_MISSING_MESSAGE);
-        /* Its use soft assert, to get all errors at the end of the test */
-        softAssert.assertEquals(productPrice.getText(), Product.productList.get(0).getPrice(), GenericMessages.PRODUCT_PRICE_IS_DIFFERENT_MESSAGE);
+    /* This method validate search result page container is visible */
+    public void reviewFormValidator() {
+        Assert.assertTrue(reviewBoxTitle.isDisplayed(), GenericMessages.REVIEW_BOX_MISSING_HEADING);
+
+        /* Validate review box heading contains */
+        Assert.assertEquals(reviewBoxTitle.getText(), GenericMessages.REVIEW_BOX_HEADING, GenericMessages.DIFFERENT_REVIEW_BOX_HEADING);
+
+        Assert.assertTrue(reviewForm.isDisplayed(), GenericMessages.REVIEW_FORM_MISSING_MESSAGE);
+        Assert.assertTrue(inputName.isDisplayed(), GenericMessages.NAME_INPUT_MISSING_MESSAGE);
+        Assert.assertTrue(inputReview.isDisplayed(), GenericMessages.REVIEW_TEXTAREA_MISSING_MESSAGE);
+        Assert.assertTrue(reviewRating1.isDisplayed(), GenericMessages.RATING_INPUT_MISSING_MESSAGE);
+        Assert.assertTrue(reviewRating2.isDisplayed(), GenericMessages.RATING_INPUT_MISSING_MESSAGE);
+        Assert.assertTrue(reviewRating3.isDisplayed(), GenericMessages.RATING_INPUT_MISSING_MESSAGE);
+        Assert.assertTrue(reviewRating4.isDisplayed(), GenericMessages.RATING_INPUT_MISSING_MESSAGE);
+        Assert.assertTrue(reviewRating5.isDisplayed(), GenericMessages.RATING_INPUT_MISSING_MESSAGE);
+        Assert.assertTrue(reviewFormSubmitBtn.isDisplayed(), GenericMessages.SUBMIT_BUTTON_MISSING_MESSAGE);
     }
 
-    /* Method who validate the product image src */
-    public void validateProductImageSrc() {
-        Assert.assertTrue(productImage.isDisplayed(), PRODUCT_IMAGE_MISSING_MESSAGE);
-        /* Its use soft assert, to get all errors at the end of the test */
-        softAssert.assertEquals(productImage.getAttribute("src"), Product.productList.get(0).getImageSrc(), PRODUCT_IMAGE_IS_DIFFERENT_MESSAGE);
+
+    /* This method insert Name string into input field for Name */
+    public void insertNameIntoReview(String name) {
+        /* Clear, click and input data into name field */
+        inputName.clear();
+        inputName.click();
+        inputName.sendKeys(name);
+    }
+
+
+    /* This method insert text string into textarea field for Review */
+    public void insertReviewTextIntoReview(String review) {
+        /* Clear, click and input data into textarea */
+        inputReview.clear();
+        inputReview.click();
+        inputReview.sendKeys(review);
+    }
+
+    /* This method select rating input for Review by given number from 1 to 5 */
+    public void insertRatingIntoReview(int number) {
+
+        /* Click input by provided number */
+        if (number == 1) {
+            reviewRating1.click();
+        } else if (number == 2) {
+            reviewRating2.click();
+        } else if (number == 3) {
+            reviewRating3.click();
+        } else if (number == 4) {
+            reviewRating4.click();
+        } else if (number == 5) {
+            reviewRating5.click();
+        }
+
+    }
+
+    /* Click method for review form submit button */
+    public void reviewFormSubmit() {
+        waitClickable(driver, reviewFormSubmitBtn, 5);
+        reviewFormSubmitBtn.click();
+    }
+
+    /* This method validate success message, is it visible and the same as provided */
+    public void validateSuccessMessage(String message) {
+        Assert.assertTrue(reviewSuccessMsg.isDisplayed(), SUCCESS_MESSAGE_MISSING_MESSAGE);
+        Assert.assertEquals(reviewSuccessMsg.getText(), message, SUCCESS_MESSAGE_DIFFERENT_MESSAGE);
     }
 
 }

@@ -23,8 +23,9 @@ public class Registration extends TestUtilities {
         registrationPage.registrationPageValidator();
 
     }
+
     @When("insert valid credentials as follows:")
-    public void insert_valid_credentials_as_follows(io.cucumber.datatable.DataTable dataTable){
+    public void insert_valid_credentials_as_follows(io.cucumber.datatable.DataTable dataTable) {
         System.out.println("Inside Step - insert valid credentials");
         MyFileWriter.writeToLog("Inside Step - insert valid credentials");
 
@@ -39,6 +40,7 @@ public class Registration extends TestUtilities {
         RegistrationPage registrationPage = new RegistrationPage(TestUtilities.driver);
         registrationPage.fillRegistrationForm(firstName, lastName, email, telephone, password);
     }
+
     @When("click on Continue button")
     public void click_on_button() {
         System.out.println("Inside Step - click on Continue button");
@@ -51,6 +53,7 @@ public class Registration extends TestUtilities {
         registrationSuccessPage.clickOnContinueButton();
 
     }
+
     @Then("the user should been registered and redirect to its profile")
     public void the_user_should_been_registered_and_redirect_to_its_profile() {
         System.out.println("Inside Step - the user should been registered and redirect to its profile");

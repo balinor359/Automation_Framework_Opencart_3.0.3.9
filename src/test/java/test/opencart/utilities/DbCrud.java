@@ -22,6 +22,7 @@ public class DbCrud extends DbConnector {
     public void prepareCreateDbCustomerStatement() {
 
     }
+
     /* Create new customer to the oc_customer table */
     public void createDbCustomer() {
 

@@ -1,4 +1,26 @@
 This framework performs automated tests on the local hosted website.
- - The Opencart and his database are provided in the files.
+ - Opencart and its database are provided in a separate folder in the files.
 
-UNDER DEVELOPMENT !!!
+The Framework includes:
+
+- POM folder - which describes the page objects needed and used for the tests, as well as various methods, variables and messages for the assert checks, PageFactory etc.
+- Features folder - which contains other folders with different features, ordered according to the website parts/pages.
+- StepDefinitions folder - which contains all steps needed for test scenarios executions.
+- "config.properties" - from where the desired browser ( Chrome / Edge / Firefox ) can be changed
+- "TestUtilities" - with the necessary before/after methods; switch to select and create a specific browser webdriver;
+- Folder "suites" - Containing "suite.xml", who run "TestRunner" with all test scenarios.
+- Folder containing Selenium webdrivers for Chrome / Edge / Firefox
+- Folder "log" - containing a log file of the executed tests
+- JAVA Objects for Products and Customers, used in tests.
+
+
+FOLLOWING FEATURES ARE UNDER DEVELOPMENT !!!
+ - ShoppingCart
+    - EmptyCartCheckout.feature
+    - MinicartCartData.feature
+    - ShoppingCartDeleteProduct.feature
+    - ShoppingCartQtyUpdate.feature
+
+ - Checkout
+    - CompleteOrderAsGuest.feature
+    - CompleteOrderAsLoggedUser.feature

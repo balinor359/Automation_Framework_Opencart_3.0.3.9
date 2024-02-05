@@ -14,7 +14,6 @@ public class Product {
     public Product() {
 
     }
-
     public Product(String name, String price, String imageSrc) {
         super();
         this.name = name;

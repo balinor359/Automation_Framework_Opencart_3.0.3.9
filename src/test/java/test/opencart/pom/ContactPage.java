@@ -16,7 +16,7 @@ public class ContactPage extends TestUtilities {
     /* Declaring string variables for the current page */
     private static final String CONTACT_PAGE_HEADING = "Contact Us";
     private static final String CONTACT_FORM_MISSING_MESSAGE = "Contact form is missing!";
-    private static final String NAME_INPUT_MISSING_MESSAGE = "Name input is missing!";
+
     private static final String EMAIL_INPUT_MISSING_MESSAGE = "Email input is missing!";
     private static final String ENQUIRY_TEXTAREA_MISSING_MESSAGE = "Enquiry textarea is missing!";
     private static final String SUCCESS_MESSAGE_MISSING_MESSAGE = "Success message is missing!";
@@ -56,7 +56,7 @@ public class ContactPage extends TestUtilities {
         Assert.assertEquals(heading.getText(), CONTACT_PAGE_HEADING, GenericMessages.DIFFERENT_PAGE_HEADING);
 
         Assert.assertTrue(contactForm.isDisplayed(), CONTACT_FORM_MISSING_MESSAGE);
-        Assert.assertTrue(inputName.isDisplayed(), NAME_INPUT_MISSING_MESSAGE);
+        Assert.assertTrue(inputName.isDisplayed(), GenericMessages.NAME_INPUT_MISSING_MESSAGE);
         Assert.assertTrue(inputEmail.isDisplayed(), EMAIL_INPUT_MISSING_MESSAGE);
         Assert.assertTrue(enquiryTextarea.isDisplayed(), ENQUIRY_TEXTAREA_MISSING_MESSAGE);
         Assert.assertTrue(contactFormSubmitBtn.isDisplayed(), GenericMessages.SUBMIT_BUTTON_MISSING_MESSAGE);

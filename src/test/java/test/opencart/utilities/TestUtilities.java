@@ -1,6 +1,6 @@
 package test.opencart.utilities;
 
-import org.openqa.selenium.By;
+import org.openqa.selenium.firefox.FirefoxOptions;
 import org.openqa.selenium.interactions.Actions;
 import test.opencart.objects.Product;
 import io.github.bonigarcia.wdm.WebDriverManager;
@@ -12,8 +12,6 @@ import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
-import org.testng.annotations.AfterMethod;
-import org.testng.annotations.BeforeMethod;
 
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
@@ -35,9 +33,6 @@ public class TestUtilities {
         MyFileWriter.writeToLog("Test Start!");
         System.out.println("Test Start!");
 
-        /* Create userList */
-//        UserBuilder.createUserList();
-
         /* Create the driver, depending on chosen browser in config.properties */
         setupBrowserDriver();
 
@@ -50,9 +45,6 @@ public class TestUtilities {
         /* Clear saved list with products after each test */
         clearProductList();
 
-        /* Clear saved list with users after each test */
-//        clearUserList();
-
         /* Print messages into console and log file */
         MyFileWriter.writeToLog("Test End!" + "\n_________________________________________________________________________________________");
         System.out.println("Test End!" + "\n_________________________________________________________________________________________");
@@ -60,7 +52,7 @@ public class TestUtilities {
         /* Close the driver*/
         if (driver != null) {
             driver.close();
-            driver.quit();
+//            driver.quit();
         }
     }
 
@@ -168,7 +160,6 @@ public class TestUtilities {
 
         Capabilities capabilities = ((EdgeDriver) driver).getCapabilities();
         String browserVersion = capabilities.getCapability("browserVersion").toString();
-//        String webDriverVersion = ((EdgeDriver) driver).getCapabilities().toString();
         String webDriverVersion = capabilities.getCapability("msedge").toString();
 
 
@@ -179,21 +170,22 @@ public class TestUtilities {
 
     }
 
-    //Explicit wait for element to be clickable
+    /* Explicit wait for element to be clickable */
     public static WebElement waitClickable(WebDriver driver, WebElement webElement, int sec) {
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(sec));
         WebElement element = wait.until(ExpectedConditions.elementToBeClickable(webElement));
         return element;
     }
 
-    //Explicit wait for element to be visible
+    /* Explicit wait for element to be visible */
     public static WebElement waitVisible(WebDriver driver, WebElement webElement, int sec) {
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(sec));
         WebElement element = wait.until(ExpectedConditions.visibilityOf(webElement));
         return element;
 
     }
-    //Scroll to element
+
+    /* Scroll to element */
     public static void scrollTo(WebDriver driver, WebElement webElement) {
         new Actions(driver)
                 .scrollToElement(webElement)
@@ -201,7 +193,7 @@ public class TestUtilities {
     }
 
 
-    /* Simple Thread wait when can`t make web-driver to wait specific page load*/
+    /* Simple Thread wait when can`t make web-driver to wait specific page load */
     public static void simpleWait(int millisecond) {
         try {
             Thread.sleep(millisecond);
@@ -214,9 +206,5 @@ public class TestUtilities {
     public void clearProductList() {
         Product.productList.clear();
     }
-//    /* This method clear user list data */
-//    public void clearUserList() {
-//        UserBuilder.fullUsersList.clear();
-//    }
 
 }

@@ -17,6 +17,7 @@ public class FooterInternalLinks extends TestUtilities {
         homePage.clickFooterAboutLink();
 
     }
+
     @Then("the user should see About Us page.")
     public void the_user_should_see_about_us_page() {
         System.out.println("Inside Step - the user should see About Us page.");
@@ -37,6 +38,7 @@ public class FooterInternalLinks extends TestUtilities {
         homePage.clickFooterDeliveryLink();
 
     }
+
     @Then("the user should see Delivery Information page.")
     public void the_user_should_see_delivery_information_page() {
         System.out.println("Inside Step - the user should see Delivery Information page.");
@@ -57,6 +59,7 @@ public class FooterInternalLinks extends TestUtilities {
         homePage.clickFooterPrivacyLink();
 
     }
+
     @Then("the user should see Privacy Policy page.")
     public void the_user_should_see_privacy_policy_page() {
         System.out.println("Inside Step - the user should see Privacy Policy page.");
@@ -77,6 +80,7 @@ public class FooterInternalLinks extends TestUtilities {
         homePage.clickFooterTermsLink();
 
     }
+
     @Then("the user should see Terms & Conditions page.")
     public void the_user_should_see_terms_conditions_page() {
         System.out.println("Inside Step - the user should see Terms & Conditions page.");
