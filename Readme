@@ -1,5 +1,5 @@
 This framework performs automated tests on the local hosted website.
- - Opencart and its database are provided in a separate folder in the files.
+ - Opencart theme folder (with added handlers) and database are provided in a separate folder in the files.
 
 The Framework includes:
 
