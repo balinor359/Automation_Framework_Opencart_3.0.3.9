@@ -9978,3 +9978,732 @@ ________________________________________________________________________________
 06/02/2024 00:59:31 : Disconnecting from DB...
 06/02/2024 00:59:31 : Test End!
 _________________________________________________________________________________________
+13/02/2024 18:04:59 : Test Start!
+13/02/2024 18:05:02 : Inside Step - the user is on home page
+13/02/2024 18:05:02 : Test End!
+_________________________________________________________________________________________
+13/02/2024 18:05:03 : Test Start!
+13/02/2024 18:05:04 : Inside Step - the user is on home page
+13/02/2024 18:05:04 : Test End!
+_________________________________________________________________________________________
+13/02/2024 18:06:37 : Test Start!
+13/02/2024 18:06:39 : Inside Step - the user is on home page
+13/02/2024 18:06:39 : Test End!
+_________________________________________________________________________________________
+13/02/2024 18:06:39 : Test Start!
+13/02/2024 18:06:41 : Inside Step - the user is on home page
+13/02/2024 18:06:41 : Test End!
+_________________________________________________________________________________________
+23/02/2024 14:41:55 : Test Start!
+23/02/2024 14:41:57 : Test End!
+_________________________________________________________________________________________
+23/02/2024 14:41:57 : Test Start!
+23/02/2024 14:41:57 : Test End!
+_________________________________________________________________________________________
+23/02/2024 14:42:35 : Test Start!
+23/02/2024 14:42:36 : Test End!
+_________________________________________________________________________________________
+23/02/2024 14:47:37 : Test Start!
+23/02/2024 14:47:38 : Test End!
+_________________________________________________________________________________________
+23/02/2024 14:47:55 : Test Start!
+23/02/2024 14:47:58 : Inside Step - the user is on home page
+23/02/2024 14:47:59 : Inside Step - the user navigate to product page
+23/02/2024 14:48:00 : Inside Step - click on `Reviews` tab
+23/02/2024 14:48:01 : Inside Step - fill the review form with valid data
+23/02/2024 14:48:01 : Inside Step - click on `Continue` button
+23/02/2024 14:48:01 : Inside Step - the user should see "Thank you for your review. It has been submitted to the webmaster for approval." notification message.
+23/02/2024 14:48:01 : Test End!
+_________________________________________________________________________________________
+23/02/2024 14:48:16 : Test Start!
+23/02/2024 14:48:21 : Inside Step - the user is on home page
+23/02/2024 14:48:21 : Inside Step - the user navigate to product page
+23/02/2024 14:48:23 : Inside Step - click on `Reviews` tab
+23/02/2024 14:48:23 : Inside Step - fill the review form with valid data
+23/02/2024 14:48:24 : Inside Step - click on `Continue` button
+23/02/2024 14:48:24 : Inside Step - the user should see "Thank you for your review. It has been submitted to the webmaster for approval." notification message.
+23/02/2024 14:48:24 : Test End!
+_________________________________________________________________________________________
+23/02/2024 14:48:34 : Test Start!
+23/02/2024 14:48:35 : Test End!
+_________________________________________________________________________________________
+23/02/2024 14:53:18 : Test Start!
+23/02/2024 14:53:19 : Test End!
+_________________________________________________________________________________________
+23/02/2024 14:53:39 : Test Start!
+23/02/2024 14:53:40 : Test End!
+_________________________________________________________________________________________
+23/02/2024 14:54:40 : Test Start!
+23/02/2024 14:54:40 : Test End!
+_________________________________________________________________________________________
+23/02/2024 14:56:15 : Test Start!
+23/02/2024 14:56:16 : Test End!
+_________________________________________________________________________________________
+23/02/2024 14:58:24 : Test Start!
+23/02/2024 14:58:25 : Test End!
+_________________________________________________________________________________________
+23/02/2024 15:00:06 : Test Start!
+23/02/2024 15:00:06 : Test End!
+_________________________________________________________________________________________
+23/02/2024 15:02:10 : Test Start!
+23/02/2024 15:02:11 : Test End!
+_________________________________________________________________________________________
+23/02/2024 15:06:18 : Test Start!
+23/02/2024 15:06:19 : Test End!
+_________________________________________________________________________________________
+23/02/2024 15:09:25 : Test Start!
+23/02/2024 15:09:26 : Test End!
+_________________________________________________________________________________________
+23/02/2024 15:13:10 : Test Start!
+23/02/2024 15:13:14 : Inside Step - the user is on home page
+23/02/2024 15:13:14 : Inside Step - the user navigate to product page
+23/02/2024 15:13:15 : Inside Step - click on `Reviews` tab
+23/02/2024 15:13:16 : Inside Step - fill the review form with valid data
+23/02/2024 15:13:16 : Inside Step - click on `Continue` button
+23/02/2024 15:13:16 : Inside Step - the user should see "Thank you for your review. It has been submitted to the webmaster for approval." notification message.
+23/02/2024 15:13:17 : Test End!
+_________________________________________________________________________________________
+23/02/2024 15:13:27 : Test Start!
+23/02/2024 15:13:27 : Test End!
+_________________________________________________________________________________________
+23/02/2024 15:15:30 : Test Start!
+23/02/2024 15:15:31 : Test End!
+_________________________________________________________________________________________
+23/02/2024 15:18:25 : Test Start!
+23/02/2024 15:18:25 : Test End!
+_________________________________________________________________________________________
+23/02/2024 15:23:30 : Test Start!
+23/02/2024 15:23:30 : Test End!
+_________________________________________________________________________________________
+23/02/2024 15:24:05 : Test Start!
+23/02/2024 15:24:10 : Inside Step - the user is on home page
+23/02/2024 15:24:10 : Inside Step - the user navigate to product page
+23/02/2024 15:24:12 : Inside Step - click on `Reviews` tab
+23/02/2024 15:24:12 : Inside Step - fill the review form with valid data
+23/02/2024 15:24:12 : Inside Step - click on `Continue` button
+23/02/2024 15:24:13 : Inside Step - the user should see "Thank you for your review. It has been submitted to the webmaster for approval." notification message.
+23/02/2024 15:24:13 : Test End!
+_________________________________________________________________________________________
+23/02/2024 15:27:08 : Test Start!
+23/02/2024 15:27:12 : Inside Step - the user is on home page
+23/02/2024 15:27:12 : Inside Step - the user navigate to product page
+23/02/2024 15:27:13 : Inside Step - click on `Reviews` tab
+23/02/2024 15:27:14 : Inside Step - fill the review form with valid data
+23/02/2024 15:27:15 : Inside Step - click on `Continue` button
+23/02/2024 15:27:15 : Inside Step - the user should see "Thank you for your review. It has been submitted to the webmaster for approval." notification message.
+23/02/2024 15:27:15 : Test End!
+_________________________________________________________________________________________
+23/02/2024 15:30:56 : Test Start!
+23/02/2024 15:30:56 : Test End!
+_________________________________________________________________________________________
+23/02/2024 15:34:04 : Test Start!
+23/02/2024 15:34:08 : Inside Step - the user is on home page
+23/02/2024 15:34:08 : Inside Step - the user navigate to product page
+23/02/2024 15:34:10 : Inside Step - click on `Reviews` tab
+23/02/2024 15:34:10 : Inside Step - fill the review form with valid data
+23/02/2024 15:34:11 : Inside Step - click on `Continue` button
+23/02/2024 15:34:11 : Inside Step - the user should see "Thank you for your review. It has been submitted to the webmaster for approval." notification message.
+23/02/2024 15:34:11 : Test End!
+_________________________________________________________________________________________
+23/02/2024 15:38:33 : Test Start!
+23/02/2024 15:38:37 : Inside Step - the user is on home page
+23/02/2024 15:38:37 : Inside Step - the user navigate to product page
+23/02/2024 15:38:38 : Inside Step - click on `Reviews` tab
+23/02/2024 15:38:39 : Inside Step - fill the review form with valid data
+23/02/2024 15:38:39 : Inside Step - click on `Continue` button
+23/02/2024 15:38:39 : Inside Step - the user should see "Thank you for your review. It has been submitted to the webmaster for approval." notification message.
+23/02/2024 15:38:40 : Test End!
+_________________________________________________________________________________________
+23/02/2024 15:38:58 : Test Start!
+23/02/2024 15:38:59 : Test End!
+_________________________________________________________________________________________
+23/02/2024 15:40:11 : Test Start!
+23/02/2024 15:40:12 : Test End!
+_________________________________________________________________________________________
+23/02/2024 15:43:21 : Test Start!
+23/02/2024 15:43:25 : Inside Step - the user have a profile in website and is on home page
+23/02/2024 15:43:25 : Connecting to DB...
+23/02/2024 15:43:25 : __________________________Create Customer___________________________________
+23/02/2024 15:43:25 : Disconnecting from DB...
+23/02/2024 15:43:25 : Connecting to DB...
+23/02/2024 15:43:26 : __________________________Database Response___________________________________
+23/02/2024 15:43:26 : Customer ID:2 | First Name:Georgi | Last Name:Petrov | Email:petrov@test.test | Telephone:0883225512 | Newsletter:0 | Date Added:2023-11-24 15:13:50
+23/02/2024 15:43:26 : Customer ID:3 | First Name:Gergana | Last Name:Dimitrova | Email:dimitrova@test.test | Telephone:0888888888 | Newsletter:1 | Date Added:2023-11-24 15:16:16
+23/02/2024 15:43:26 : Customer ID:40 | First Name:Kiril | Last Name:Todorov | Email:todorov@test.test | Telephone:0883198565 | Newsletter:1 | Date Added:2023-11-28 18:26:48
+23/02/2024 15:43:26 : Customer ID:122 | First Name:Vasil | Last Name:Vasilev | Email:vasilev@test.test | Telephone:0884395614 | Newsletter:1 | Date Added:2024-02-05 19:12:32
+23/02/2024 15:43:26 : Customer ID:159 | First Name:Ivan | Last Name:Ivanov | Email:ivanov@test.test | Telephone:0887446682 | Newsletter:1 | Date Added:2024-02-23 15:43:26
+23/02/2024 15:43:26 : ____________________________________________________________________________
+23/02/2024 15:43:26 : Disconnecting from DB...
+23/02/2024 15:43:26 : Inside Step - the user login into his profile with email ivanov@test.test, and password ivanov
+23/02/2024 15:43:27 : Inside Step - user add product from homepage to his wishlist
+23/02/2024 15:43:38 : Test End!
+_________________________________________________________________________________________
+23/02/2024 15:43:39 : Test Start!
+23/02/2024 15:43:42 : Inside Step - the user is on home page
+23/02/2024 15:43:42 : Inside Step - the user open <About Us> link in footer
+23/02/2024 15:43:42 : Inside Step - the user should see About Us page.
+23/02/2024 15:43:42 : Redirect is successful!
+23/02/2024 15:43:42 : Test End!
+_________________________________________________________________________________________
+23/02/2024 15:43:43 : Test Start!
+23/02/2024 15:43:47 : Inside Step - the user is on home page
+23/02/2024 15:43:47 : Inside Step - the user open <Delivery Information> link in footer
+23/02/2024 15:43:47 : Inside Step - the user should see Delivery Information page.
+23/02/2024 15:43:47 : Redirect is successful!
+23/02/2024 15:43:47 : Test End!
+_________________________________________________________________________________________
+23/02/2024 15:43:48 : Test Start!
+23/02/2024 15:43:52 : Inside Step - the user is on home page
+23/02/2024 15:43:52 : Inside Step - the user open <Privacy Policy> link in footer
+23/02/2024 15:43:52 : Inside Step - the user should see Privacy Policy page.
+23/02/2024 15:43:52 : Redirect is successful!
+23/02/2024 15:43:52 : Test End!
+_________________________________________________________________________________________
+23/02/2024 15:43:53 : Test Start!
+23/02/2024 15:43:56 : Inside Step - the user is on home page
+23/02/2024 15:43:56 : Inside Step - the user open <Terms & Conditions> link in footer
+23/02/2024 15:43:57 : Inside Step - the user should see Terms & Conditions page.
+23/02/2024 15:43:57 : Redirect is successful!
+23/02/2024 15:43:57 : Test End!
+_________________________________________________________________________________________
+23/02/2024 15:43:57 : Test Start!
+23/02/2024 15:44:01 : Inside Step - the user is on home page
+23/02/2024 15:44:01 : Inside Step - the user navigate to contact page
+23/02/2024 15:44:01 : Inside Step - fill <Your Name> field as Ivan Ivanov
+23/02/2024 15:44:02 : Inside Step - fill <E-Mail Address> as ivanov@test.test
+23/02/2024 15:44:02 : Inside Step - fill <Enquiry> as This is the test message!
+23/02/2024 15:44:02 : Inside Step - click on <Submit> button
+23/02/2024 15:44:03 : Inside Step - the user should see "Your enquiry has been successfully sent to the store owner!" message.
+23/02/2024 15:44:03 : Test End!
+_________________________________________________________________________________________
+23/02/2024 15:44:04 : Test Start!
+23/02/2024 15:44:07 : Inside Step - the user is on home page
+23/02/2024 15:44:08 : Inside Step - the user navigate to product page
+23/02/2024 15:44:09 : Inside Step - click on `Reviews` tab
+23/02/2024 15:44:09 : Inside Step - fill the review form with valid data
+23/02/2024 15:44:10 : Inside Step - click on `Continue` button
+23/02/2024 15:44:10 : Inside Step - the user should see "Thank you for your review. It has been submitted to the webmaster for approval." notification message.
+23/02/2024 15:44:10 : Test End!
+_________________________________________________________________________________________
+23/02/2024 15:44:11 : Test Start!
+23/02/2024 15:44:14 : Inside Step - the user is on home page
+23/02/2024 15:44:15 : Inside Step - the user enters registration page
+23/02/2024 15:44:15 : Inside Step - insert valid credentials
+23/02/2024 15:44:17 : Inside Step - click on Continue button
+23/02/2024 15:44:17 : Registration failed. Error: Warning: E-Mail Address is already registered!
+23/02/2024 15:44:17 : Test End!
+_________________________________________________________________________________________
+23/02/2024 15:44:18 : Test Start!
+23/02/2024 15:44:22 : Inside Step - the user is on home page
+23/02/2024 15:44:22 : Inside Step - the user enter keyword iPod in header search bar
+23/02/2024 15:44:22 : Inside Step - click on search button
+23/02/2024 15:44:22 : Inside Step - the user should be redirected to search result page and see all products containing provided keyword.
+23/02/2024 15:44:23 : Search result - Product name: iPod Classic
+23/02/2024 15:44:23 : Search result - Product name: iPod Nano
+23/02/2024 15:44:23 : Search result - Product name: iPod Shuffle
+23/02/2024 15:44:23 : Search result - Product name: iPod Touch
+23/02/2024 15:44:23 : Test End!
+_________________________________________________________________________________________
+23/02/2024 15:44:23 : Test Start!
+23/02/2024 15:44:27 : Inside Step - I check the state of database table oc_customer
+23/02/2024 15:44:27 : Connecting to DB...
+23/02/2024 15:44:27 : __________________________Database Response___________________________________
+23/02/2024 15:44:27 : Customer ID:2 | First Name:Georgi | Last Name:Petrov | Email:petrov@test.test | Telephone:0883225512 | Newsletter:0 | Date Added:2023-11-24 15:13:50
+23/02/2024 15:44:27 : Customer ID:3 | First Name:Gergana | Last Name:Dimitrova | Email:dimitrova@test.test | Telephone:0888888888 | Newsletter:1 | Date Added:2023-11-24 15:16:16
+23/02/2024 15:44:27 : Customer ID:40 | First Name:Kiril | Last Name:Todorov | Email:todorov@test.test | Telephone:0883198565 | Newsletter:1 | Date Added:2023-11-28 18:26:48
+23/02/2024 15:44:27 : Customer ID:122 | First Name:Vasil | Last Name:Vasilev | Email:vasilev@test.test | Telephone:0884395614 | Newsletter:1 | Date Added:2024-02-05 19:12:32
+23/02/2024 15:44:27 : Customer ID:159 | First Name:Ivan | Last Name:Ivanov | Email:ivanov@test.test | Telephone:0887446682 | Newsletter:1 | Date Added:2024-02-23 15:43:26
+23/02/2024 15:44:27 : ____________________________________________________________________________
+23/02/2024 15:44:27 : Disconnecting from DB...
+23/02/2024 15:44:27 : Inside Step - I send POST HTTP request
+23/02/2024 15:44:27 : Connecting to DB...
+23/02/2024 15:44:27 : __________________________Create Customer___________________________________
+23/02/2024 15:44:27 : Disconnecting from DB...
+23/02/2024 15:44:27 : Inside Step - I receive a Response
+23/02/2024 15:44:27 : Connecting to DB...
+23/02/2024 15:44:27 : __________________________Database Response___________________________________
+23/02/2024 15:44:27 : Customer ID:2 | First Name:Georgi | Last Name:Petrov | Email:petrov@test.test | Telephone:0883225512 | Newsletter:0 | Date Added:2023-11-24 15:13:50
+23/02/2024 15:44:27 : Customer ID:3 | First Name:Gergana | Last Name:Dimitrova | Email:dimitrova@test.test | Telephone:0888888888 | Newsletter:1 | Date Added:2023-11-24 15:16:16
+23/02/2024 15:44:27 : Customer ID:40 | First Name:Kiril | Last Name:Todorov | Email:todorov@test.test | Telephone:0883198565 | Newsletter:1 | Date Added:2023-11-28 18:26:48
+23/02/2024 15:44:27 : Customer ID:122 | First Name:Vasil | Last Name:Vasilev | Email:vasilev@test.test | Telephone:0884395614 | Newsletter:1 | Date Added:2024-02-05 19:12:32
+23/02/2024 15:44:27 : Customer ID:160 | First Name:Ivan | Last Name:Ivanov | Email:ivanov@test.test | Telephone:0887446682 | Newsletter:1 | Date Added:2024-02-23 15:44:27
+23/02/2024 15:44:27 : Customer ID:159 | First Name:Ivan | Last Name:Ivanov | Email:ivanov@test.test | Telephone:0887446682 | Newsletter:1 | Date Added:2024-02-23 15:43:26
+23/02/2024 15:44:27 : ____________________________________________________________________________
+23/02/2024 15:44:27 : Disconnecting from DB...
+23/02/2024 15:44:27 : Test End!
+_________________________________________________________________________________________
+23/02/2024 15:44:28 : Test Start!
+23/02/2024 15:44:31 : Inside Step - I check the state of database table oc_customer
+23/02/2024 15:44:31 : Connecting to DB...
+23/02/2024 15:44:31 : __________________________Database Response___________________________________
+23/02/2024 15:44:31 : Customer ID:2 | First Name:Georgi | Last Name:Petrov | Email:petrov@test.test | Telephone:0883225512 | Newsletter:0 | Date Added:2023-11-24 15:13:50
+23/02/2024 15:44:31 : Customer ID:3 | First Name:Gergana | Last Name:Dimitrova | Email:dimitrova@test.test | Telephone:0888888888 | Newsletter:1 | Date Added:2023-11-24 15:16:16
+23/02/2024 15:44:31 : Customer ID:40 | First Name:Kiril | Last Name:Todorov | Email:todorov@test.test | Telephone:0883198565 | Newsletter:1 | Date Added:2023-11-28 18:26:48
+23/02/2024 15:44:31 : Customer ID:122 | First Name:Vasil | Last Name:Vasilev | Email:vasilev@test.test | Telephone:0884395614 | Newsletter:1 | Date Added:2024-02-05 19:12:32
+23/02/2024 15:44:31 : Customer ID:160 | First Name:Ivan | Last Name:Ivanov | Email:ivanov@test.test | Telephone:0887446682 | Newsletter:1 | Date Added:2024-02-23 15:44:27
+23/02/2024 15:44:31 : Customer ID:159 | First Name:Ivan | Last Name:Ivanov | Email:ivanov@test.test | Telephone:0887446682 | Newsletter:1 | Date Added:2024-02-23 15:43:26
+23/02/2024 15:44:31 : ____________________________________________________________________________
+23/02/2024 15:44:31 : Disconnecting from DB...
+23/02/2024 15:44:31 : Inside Step - I send GET HTTP request
+23/02/2024 15:44:31 : Connecting to DB...
+23/02/2024 15:44:31 : __________________________Database Response___________________________________
+23/02/2024 15:44:31 : Customer ID:2 | First Name:Georgi | Last Name:Petrov | Email:petrov@test.test | Telephone:0883225512 | Newsletter:0 | Date Added:2023-11-24 15:13:50
+23/02/2024 15:44:31 : Customer ID:3 | First Name:Gergana | Last Name:Dimitrova | Email:dimitrova@test.test | Telephone:0888888888 | Newsletter:1 | Date Added:2023-11-24 15:16:16
+23/02/2024 15:44:31 : Customer ID:40 | First Name:Kiril | Last Name:Todorov | Email:todorov@test.test | Telephone:0883198565 | Newsletter:1 | Date Added:2023-11-28 18:26:48
+23/02/2024 15:44:31 : Customer ID:122 | First Name:Vasil | Last Name:Vasilev | Email:vasilev@test.test | Telephone:0884395614 | Newsletter:1 | Date Added:2024-02-05 19:12:32
+23/02/2024 15:44:31 : Customer ID:160 | First Name:Ivan | Last Name:Ivanov | Email:ivanov@test.test | Telephone:0887446682 | Newsletter:1 | Date Added:2024-02-23 15:44:27
+23/02/2024 15:44:31 : Customer ID:159 | First Name:Ivan | Last Name:Ivanov | Email:ivanov@test.test | Telephone:0887446682 | Newsletter:1 | Date Added:2024-02-23 15:43:26
+23/02/2024 15:44:31 : ____________________________________________________________________________
+23/02/2024 15:44:31 : Disconnecting from DB...
+23/02/2024 15:44:31 : Inside Step - I receive a Response
+23/02/2024 15:44:31 : Connecting to DB...
+23/02/2024 15:44:31 : __________________________Database Response___________________________________
+23/02/2024 15:44:31 : Customer ID:2 | First Name:Georgi | Last Name:Petrov | Email:petrov@test.test | Telephone:0883225512 | Newsletter:0 | Date Added:2023-11-24 15:13:50
+23/02/2024 15:44:31 : Customer ID:3 | First Name:Gergana | Last Name:Dimitrova | Email:dimitrova@test.test | Telephone:0888888888 | Newsletter:1 | Date Added:2023-11-24 15:16:16
+23/02/2024 15:44:31 : Customer ID:40 | First Name:Kiril | Last Name:Todorov | Email:todorov@test.test | Telephone:0883198565 | Newsletter:1 | Date Added:2023-11-28 18:26:48
+23/02/2024 15:44:31 : Customer ID:122 | First Name:Vasil | Last Name:Vasilev | Email:vasilev@test.test | Telephone:0884395614 | Newsletter:1 | Date Added:2024-02-05 19:12:32
+23/02/2024 15:44:31 : Customer ID:160 | First Name:Ivan | Last Name:Ivanov | Email:ivanov@test.test | Telephone:0887446682 | Newsletter:1 | Date Added:2024-02-23 15:44:27
+23/02/2024 15:44:31 : Customer ID:159 | First Name:Ivan | Last Name:Ivanov | Email:ivanov@test.test | Telephone:0887446682 | Newsletter:1 | Date Added:2024-02-23 15:43:26
+23/02/2024 15:44:31 : ____________________________________________________________________________
+23/02/2024 15:44:31 : Disconnecting from DB...
+23/02/2024 15:44:31 : Test End!
+_________________________________________________________________________________________
+23/02/2024 15:44:32 : Test Start!
+23/02/2024 15:44:35 : Inside Step - I Read database customer table
+23/02/2024 15:44:35 : Connecting to DB...
+23/02/2024 15:44:35 : __________________________Database Response___________________________________
+23/02/2024 15:44:35 : Customer ID:2 | First Name:Georgi | Last Name:Petrov | Email:petrov@test.test | Telephone:0883225512 | Newsletter:0 | Date Added:2023-11-24 15:13:50
+23/02/2024 15:44:35 : Customer ID:3 | First Name:Gergana | Last Name:Dimitrova | Email:dimitrova@test.test | Telephone:0888888888 | Newsletter:1 | Date Added:2023-11-24 15:16:16
+23/02/2024 15:44:35 : Customer ID:40 | First Name:Kiril | Last Name:Todorov | Email:todorov@test.test | Telephone:0883198565 | Newsletter:1 | Date Added:2023-11-28 18:26:48
+23/02/2024 15:44:35 : Customer ID:122 | First Name:Vasil | Last Name:Vasilev | Email:vasilev@test.test | Telephone:0884395614 | Newsletter:1 | Date Added:2024-02-05 19:12:32
+23/02/2024 15:44:35 : Customer ID:160 | First Name:Ivan | Last Name:Ivanov | Email:ivanov@test.test | Telephone:0887446682 | Newsletter:1 | Date Added:2024-02-23 15:44:27
+23/02/2024 15:44:35 : Customer ID:159 | First Name:Ivan | Last Name:Ivanov | Email:ivanov@test.test | Telephone:0887446682 | Newsletter:1 | Date Added:2024-02-23 15:43:26
+23/02/2024 15:44:35 : ____________________________________________________________________________
+23/02/2024 15:44:35 : Disconnecting from DB...
+23/02/2024 15:44:35 : Inside Step - I send UPDATE HTTP request
+23/02/2024 15:44:35 : Connecting to DB...
+23/02/2024 15:44:35 : __________________________Updating Values___________________________________
+23/02/2024 15:44:35 : Disconnecting from DB...
+23/02/2024 15:44:35 : Inside Step - I receive a Response
+23/02/2024 15:44:35 : Connecting to DB...
+23/02/2024 15:44:35 : __________________________Database Response___________________________________
+23/02/2024 15:44:35 : Customer ID:2 | First Name:Georgi | Last Name:Petrov | Email:petrov@test.test | Telephone:0883225512 | Newsletter:0 | Date Added:2023-11-24 15:13:50
+23/02/2024 15:44:35 : Customer ID:3 | First Name:Gergana | Last Name:Dimitrova | Email:dimitrova@test.test | Telephone:0888888888 | Newsletter:1 | Date Added:2023-11-24 15:16:16
+23/02/2024 15:44:35 : Customer ID:40 | First Name:Kiril | Last Name:Todorov | Email:todorov@test.test | Telephone:0883198565 | Newsletter:1 | Date Added:2023-11-28 18:26:48
+23/02/2024 15:44:35 : Customer ID:122 | First Name:Vasil | Last Name:Vasilev | Email:vasilev@test.test | Telephone:0884395614 | Newsletter:1 | Date Added:2024-02-05 19:12:32
+23/02/2024 15:44:35 : Customer ID:160 | First Name:Ivan | Last Name:Ivanov | Email:ivanov@test.test | Telephone:0887446682 | Newsletter:1 | Date Added:2024-02-23 15:44:27
+23/02/2024 15:44:35 : Customer ID:159 | First Name:Ivan | Last Name:Ivanov | Email:ivanov@test.test | Telephone:0887446682 | Newsletter:1 | Date Added:2024-02-23 15:43:26
+23/02/2024 15:44:35 : ____________________________________________________________________________
+23/02/2024 15:44:35 : Disconnecting from DB...
+23/02/2024 15:44:35 : Test End!
+_________________________________________________________________________________________
+23/02/2024 15:44:36 : Test Start!
+23/02/2024 15:44:40 : Inside Step - I Read database customer table
+23/02/2024 15:44:40 : Connecting to DB...
+23/02/2024 15:44:40 : __________________________Database Response___________________________________
+23/02/2024 15:44:40 : Customer ID:2 | First Name:Georgi | Last Name:Petrov | Email:petrov@test.test | Telephone:0883225512 | Newsletter:0 | Date Added:2023-11-24 15:13:50
+23/02/2024 15:44:40 : Customer ID:3 | First Name:Gergana | Last Name:Dimitrova | Email:dimitrova@test.test | Telephone:0888888888 | Newsletter:1 | Date Added:2023-11-24 15:16:16
+23/02/2024 15:44:40 : Customer ID:40 | First Name:Kiril | Last Name:Todorov | Email:todorov@test.test | Telephone:0883198565 | Newsletter:1 | Date Added:2023-11-28 18:26:48
+23/02/2024 15:44:40 : Customer ID:122 | First Name:Vasil | Last Name:Vasilev | Email:vasilev@test.test | Telephone:0884395614 | Newsletter:1 | Date Added:2024-02-05 19:12:32
+23/02/2024 15:44:40 : Customer ID:160 | First Name:Ivan | Last Name:Ivanov | Email:ivanov@test.test | Telephone:0887446682 | Newsletter:1 | Date Added:2024-02-23 15:44:27
+23/02/2024 15:44:40 : Customer ID:159 | First Name:Ivan | Last Name:Ivanov | Email:ivanov@test.test | Telephone:0887446682 | Newsletter:1 | Date Added:2024-02-23 15:43:26
+23/02/2024 15:44:40 : ____________________________________________________________________________
+23/02/2024 15:44:40 : Disconnecting from DB...
+23/02/2024 15:44:40 : Inside Step - I send DELETE HTTP request
+23/02/2024 15:44:40 : Connecting to DB...
+23/02/2024 15:44:40 : __________________________Deleting Customer_________________________________
+23/02/2024 15:44:40 : Disconnecting from DB...
+23/02/2024 15:44:40 : Inside Step - I receive a Response
+23/02/2024 15:44:40 : Connecting to DB...
+23/02/2024 15:44:40 : __________________________Database Response___________________________________
+23/02/2024 15:44:40 : Customer ID:2 | First Name:Georgi | Last Name:Petrov | Email:petrov@test.test | Telephone:0883225512 | Newsletter:0 | Date Added:2023-11-24 15:13:50
+23/02/2024 15:44:40 : Customer ID:3 | First Name:Gergana | Last Name:Dimitrova | Email:dimitrova@test.test | Telephone:0888888888 | Newsletter:1 | Date Added:2023-11-24 15:16:16
+23/02/2024 15:44:40 : Customer ID:40 | First Name:Kiril | Last Name:Todorov | Email:todorov@test.test | Telephone:0883198565 | Newsletter:1 | Date Added:2023-11-28 18:26:48
+23/02/2024 15:44:40 : Customer ID:122 | First Name:Vasil | Last Name:Vasilev | Email:vasilev@test.test | Telephone:0884395614 | Newsletter:1 | Date Added:2024-02-05 19:12:32
+23/02/2024 15:44:40 : ____________________________________________________________________________
+23/02/2024 15:44:40 : Disconnecting from DB...
+23/02/2024 15:44:40 : Test End!
+_________________________________________________________________________________________
+23/02/2024 15:45:10 : Test Start!
+23/02/2024 15:45:11 : Test End!
+_________________________________________________________________________________________
+23/02/2024 15:45:11 : Test Start!
+23/02/2024 15:45:11 : Test End!
+_________________________________________________________________________________________
+23/02/2024 15:45:11 : Test Start!
+23/02/2024 15:45:11 : Test End!
+_________________________________________________________________________________________
+23/02/2024 15:45:11 : Test Start!
+23/02/2024 15:45:11 : Test End!
+_________________________________________________________________________________________
+23/02/2024 15:45:11 : Test Start!
+23/02/2024 15:45:11 : Test End!
+_________________________________________________________________________________________
+23/02/2024 15:45:11 : Test Start!
+23/02/2024 15:45:11 : Test End!
+_________________________________________________________________________________________
+23/02/2024 15:45:11 : Test Start!
+23/02/2024 15:45:11 : Test End!
+_________________________________________________________________________________________
+23/02/2024 15:45:11 : Test Start!
+23/02/2024 15:45:11 : Test End!
+_________________________________________________________________________________________
+23/02/2024 15:45:11 : Test Start!
+23/02/2024 15:45:11 : Test End!
+_________________________________________________________________________________________
+23/02/2024 15:45:11 : Test Start!
+23/02/2024 15:45:11 : Test End!
+_________________________________________________________________________________________
+23/02/2024 15:45:11 : Test Start!
+23/02/2024 15:45:11 : Test End!
+_________________________________________________________________________________________
+23/02/2024 15:45:11 : Test Start!
+23/02/2024 15:45:11 : Test End!
+_________________________________________________________________________________________
+23/02/2024 15:45:11 : Test Start!
+23/02/2024 15:45:11 : Test End!
+_________________________________________________________________________________________
+23/02/2024 15:45:27 : Test Start!
+23/02/2024 15:45:31 : Inside Step - the user have a profile in website and is on home page
+23/02/2024 15:45:31 : Connecting to DB...
+23/02/2024 15:45:31 : __________________________Create Customer___________________________________
+23/02/2024 15:45:32 : Disconnecting from DB...
+23/02/2024 15:45:32 : Connecting to DB...
+23/02/2024 15:45:32 : __________________________Database Response___________________________________
+23/02/2024 15:45:32 : Customer ID:2 | First Name:Georgi | Last Name:Petrov | Email:petrov@test.test | Telephone:0883225512 | Newsletter:0 | Date Added:2023-11-24 15:13:50
+23/02/2024 15:45:32 : Customer ID:3 | First Name:Gergana | Last Name:Dimitrova | Email:dimitrova@test.test | Telephone:0888888888 | Newsletter:1 | Date Added:2023-11-24 15:16:16
+23/02/2024 15:45:32 : Customer ID:40 | First Name:Kiril | Last Name:Todorov | Email:todorov@test.test | Telephone:0883198565 | Newsletter:1 | Date Added:2023-11-28 18:26:48
+23/02/2024 15:45:32 : Customer ID:122 | First Name:Vasil | Last Name:Vasilev | Email:vasilev@test.test | Telephone:0884395614 | Newsletter:1 | Date Added:2024-02-05 19:12:32
+23/02/2024 15:45:32 : Customer ID:161 | First Name:Ivan | Last Name:Ivanov | Email:ivanov@test.test | Telephone:0887446682 | Newsletter:1 | Date Added:2024-02-23 15:45:32
+23/02/2024 15:45:32 : ____________________________________________________________________________
+23/02/2024 15:45:32 : Disconnecting from DB...
+23/02/2024 15:45:32 : Inside Step - the user login into his profile with email ivanov@test.test, and password ivanov
+23/02/2024 15:45:33 : Inside Step - user add product from homepage to his wishlist
+23/02/2024 15:45:35 : <<< Shows Alert: Success: You have added MacBook to your wish list! >>>
+23/02/2024 15:45:35 : Inside Step - click on <Wish List> button in header
+23/02/2024 15:45:35 : Inside Step - the user should be redirected to his wishlist page and see added product there.
+23/02/2024 15:45:35 : Wishlist contains items.
+23/02/2024 15:45:36 : Wishlist items are valid.
+23/02/2024 15:45:36 : Connecting to DB...
+23/02/2024 15:45:36 : __________________________Deleting Customer_________________________________
+23/02/2024 15:45:36 : Disconnecting from DB...
+23/02/2024 15:45:36 : Connecting to DB...
+23/02/2024 15:45:36 : __________________________Database Response___________________________________
+23/02/2024 15:45:36 : Customer ID:2 | First Name:Georgi | Last Name:Petrov | Email:petrov@test.test | Telephone:0883225512 | Newsletter:0 | Date Added:2023-11-24 15:13:50
+23/02/2024 15:45:36 : Customer ID:3 | First Name:Gergana | Last Name:Dimitrova | Email:dimitrova@test.test | Telephone:0888888888 | Newsletter:1 | Date Added:2023-11-24 15:16:16
+23/02/2024 15:45:36 : Customer ID:40 | First Name:Kiril | Last Name:Todorov | Email:todorov@test.test | Telephone:0883198565 | Newsletter:1 | Date Added:2023-11-28 18:26:48
+23/02/2024 15:45:36 : Customer ID:122 | First Name:Vasil | Last Name:Vasilev | Email:vasilev@test.test | Telephone:0884395614 | Newsletter:1 | Date Added:2024-02-05 19:12:32
+23/02/2024 15:45:36 : ____________________________________________________________________________
+23/02/2024 15:45:36 : Disconnecting from DB...
+23/02/2024 15:45:36 : Test End!
+_________________________________________________________________________________________
+23/02/2024 15:45:36 : Test Start!
+23/02/2024 15:45:39 : Inside Step - the user is on home page
+23/02/2024 15:45:39 : Inside Step - the user open <About Us> link in footer
+23/02/2024 15:45:39 : Inside Step - the user should see About Us page.
+23/02/2024 15:45:39 : Redirect is successful!
+23/02/2024 15:45:39 : Test End!
+_________________________________________________________________________________________
+23/02/2024 15:45:39 : Test Start!
+23/02/2024 15:45:43 : Inside Step - the user is on home page
+23/02/2024 15:45:43 : Inside Step - the user open <Delivery Information> link in footer
+23/02/2024 15:45:43 : Inside Step - the user should see Delivery Information page.
+23/02/2024 15:45:43 : Redirect is successful!
+23/02/2024 15:45:43 : Test End!
+_________________________________________________________________________________________
+23/02/2024 15:45:43 : Test Start!
+23/02/2024 15:45:46 : Inside Step - the user is on home page
+23/02/2024 15:45:46 : Inside Step - the user open <Privacy Policy> link in footer
+23/02/2024 15:45:47 : Inside Step - the user should see Privacy Policy page.
+23/02/2024 15:45:47 : Redirect is successful!
+23/02/2024 15:45:47 : Test End!
+_________________________________________________________________________________________
+23/02/2024 15:45:47 : Test Start!
+23/02/2024 15:45:50 : Inside Step - the user is on home page
+23/02/2024 15:45:50 : Inside Step - the user open <Terms & Conditions> link in footer
+23/02/2024 15:45:50 : Inside Step - the user should see Terms & Conditions page.
+23/02/2024 15:45:50 : Redirect is successful!
+23/02/2024 15:45:51 : Test End!
+_________________________________________________________________________________________
+23/02/2024 15:45:51 : Test Start!
+23/02/2024 15:45:54 : Inside Step - the user is on home page
+23/02/2024 15:45:54 : Inside Step - the user navigate to contact page
+23/02/2024 15:45:54 : Inside Step - fill <Your Name> field as Ivan Ivanov
+23/02/2024 15:45:54 : Inside Step - fill <E-Mail Address> as ivanov@test.test
+23/02/2024 15:45:55 : Inside Step - fill <Enquiry> as This is the test message!
+23/02/2024 15:45:55 : Inside Step - click on <Submit> button
+23/02/2024 15:45:55 : Inside Step - the user should see "Your enquiry has been successfully sent to the store owner!" message.
+23/02/2024 15:45:55 : Test End!
+_________________________________________________________________________________________
+23/02/2024 15:45:55 : Test Start!
+23/02/2024 15:45:58 : Inside Step - the user is on home page
+23/02/2024 15:45:58 : Inside Step - the user navigate to product page
+23/02/2024 15:46:00 : Inside Step - click on `Reviews` tab
+23/02/2024 15:46:00 : Inside Step - fill the review form with valid data
+23/02/2024 15:46:01 : Inside Step - click on `Continue` button
+23/02/2024 15:46:01 : Inside Step - the user should see "Thank you for your review. It has been submitted to the webmaster for approval." notification message.
+23/02/2024 15:46:01 : Test End!
+_________________________________________________________________________________________
+23/02/2024 15:46:01 : Test Start!
+23/02/2024 15:46:04 : Inside Step - the user is on home page
+23/02/2024 15:46:04 : Inside Step - the user enters registration page
+23/02/2024 15:46:05 : Inside Step - insert valid credentials
+23/02/2024 15:46:05 : Inside Step - click on Continue button
+23/02/2024 15:46:06 : Registration failed. Error: Warning: E-Mail Address is already registered!
+23/02/2024 15:46:06 : Test End!
+_________________________________________________________________________________________
+23/02/2024 15:46:06 : Test Start!
+23/02/2024 15:46:09 : Inside Step - the user is on home page
+23/02/2024 15:46:09 : Inside Step - the user enter keyword iPod in header search bar
+23/02/2024 15:46:09 : Inside Step - click on search button
+23/02/2024 15:46:10 : Inside Step - the user should be redirected to search result page and see all products containing provided keyword.
+23/02/2024 15:46:10 : Search result - Product name: iPod Classic
+23/02/2024 15:46:10 : Search result - Product name: iPod Nano
+23/02/2024 15:46:10 : Search result - Product name: iPod Shuffle
+23/02/2024 15:46:10 : Search result - Product name: iPod Touch
+23/02/2024 15:46:10 : Test End!
+_________________________________________________________________________________________
+23/02/2024 15:46:10 : Test Start!
+23/02/2024 15:46:13 : Inside Step - I check the state of database table oc_customer
+23/02/2024 15:46:13 : Connecting to DB...
+23/02/2024 15:46:13 : __________________________Database Response___________________________________
+23/02/2024 15:46:13 : Customer ID:2 | First Name:Georgi | Last Name:Petrov | Email:petrov@test.test | Telephone:0883225512 | Newsletter:0 | Date Added:2023-11-24 15:13:50
+23/02/2024 15:46:13 : Customer ID:3 | First Name:Gergana | Last Name:Dimitrova | Email:dimitrova@test.test | Telephone:0888888888 | Newsletter:1 | Date Added:2023-11-24 15:16:16
+23/02/2024 15:46:13 : Customer ID:40 | First Name:Kiril | Last Name:Todorov | Email:todorov@test.test | Telephone:0883198565 | Newsletter:1 | Date Added:2023-11-28 18:26:48
+23/02/2024 15:46:13 : Customer ID:122 | First Name:Vasil | Last Name:Vasilev | Email:vasilev@test.test | Telephone:0884395614 | Newsletter:1 | Date Added:2024-02-05 19:12:32
+23/02/2024 15:46:13 : ____________________________________________________________________________
+23/02/2024 15:46:13 : Disconnecting from DB...
+23/02/2024 15:46:13 : Inside Step - I send POST HTTP request
+23/02/2024 15:46:13 : Connecting to DB...
+23/02/2024 15:46:13 : __________________________Create Customer___________________________________
+23/02/2024 15:46:13 : Disconnecting from DB...
+23/02/2024 15:46:13 : Inside Step - I receive a Response
+23/02/2024 15:46:13 : Connecting to DB...
+23/02/2024 15:46:13 : __________________________Database Response___________________________________
+23/02/2024 15:46:13 : Customer ID:2 | First Name:Georgi | Last Name:Petrov | Email:petrov@test.test | Telephone:0883225512 | Newsletter:0 | Date Added:2023-11-24 15:13:50
+23/02/2024 15:46:13 : Customer ID:3 | First Name:Gergana | Last Name:Dimitrova | Email:dimitrova@test.test | Telephone:0888888888 | Newsletter:1 | Date Added:2023-11-24 15:16:16
+23/02/2024 15:46:13 : Customer ID:40 | First Name:Kiril | Last Name:Todorov | Email:todorov@test.test | Telephone:0883198565 | Newsletter:1 | Date Added:2023-11-28 18:26:48
+23/02/2024 15:46:13 : Customer ID:122 | First Name:Vasil | Last Name:Vasilev | Email:vasilev@test.test | Telephone:0884395614 | Newsletter:1 | Date Added:2024-02-05 19:12:32
+23/02/2024 15:46:13 : Customer ID:162 | First Name:Ivan | Last Name:Ivanov | Email:ivanov@test.test | Telephone:0887446682 | Newsletter:1 | Date Added:2024-02-23 15:46:14
+23/02/2024 15:46:13 : ____________________________________________________________________________
+23/02/2024 15:46:13 : Disconnecting from DB...
+23/02/2024 15:46:14 : Test End!
+_________________________________________________________________________________________
+23/02/2024 15:46:14 : Test Start!
+23/02/2024 15:46:17 : Inside Step - I check the state of database table oc_customer
+23/02/2024 15:46:17 : Connecting to DB...
+23/02/2024 15:46:17 : __________________________Database Response___________________________________
+23/02/2024 15:46:17 : Customer ID:2 | First Name:Georgi | Last Name:Petrov | Email:petrov@test.test | Telephone:0883225512 | Newsletter:0 | Date Added:2023-11-24 15:13:50
+23/02/2024 15:46:17 : Customer ID:3 | First Name:Gergana | Last Name:Dimitrova | Email:dimitrova@test.test | Telephone:0888888888 | Newsletter:1 | Date Added:2023-11-24 15:16:16
+23/02/2024 15:46:17 : Customer ID:40 | First Name:Kiril | Last Name:Todorov | Email:todorov@test.test | Telephone:0883198565 | Newsletter:1 | Date Added:2023-11-28 18:26:48
+23/02/2024 15:46:17 : Customer ID:122 | First Name:Vasil | Last Name:Vasilev | Email:vasilev@test.test | Telephone:0884395614 | Newsletter:1 | Date Added:2024-02-05 19:12:32
+23/02/2024 15:46:17 : Customer ID:162 | First Name:Ivan | Last Name:Ivanov | Email:ivanov@test.test | Telephone:0887446682 | Newsletter:1 | Date Added:2024-02-23 15:46:14
+23/02/2024 15:46:17 : ____________________________________________________________________________
+23/02/2024 15:46:17 : Disconnecting from DB...
+23/02/2024 15:46:17 : Inside Step - I send GET HTTP request
+23/02/2024 15:46:17 : Connecting to DB...
+23/02/2024 15:46:17 : __________________________Database Response___________________________________
+23/02/2024 15:46:17 : Customer ID:2 | First Name:Georgi | Last Name:Petrov | Email:petrov@test.test | Telephone:0883225512 | Newsletter:0 | Date Added:2023-11-24 15:13:50
+23/02/2024 15:46:17 : Customer ID:3 | First Name:Gergana | Last Name:Dimitrova | Email:dimitrova@test.test | Telephone:0888888888 | Newsletter:1 | Date Added:2023-11-24 15:16:16
+23/02/2024 15:46:17 : Customer ID:40 | First Name:Kiril | Last Name:Todorov | Email:todorov@test.test | Telephone:0883198565 | Newsletter:1 | Date Added:2023-11-28 18:26:48
+23/02/2024 15:46:17 : Customer ID:122 | First Name:Vasil | Last Name:Vasilev | Email:vasilev@test.test | Telephone:0884395614 | Newsletter:1 | Date Added:2024-02-05 19:12:32
+23/02/2024 15:46:17 : Customer ID:162 | First Name:Ivan | Last Name:Ivanov | Email:ivanov@test.test | Telephone:0887446682 | Newsletter:1 | Date Added:2024-02-23 15:46:14
+23/02/2024 15:46:17 : ____________________________________________________________________________
+23/02/2024 15:46:17 : Disconnecting from DB...
+23/02/2024 15:46:17 : Inside Step - I receive a Response
+23/02/2024 15:46:17 : Connecting to DB...
+23/02/2024 15:46:17 : __________________________Database Response___________________________________
+23/02/2024 15:46:17 : Customer ID:2 | First Name:Georgi | Last Name:Petrov | Email:petrov@test.test | Telephone:0883225512 | Newsletter:0 | Date Added:2023-11-24 15:13:50
+23/02/2024 15:46:17 : Customer ID:3 | First Name:Gergana | Last Name:Dimitrova | Email:dimitrova@test.test | Telephone:0888888888 | Newsletter:1 | Date Added:2023-11-24 15:16:16
+23/02/2024 15:46:17 : Customer ID:40 | First Name:Kiril | Last Name:Todorov | Email:todorov@test.test | Telephone:0883198565 | Newsletter:1 | Date Added:2023-11-28 18:26:48
+23/02/2024 15:46:17 : Customer ID:122 | First Name:Vasil | Last Name:Vasilev | Email:vasilev@test.test | Telephone:0884395614 | Newsletter:1 | Date Added:2024-02-05 19:12:32
+23/02/2024 15:46:17 : Customer ID:162 | First Name:Ivan | Last Name:Ivanov | Email:ivanov@test.test | Telephone:0887446682 | Newsletter:1 | Date Added:2024-02-23 15:46:14
+23/02/2024 15:46:17 : ____________________________________________________________________________
+23/02/2024 15:46:17 : Disconnecting from DB...
+23/02/2024 15:46:17 : Test End!
+_________________________________________________________________________________________
+23/02/2024 15:46:17 : Test Start!
+23/02/2024 15:46:20 : Inside Step - I Read database customer table
+23/02/2024 15:46:20 : Connecting to DB...
+23/02/2024 15:46:20 : __________________________Database Response___________________________________
+23/02/2024 15:46:20 : Customer ID:2 | First Name:Georgi | Last Name:Petrov | Email:petrov@test.test | Telephone:0883225512 | Newsletter:0 | Date Added:2023-11-24 15:13:50
+23/02/2024 15:46:20 : Customer ID:3 | First Name:Gergana | Last Name:Dimitrova | Email:dimitrova@test.test | Telephone:0888888888 | Newsletter:1 | Date Added:2023-11-24 15:16:16
+23/02/2024 15:46:20 : Customer ID:40 | First Name:Kiril | Last Name:Todorov | Email:todorov@test.test | Telephone:0883198565 | Newsletter:1 | Date Added:2023-11-28 18:26:48
+23/02/2024 15:46:20 : Customer ID:122 | First Name:Vasil | Last Name:Vasilev | Email:vasilev@test.test | Telephone:0884395614 | Newsletter:1 | Date Added:2024-02-05 19:12:32
+23/02/2024 15:46:20 : Customer ID:162 | First Name:Ivan | Last Name:Ivanov | Email:ivanov@test.test | Telephone:0887446682 | Newsletter:1 | Date Added:2024-02-23 15:46:14
+23/02/2024 15:46:20 : ____________________________________________________________________________
+23/02/2024 15:46:20 : Disconnecting from DB...
+23/02/2024 15:46:20 : Inside Step - I send UPDATE HTTP request
+23/02/2024 15:46:20 : Connecting to DB...
+23/02/2024 15:46:20 : __________________________Updating Values___________________________________
+23/02/2024 15:46:20 : Disconnecting from DB...
+23/02/2024 15:46:20 : Inside Step - I receive a Response
+23/02/2024 15:46:20 : Connecting to DB...
+23/02/2024 15:46:20 : __________________________Database Response___________________________________
+23/02/2024 15:46:20 : Customer ID:2 | First Name:Georgi | Last Name:Petrov | Email:petrov@test.test | Telephone:0883225512 | Newsletter:0 | Date Added:2023-11-24 15:13:50
+23/02/2024 15:46:20 : Customer ID:3 | First Name:Gergana | Last Name:Dimitrova | Email:dimitrova@test.test | Telephone:0888888888 | Newsletter:1 | Date Added:2023-11-24 15:16:16
+23/02/2024 15:46:20 : Customer ID:40 | First Name:Kiril | Last Name:Todorov | Email:todorov@test.test | Telephone:0883198565 | Newsletter:1 | Date Added:2023-11-28 18:26:48
+23/02/2024 15:46:20 : Customer ID:122 | First Name:Vasil | Last Name:Vasilev | Email:vasilev@test.test | Telephone:0884395614 | Newsletter:1 | Date Added:2024-02-05 19:12:32
+23/02/2024 15:46:20 : Customer ID:162 | First Name:Ivan | Last Name:Ivanov | Email:ivanov@test.test | Telephone:0887446682 | Newsletter:1 | Date Added:2024-02-23 15:46:14
+23/02/2024 15:46:20 : ____________________________________________________________________________
+23/02/2024 15:46:20 : Disconnecting from DB...
+23/02/2024 15:46:20 : Test End!
+_________________________________________________________________________________________
+23/02/2024 15:46:20 : Test Start!
+23/02/2024 15:46:23 : Inside Step - I Read database customer table
+23/02/2024 15:46:23 : Connecting to DB...
+23/02/2024 15:46:23 : __________________________Database Response___________________________________
+23/02/2024 15:46:23 : Customer ID:2 | First Name:Georgi | Last Name:Petrov | Email:petrov@test.test | Telephone:0883225512 | Newsletter:0 | Date Added:2023-11-24 15:13:50
+23/02/2024 15:46:23 : Customer ID:3 | First Name:Gergana | Last Name:Dimitrova | Email:dimitrova@test.test | Telephone:0888888888 | Newsletter:1 | Date Added:2023-11-24 15:16:16
+23/02/2024 15:46:23 : Customer ID:40 | First Name:Kiril | Last Name:Todorov | Email:todorov@test.test | Telephone:0883198565 | Newsletter:1 | Date Added:2023-11-28 18:26:48
+23/02/2024 15:46:23 : Customer ID:122 | First Name:Vasil | Last Name:Vasilev | Email:vasilev@test.test | Telephone:0884395614 | Newsletter:1 | Date Added:2024-02-05 19:12:32
+23/02/2024 15:46:23 : Customer ID:162 | First Name:Ivan | Last Name:Ivanov | Email:ivanov@test.test | Telephone:0887446682 | Newsletter:1 | Date Added:2024-02-23 15:46:14
+23/02/2024 15:46:23 : ____________________________________________________________________________
+23/02/2024 15:46:23 : Disconnecting from DB...
+23/02/2024 15:46:23 : Inside Step - I send DELETE HTTP request
+23/02/2024 15:46:23 : Connecting to DB...
+23/02/2024 15:46:23 : __________________________Deleting Customer_________________________________
+23/02/2024 15:46:23 : Disconnecting from DB...
+23/02/2024 15:46:23 : Inside Step - I receive a Response
+23/02/2024 15:46:23 : Connecting to DB...
+23/02/2024 15:46:23 : __________________________Database Response___________________________________
+23/02/2024 15:46:23 : Customer ID:2 | First Name:Georgi | Last Name:Petrov | Email:petrov@test.test | Telephone:0883225512 | Newsletter:0 | Date Added:2023-11-24 15:13:50
+23/02/2024 15:46:23 : Customer ID:3 | First Name:Gergana | Last Name:Dimitrova | Email:dimitrova@test.test | Telephone:0888888888 | Newsletter:1 | Date Added:2023-11-24 15:16:16
+23/02/2024 15:46:23 : Customer ID:40 | First Name:Kiril | Last Name:Todorov | Email:todorov@test.test | Telephone:0883198565 | Newsletter:1 | Date Added:2023-11-28 18:26:48
+23/02/2024 15:46:23 : Customer ID:122 | First Name:Vasil | Last Name:Vasilev | Email:vasilev@test.test | Telephone:0884395614 | Newsletter:1 | Date Added:2024-02-05 19:12:32
+23/02/2024 15:46:23 : ____________________________________________________________________________
+23/02/2024 15:46:23 : Disconnecting from DB...
+23/02/2024 15:46:23 : Test End!
+_________________________________________________________________________________________
+23/02/2024 15:47:48 : Test Start!
+23/02/2024 15:47:52 : Inside Step - the user is on home page
+23/02/2024 15:47:52 : Inside Step - the user clicks on mini cart in header
+23/02/2024 15:47:53 : Inside Step - the user should see Your shopping cart is empty! minicart message.
+23/02/2024 15:47:53 : Test End!
+_________________________________________________________________________________________
+23/02/2024 15:47:53 : Test Start!
+23/02/2024 15:47:56 : Inside Step - the user is on home page
+23/02/2024 15:47:56 : Inside Step - the user clicks on Checkout link in header
+23/02/2024 15:47:56 : Inside Step - the user should be redirected to shopping cart page and see "Your shopping cart is empty!" message.
+23/02/2024 15:47:56 : Test End!
+_________________________________________________________________________________________
+23/02/2024 15:56:55 : Test Start!
+23/02/2024 15:56:59 : Inside Step - the user is on home page
+23/02/2024 15:56:59 : Inside Step - the user clicks on mini cart in header
+23/02/2024 15:57:05 : Inside Step - the user should see Your shopping cart is empty! minicart message.
+23/02/2024 15:57:05 : Test End!
+_________________________________________________________________________________________
+23/02/2024 15:57:05 : Test Start!
+23/02/2024 15:57:08 : Inside Step - the user is on home page
+23/02/2024 15:57:08 : Inside Step - the user clicks on Checkout link in header
+23/02/2024 15:57:08 : Inside Step - the user should be redirected to shopping cart page and see "Your shopping cart is empty!" message.
+23/02/2024 15:57:08 : Test End!
+_________________________________________________________________________________________
+23/02/2024 16:41:02 : Test Start!
+23/02/2024 16:41:06 : Inside Step - the user is on home page
+23/02/2024 16:41:06 : Inside Step - the user clicks on mini cart in header
+23/02/2024 16:41:12 : Inside Step - the user should see Your shopping cart is empty! minicart message.
+23/02/2024 16:41:12 : Test End!
+_________________________________________________________________________________________
+23/02/2024 16:41:12 : Test Start!
+23/02/2024 16:41:15 : Inside Step - the user is on home page
+23/02/2024 16:41:15 : Inside Step - the user clicks on Checkout link in header
+23/02/2024 16:41:20 : Inside Step - the user should be redirected to shopping cart page and see "Your shopping cart is empty!" message.
+23/02/2024 16:41:20 : Test End!
+_________________________________________________________________________________________
+23/02/2024 16:41:57 : Test Start!
+23/02/2024 16:42:01 : Inside Step - the user is on home page
+23/02/2024 16:42:01 : Inside Step - the user clicks on mini cart in header
+23/02/2024 16:42:06 : Inside Step - the user should see Your shopping cart is empty! minicart message.
+23/02/2024 16:42:06 : Test End!
+_________________________________________________________________________________________
+23/02/2024 16:42:06 : Test Start!
+23/02/2024 16:42:09 : Inside Step - the user is on home page
+23/02/2024 16:42:09 : Inside Step - the user clicks on Checkout link in header
+23/02/2024 16:42:15 : Inside Step - the user should be redirected to shopping cart page and see "Your shopping cart is empty!" message.
+23/02/2024 16:42:15 : Test End!
+_________________________________________________________________________________________
+23/02/2024 16:42:49 : Test Start!
+23/02/2024 16:42:53 : Inside Step - the user is on home page
+23/02/2024 16:42:53 : Inside Step - the user clicks on mini cart in header
+23/02/2024 16:42:58 : Inside Step - the user should see Your shopping cart is empty! minicart message.
+23/02/2024 16:42:59 : Test End!
+_________________________________________________________________________________________
+23/02/2024 16:42:59 : Test Start!
+23/02/2024 16:43:02 : Inside Step - the user is on home page
+23/02/2024 16:43:02 : Inside Step - the user clicks on Checkout link in header
+23/02/2024 16:43:07 : Inside Step - the user should be redirected to shopping cart page and see "Your shopping cart is empty!" message.
+23/02/2024 16:43:07 : Test End!
+_________________________________________________________________________________________
+23/02/2024 16:44:29 : Test Start!
+23/02/2024 16:44:33 : Inside Step - the user is on home page
+23/02/2024 16:44:33 : Inside Step - the user clicks on mini cart in header
+23/02/2024 16:44:38 : Inside Step - the user should see Your shopping cart is empty! minicart message.
+23/02/2024 16:44:38 : Test End!
+_________________________________________________________________________________________
+23/02/2024 16:44:38 : Test Start!
+23/02/2024 16:44:43 : Inside Step - the user is on home page
+23/02/2024 16:44:43 : Inside Step - the user clicks on Checkout link in header
+23/02/2024 16:44:43 : Inside Step - the user should be redirected to shopping cart page and see "Your shopping cart is empty!" message.
+23/02/2024 16:44:43 : Test End!
+_________________________________________________________________________________________
+23/02/2024 19:00:41 : Test Start!
+23/02/2024 19:00:45 : Inside Step - the user is on home page
+23/02/2024 19:00:45 : Inside Step - the user clicks on mini cart in header
+23/02/2024 19:00:45 : Inside Step - the user should see Your shopping cart is empty! minicart message.
+23/02/2024 19:00:45 : Test End!
+_________________________________________________________________________________________
+23/02/2024 19:00:45 : Test Start!
+23/02/2024 19:00:48 : Inside Step - the user is on home page
+23/02/2024 19:00:48 : Inside Step - the user clicks on Checkout link in header
+23/02/2024 19:00:49 : Inside Step - the user should be redirected to shopping cart page and see "Your shopping cart is empty!" message.
+23/02/2024 19:00:49 : Test End!
+_________________________________________________________________________________________
+23/02/2024 19:04:02 : Test Start!
+23/02/2024 19:04:06 : Inside Step - the user is on home page
+23/02/2024 19:04:06 : Inside Step - the user clicks on mini cart in header
+23/02/2024 19:04:06 : Inside Step - the user should see Your shopping cart is empty! minicart message.
+23/02/2024 19:04:06 : Test End!
+_________________________________________________________________________________________
+23/02/2024 19:04:06 : Test Start!
+23/02/2024 19:04:09 : Inside Step - the user is on home page
+23/02/2024 19:04:09 : Inside Step - the user clicks on Checkout link in header
+23/02/2024 19:04:10 : Inside Step - the user should be redirected to shopping cart page and see "Your shopping cart is empty!" message.
+23/02/2024 19:04:10 : Test End!
+_________________________________________________________________________________________
+23/02/2024 19:06:56 : Test Start!
+23/02/2024 19:07:00 : Inside Step - the user is on home page
+23/02/2024 19:07:00 : Inside Step - the user clicks on mini cart in header
+23/02/2024 19:07:01 : Inside Step - the user should see Your shopping cart is empty! minicart message.
+23/02/2024 19:07:01 : Test End!
+_________________________________________________________________________________________
+23/02/2024 19:07:02 : Test Start!
+23/02/2024 19:07:05 : Inside Step - the user is on home page
+23/02/2024 19:07:05 : Inside Step - the user clicks on Checkout link in header
+23/02/2024 19:07:06 : Inside Step - the user should be redirected to shopping cart page and see "Your shopping cart is empty!" message.
+23/02/2024 19:07:06 : Test End!
+_________________________________________________________________________________________
+23/02/2024 19:11:13 : Test Start!
+23/02/2024 19:11:17 : Inside Step - the user is on home page
+23/02/2024 19:11:17 : Inside Step - the user clicks on mini cart in header
+23/02/2024 19:11:18 : Inside Step - the user should see Your shopping cart is empty! minicart message.
+23/02/2024 19:11:18 : Test End!
+_________________________________________________________________________________________
+23/02/2024 19:11:19 : Test Start!
+23/02/2024 19:11:22 : Inside Step - the user is on home page
+23/02/2024 19:11:22 : Inside Step - the user clicks on Checkout link in header
+23/02/2024 19:11:23 : Inside Step - the user should be redirected to shopping cart page and see "Your shopping cart is empty!" message.
+23/02/2024 19:11:23 : Test End!
+_________________________________________________________________________________________
+23/02/2024 19:11:36 : Test Start!
+23/02/2024 19:11:40 : Inside Step - the user is on home page
+23/02/2024 19:11:40 : Inside Step - the user clicks on mini cart in header
+23/02/2024 19:11:41 : Inside Step - the user should see Your shopping cart is empty! minicart message.
+23/02/2024 19:11:41 : Test End!
+_________________________________________________________________________________________
+23/02/2024 19:11:41 : Test Start!
+23/02/2024 19:11:44 : Inside Step - the user is on home page
+23/02/2024 19:11:44 : Inside Step - the user clicks on Checkout link in header
+23/02/2024 19:11:45 : Inside Step - the user should be redirected to shopping cart page and see "Your shopping cart is empty!" message.
+23/02/2024 19:11:45 : Test End!
+_________________________________________________________________________________________

@@ -96,6 +96,10 @@ public class HomePage extends TestUtilities {
     private WebElement addToCompareBtn;
     @FindBy(xpath = "//div[contains(@class, 'product-layout')]")
     private List<WebElement> productListLocal;
+    @FindBy(xpath = ".//div[@qa='minicart']/button")
+    private WebElement minicartBtn;
+    @FindBy(xpath = ".//p[@qa='text_empty']")
+    private WebElement minicartTextEmpty;
 
     @FindBy(className = "alert")
     private WebElement alertText;
@@ -418,5 +422,25 @@ public class HomePage extends TestUtilities {
         }
         /* Return null driver if haven`t found the product */
         return (ProductPage) RETURN_NULL_OBJECT;
+    }
+
+    /* Method who click Minicart button in header */
+    public void clickMinicartButton() {
+        minicartBtn.click();
+    }
+
+    /* This method validate empty minicart message, is it visible and the same as provided */
+    public void validateEmptyMinicartMessage(String message) {
+        Assert.assertTrue(minicartTextEmpty.isDisplayed(), GenericMessages.CART_IS_EMPTY_MESSAGE_MISSING_MESSAGE);
+        Assert.assertEquals(minicartTextEmpty.getText(), message, GenericMessages.CART_IS_EMPTY_MESSAGE_DIFFERENT_MESSAGE);
+    }
+
+    /* Method who validate and click "Checkout" link in header */
+    public CartPage clickOnHeaderCheckoutLink() {
+        Assert.assertTrue(headerCheckoutLink.isDisplayed(), CHECKOUT_LINK_MISSING_MESSAGE);
+        Assert.assertEquals(headerCheckoutLink.getText(), GenericMessages.CHECKOUT_LINK_TEXT, GenericMessages.CHECKOUT_LINK_DIFFERENT_TEXT_MESSAGE);
+        headerCheckoutLink.click();
+        /* Return driver to CartPage (POM) */
+        return new CartPage(driver);
     }
 }

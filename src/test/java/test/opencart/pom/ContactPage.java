@@ -52,7 +52,7 @@ public class ContactPage extends TestUtilities {
     public void contactPageValidator() {
         Assert.assertTrue(heading.isDisplayed(), GenericMessages.PAGE_HEADING_MISSING_MESSAGE);
 
-        /* Validate Contact page heading contains  */
+        /* Validate Contact page heading contains right text */
         Assert.assertEquals(heading.getText(), CONTACT_PAGE_HEADING, GenericMessages.DIFFERENT_PAGE_HEADING);
 
         Assert.assertTrue(contactForm.isDisplayed(), CONTACT_FORM_MISSING_MESSAGE);

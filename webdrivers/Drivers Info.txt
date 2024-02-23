@@ -1,8 +1,8 @@
 Tested on Browsers versions:
-    - Chrome: 121.0.6167.140
+    - Chrome: 122.0.6261.70 *** bug
     - Mozilla Firefox: 122.0
-    - Edge: 121.0.2277.98
+    - Edge: 121.0.2277.128
 WebDrivers version:
-    - Chrome - chromedriver: 119.0.6045.105
-    - Mozilla Firefox - geckodriver: 0.33.0
-    - Edge - edgedriver: 119.0.2151.44
+    - Chrome - chromedriver: 122.0.6261.69 *** bug
+    - Mozilla Firefox - geckodriver: 0.34.0
+    - Edge - edgedriver: 121.0.2277.128

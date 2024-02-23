@@ -41,6 +41,8 @@ public class GenericMessages {
     public static final String WISHLIST_HAVE_ITEMS_TEXT = "Wishlist contains items.";
     public static final String WISHLIST_IS_EMPTY_TEXT = "Wishlist is empty.";
     public static final String WISHLIST_ITEMS_ARE_VALID_TEXT = "Wishlist items are valid.";
-
-
+    public static final String CART_IS_EMPTY_MESSAGE_MISSING_MESSAGE = "'Empty Cart' message is missing!";
+    public static final String CART_IS_EMPTY_MESSAGE_DIFFERENT_MESSAGE = "'Empty Cart' message is different!";
+    public static final String CHECKOUT_LINK_TEXT = "Checkout";
+    public static final String CHECKOUT_LINK_DIFFERENT_TEXT_MESSAGE = "'Checkout' link text is different!";
 }
