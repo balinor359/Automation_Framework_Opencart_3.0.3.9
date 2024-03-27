@@ -76,7 +76,11 @@ public class ProductPage extends TestUtilities {
 
     /* This method select tab "Reviews" */
     public void clickTabReviews() {
-        TestUtilities.scrollTo(driver, tabReviewTrigger);
+        if (TestUtilities.usedBrowser.equals("firefox")){
+            TestUtilities.firefoxScrollTo(driver, tabReviewTrigger);
+        }else{
+            TestUtilities.scrollTo(driver, tabReviewTrigger);
+        }
         TestUtilities.waitClickable(driver, tabReviewTrigger, 5);
         tabReviewTrigger.click();
     }

@@ -16,8 +16,6 @@ The Framework includes:
 
 FOLLOWING FEATURES ARE UNDER DEVELOPMENT !!!
  - ShoppingCart
-    - EmptyCartCheckout.feature
-    - MinicartCartData.feature
     - ShoppingCartDeleteProduct.feature
     - ShoppingCartQtyUpdate.feature
 

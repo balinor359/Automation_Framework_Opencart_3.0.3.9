@@ -18,7 +18,7 @@ public class WishlistPage extends TestUtilities {
 
     /* Declaring string variables for the current page */
     private static final String WISHLIST_PAGE_HEADING = "My Wish List";
-    public static final String WISHLIST_PAGE_CONTAINER_MISSING = "The Wishlist page container is missing!";
+    private static final String WISHLIST_PAGE_CONTAINER_MISSING = "The Wishlist page container is missing!";
     private static final String WISHLIST_PAGE_URL = "https://opencart-test.test/index.php?route=account/wishlist";
 
     /* Declaring page elements */

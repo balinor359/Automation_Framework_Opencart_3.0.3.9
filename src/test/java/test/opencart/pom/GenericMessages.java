@@ -35,9 +35,9 @@ public class GenericMessages {
     public static final String PRODUCTS_NAME_IS_DIFFERENT_MESSAGE = "Product name is different!";
     public static final String PRODUCT_PRICE_IS_DIFFERENT_MESSAGE = "Product price is different!";
     public static final String PRODUCT_IMAGE_IS_DIFFERENT_MESSAGE = "Product image is different!";
-    public static final String CART_LIST_MISSING_MESSAGE = "Cart list is not displayed!";
     public static final String CART_HAVE_ITEMS_TEXT = "Cart contains items.";
     public static final String CART_IS_EMPTY_TEXT = "Cart is empty.";
+    public static final String CART_ITEMS_ARE_VALID_TEXT = "Cart items are valid.";
     public static final String WISHLIST_HAVE_ITEMS_TEXT = "Wishlist contains items.";
     public static final String WISHLIST_IS_EMPTY_TEXT = "Wishlist is empty.";
     public static final String WISHLIST_ITEMS_ARE_VALID_TEXT = "Wishlist items are valid.";
@@ -45,4 +45,6 @@ public class GenericMessages {
     public static final String CART_IS_EMPTY_MESSAGE_DIFFERENT_MESSAGE = "'Empty Cart' message is different!";
     public static final String CHECKOUT_LINK_TEXT = "Checkout";
     public static final String CHECKOUT_LINK_DIFFERENT_TEXT_MESSAGE = "'Checkout' link text is different!";
+    public static final String SHOPPING_CART_LINK_TEXT = "Shopping Cart";
+    public static final String SHOPPING_CART_LINK_DIFFERENT_TEXT_MESSAGE = "'Shopping Cart' link text is different!";
 }

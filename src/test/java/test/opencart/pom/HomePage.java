@@ -1,6 +1,7 @@
 package test.opencart.pom;
 
 import org.openqa.selenium.*;
+import org.openqa.selenium.interactions.MoveTargetOutOfBoundsException;
 import org.openqa.selenium.support.Color;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
@@ -70,7 +71,7 @@ public class HomePage extends TestUtilities {
     private WebElement headerCheckoutLink;
     @FindBy(xpath = ".//a[@qa='homepage_link']")
     private WebElement homepageLink;
-    @FindBy(xpath = "//div[@id='common-home']//h2")
+    @FindBy(xpath = ".//div[@id='common-home']//h2")
     private WebElement heading;
     @FindBy(xpath = ".//input[@qa='search-input']")
     private WebElement searchInput;
@@ -100,7 +101,8 @@ public class HomePage extends TestUtilities {
     private WebElement minicartBtn;
     @FindBy(xpath = ".//p[@qa='text_empty']")
     private WebElement minicartTextEmpty;
-
+    @FindBy(xpath = "//tr[@qa='minicart-single-product-row']")
+    private List<WebElement> minicartProductRow;
     @FindBy(className = "alert")
     private WebElement alertText;
 
@@ -117,6 +119,7 @@ public class HomePage extends TestUtilities {
 
     /* This method validate homepage heading */
     public void homepageValidator() {
+
         TestUtilities.waitVisible(driver, heading, 5);
         Assert.assertTrue(heading.isDisplayed(), GenericMessages.PAGE_HEADING_MISSING_MESSAGE);
         Assert.assertEquals(heading.getText(), HOME_PAGE_HEADING, GenericMessages.DIFFERENT_PAGE_HEADING);
@@ -143,11 +146,18 @@ public class HomePage extends TestUtilities {
     /* Click method for "Logo/homepage" link in header */
     public HomePage clickOnHomepageLink() {
         try {
+
             TestUtilities.scrollTo(driver, homepageLink);
             TestUtilities.waitClickable(driver, homepageLink, 5);
             Assert.assertTrue(homepageLink.isDisplayed(), LOGO_MISSING_MESSAGE);
 
-            homepageLink.click();
+            if (TestUtilities.usedBrowser.equals("firefox")) {
+                TestUtilities.firefoxClick(driver, homepageLink);
+            } else {
+                homepageLink.click();
+            }
+
+
             /* Return driver to HomePage (POM) */
             return new HomePage(driver);
         } catch (Exception e) {
@@ -330,7 +340,11 @@ public class HomePage extends TestUtilities {
                 WebElement addToWishlistBtn = product.findElement(By.xpath(".//button[@qa='add-to-wishlist-btn']"));
 
                 /* Scroll to add to wishlist button of the product and click it */
-                TestUtilities.scrollTo(driver, addToWishlistBtn);
+                if (TestUtilities.usedBrowser.equals("firefox")) {
+                    TestUtilities.firefoxScrollTo(driver, addToWishlistBtn);
+                } else {
+                    TestUtilities.scrollTo(driver, addToWishlistBtn);
+                }
                 addToWishlistBtn.click();
 
                 /* Create new product with name, price and image src, and add it to the product list */
@@ -363,14 +377,18 @@ public class HomePage extends TestUtilities {
     /* Click method for user wishlist page link in header */
     public WishlistPage clickOnHeaderWishlistPageLink() {
         Assert.assertTrue(headerWishlistLink.isDisplayed(), WISHLIST_LINK_MISSING_MESSAGE);
-        TestUtilities.scrollTo(driver, headerWishlistLink);
+        if (TestUtilities.usedBrowser.equals("firefox")) {
+            TestUtilities.firefoxScrollTo(driver, headerWishlistLink);
+        } else {
+            TestUtilities.scrollTo(driver, headerWishlistLink);
+        }
         TestUtilities.waitClickable(driver, headerWishlistLink, 5);
         headerWishlistLink.click();
         /* Return driver to WishlistPage (POM) */
         return new WishlistPage(driver);
     }
 
-    /* Method who open product page by submitted item name */
+    /* Method who add product by submitted item name to the Product List */
     public void addProductToProductList(String productName) {
 
         /* Go through all products */
@@ -400,6 +418,36 @@ public class HomePage extends TestUtilities {
 
     }
 
+    /* Method who add product by submitted item name to the Cart */
+    public void addProductToCart(String productName) {
+
+//        try {
+        /* Go through all products */
+        for (WebElement product : productListLocal) {
+
+            /* Save values for Name/Price/Image src for comparison in other pages */
+
+            /* Take product - Name */
+            WebElement innerProductName = product.findElement(By.cssSelector("div.caption h4 a"));
+
+            /* Locate submitted product and create new product object */
+            if (innerProductName.getText().equals(productName)) {
+
+                /* Take product - add-to-cart button */
+                WebElement addToCartBtn = product.findElement(By.xpath(".//button[@qa='add-to-cart-btn']"));
+
+                /* Scroll to add-to-cart button of the product and click it */
+                if (TestUtilities.usedBrowser.equals("firefox")) {
+                    TestUtilities.firefoxScrollTo(driver, addToCartBtn);
+                } else {
+                    TestUtilities.scrollTo(driver, addToCartBtn);
+                }
+                addToCartBtn.click();
+
+            }
+        }
+    }
+
     /* Click method who open product page */
     public ProductPage goToProductPage(String productName) {
 //        WebDriverWait wait = new WebDriverWait(driver,Duration.ofSeconds(10));
@@ -426,6 +474,14 @@ public class HomePage extends TestUtilities {
 
     /* Method who click Minicart button in header */
     public void clickMinicartButton() {
+        if (TestUtilities.usedBrowser.equals("firefox")) {
+            TestUtilities.firefoxScrollTo(driver, minicartBtn);
+        } else {
+            TestUtilities.scrollTo(driver, minicartBtn);
+        }
+
+        TestUtilities.waitVisible(driver, minicartBtn, 5);
+        TestUtilities.waitClickable(driver, minicartBtn, 5);
         minicartBtn.click();
     }
 
@@ -442,5 +498,54 @@ public class HomePage extends TestUtilities {
         headerCheckoutLink.click();
         /* Return driver to CartPage (POM) */
         return new CartPage(driver);
+    }
+
+    /* Method who validate and click "Shopping Cart" link in header */
+    public CartPage clickOnHeaderShoppingCartLink() {
+        Assert.assertTrue(headerShoppingCartLink.isDisplayed(), SHOPPING_CART_MISSING_MESSAGE);
+        Assert.assertEquals(headerShoppingCartLink.getText(), GenericMessages.SHOPPING_CART_LINK_TEXT, GenericMessages.SHOPPING_CART_LINK_DIFFERENT_TEXT_MESSAGE);
+        headerShoppingCartLink.click();
+        /* Return driver to CartPage (POM) */
+        return new CartPage(driver);
+    }
+
+
+    /* Method who goes through all minicart items and compare their name, images and price with items saved in productList */
+    public void cartItemsValidator() {
+
+        /* Go through all products saved in Cart */
+        for (WebElement item : minicartProductRow) {
+
+            /* Take element - Name */
+            WebElement cartItemName = item.findElement(By.xpath(".//td[@qa='product-name']/a"));
+
+            Assert.assertTrue(cartItemName.isDisplayed(), GenericMessages.PRODUCTS_NAME_MISSING_MESSAGE);
+            String cartItemNameText = cartItemName.getText();
+
+            /* Take element - Price */
+            WebElement cartItemPrice = item.findElement(By.xpath(".//td[@qa='product-price']"));
+            Assert.assertTrue(cartItemPrice.isDisplayed(), GenericMessages.PRODUCT_PRICE_MISSING_MESSAGE);
+
+            /* Take element - Image */
+            WebElement cartItemImageSrc = item.findElement(By.xpath(".//td[@qa='product-image']/a/img"));
+            Assert.assertTrue(cartItemImageSrc.isDisplayed(), GenericMessages.PRODUCT_IMAGE_MISSING_MESSAGE);
+
+            String cartItemImageUrl = extractImageUrlWithoutDimensionsAndFileType(cartItemImageSrc.getAttribute("src"));
+
+            /* Go through all products in productList */
+            for (Product product : Product.productList) {
+
+                /* If element from cart match with element from productList compare their name and price */
+                if (cartItemNameText.equals(product.getName())) {
+
+                    Assert.assertEquals(cartItemName.getText(), product.getName(), GenericMessages.PRODUCTS_NAME_IS_DIFFERENT_MESSAGE);
+                    Assert.assertEquals(cartItemPrice.getText(), product.getPrice(), GenericMessages.PRODUCT_PRICE_IS_DIFFERENT_MESSAGE);
+                    Assert.assertEquals(cartItemImageUrl, product.getImageSrc(), GenericMessages.PRODUCT_IMAGE_IS_DIFFERENT_MESSAGE);
+
+                    System.out.println(GenericMessages.CART_ITEMS_ARE_VALID_TEXT);
+                    MyFileWriter.writeToLog(GenericMessages.CART_ITEMS_ARE_VALID_TEXT);
+                }
+            }
+        }
     }
 }

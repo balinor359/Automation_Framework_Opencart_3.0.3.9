@@ -5,16 +5,18 @@
     <li>
       <table class="table table-striped">
         {% for product in products %}
-        <tr>
+        <tr qa="minicart-single-product-row">
           <td class="text-center" qa="product-image">{% if product.thumb %} <a href="{{ product.href }}"><img src="{{ product.thumb }}" alt="{{ product.name }}" title="{{ product.name }}" class="img-thumbnail" /></a> {% endif %}</td>
-          <td class="text-left" qa="product-name"><a href="{{ product.href }}">{{ product.name }}</a> {% if product.option %}
+          <td class="text-left" qa="product-name"><a href="{{ product.href }}">{{ product.name }}</a>
+          {% if product.option %}
             {% for option in product.option %} <br />
             - <small>{{ option.name }} {{ option.value }}</small> {% endfor %}
             {% endif %}
             {% if product.recurring %} <br />
-            - <small>{{ text_recurring }} {{ product.recurring }}</small> {% endif %}</td>
+            - <small>{{ text_recurring }} {{ product.recurring }}</small> {% endif %}
+            </td>
           <td class="text-right" qa="product-qty">x {{ product.quantity }}</td>
-          <td class="text-right" qa="product price">{{ product.total }}</td>
+          <td class="text-right" qa="product-price">{{ product.total }}</td>
           <td class="text-center" qa="product-remove"><button type="button" onclick="cart.remove('{{ product.cart_id }}');" title="{{ button_remove }}" class="btn btn-danger btn-xs"><i class="fa fa-times"></i></button></td>
         </tr>
         {% endfor %}

@@ -1,5 +1,6 @@
 package test.opencart.utilities;
 
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.firefox.FirefoxOptions;
 import org.openqa.selenium.interactions.Actions;
 import test.opencart.objects.Product;
@@ -192,6 +193,14 @@ public class TestUtilities {
                 .perform();
     }
 
+    /* Scroll to element for Firefox*/
+    public static void firefoxScrollTo(WebDriver driver, WebElement webElement) {
+        ((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", webElement);
+    }
+    /* Click element for Firefox*/
+    public static void firefoxClick(WebDriver driver, WebElement webElement) {
+        ((JavascriptExecutor) driver).executeScript("arguments[0].click();", webElement);
+    }
 
     /* Simple Thread wait when can`t make web-driver to wait specific page load */
     public static void simpleWait(int millisecond) {
