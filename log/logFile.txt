@@ -13466,3 +13466,537 @@ ________________________________________________________________________________
 27/03/2024 22:50:58 : Cart items are valid.
 27/03/2024 22:50:58 : Test End!
 _________________________________________________________________________________________
+29/03/2024 16:07:30 : Test Start!
+29/03/2024 16:07:35 : Inside Step - the user is on home page
+29/03/2024 16:07:35 : Inside Step - the user clicks on mini cart in header
+29/03/2024 16:07:36 : Inside Step - navigate to shopping cart page
+29/03/2024 16:07:37 : Test End!
+_________________________________________________________________________________________
+29/03/2024 16:13:16 : Test Start!
+29/03/2024 16:13:19 : Inside Step - the user is on home page
+29/03/2024 16:13:19 : Inside Step - the user clicks on mini cart in header
+29/03/2024 16:13:21 : Inside Step - navigate to shopping cart page
+29/03/2024 16:13:21 : Test End!
+_________________________________________________________________________________________
+29/03/2024 16:15:45 : Test Start!
+29/03/2024 16:15:47 : Inside Step - the user is on home page
+29/03/2024 16:15:47 : Inside Step - the user clicks on mini cart in header
+29/03/2024 16:15:49 : Inside Step - navigate to shopping cart page
+29/03/2024 16:15:49 : Inside Step - user click delete button
+29/03/2024 16:15:49 : Inside Step - the user should see "Your shopping cart is empty!" message on the Shopping Cart page.
+29/03/2024 16:15:49 : Test End!
+_________________________________________________________________________________________
+29/03/2024 16:19:27 : Test Start!
+29/03/2024 16:19:29 : Inside Step - the user is on home page
+29/03/2024 16:19:29 : Inside Step - the user add product in shopping cart from home page
+29/03/2024 16:19:31 : Inside Step - navigate to shopping cart page
+29/03/2024 16:19:32 : Test End!
+_________________________________________________________________________________________
+29/03/2024 16:21:18 : Test Start!
+29/03/2024 16:21:20 : Inside Step - the user is on home page
+29/03/2024 16:21:20 : Inside Step - the user add product in shopping cart from home page
+29/03/2024 16:21:21 : Inside Step - navigate to shopping cart page
+29/03/2024 16:21:22 : Inside Step - user click delete button
+29/03/2024 16:21:25 : Inside Step - the user should see "Your shopping cart is empty!" message on the Shopping Cart page.
+29/03/2024 16:21:25 : Test End!
+_________________________________________________________________________________________
+29/03/2024 16:22:46 : Test Start!
+29/03/2024 16:22:48 : Inside Step - the user is on home page
+29/03/2024 16:22:48 : Inside Step - the user add product in shopping cart from home page
+29/03/2024 16:22:50 : Inside Step - navigate to shopping cart page
+29/03/2024 16:22:50 : Inside Step - user click delete button
+29/03/2024 16:22:53 : Inside Step - the user should see "Your shopping cart is empty!" message on the Shopping Cart page.
+29/03/2024 16:22:53 : Test End!
+_________________________________________________________________________________________
+29/03/2024 16:34:44 : Test Start!
+29/03/2024 16:34:46 : Inside Step - the user is on home page
+29/03/2024 16:34:46 : Inside Step - the user add product in shopping cart from home page
+29/03/2024 16:34:48 : Inside Step - navigate to shopping cart page
+29/03/2024 16:34:49 : Test End!
+_________________________________________________________________________________________
+29/03/2024 16:36:45 : Test Start!
+29/03/2024 16:36:47 : Inside Step - the user is on home page
+29/03/2024 16:36:47 : Inside Step - the user add product in shopping cart from home page
+29/03/2024 16:36:49 : Inside Step - navigate to shopping cart page
+29/03/2024 16:36:50 : Inside Step - user click delete button
+29/03/2024 16:36:50 : Cart contains items.
+29/03/2024 16:36:50 : Cart items are valid.
+29/03/2024 16:36:54 : Inside Step - the user should see "Your shopping cart is empty!" message on the Shopping Cart page.
+29/03/2024 16:36:54 : Test End!
+_________________________________________________________________________________________
+29/03/2024 16:37:22 : Test Start!
+29/03/2024 16:37:24 : Inside Step - the user is on home page
+29/03/2024 16:37:24 : Inside Step - the user add product in shopping cart from home page
+29/03/2024 16:37:26 : Inside Step - navigate to shopping cart page
+29/03/2024 16:37:26 : Inside Step - user click delete button
+29/03/2024 16:37:26 : Redirect failed!
+29/03/2024 16:37:35 : Inside Step - the user should see "Your shopping cart is empty!" message on the Shopping Cart page.
+29/03/2024 16:37:35 : Test End!
+_________________________________________________________________________________________
+29/03/2024 16:37:48 : Test Start!
+29/03/2024 16:37:51 : Inside Step - the user is on home page
+29/03/2024 16:37:51 : Inside Step - the user add product in shopping cart from home page
+29/03/2024 16:37:52 : Inside Step - navigate to shopping cart page
+29/03/2024 16:37:53 : Inside Step - user click delete button
+29/03/2024 16:37:53 : Cart contains items.
+29/03/2024 16:37:53 : Cart items are valid.
+29/03/2024 16:37:57 : Inside Step - the user should see "Your shopping cart is empty!" message on the Shopping Cart page.
+29/03/2024 16:37:57 : Test End!
+_________________________________________________________________________________________
+29/03/2024 16:38:05 : Test Start!
+29/03/2024 16:38:07 : Inside Step - the user is on home page
+29/03/2024 16:38:07 : Inside Step - the user add product in shopping cart from home page
+29/03/2024 16:38:08 : Inside Step - navigate to shopping cart page
+29/03/2024 16:38:09 : Inside Step - user click delete button
+29/03/2024 16:38:09 : Redirect failed!
+29/03/2024 16:38:18 : Inside Step - the user should see "Your shopping cart is empty!" message on the Shopping Cart page.
+29/03/2024 16:38:18 : Test End!
+_________________________________________________________________________________________
+29/03/2024 16:40:37 : Test Start!
+29/03/2024 16:40:39 : Inside Step - the user is on home page
+29/03/2024 16:40:39 : Inside Step - the user add product in shopping cart from home page
+29/03/2024 16:40:41 : Inside Step - navigate to shopping cart page
+29/03/2024 16:40:41 : Inside Step - user click delete button
+29/03/2024 16:40:41 : Cart contains items.
+29/03/2024 16:40:41 : Cart items are valid.
+29/03/2024 16:40:46 : Inside Step - the user should see "Your shopping cart is empty!" message on the Shopping Cart page.
+29/03/2024 16:40:46 : Test End!
+_________________________________________________________________________________________
+29/03/2024 16:40:51 : Test Start!
+29/03/2024 16:40:53 : Inside Step - the user is on home page
+29/03/2024 16:40:53 : Inside Step - the user add product in shopping cart from home page
+29/03/2024 16:40:55 : Inside Step - navigate to shopping cart page
+29/03/2024 16:40:56 : Test End!
+_________________________________________________________________________________________
+29/03/2024 16:44:00 : Test Start!
+29/03/2024 16:44:02 : Inside Step - the user is on home page
+29/03/2024 16:44:02 : Inside Step - the user add product in shopping cart from home page
+29/03/2024 16:44:04 : Inside Step - navigate to shopping cart page
+29/03/2024 16:44:04 : Inside Step - user click delete button
+29/03/2024 16:44:04 : Cart contains items.
+29/03/2024 16:44:04 : Cart items are valid.
+29/03/2024 16:44:09 : Inside Step - the user should see "Your shopping cart is empty!" message on the Shopping Cart page.
+29/03/2024 16:44:09 : Test End!
+_________________________________________________________________________________________
+29/03/2024 16:44:17 : Test Start!
+29/03/2024 16:44:19 : Inside Step - the user is on home page
+29/03/2024 16:44:19 : Inside Step - the user add product in shopping cart from home page
+29/03/2024 16:44:20 : Inside Step - navigate to shopping cart page
+29/03/2024 16:44:21 : Inside Step - user click delete button
+29/03/2024 16:44:21 : Cart contains items.
+29/03/2024 16:44:21 : Cart items are valid.
+29/03/2024 16:44:25 : Inside Step - the user should see "Your shopping cart is empty!" message on the Shopping Cart page.
+29/03/2024 16:44:25 : Test End!
+_________________________________________________________________________________________
+29/03/2024 16:44:31 : Test Start!
+29/03/2024 16:44:33 : Inside Step - the user is on home page
+29/03/2024 16:44:34 : Inside Step - the user add product in shopping cart from home page
+29/03/2024 16:44:35 : Inside Step - navigate to shopping cart page
+29/03/2024 16:44:35 : Inside Step - user click delete button
+29/03/2024 16:44:35 : Redirect failed!
+29/03/2024 16:44:45 : Inside Step - the user should see "Your shopping cart is empty!" message on the Shopping Cart page.
+29/03/2024 16:44:45 : Test End!
+_________________________________________________________________________________________
+29/03/2024 16:45:00 : Test Start!
+29/03/2024 16:45:02 : Inside Step - the user is on home page
+29/03/2024 16:45:02 : Inside Step - the user add product in shopping cart from home page
+29/03/2024 16:45:04 : Inside Step - navigate to shopping cart page
+29/03/2024 16:45:04 : Inside Step - user click delete button
+29/03/2024 16:45:04 : Cart contains items.
+29/03/2024 16:45:04 : Cart items are valid.
+29/03/2024 16:45:08 : Inside Step - the user should see "Your shopping cart is empty!" message on the Shopping Cart page.
+29/03/2024 16:45:08 : Test End!
+_________________________________________________________________________________________
+29/03/2024 16:45:34 : Test Start!
+29/03/2024 16:45:36 : Inside Step - the user is on home page
+29/03/2024 16:45:37 : Inside Step - the user add product in shopping cart from home page
+29/03/2024 16:45:38 : Inside Step - navigate to shopping cart page
+29/03/2024 16:45:39 : Inside Step - user click delete button
+29/03/2024 16:45:39 : Cart contains items.
+29/03/2024 16:45:39 : Cart items are valid.
+29/03/2024 16:45:43 : Inside Step - the user should see "Your shopping cart is empty!" message on the Shopping Cart page.
+29/03/2024 16:45:43 : Test End!
+_________________________________________________________________________________________
+29/03/2024 16:55:27 : Test Start!
+29/03/2024 16:55:29 : Inside Step - the user is on home page
+29/03/2024 16:55:29 : Inside Step - the user add product in shopping cart from home page
+29/03/2024 16:55:31 : Inside Step - navigate to shopping cart page
+29/03/2024 16:55:31 : Inside Step - user click delete button
+29/03/2024 16:55:31 : Cart contains items.
+29/03/2024 16:55:31 : Cart items are valid.
+29/03/2024 16:55:36 : Inside Step - the user should see "Your shopping cart is empty!" message on the Shopping Cart page.
+29/03/2024 16:55:36 : Test End!
+_________________________________________________________________________________________
+29/03/2024 16:55:52 : Test Start!
+29/03/2024 16:55:54 : Inside Step - the user have a profile in website and is on home page
+29/03/2024 16:55:54 : Connecting to DB...
+29/03/2024 16:55:54 : __________________________Create Customer___________________________________
+29/03/2024 16:55:54 : Disconnecting from DB...
+29/03/2024 16:55:54 : Connecting to DB...
+29/03/2024 16:55:54 : __________________________Database Response___________________________________
+29/03/2024 16:55:54 : Customer ID:2 | First Name:Georgi | Last Name:Petrov | Email:petrov@test.test | Telephone:0883225512 | Newsletter:0 | Date Added:2023-11-24 15:13:50
+29/03/2024 16:55:54 : Customer ID:3 | First Name:Gergana | Last Name:Dimitrova | Email:dimitrova@test.test | Telephone:0888888888 | Newsletter:1 | Date Added:2023-11-24 15:16:16
+29/03/2024 16:55:54 : Customer ID:40 | First Name:Kiril | Last Name:Todorov | Email:todorov@test.test | Telephone:0883198565 | Newsletter:1 | Date Added:2023-11-28 18:26:48
+29/03/2024 16:55:54 : Customer ID:122 | First Name:Vasil | Last Name:Vasilev | Email:vasilev@test.test | Telephone:0884395614 | Newsletter:1 | Date Added:2024-02-05 19:12:32
+29/03/2024 16:55:54 : Customer ID:196 | First Name:Ivan | Last Name:Ivanov | Email:ivanov@test.test | Telephone:0887446682 | Newsletter:1 | Date Added:2024-03-29 16:55:55
+29/03/2024 16:55:54 : ____________________________________________________________________________
+29/03/2024 16:55:54 : Disconnecting from DB...
+29/03/2024 16:55:54 : Inside Step - the user login into his profile with email ivanov@test.test, and password ivanov
+29/03/2024 16:55:56 : Inside Step - user add product from homepage to his wishlist
+29/03/2024 16:55:58 : <<< Shows Alert: Success: You have added MacBook to your wish list! >>>
+29/03/2024 16:55:58 : Inside Step - click on <Wish List> button in header
+29/03/2024 16:55:58 : Inside Step - the user should be redirected to his wishlist page and see added product there.
+29/03/2024 16:55:58 : Wishlist contains items.
+29/03/2024 16:55:59 : Wishlist items are valid.
+29/03/2024 16:55:59 : Connecting to DB...
+29/03/2024 16:55:59 : __________________________Deleting Customer_________________________________
+29/03/2024 16:55:59 : Disconnecting from DB...
+29/03/2024 16:55:59 : Connecting to DB...
+29/03/2024 16:55:59 : __________________________Database Response___________________________________
+29/03/2024 16:55:59 : Customer ID:2 | First Name:Georgi | Last Name:Petrov | Email:petrov@test.test | Telephone:0883225512 | Newsletter:0 | Date Added:2023-11-24 15:13:50
+29/03/2024 16:55:59 : Customer ID:3 | First Name:Gergana | Last Name:Dimitrova | Email:dimitrova@test.test | Telephone:0888888888 | Newsletter:1 | Date Added:2023-11-24 15:16:16
+29/03/2024 16:55:59 : Customer ID:40 | First Name:Kiril | Last Name:Todorov | Email:todorov@test.test | Telephone:0883198565 | Newsletter:1 | Date Added:2023-11-28 18:26:48
+29/03/2024 16:55:59 : Customer ID:122 | First Name:Vasil | Last Name:Vasilev | Email:vasilev@test.test | Telephone:0884395614 | Newsletter:1 | Date Added:2024-02-05 19:12:32
+29/03/2024 16:55:59 : ____________________________________________________________________________
+29/03/2024 16:55:59 : Disconnecting from DB...
+29/03/2024 16:55:59 : Test End!
+_________________________________________________________________________________________
+29/03/2024 16:55:59 : Test Start!
+29/03/2024 16:56:00 : Inside Step - the user is on home page
+29/03/2024 16:56:00 : Inside Step - the user open <About Us> link in footer
+29/03/2024 16:56:01 : Inside Step - the user should see About Us page.
+29/03/2024 16:56:01 : Redirect is successful!
+29/03/2024 16:56:01 : Test End!
+_________________________________________________________________________________________
+29/03/2024 16:56:01 : Test Start!
+29/03/2024 16:56:02 : Inside Step - the user is on home page
+29/03/2024 16:56:02 : Inside Step - the user open <Delivery Information> link in footer
+29/03/2024 16:56:03 : Inside Step - the user should see Delivery Information page.
+29/03/2024 16:56:03 : Redirect is successful!
+29/03/2024 16:56:03 : Test End!
+_________________________________________________________________________________________
+29/03/2024 16:56:03 : Test Start!
+29/03/2024 16:56:04 : Inside Step - the user is on home page
+29/03/2024 16:56:04 : Inside Step - the user open <Privacy Policy> link in footer
+29/03/2024 16:56:05 : Inside Step - the user should see Privacy Policy page.
+29/03/2024 16:56:05 : Redirect is successful!
+29/03/2024 16:56:05 : Test End!
+_________________________________________________________________________________________
+29/03/2024 16:56:05 : Test Start!
+29/03/2024 16:56:06 : Inside Step - the user is on home page
+29/03/2024 16:56:06 : Inside Step - the user open <Terms & Conditions> link in footer
+29/03/2024 16:56:07 : Inside Step - the user should see Terms & Conditions page.
+29/03/2024 16:56:07 : Redirect is successful!
+29/03/2024 16:56:07 : Test End!
+_________________________________________________________________________________________
+29/03/2024 16:56:07 : Test Start!
+29/03/2024 16:56:08 : Inside Step - the user is on home page
+29/03/2024 16:56:08 : Inside Step - the user navigate to contact page
+29/03/2024 16:56:09 : Inside Step - fill <Your Name> field as Ivan Ivanov
+29/03/2024 16:56:09 : Inside Step - fill <E-Mail Address> as ivanov@test.test
+29/03/2024 16:56:09 : Inside Step - fill <Enquiry> as This is the test message!
+29/03/2024 16:56:09 : Inside Step - click on <Submit> button
+29/03/2024 16:56:10 : Inside Step - the user should see "Your enquiry has been successfully sent to the store owner!" message.
+29/03/2024 16:56:10 : Test End!
+_________________________________________________________________________________________
+29/03/2024 16:56:10 : Test Start!
+29/03/2024 16:56:12 : Inside Step - the user is on home page
+29/03/2024 16:56:12 : Inside Step - the user navigate to product page
+29/03/2024 16:56:13 : Inside Step - click on `Reviews` tab
+29/03/2024 16:56:14 : Inside Step - fill the review form with valid data
+29/03/2024 16:56:14 : Inside Step - click on `Continue` button
+29/03/2024 16:56:14 : Inside Step - the user should see "Thank you for your review. It has been submitted to the webmaster for approval." notification message.
+29/03/2024 16:56:14 : Test End!
+_________________________________________________________________________________________
+29/03/2024 16:56:14 : Test Start!
+29/03/2024 16:56:16 : Inside Step - the user is on home page
+29/03/2024 16:56:16 : Inside Step - the user enters registration page
+29/03/2024 16:56:16 : Inside Step - insert valid credentials
+29/03/2024 16:56:17 : Inside Step - click on Continue button
+29/03/2024 16:56:17 : Registration failed. Error: Warning: E-Mail Address is already registered!
+29/03/2024 16:56:17 : Test End!
+_________________________________________________________________________________________
+29/03/2024 16:56:18 : Test Start!
+29/03/2024 16:56:19 : Inside Step - the user is on home page
+29/03/2024 16:56:19 : Inside Step - the user enter keyword iPod in header search bar
+29/03/2024 16:56:19 : Inside Step - click on search button
+29/03/2024 16:56:20 : Inside Step - the user should be redirected to search result page and see all products containing provided keyword.
+29/03/2024 16:56:20 : Search result - Product name: iPod Classic
+29/03/2024 16:56:20 : Search result - Product name: iPod Nano
+29/03/2024 16:56:20 : Search result - Product name: iPod Shuffle
+29/03/2024 16:56:20 : Search result - Product name: iPod Touch
+29/03/2024 16:56:20 : Test End!
+_________________________________________________________________________________________
+29/03/2024 16:56:20 : Test Start!
+29/03/2024 16:56:21 : Inside Step - the user is on home page
+29/03/2024 16:56:21 : Inside Step - the user clicks on mini cart in header
+29/03/2024 16:56:22 : Inside Step - the user should see Your shopping cart is empty! minicart message.
+29/03/2024 16:56:22 : Test End!
+_________________________________________________________________________________________
+29/03/2024 16:56:22 : Test Start!
+29/03/2024 16:56:23 : Inside Step - the user is on home page
+29/03/2024 16:56:23 : Inside Step - the user clicks on Checkout link in header
+29/03/2024 16:56:24 : Inside Step - the user should be redirected to shopping cart page and see "Your shopping cart is empty!" message.
+29/03/2024 16:56:24 : Test End!
+_________________________________________________________________________________________
+29/03/2024 16:56:24 : Test Start!
+29/03/2024 16:56:26 : Inside Step - the user is on home page
+29/03/2024 16:56:26 : Inside Step - the user add product in shopping cart from home page
+29/03/2024 16:56:27 : Inside Step - user clicks on mini cart in header he sees added product data
+29/03/2024 16:56:28 : Cart items are valid.
+29/03/2024 16:56:28 : Inside Step - navigate to shopping cart page
+29/03/2024 16:56:28 : Inside Step - the product data in the shopping cart page must be the same as mini cart product data
+29/03/2024 16:56:28 : Cart contains items.
+29/03/2024 16:56:28 : Cart items are valid.
+29/03/2024 16:56:28 : Test End!
+_________________________________________________________________________________________
+29/03/2024 16:56:29 : Test Start!
+29/03/2024 16:56:30 : Inside Step - the user is on home page
+29/03/2024 16:56:30 : Inside Step - the user add product in shopping cart from home page
+29/03/2024 16:56:31 : Inside Step - navigate to shopping cart page
+29/03/2024 16:56:33 : Test End!
+_________________________________________________________________________________________
+29/03/2024 16:58:51 : Test Start!
+29/03/2024 16:58:53 : Inside Step - the user is on home page
+29/03/2024 16:58:53 : Inside Step - the user add product in shopping cart from home page
+29/03/2024 16:58:55 : Inside Step - navigate to shopping cart page
+29/03/2024 16:58:56 : Inside Step - user click delete button
+29/03/2024 16:58:56 : Cart contains items.
+29/03/2024 16:58:56 : Cart items are valid.
+29/03/2024 16:59:00 : Inside Step - the user should see "Your shopping cart is empty!" message on the Shopping Cart page.
+29/03/2024 16:59:00 : Test End!
+_________________________________________________________________________________________
+29/03/2024 16:59:16 : Test Start!
+29/03/2024 16:59:21 : Inside Step - the user have a profile in website and is on home page
+29/03/2024 16:59:21 : Connecting to DB...
+29/03/2024 16:59:22 : __________________________Create Customer___________________________________
+29/03/2024 16:59:22 : Disconnecting from DB...
+29/03/2024 16:59:22 : Connecting to DB...
+29/03/2024 16:59:22 : __________________________Database Response___________________________________
+29/03/2024 16:59:22 : Customer ID:2 | First Name:Georgi | Last Name:Petrov | Email:petrov@test.test | Telephone:0883225512 | Newsletter:0 | Date Added:2023-11-24 15:13:50
+29/03/2024 16:59:22 : Customer ID:3 | First Name:Gergana | Last Name:Dimitrova | Email:dimitrova@test.test | Telephone:0888888888 | Newsletter:1 | Date Added:2023-11-24 15:16:16
+29/03/2024 16:59:22 : Customer ID:40 | First Name:Kiril | Last Name:Todorov | Email:todorov@test.test | Telephone:0883198565 | Newsletter:1 | Date Added:2023-11-28 18:26:48
+29/03/2024 16:59:22 : Customer ID:122 | First Name:Vasil | Last Name:Vasilev | Email:vasilev@test.test | Telephone:0884395614 | Newsletter:1 | Date Added:2024-02-05 19:12:32
+29/03/2024 16:59:22 : Customer ID:197 | First Name:Ivan | Last Name:Ivanov | Email:ivanov@test.test | Telephone:0887446682 | Newsletter:1 | Date Added:2024-03-29 16:59:22
+29/03/2024 16:59:22 : ____________________________________________________________________________
+29/03/2024 16:59:22 : Disconnecting from DB...
+29/03/2024 16:59:22 : Inside Step - the user login into his profile with email ivanov@test.test, and password ivanov
+29/03/2024 16:59:23 : Inside Step - user add product from homepage to his wishlist
+29/03/2024 16:59:29 : Test End!
+_________________________________________________________________________________________
+29/03/2024 16:59:29 : Test Start!
+29/03/2024 16:59:33 : Inside Step - the user is on home page
+29/03/2024 16:59:33 : Inside Step - the user open <About Us> link in footer
+29/03/2024 16:59:33 : Inside Step - the user should see About Us page.
+29/03/2024 16:59:33 : Redirect is successful!
+29/03/2024 16:59:33 : Test End!
+_________________________________________________________________________________________
+29/03/2024 16:59:34 : Test Start!
+29/03/2024 16:59:38 : Inside Step - the user is on home page
+29/03/2024 16:59:38 : Inside Step - the user open <Delivery Information> link in footer
+29/03/2024 16:59:38 : Inside Step - the user should see Delivery Information page.
+29/03/2024 16:59:38 : Redirect is successful!
+29/03/2024 16:59:38 : Test End!
+_________________________________________________________________________________________
+29/03/2024 16:59:39 : Test Start!
+29/03/2024 16:59:42 : Inside Step - the user is on home page
+29/03/2024 16:59:42 : Inside Step - the user open <Privacy Policy> link in footer
+29/03/2024 16:59:43 : Inside Step - the user should see Privacy Policy page.
+29/03/2024 16:59:43 : Redirect is successful!
+29/03/2024 16:59:43 : Test End!
+_________________________________________________________________________________________
+29/03/2024 16:59:43 : Test Start!
+29/03/2024 16:59:47 : Inside Step - the user is on home page
+29/03/2024 16:59:47 : Inside Step - the user open <Terms & Conditions> link in footer
+29/03/2024 16:59:47 : Inside Step - the user should see Terms & Conditions page.
+29/03/2024 16:59:47 : Redirect is successful!
+29/03/2024 16:59:47 : Test End!
+_________________________________________________________________________________________
+29/03/2024 16:59:48 : Test Start!
+29/03/2024 16:59:51 : Inside Step - the user is on home page
+29/03/2024 16:59:51 : Inside Step - the user navigate to contact page
+29/03/2024 16:59:52 : Inside Step - fill <Your Name> field as Ivan Ivanov
+29/03/2024 16:59:52 : Inside Step - fill <E-Mail Address> as ivanov@test.test
+29/03/2024 16:59:52 : Inside Step - fill <Enquiry> as This is the test message!
+29/03/2024 16:59:52 : Inside Step - click on <Submit> button
+29/03/2024 16:59:53 : Inside Step - the user should see "Your enquiry has been successfully sent to the store owner!" message.
+29/03/2024 16:59:53 : Test End!
+_________________________________________________________________________________________
+29/03/2024 16:59:54 : Test Start!
+29/03/2024 16:59:57 : Inside Step - the user is on home page
+29/03/2024 16:59:57 : Inside Step - the user navigate to product page
+29/03/2024 16:59:58 : Inside Step - click on `Reviews` tab
+29/03/2024 16:59:58 : Inside Step - fill the review form with valid data
+29/03/2024 16:59:59 : Inside Step - click on `Continue` button
+29/03/2024 16:59:59 : Inside Step - the user should see "Thank you for your review. It has been submitted to the webmaster for approval." notification message.
+29/03/2024 16:59:59 : Test End!
+_________________________________________________________________________________________
+29/03/2024 17:00:00 : Test Start!
+29/03/2024 17:00:04 : Inside Step - the user is on home page
+29/03/2024 17:00:04 : Inside Step - the user enters registration page
+29/03/2024 17:00:04 : Inside Step - insert valid credentials
+29/03/2024 17:00:06 : Inside Step - click on Continue button
+29/03/2024 17:00:07 : Registration failed. Error: Warning: E-Mail Address is already registered!
+29/03/2024 17:00:07 : Test End!
+_________________________________________________________________________________________
+29/03/2024 17:00:07 : Test Start!
+29/03/2024 17:00:11 : Inside Step - the user is on home page
+29/03/2024 17:00:11 : Inside Step - the user enter keyword iPod in header search bar
+29/03/2024 17:00:11 : Inside Step - click on search button
+29/03/2024 17:00:11 : Inside Step - the user should be redirected to search result page and see all products containing provided keyword.
+29/03/2024 17:00:12 : Search result - Product name: iPod Classic
+29/03/2024 17:00:12 : Search result - Product name: iPod Nano
+29/03/2024 17:00:12 : Search result - Product name: iPod Shuffle
+29/03/2024 17:00:12 : Search result - Product name: iPod Touch
+29/03/2024 17:00:12 : Test End!
+_________________________________________________________________________________________
+29/03/2024 17:00:12 : Test Start!
+29/03/2024 17:00:16 : Inside Step - the user is on home page
+29/03/2024 17:00:16 : Inside Step - the user clicks on mini cart in header
+29/03/2024 17:00:16 : Inside Step - the user should see Your shopping cart is empty! minicart message.
+29/03/2024 17:00:16 : Test End!
+_________________________________________________________________________________________
+29/03/2024 17:00:17 : Test Start!
+29/03/2024 17:00:21 : Inside Step - the user is on home page
+29/03/2024 17:00:21 : Inside Step - the user clicks on Checkout link in header
+29/03/2024 17:00:21 : Inside Step - the user should be redirected to shopping cart page and see "Your shopping cart is empty!" message.
+29/03/2024 17:00:21 : Test End!
+_________________________________________________________________________________________
+29/03/2024 17:00:22 : Test Start!
+29/03/2024 17:00:26 : Inside Step - the user is on home page
+29/03/2024 17:00:26 : Inside Step - the user add product in shopping cart from home page
+29/03/2024 17:00:27 : Inside Step - user clicks on mini cart in header he sees added product data
+29/03/2024 17:00:27 : Cart items are valid.
+29/03/2024 17:00:27 : Inside Step - navigate to shopping cart page
+29/03/2024 17:00:27 : Inside Step - the product data in the shopping cart page must be the same as mini cart product data
+29/03/2024 17:00:27 : Cart contains items.
+29/03/2024 17:00:27 : Cart items are valid.
+29/03/2024 17:00:27 : Test End!
+_________________________________________________________________________________________
+29/03/2024 17:00:28 : Test Start!
+29/03/2024 17:00:32 : Inside Step - the user is on home page
+29/03/2024 17:00:32 : Inside Step - the user add product in shopping cart from home page
+29/03/2024 17:00:33 : Inside Step - navigate to shopping cart page
+29/03/2024 17:00:33 : Inside Step - user click delete button
+29/03/2024 17:00:33 : Cart contains items.
+29/03/2024 17:00:33 : Cart items are valid.
+29/03/2024 17:00:37 : Inside Step - the user should see "Your shopping cart is empty!" message on the Shopping Cart page.
+29/03/2024 17:00:37 : Test End!
+_________________________________________________________________________________________
+29/03/2024 17:02:45 : Test Start!
+29/03/2024 17:02:47 : Inside Step - the user is on home page
+29/03/2024 17:02:47 : Inside Step - the user add product in shopping cart from home page
+29/03/2024 17:02:51 : Test End!
+_________________________________________________________________________________________
+29/03/2024 17:03:31 : Test Start!
+29/03/2024 17:03:33 : Inside Step - the user is on home page
+29/03/2024 17:03:33 : Inside Step - the user add product in shopping cart from home page
+29/03/2024 17:03:36 : Inside Step - navigate to shopping cart page
+29/03/2024 17:03:36 : Inside Step - user click delete button
+29/03/2024 17:03:36 : Cart contains items.
+29/03/2024 17:03:37 : Cart items are valid.
+29/03/2024 17:03:37 : Cart items are valid.
+29/03/2024 17:03:37 : Inside Step - the user should see "Your shopping cart is empty!" message on the Shopping Cart page.
+29/03/2024 17:03:37 : Test End!
+_________________________________________________________________________________________
+29/03/2024 17:04:03 : Test Start!
+29/03/2024 17:04:05 : Inside Step - the user is on home page
+29/03/2024 17:04:05 : Inside Step - the user add product in shopping cart from home page
+29/03/2024 17:04:08 : Inside Step - navigate to shopping cart page
+29/03/2024 17:04:09 : Inside Step - user click delete button
+29/03/2024 17:04:09 : Cart contains items.
+29/03/2024 17:04:09 : Cart items are valid.
+29/03/2024 17:04:09 : Cart items are valid.
+29/03/2024 17:04:11 : Inside Step - the user should see "Your shopping cart is empty!" message on the Shopping Cart page.
+29/03/2024 17:04:11 : Test End!
+_________________________________________________________________________________________
+29/03/2024 18:19:17 : Test Start!
+29/03/2024 18:19:20 : Inside Step - the user is on home page
+29/03/2024 18:19:20 : Inside Step - the user add product in shopping cart from home page
+29/03/2024 18:19:22 : Inside Step - navigate to shopping cart page
+29/03/2024 18:19:24 : Inside Step - user click delete button
+29/03/2024 18:19:24 : Cart contains items.
+29/03/2024 18:19:24 : Cart items are valid.
+29/03/2024 18:19:26 : Inside Step - the user should see "Your shopping cart is empty!" message on the Shopping Cart page.
+29/03/2024 18:19:26 : Test End!
+_________________________________________________________________________________________
+29/03/2024 18:19:35 : Test Start!
+29/03/2024 18:19:37 : Inside Step - the user is on home page
+29/03/2024 18:19:38 : Inside Step - the user add product in shopping cart from home page
+29/03/2024 18:19:40 : Inside Step - navigate to shopping cart page
+29/03/2024 18:19:42 : Inside Step - user click delete button
+29/03/2024 18:19:42 : Cart contains items.
+29/03/2024 18:19:42 : Cart items are valid.
+29/03/2024 18:19:44 : Inside Step - the user should see "Your shopping cart is empty!" message on the Shopping Cart page.
+29/03/2024 18:19:44 : Test End!
+_________________________________________________________________________________________
+29/03/2024 18:28:34 : Test Start!
+29/03/2024 18:28:36 : Inside Step - the user is on home page
+29/03/2024 18:28:36 : Inside Step - the user add product in shopping cart from home page
+29/03/2024 18:28:39 : Inside Step - navigate to shopping cart page
+29/03/2024 18:28:40 : Inside Step - user click delete button
+29/03/2024 18:28:40 : Cart contains items.
+29/03/2024 18:28:41 : Cart items are valid.
+29/03/2024 18:28:43 : Inside Step - the user should see "Your shopping cart is empty!" message on the Shopping Cart page.
+29/03/2024 18:28:43 : Test End!
+_________________________________________________________________________________________
+29/03/2024 18:28:55 : Test Start!
+29/03/2024 18:29:00 : Inside Step - the user is on home page
+29/03/2024 18:29:00 : Inside Step - the user add product in shopping cart from home page
+29/03/2024 18:29:02 : Inside Step - navigate to shopping cart page
+29/03/2024 18:29:03 : Inside Step - user click delete button
+29/03/2024 18:29:03 : Cart contains items.
+29/03/2024 18:29:03 : Cart items are valid.
+29/03/2024 18:29:05 : Inside Step - the user should see "Your shopping cart is empty!" message on the Shopping Cart page.
+29/03/2024 18:29:05 : Test End!
+_________________________________________________________________________________________
+29/03/2024 18:36:59 : Test Start!
+29/03/2024 18:37:02 : Inside Step - the user is on home page
+29/03/2024 18:37:02 : Inside Step - the user add product in shopping cart from home page
+29/03/2024 18:37:04 : Inside Step - navigate to shopping cart page
+29/03/2024 18:37:06 : Inside Step - user click delete button
+29/03/2024 18:37:06 : Cart contains items.
+29/03/2024 18:37:06 : Cart items are valid.
+29/03/2024 18:37:08 : Inside Step - the user should see "Your shopping cart is empty!" message on the Shopping Cart page.
+29/03/2024 18:37:08 : Test End!
+_________________________________________________________________________________________
+29/03/2024 18:37:37 : Test Start!
+29/03/2024 18:37:39 : Inside Step - the user is on home page
+29/03/2024 18:37:40 : Inside Step - the user add product in shopping cart from home page
+29/03/2024 18:37:42 : Inside Step - navigate to shopping cart page
+29/03/2024 18:37:44 : Inside Step - user click delete button
+29/03/2024 18:37:44 : Cart contains items.
+29/03/2024 18:37:44 : Cart items are valid.
+29/03/2024 18:37:44 : Inside Step - the user should see "Your shopping cart is empty!2323" message on the Shopping Cart page.
+29/03/2024 18:37:44 : Test End!
+_________________________________________________________________________________________
+29/03/2024 18:38:38 : Test Start!
+29/03/2024 18:38:40 : Inside Step - the user is on home page
+29/03/2024 18:38:40 : Inside Step - the user add product in shopping cart from home page
+29/03/2024 18:38:42 : Inside Step - navigate to shopping cart page
+29/03/2024 18:38:44 : Inside Step - user click delete button
+29/03/2024 18:38:44 : Cart contains items.
+29/03/2024 18:38:44 : Cart items are valid.
+29/03/2024 18:38:44 : Inside Step - the user should see "Your shopping cart is empty!" message on the Shopping Cart page.
+29/03/2024 18:38:44 : Test End!
+_________________________________________________________________________________________
+29/03/2024 18:39:22 : Test Start!
+29/03/2024 18:39:26 : Inside Step - the user is on home page
+29/03/2024 18:39:26 : Inside Step - the user add product in shopping cart from home page
+29/03/2024 18:39:28 : Inside Step - navigate to shopping cart page
+29/03/2024 18:39:30 : Inside Step - user click delete button
+29/03/2024 18:39:30 : Cart contains items.
+29/03/2024 18:39:30 : Cart items are valid.
+29/03/2024 18:39:30 : Inside Step - the user should see "Your shopping cart is empty!" message on the Shopping Cart page.
+29/03/2024 18:39:30 : Test End!
+_________________________________________________________________________________________
+29/03/2024 18:39:44 : Test Start!
+29/03/2024 18:39:47 : Inside Step - the user is on home page
+29/03/2024 18:39:48 : Inside Step - the user add product in shopping cart from home page
+29/03/2024 18:39:50 : Inside Step - navigate to shopping cart page
+29/03/2024 18:39:52 : Inside Step - user click delete button
+29/03/2024 18:39:52 : Cart contains items.
+29/03/2024 18:39:52 : Cart items are valid.
+29/03/2024 18:39:52 : Inside Step - the user should see "Your shopping cart is empty!" message on the Shopping Cart page.
+29/03/2024 18:39:53 : Test End!
+_________________________________________________________________________________________

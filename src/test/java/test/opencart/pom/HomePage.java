@@ -1,18 +1,14 @@
 package test.opencart.pom;
 
 import org.openqa.selenium.*;
-import org.openqa.selenium.interactions.MoveTargetOutOfBoundsException;
 import org.openqa.selenium.support.Color;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 import test.opencart.objects.Product;
 import test.opencart.utilities.MyFileWriter;
 import test.opencart.utilities.TestUtilities;
 
-import java.time.Duration;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -151,12 +147,7 @@ public class HomePage extends TestUtilities {
             TestUtilities.waitClickable(driver, homepageLink, 5);
             Assert.assertTrue(homepageLink.isDisplayed(), LOGO_MISSING_MESSAGE);
 
-            if (TestUtilities.usedBrowser.equals("firefox")) {
-                TestUtilities.firefoxClick(driver, homepageLink);
-            } else {
-                homepageLink.click();
-            }
-
+            TestUtilities.clickMethod(driver, homepageLink);
 
             /* Return driver to HomePage (POM) */
             return new HomePage(driver);
@@ -340,11 +331,8 @@ public class HomePage extends TestUtilities {
                 WebElement addToWishlistBtn = product.findElement(By.xpath(".//button[@qa='add-to-wishlist-btn']"));
 
                 /* Scroll to add to wishlist button of the product and click it */
-                if (TestUtilities.usedBrowser.equals("firefox")) {
-                    TestUtilities.firefoxScrollTo(driver, addToWishlistBtn);
-                } else {
-                    TestUtilities.scrollTo(driver, addToWishlistBtn);
-                }
+                TestUtilities.scrollToMethod(driver, addToWishlistBtn);
+
                 addToWishlistBtn.click();
 
                 /* Create new product with name, price and image src, and add it to the product list */
@@ -377,13 +365,10 @@ public class HomePage extends TestUtilities {
     /* Click method for user wishlist page link in header */
     public WishlistPage clickOnHeaderWishlistPageLink() {
         Assert.assertTrue(headerWishlistLink.isDisplayed(), WISHLIST_LINK_MISSING_MESSAGE);
-        if (TestUtilities.usedBrowser.equals("firefox")) {
-            TestUtilities.firefoxScrollTo(driver, headerWishlistLink);
-        } else {
-            TestUtilities.scrollTo(driver, headerWishlistLink);
-        }
+        TestUtilities.scrollToMethod(driver, headerWishlistLink);
         TestUtilities.waitClickable(driver, headerWishlistLink, 5);
         headerWishlistLink.click();
+
         /* Return driver to WishlistPage (POM) */
         return new WishlistPage(driver);
     }
@@ -421,7 +406,6 @@ public class HomePage extends TestUtilities {
     /* Method who add product by submitted item name to the Cart */
     public void addProductToCart(String productName) {
 
-//        try {
         /* Go through all products */
         for (WebElement product : productListLocal) {
 
@@ -437,11 +421,8 @@ public class HomePage extends TestUtilities {
                 WebElement addToCartBtn = product.findElement(By.xpath(".//button[@qa='add-to-cart-btn']"));
 
                 /* Scroll to add-to-cart button of the product and click it */
-                if (TestUtilities.usedBrowser.equals("firefox")) {
-                    TestUtilities.firefoxScrollTo(driver, addToCartBtn);
-                } else {
-                    TestUtilities.scrollTo(driver, addToCartBtn);
-                }
+                TestUtilities.scrollToMethod(driver, addToCartBtn);
+
                 addToCartBtn.click();
 
             }
@@ -474,12 +455,7 @@ public class HomePage extends TestUtilities {
 
     /* Method who click Minicart button in header */
     public void clickMinicartButton() {
-        if (TestUtilities.usedBrowser.equals("firefox")) {
-            TestUtilities.firefoxScrollTo(driver, minicartBtn);
-        } else {
-            TestUtilities.scrollTo(driver, minicartBtn);
-        }
-
+        TestUtilities.scrollToMethod(driver, minicartBtn);
         TestUtilities.waitVisible(driver, minicartBtn, 5);
         TestUtilities.waitClickable(driver, minicartBtn, 5);
         minicartBtn.click();
@@ -493,6 +469,8 @@ public class HomePage extends TestUtilities {
 
     /* Method who validate and click "Checkout" link in header */
     public CartPage clickOnHeaderCheckoutLink() {
+        TestUtilities.scrollToMethod(driver, headerCheckoutLink);
+        TestUtilities.waitClickable(driver, headerCheckoutLink, 5);
         Assert.assertTrue(headerCheckoutLink.isDisplayed(), CHECKOUT_LINK_MISSING_MESSAGE);
         Assert.assertEquals(headerCheckoutLink.getText(), GenericMessages.CHECKOUT_LINK_TEXT, GenericMessages.CHECKOUT_LINK_DIFFERENT_TEXT_MESSAGE);
         headerCheckoutLink.click();
@@ -502,6 +480,8 @@ public class HomePage extends TestUtilities {
 
     /* Method who validate and click "Shopping Cart" link in header */
     public CartPage clickOnHeaderShoppingCartLink() {
+        TestUtilities.scrollToMethod(driver, headerShoppingCartLink);
+        TestUtilities.waitClickable(driver, headerShoppingCartLink, 5);
         Assert.assertTrue(headerShoppingCartLink.isDisplayed(), SHOPPING_CART_MISSING_MESSAGE);
         Assert.assertEquals(headerShoppingCartLink.getText(), GenericMessages.SHOPPING_CART_LINK_TEXT, GenericMessages.SHOPPING_CART_LINK_DIFFERENT_TEXT_MESSAGE);
         headerShoppingCartLink.click();

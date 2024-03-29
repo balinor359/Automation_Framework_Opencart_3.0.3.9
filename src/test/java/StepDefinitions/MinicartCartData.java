@@ -2,7 +2,6 @@ package StepDefinitions;
 
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
-import test.opencart.objects.Product;
 import test.opencart.pom.CartPage;
 import test.opencart.pom.HomePage;
 import test.opencart.utilities.MyFileWriter;
@@ -12,8 +11,8 @@ public class MinicartCartData extends TestUtilities {
 
     @When("the user add product in shopping cart from home page")
     public void the_user_add_product_in_shopping_cart_from_home_page() {
-        System.out.println("Inside Step - the user clicks on mini cart in header");
-        MyFileWriter.writeToLog("Inside Step - the user clicks on mini cart in header");
+        System.out.println("Inside Step - the user add product in shopping cart from home page");
+        MyFileWriter.writeToLog("Inside Step - the user add product in shopping cart from home page");
 
         HomePage homePage = new HomePage(TestUtilities.driver);
         homePage.addProductToProductList("MacBook");
@@ -22,7 +21,7 @@ public class MinicartCartData extends TestUtilities {
     }
 
     @When("user clicks on mini cart in header he sees added product data")
-    public void see_added_product_data() {
+    public void user_clicks_on_mini_cart_in_header_he_see_added_product_data() {
         System.out.println("Inside Step - user clicks on mini cart in header he sees added product data");
         MyFileWriter.writeToLog("Inside Step - user clicks on mini cart in header he sees added product data");
 

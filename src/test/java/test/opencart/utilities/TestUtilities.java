@@ -1,7 +1,6 @@
 package test.opencart.utilities;
 
 import org.openqa.selenium.JavascriptExecutor;
-import org.openqa.selenium.firefox.FirefoxOptions;
 import org.openqa.selenium.interactions.Actions;
 import test.opencart.objects.Product;
 import io.github.bonigarcia.wdm.WebDriverManager;
@@ -193,13 +192,32 @@ public class TestUtilities {
                 .perform();
     }
 
-    /* Scroll to element for Firefox*/
+    /* Scroll to element for Firefox */
     public static void firefoxScrollTo(WebDriver driver, WebElement webElement) {
         ((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", webElement);
     }
-    /* Click element for Firefox*/
+    /* Click element for Firefox */
     public static void firefoxClick(WebDriver driver, WebElement webElement) {
         ((JavascriptExecutor) driver).executeScript("arguments[0].click();", webElement);
+    }
+
+    /* Scroll to Method */
+    public static void scrollToMethod(WebDriver driver, WebElement webElement) {
+        simpleWait(1000);
+        if (usedBrowser.equals("firefox")) {
+            firefoxScrollTo(driver, webElement);
+        } else {
+            scrollTo(driver, webElement);
+        }
+    }
+    /* Click Method */
+    public static void clickMethod(WebDriver driver, WebElement webElement) {
+        simpleWait(1000);
+        if (usedBrowser.equals("firefox")) {
+            firefoxClick(driver, webElement);
+        } else {
+            webElement.click();
+        }
     }
 
     /* Simple Thread wait when can`t make web-driver to wait specific page load */
@@ -215,5 +233,8 @@ public class TestUtilities {
     public void clearProductList() {
         Product.productList.clear();
     }
+
+
+
 
 }

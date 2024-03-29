@@ -32,7 +32,8 @@ public class CartPage extends TestUtilities {
     private List<WebElement> cartProductRow;
     @FindBy(xpath = "//div[@id='checkout-cart']")
     private WebElement cartPageContainer;
-
+    @FindBy(xpath = ".//button[@qa='button_remove']")
+    private WebElement removeItemFromShoppingCart;
 
     /* This is constructor for cart page using PageFactory for web-elements */
     public CartPage(WebDriver driver) {
@@ -112,6 +113,29 @@ public class CartPage extends TestUtilities {
                     System.out.println(GenericMessages.CART_ITEMS_ARE_VALID_TEXT);
                     MyFileWriter.writeToLog(GenericMessages.CART_ITEMS_ARE_VALID_TEXT);
                 }
+            }
+        }
+    }
+
+    /* Method who remove product from the Cart by submitted item name */
+    public void removeProductFromCart(String productName) {
+
+        /* Go through all products saved in Cart */
+        for (WebElement product : cartProductRow) {
+
+            /* Take element - Name */
+            WebElement cartItemName = product.findElement(By.xpath(".//td[@qa='product-name']/a"));
+            Assert.assertTrue(cartItemName.isDisplayed(), GenericMessages.PRODUCTS_NAME_MISSING_MESSAGE);
+            String cartItemNameText = cartItemName.getText();
+
+            /* Locate submitted product and remove it */
+            if (cartItemNameText.equals(productName)) {
+
+                /* Remove product - remove button */
+                WebElement removeFromCartBtn = product.findElement(By.xpath(".//button[@qa='button_remove']"));
+
+                removeFromCartBtn.click();
+
             }
         }
     }
