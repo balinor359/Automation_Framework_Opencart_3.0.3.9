@@ -203,7 +203,7 @@ public class TestUtilities {
 
     /* Scroll to Method */
     public static void scrollToMethod(WebDriver driver, WebElement webElement) {
-        simpleWait(1000);
+        simpleWait(500);
         if (usedBrowser.equals("firefox")) {
             firefoxScrollTo(driver, webElement);
         } else {
@@ -212,7 +212,7 @@ public class TestUtilities {
     }
     /* Click Method */
     public static void clickMethod(WebDriver driver, WebElement webElement) {
-        simpleWait(1000);
+        simpleWait(500);
         if (usedBrowser.equals("firefox")) {
             firefoxClick(driver, webElement);
         } else {

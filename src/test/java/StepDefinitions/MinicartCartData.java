@@ -9,14 +9,14 @@ import test.opencart.utilities.TestUtilities;
 
 public class MinicartCartData extends TestUtilities {
 
-    @When("the user add product in shopping cart from home page")
-    public void the_user_add_product_in_shopping_cart_from_home_page() {
-        System.out.println("Inside Step - the user add product in shopping cart from home page");
-        MyFileWriter.writeToLog("Inside Step - the user add product in shopping cart from home page");
+    @When("the user add {string} product in shopping cart from home page")
+    public void the_user_add_product_in_shopping_cart_from_home_page(String string) {
+        System.out.println("Inside Step - the user add \"" + string + "\" product in shopping cart from home page");
+        MyFileWriter.writeToLog("Inside Step - the user add \"" + string + "\" product in shopping cart from home page");
 
         HomePage homePage = new HomePage(TestUtilities.driver);
-        homePage.addProductToProductList("MacBook");
-        homePage.addProductToCart("MacBook");
+        homePage.addProductToProductList(string);
+        homePage.addProductToCart(string);
 
     }
 

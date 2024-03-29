@@ -7,14 +7,14 @@ import test.opencart.utilities.MyFileWriter;
 import test.opencart.utilities.TestUtilities;
 
 public class ShoppingCartDeleteProduct extends TestUtilities {
-    @When("user click delete button")
-    public void user_click_delete_button() {
-        System.out.println("Inside Step - user click delete button");
-        MyFileWriter.writeToLog("Inside Step - user click delete button");
+    @When("user click on {string} product delete button")
+    public void user_click_on_product_delete_button(String string) {
+        System.out.println("Inside Step - user click on \"" + string + "\" product delete button");
+        MyFileWriter.writeToLog("Inside Step - user click on \"" + string + "\" product delete button");
 
         CartPage cartPage = new CartPage(TestUtilities.driver);
         cartPage.cartPageValidator();
-        cartPage.removeProductFromCart("MacBook");
+        cartPage.removeProductFromCart(string);
 
     }
 

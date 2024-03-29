@@ -14000,3 +14000,111 @@ ________________________________________________________________________________
 29/03/2024 18:39:52 : Inside Step - the user should see "Your shopping cart is empty!" message on the Shopping Cart page.
 29/03/2024 18:39:53 : Test End!
 _________________________________________________________________________________________
+29/03/2024 18:47:06 : Test Start!
+29/03/2024 18:47:09 : Inside Step - the user is on home page
+29/03/2024 18:47:09 : Inside Step - the user add product in shopping cart from home page
+29/03/2024 18:47:12 : Inside Step - navigate to shopping cart page
+29/03/2024 18:47:14 : Test End!
+_________________________________________________________________________________________
+29/03/2024 18:50:11 : Test Start!
+29/03/2024 18:50:13 : Inside Step - the user is on home page
+29/03/2024 18:50:14 : Test End!
+_________________________________________________________________________________________
+29/03/2024 18:55:16 : Test Start!
+29/03/2024 18:55:18 : Inside Step - the user is on home page
+29/03/2024 18:55:19 : Inside Step - the user add {string} product in shopping cart from home page
+29/03/2024 18:55:21 : Inside Step - user clicks on mini cart in header he sees added product data
+29/03/2024 18:55:23 : Cart items are valid.
+29/03/2024 18:55:23 : Inside Step - navigate to shopping cart page
+29/03/2024 18:55:24 : Inside Step - the product data in the shopping cart page must be the same as mini cart product data
+29/03/2024 18:55:24 : Cart contains items.
+29/03/2024 18:55:24 : Cart items are valid.
+29/03/2024 18:55:24 : Test End!
+_________________________________________________________________________________________
+29/03/2024 18:55:57 : Test Start!
+29/03/2024 18:55:59 : Inside Step - the user is on home page
+29/03/2024 18:55:59 : Inside Step - the user add {string} product in shopping cart from home page
+29/03/2024 18:56:01 : Inside Step - user clicks on mini cart in header he sees added product data
+29/03/2024 18:56:02 : Cart items are valid.
+29/03/2024 18:56:02 : Inside Step - navigate to shopping cart page
+29/03/2024 18:56:04 : Inside Step - the product data in the shopping cart page must be the same as mini cart product data
+29/03/2024 18:56:04 : Cart contains items.
+29/03/2024 18:56:04 : Cart items are valid.
+29/03/2024 18:56:04 : Test End!
+_________________________________________________________________________________________
+29/03/2024 18:56:16 : Test Start!
+29/03/2024 18:56:19 : Inside Step - the user is on home page
+29/03/2024 18:56:19 : Inside Step - the user add {string} product in shopping cart from home page
+29/03/2024 18:56:21 : Inside Step - navigate to shopping cart page
+29/03/2024 18:56:22 : Inside Step - user click on {string} product delete button
+29/03/2024 18:56:22 : Cart contains items.
+29/03/2024 18:56:22 : Cart items are valid.
+29/03/2024 18:56:22 : Inside Step - the user should see "Your shopping cart is empty!" message on the Shopping Cart page.
+29/03/2024 18:56:22 : Test End!
+_________________________________________________________________________________________
+29/03/2024 18:56:22 : Test Start!
+29/03/2024 18:56:24 : Inside Step - the user is on home page
+29/03/2024 18:56:24 : Test End!
+_________________________________________________________________________________________
+29/03/2024 18:58:54 : Test Start!
+29/03/2024 18:58:56 : Inside Step - the user is on home page
+29/03/2024 18:58:56 : Inside Step - the user add "MacBook" product in shopping cart from home page
+29/03/2024 18:58:58 : Inside Step - user clicks on mini cart in header he sees added product data
+29/03/2024 18:58:59 : Cart items are valid.
+29/03/2024 18:58:59 : Inside Step - navigate to shopping cart page
+29/03/2024 18:59:01 : Inside Step - the product data in the shopping cart page must be the same as mini cart product data
+29/03/2024 18:59:01 : Cart contains items.
+29/03/2024 18:59:01 : Cart items are valid.
+29/03/2024 18:59:01 : Test End!
+_________________________________________________________________________________________
+29/03/2024 18:59:01 : Test Start!
+29/03/2024 18:59:02 : Inside Step - the user is on home page
+29/03/2024 18:59:02 : Inside Step - the user add "iMac" product in shopping cart from home page
+29/03/2024 18:59:04 : Inside Step - navigate to shopping cart page
+29/03/2024 18:59:05 : Inside Step - user click on "iMac" product delete button
+29/03/2024 18:59:05 : Cart contains items.
+29/03/2024 18:59:05 : Cart items are valid.
+29/03/2024 18:59:06 : Inside Step - the user should see "Your shopping cart is empty!" message on the Shopping Cart page.
+29/03/2024 18:59:06 : Test End!
+_________________________________________________________________________________________
+29/03/2024 18:59:06 : Test Start!
+29/03/2024 18:59:07 : Inside Step - the user is on home page
+29/03/2024 18:59:07 : Test End!
+_________________________________________________________________________________________
+29/03/2024 19:06:19 : Test Start!
+29/03/2024 19:06:21 : Inside Step - the user is on home page
+29/03/2024 19:06:21 : Inside Step - the user add "iPod Nano" product in shopping cart from home page
+29/03/2024 19:06:23 : Inside Step - navigate to shopping cart page
+29/03/2024 19:06:25 : Inside Step - insert new value in product quantity field and click update button
+29/03/2024 19:06:25 : Inside Step - the product data in the shopping cart page must change
+29/03/2024 19:06:27 : Test End!
+_________________________________________________________________________________________
+29/03/2024 19:11:08 : Test Start!
+29/03/2024 19:11:10 : Inside Step - the user is on home page
+29/03/2024 19:11:10 : Inside Step - the user add "iMac" product in shopping cart from home page
+29/03/2024 19:11:12 : Inside Step - navigate to shopping cart page
+29/03/2024 19:11:13 : Inside Step - user click on "iMac" product delete button
+29/03/2024 19:11:13 : Cart contains items.
+29/03/2024 19:11:14 : Cart items are valid.
+29/03/2024 19:11:14 : Test End!
+_________________________________________________________________________________________
+29/03/2024 19:12:57 : Test Start!
+29/03/2024 19:13:00 : Inside Step - the user is on home page
+29/03/2024 19:13:00 : Inside Step - the user add "iMac" product in shopping cart from home page
+29/03/2024 19:13:02 : Inside Step - navigate to shopping cart page
+29/03/2024 19:13:03 : Inside Step - user click on "iMac" product delete button
+29/03/2024 19:13:03 : Cart contains items.
+29/03/2024 19:13:03 : Cart items are valid.
+29/03/2024 19:13:03 : Inside Step - the user should see "Your shopping cart is empty!" message on the Shopping Cart page.
+29/03/2024 19:13:03 : Test End!
+_________________________________________________________________________________________
+29/03/2024 19:15:06 : Test Start!
+29/03/2024 19:15:09 : Inside Step - the user is on home page
+29/03/2024 19:15:09 : Inside Step - the user add "iMac" product in shopping cart from home page
+29/03/2024 19:15:11 : Inside Step - navigate to shopping cart page
+29/03/2024 19:15:12 : Inside Step - user click on "iMac" product delete button
+29/03/2024 19:15:12 : Cart contains items.
+29/03/2024 19:15:12 : Cart items are valid.
+29/03/2024 19:15:12 : Inside Step - the user should see "Your shopping cart is empty!" message on the Shopping Cart page.
+29/03/2024 19:15:12 : Test End!
+_________________________________________________________________________________________

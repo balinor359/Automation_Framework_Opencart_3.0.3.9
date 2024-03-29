@@ -16,7 +16,6 @@ public class ContactPage extends TestUtilities {
     /* Declaring string variables for the current page */
     private static final String CONTACT_PAGE_HEADING = "Contact Us";
     private static final String CONTACT_FORM_MISSING_MESSAGE = "Contact form is missing!";
-
     private static final String EMAIL_INPUT_MISSING_MESSAGE = "Email input is missing!";
     private static final String ENQUIRY_TEXTAREA_MISSING_MESSAGE = "Enquiry textarea is missing!";
     private static final String SUCCESS_MESSAGE_MISSING_MESSAGE = "Success message is missing!";

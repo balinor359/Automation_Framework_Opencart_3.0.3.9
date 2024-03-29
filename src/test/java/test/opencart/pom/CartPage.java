@@ -34,6 +34,11 @@ public class CartPage extends TestUtilities {
     private WebElement cartPageContainer;
     @FindBy(xpath = ".//button[@qa='button_remove']")
     private WebElement removeItemFromShoppingCart;
+    @FindBy(xpath = ".//td[@qa='product-qty']//div//input")
+    private WebElement inputQty;
+    @FindBy(xpath = ".//button[@qa='button_update']")
+    private WebElement updateItemQtyInShoppingCart;
+
 
     /* This is constructor for cart page using PageFactory for web-elements */
     public CartPage(WebDriver driver) {
@@ -132,9 +137,28 @@ public class CartPage extends TestUtilities {
             if (cartItemNameText.equals(productName)) {
 
                 /* Remove product - remove button */
-                WebElement removeFromCartBtn = product.findElement(By.xpath(".//button[@qa='button_remove']"));
+                removeItemFromShoppingCart.click();
 
-                removeFromCartBtn.click();
+            }
+        }
+    }
+
+    /* Method who update product Qty in the Cart by submitted item name */
+    public void updateProductQtyInCart(String productName) {
+
+        /* Go through all products saved in Cart */
+        for (WebElement product : cartProductRow) {
+
+            /* Take element - Name */
+            WebElement cartItemName = product.findElement(By.xpath(".//td[@qa='product-name']/a"));
+            Assert.assertTrue(cartItemName.isDisplayed(), GenericMessages.PRODUCTS_NAME_MISSING_MESSAGE);
+            String cartItemNameText = cartItemName.getText();
+
+            /* Locate submitted product and update it */
+            if (cartItemNameText.equals(productName)) {
+
+                /* Update product Qty - update button */
+                updateItemQtyInShoppingCart.click();
 
             }
         }
