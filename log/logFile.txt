@@ -14108,3 +14108,292 @@ ________________________________________________________________________________
 29/03/2024 19:15:12 : Inside Step - the user should see "Your shopping cart is empty!" message on the Shopping Cart page.
 29/03/2024 19:15:12 : Test End!
 _________________________________________________________________________________________
+30/03/2024 15:44:30 : Test Start!
+30/03/2024 15:44:33 : Inside Step - the user have a profile in website and is on home page
+30/03/2024 15:44:33 : Connecting to DB...
+30/03/2024 15:44:33 : __________________________Create Customer___________________________________
+30/03/2024 15:44:33 : Disconnecting from DB...
+30/03/2024 15:44:33 : Connecting to DB...
+30/03/2024 15:44:33 : __________________________Database Response___________________________________
+30/03/2024 15:44:33 : Customer ID:2 | First Name:Georgi | Last Name:Petrov | Email:petrov@test.test | Telephone:0883225512 | Newsletter:0 | Date Added:2023-11-24 15:13:50
+30/03/2024 15:44:33 : Customer ID:3 | First Name:Gergana | Last Name:Dimitrova | Email:dimitrova@test.test | Telephone:0888888888 | Newsletter:1 | Date Added:2023-11-24 15:16:16
+30/03/2024 15:44:33 : Customer ID:40 | First Name:Kiril | Last Name:Todorov | Email:todorov@test.test | Telephone:0883198565 | Newsletter:1 | Date Added:2023-11-28 18:26:48
+30/03/2024 15:44:33 : Customer ID:122 | First Name:Vasil | Last Name:Vasilev | Email:vasilev@test.test | Telephone:0884395614 | Newsletter:1 | Date Added:2024-02-05 19:12:32
+30/03/2024 15:44:33 : Customer ID:198 | First Name:Ivan | Last Name:Ivanov | Email:ivanov@test.test | Telephone:0887446682 | Newsletter:1 | Date Added:2024-03-30 15:44:33
+30/03/2024 15:44:33 : Customer ID:197 | First Name:Ivan | Last Name:Ivanov | Email:ivanov@test.test | Telephone:0887446682 | Newsletter:1 | Date Added:2024-03-29 16:59:22
+30/03/2024 15:44:33 : ____________________________________________________________________________
+30/03/2024 15:44:33 : Disconnecting from DB...
+30/03/2024 15:44:33 : Inside Step - the user login into his profile with email ivanov@test.test, and password ivanov
+30/03/2024 15:44:35 : Inside Step - user add product from homepage to his wishlist
+30/03/2024 15:44:38 : <<< Shows Alert: Success: You have added MacBook to your wish list! >>>
+30/03/2024 15:44:38 : Inside Step - click on <Wish List> button in header
+30/03/2024 15:44:39 : Inside Step - the user should be redirected to his wishlist page and see added product there.
+30/03/2024 15:44:39 : Wishlist contains items.
+30/03/2024 15:44:39 : Wishlist items are valid.
+30/03/2024 15:44:39 : Connecting to DB...
+30/03/2024 15:44:39 : __________________________Deleting Customer_________________________________
+30/03/2024 15:44:39 : Disconnecting from DB...
+30/03/2024 15:44:39 : Connecting to DB...
+30/03/2024 15:44:39 : __________________________Database Response___________________________________
+30/03/2024 15:44:39 : Customer ID:2 | First Name:Georgi | Last Name:Petrov | Email:petrov@test.test | Telephone:0883225512 | Newsletter:0 | Date Added:2023-11-24 15:13:50
+30/03/2024 15:44:39 : Customer ID:3 | First Name:Gergana | Last Name:Dimitrova | Email:dimitrova@test.test | Telephone:0888888888 | Newsletter:1 | Date Added:2023-11-24 15:16:16
+30/03/2024 15:44:39 : Customer ID:40 | First Name:Kiril | Last Name:Todorov | Email:todorov@test.test | Telephone:0883198565 | Newsletter:1 | Date Added:2023-11-28 18:26:48
+30/03/2024 15:44:39 : Customer ID:122 | First Name:Vasil | Last Name:Vasilev | Email:vasilev@test.test | Telephone:0884395614 | Newsletter:1 | Date Added:2024-02-05 19:12:32
+30/03/2024 15:44:39 : ____________________________________________________________________________
+30/03/2024 15:44:39 : Disconnecting from DB...
+30/03/2024 15:44:39 : Test End!
+_________________________________________________________________________________________
+30/03/2024 15:44:39 : Test Start!
+30/03/2024 15:44:40 : Inside Step - the user is on home page
+30/03/2024 15:44:41 : Inside Step - the user open <About Us> link in footer
+30/03/2024 15:44:41 : Inside Step - the user should see About Us page.
+30/03/2024 15:44:41 : Redirect is successful!
+30/03/2024 15:44:41 : Test End!
+_________________________________________________________________________________________
+30/03/2024 15:44:41 : Test Start!
+30/03/2024 15:44:43 : Inside Step - the user is on home page
+30/03/2024 15:44:43 : Inside Step - the user open <Delivery Information> link in footer
+30/03/2024 15:44:43 : Inside Step - the user should see Delivery Information page.
+30/03/2024 15:44:43 : Redirect is successful!
+30/03/2024 15:44:43 : Test End!
+_________________________________________________________________________________________
+30/03/2024 15:44:43 : Test Start!
+30/03/2024 15:44:45 : Inside Step - the user is on home page
+30/03/2024 15:44:45 : Inside Step - the user open <Privacy Policy> link in footer
+30/03/2024 15:44:45 : Inside Step - the user should see Privacy Policy page.
+30/03/2024 15:44:45 : Redirect is successful!
+30/03/2024 15:44:45 : Test End!
+_________________________________________________________________________________________
+30/03/2024 15:44:45 : Test Start!
+30/03/2024 15:44:47 : Inside Step - the user is on home page
+30/03/2024 15:44:47 : Inside Step - the user open <Terms & Conditions> link in footer
+30/03/2024 15:44:47 : Inside Step - the user should see Terms & Conditions page.
+30/03/2024 15:44:47 : Redirect is successful!
+30/03/2024 15:44:48 : Test End!
+_________________________________________________________________________________________
+30/03/2024 15:44:48 : Test Start!
+30/03/2024 15:44:49 : Inside Step - the user is on home page
+30/03/2024 15:44:49 : Inside Step - the user navigate to contact page
+30/03/2024 15:44:50 : Inside Step - fill <Your Name> field as Ivan Ivanov
+30/03/2024 15:44:50 : Inside Step - fill <E-Mail Address> as ivanov@test.test
+30/03/2024 15:44:50 : Inside Step - fill <Enquiry> as This is the test message!
+30/03/2024 15:44:50 : Inside Step - click on <Submit> button
+30/03/2024 15:44:51 : Inside Step - the user should see "Your enquiry has been successfully sent to the store owner!" message.
+30/03/2024 15:44:51 : Test End!
+_________________________________________________________________________________________
+30/03/2024 15:44:51 : Test Start!
+30/03/2024 15:44:53 : Inside Step - the user is on home page
+30/03/2024 15:44:53 : Inside Step - the user navigate to product page
+30/03/2024 15:44:54 : Inside Step - click on `Reviews` tab
+30/03/2024 15:44:55 : Inside Step - fill the review form with valid data
+30/03/2024 15:44:56 : Inside Step - click on `Continue` button
+30/03/2024 15:44:56 : Inside Step - the user should see "Thank you for your review. It has been submitted to the webmaster for approval." notification message.
+30/03/2024 15:44:56 : Test End!
+_________________________________________________________________________________________
+30/03/2024 15:44:56 : Test Start!
+30/03/2024 15:44:58 : Inside Step - the user is on home page
+30/03/2024 15:44:58 : Inside Step - the user enters registration page
+30/03/2024 15:44:58 : Inside Step - insert valid credentials
+30/03/2024 15:44:59 : Inside Step - click on Continue button
+30/03/2024 15:44:59 : Registration failed. Error: Warning: E-Mail Address is already registered!
+30/03/2024 15:44:59 : Test End!
+_________________________________________________________________________________________
+30/03/2024 15:45:00 : Test Start!
+30/03/2024 15:45:01 : Inside Step - the user is on home page
+30/03/2024 15:45:01 : Inside Step - the user enter keyword iPod in header search bar
+30/03/2024 15:45:01 : Inside Step - click on search button
+30/03/2024 15:45:02 : Inside Step - the user should be redirected to search result page and see all products containing provided keyword.
+30/03/2024 15:45:02 : Search result - Product name: iPod Classic
+30/03/2024 15:45:02 : Search result - Product name: iPod Nano
+30/03/2024 15:45:02 : Search result - Product name: iPod Shuffle
+30/03/2024 15:45:02 : Search result - Product name: iPod Touch
+30/03/2024 15:45:02 : Test End!
+_________________________________________________________________________________________
+30/03/2024 15:45:02 : Test Start!
+30/03/2024 15:45:04 : Inside Step - the user is on home page
+30/03/2024 15:45:04 : Inside Step - the user clicks on mini cart in header
+30/03/2024 15:45:05 : Inside Step - the user should see Your shopping cart is empty! minicart message.
+30/03/2024 15:45:05 : Test End!
+_________________________________________________________________________________________
+30/03/2024 15:45:05 : Test Start!
+30/03/2024 15:45:06 : Inside Step - the user is on home page
+30/03/2024 15:45:06 : Inside Step - the user clicks on Checkout link in header
+30/03/2024 15:45:08 : Inside Step - the user should be redirected to shopping cart page and see "Your shopping cart is empty!" message.
+30/03/2024 15:45:08 : Test End!
+_________________________________________________________________________________________
+30/03/2024 15:45:08 : Test Start!
+30/03/2024 15:45:09 : Inside Step - the user is on home page
+30/03/2024 15:45:09 : Inside Step - the user add "MacBook" product in shopping cart from home page
+30/03/2024 15:45:11 : Inside Step - user clicks on mini cart in header he sees added product data
+30/03/2024 15:45:12 : Cart items are valid.
+30/03/2024 15:45:12 : Inside Step - navigate to shopping cart page
+30/03/2024 15:45:14 : Inside Step - the product data in the shopping cart page must be the same as mini cart product data
+30/03/2024 15:45:14 : Cart contains items.
+30/03/2024 15:45:14 : Cart items are valid.
+30/03/2024 15:45:14 : Test End!
+_________________________________________________________________________________________
+30/03/2024 15:45:14 : Test Start!
+30/03/2024 15:45:15 : Inside Step - the user is on home page
+30/03/2024 15:45:15 : Inside Step - the user add "iMac" product in shopping cart from home page
+30/03/2024 15:45:17 : Inside Step - navigate to shopping cart page
+30/03/2024 15:45:18 : Inside Step - user click on "iMac" product delete button
+30/03/2024 15:45:18 : Cart contains items.
+30/03/2024 15:45:19 : Cart items are valid.
+30/03/2024 15:45:19 : Inside Step - the user should see "Your shopping cart is empty!" message on the Shopping Cart page.
+30/03/2024 15:45:19 : Test End!
+_________________________________________________________________________________________
+30/03/2024 15:45:19 : Test Start!
+30/03/2024 15:45:20 : Inside Step - the user is on home page
+30/03/2024 15:45:21 : Inside Step - the user add "iPod Nano" product in shopping cart from home page
+30/03/2024 15:45:22 : Inside Step - navigate to shopping cart page
+30/03/2024 15:45:23 : Inside Step - insert new value "2" in product quantity field and click update button
+30/03/2024 15:45:23 : Inside Step - the product data in the shopping cart page must change
+30/03/2024 15:45:26 : Test End!
+_________________________________________________________________________________________
+05/04/2024 15:18:41 : Test Start!
+05/04/2024 15:18:45 : Inside Step - the user is on home page
+05/04/2024 15:18:45 : Inside Step - the user add "iPod Nano" product in shopping cart from home page
+05/04/2024 15:18:48 : Inside Step - navigate to shopping cart page
+05/04/2024 15:18:49 : Inside Step - insert new value "2" in product quantity field and click update button
+05/04/2024 15:18:49 : Inside Step - the product data in the shopping cart page must change
+05/04/2024 15:18:51 : Test End!
+_________________________________________________________________________________________
+05/04/2024 15:28:53 : Test Start!
+05/04/2024 15:28:56 : Inside Step - the user is on home page
+05/04/2024 15:28:56 : Inside Step - the user add "iPod Nano" product in shopping cart from home page
+05/04/2024 15:28:58 : Inside Step - navigate to shopping cart page
+05/04/2024 15:28:59 : Test End!
+_________________________________________________________________________________________
+05/04/2024 15:29:49 : Test Start!
+05/04/2024 15:29:51 : Inside Step - the user is on home page
+05/04/2024 15:29:52 : Inside Step - the user add "iPod Nano" product in shopping cart from home page
+05/04/2024 15:29:54 : Inside Step - navigate to shopping cart page
+05/04/2024 15:29:55 : Inside Step - select  "iPod Nano"  product and insert new value "2" in product quantity field and click update button
+05/04/2024 15:29:55 : Cart contains items.
+05/04/2024 15:29:55 : Cart items are valid.
+05/04/2024 15:29:56 : Inside Step - the product data in the shopping cart page must change
+05/04/2024 15:29:58 : Test End!
+_________________________________________________________________________________________
+05/04/2024 15:43:12 : Test Start!
+05/04/2024 15:43:15 : Inside Step - the user is on home page
+05/04/2024 15:43:15 : Inside Step - the user add "iPod Nano" product in shopping cart from home page
+05/04/2024 15:43:17 : Inside Step - navigate to shopping cart page
+05/04/2024 15:43:18 : Inside Step - select  "iPod Nano"  product and insert new value "2" in product quantity field and click update button
+05/04/2024 15:43:18 : Cart contains items.
+05/04/2024 15:43:18 : Cart items are valid.
+05/04/2024 15:43:19 : Test End!
+_________________________________________________________________________________________
+05/04/2024 15:44:46 : Test Start!
+05/04/2024 15:44:49 : Inside Step - the user is on home page
+05/04/2024 15:44:49 : Inside Step - the user add "iPod Nano" product in shopping cart from home page
+05/04/2024 15:44:51 : Inside Step - navigate to shopping cart page
+05/04/2024 15:44:52 : Inside Step - select  "iPod Nano"  product and insert new value "2" in product quantity field and click update button
+05/04/2024 15:44:52 : Cart contains items.
+05/04/2024 15:44:52 : Cart items are valid.
+05/04/2024 15:44:53 : Inside Step - user should see  "iPod Nano" product total price be multiplied by "2
+05/04/2024 15:44:55 : Test End!
+_________________________________________________________________________________________
+05/04/2024 15:52:58 : Test Start!
+05/04/2024 15:53:02 : Inside Step - the user is on home page
+05/04/2024 15:53:02 : Inside Step - the user add "iPod Nano" product in shopping cart from home page
+05/04/2024 15:53:04 : Inside Step - navigate to shopping cart page
+05/04/2024 15:53:06 : Inside Step - select  "iPod Nano"  product and insert new value "2" in product quantity field and click update button
+05/04/2024 15:53:06 : Cart contains items.
+05/04/2024 15:53:06 : Cart items are valid.
+05/04/2024 15:53:17 : Test End!
+_________________________________________________________________________________________
+05/04/2024 15:59:07 : Test Start!
+05/04/2024 15:59:10 : Inside Step - the user is on home page
+05/04/2024 15:59:10 : Inside Step - the user add "iPod Nano" product in shopping cart from home page
+05/04/2024 15:59:12 : Inside Step - navigate to shopping cart page
+05/04/2024 15:59:13 : Inside Step - select  "iPod Nano"  product and insert new value "2" in product quantity field and click update button
+05/04/2024 15:59:13 : Cart contains items.
+05/04/2024 15:59:13 : Cart items are valid.
+05/04/2024 15:59:14 : Test End!
+_________________________________________________________________________________________
+05/04/2024 16:01:16 : Test Start!
+05/04/2024 16:01:19 : Inside Step - the user is on home page
+05/04/2024 16:01:19 : Inside Step - the user add "iPod Nano" product in shopping cart from home page
+05/04/2024 16:01:21 : Inside Step - navigate to shopping cart page
+05/04/2024 16:01:22 : Inside Step - select  "iPod Nano"  product and insert new value "2" in product quantity field and click update button
+05/04/2024 16:01:22 : Cart contains items.
+05/04/2024 16:01:22 : Cart items are valid.
+05/04/2024 16:01:22 : Inside Step - user should see  "iPod Nano" product total price be multiplied by "2
+05/04/2024 16:01:24 : Test End!
+_________________________________________________________________________________________
+05/04/2024 16:01:43 : Test Start!
+05/04/2024 16:01:46 : Inside Step - the user is on home page
+05/04/2024 16:01:46 : Inside Step - the user add "iPod Nano" product in shopping cart from home page
+05/04/2024 16:01:48 : Inside Step - navigate to shopping cart page
+05/04/2024 16:01:49 : Inside Step - select  "iPod Nano"  product and insert new value "2" in product quantity field and click update button
+05/04/2024 16:01:49 : Cart contains items.
+05/04/2024 16:01:49 : Cart items are valid.
+05/04/2024 16:01:50 : Test End!
+_________________________________________________________________________________________
+05/04/2024 16:15:08 : Test Start!
+05/04/2024 16:15:10 : Inside Step - the user is on home page
+05/04/2024 16:15:10 : Inside Step - the user add "iPod Nano" product in shopping cart from home page
+05/04/2024 16:15:12 : Inside Step - navigate to shopping cart page
+05/04/2024 16:15:14 : Inside Step - select  "iPod Nano"  product and insert new value "2" in product quantity field and click update button
+05/04/2024 16:15:14 : Cart contains items.
+05/04/2024 16:15:14 : Cart items are valid.
+05/04/2024 16:15:15 : Test End!
+_________________________________________________________________________________________
+05/04/2024 16:16:36 : Test Start!
+05/04/2024 16:16:39 : Inside Step - the user is on home page
+05/04/2024 16:16:39 : Inside Step - the user add "iPod Nano" product in shopping cart from home page
+05/04/2024 16:16:41 : Inside Step - navigate to shopping cart page
+05/04/2024 16:16:42 : Inside Step - select  "iPod Nano"  product and insert new value "2" in product quantity field and click update button
+05/04/2024 16:16:42 : Cart contains items.
+05/04/2024 16:16:42 : Cart items are valid.
+05/04/2024 16:16:43 : Test End!
+_________________________________________________________________________________________
+05/04/2024 16:17:36 : Test Start!
+05/04/2024 16:17:38 : Inside Step - the user is on home page
+05/04/2024 16:17:38 : Inside Step - the user add "iPod Nano" product in shopping cart from home page
+05/04/2024 16:17:40 : Inside Step - navigate to shopping cart page
+05/04/2024 16:17:41 : Inside Step - select  "iPod Nano"  product and insert new value "2" in product quantity field and click update button
+05/04/2024 16:17:41 : Cart contains items.
+05/04/2024 16:17:42 : Cart items are valid.
+05/04/2024 16:17:42 : Test End!
+_________________________________________________________________________________________
+05/04/2024 16:18:25 : Test Start!
+05/04/2024 16:18:27 : Inside Step - the user is on home page
+05/04/2024 16:18:27 : Inside Step - the user add "iPod Nano" product in shopping cart from home page
+05/04/2024 16:18:29 : Inside Step - navigate to shopping cart page
+05/04/2024 16:18:30 : Inside Step - select  "iPod Nano"  product and insert new value "2" in product quantity field and click update button
+05/04/2024 16:18:30 : Cart contains items.
+05/04/2024 16:18:30 : Cart items are valid.
+05/04/2024 16:18:31 : Inside Step - user should see  "iPod Nano" product total price be multiplied by "2
+05/04/2024 16:18:33 : Test End!
+_________________________________________________________________________________________
+05/04/2024 16:19:06 : Test Start!
+05/04/2024 16:19:09 : Inside Step - the user is on home page
+05/04/2024 16:19:09 : Inside Step - the user add "iPod Nano" product in shopping cart from home page
+05/04/2024 16:19:11 : Inside Step - navigate to shopping cart page
+05/04/2024 16:19:13 : Inside Step - select  "iPod Nano"  product and insert new value "2" in product quantity field and click update button
+05/04/2024 16:19:13 : Cart contains items.
+05/04/2024 16:19:13 : Cart items are valid.
+05/04/2024 16:19:13 : Inside Step - user should see  "iPod Nano" product total price be multiplied by "2
+05/04/2024 16:19:13 : Test End!
+_________________________________________________________________________________________
+05/04/2024 16:22:42 : Test Start!
+05/04/2024 16:22:44 : Inside Step - the user is on home page
+05/04/2024 16:22:44 : Inside Step - the user add "iPod Nano" product in shopping cart from home page
+05/04/2024 16:22:46 : Inside Step - navigate to shopping cart page
+05/04/2024 16:22:47 : Inside Step - select  "iPod Nano"  product and insert new value "2" in product quantity field and click update button
+05/04/2024 16:22:48 : Cart contains items.
+05/04/2024 16:22:48 : Cart items are valid.
+05/04/2024 16:22:48 : Inside Step - user should see  "iPod Nano" product total price be multiplied by "2
+05/04/2024 16:22:48 : Test End!
+_________________________________________________________________________________________
+05/04/2024 16:23:21 : Test Start!
+05/04/2024 16:23:24 : Inside Step - the user is on home page
+05/04/2024 16:23:24 : Inside Step - the user add "iPod Nano" product in shopping cart from home page
+05/04/2024 16:23:26 : Inside Step - navigate to shopping cart page
+05/04/2024 16:23:27 : Inside Step - select  "iPod Nano"  product and insert new value "2" in product quantity field and click update button
+05/04/2024 16:23:27 : Cart contains items.
+05/04/2024 16:23:27 : Cart items are valid.
+05/04/2024 16:23:28 : Inside Step - user should see  "iPod Nano" product total price be multiplied by "2
+05/04/2024 16:23:30 : Test End!
+_________________________________________________________________________________________

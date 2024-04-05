@@ -15,8 +15,6 @@ The Framework includes:
 
 
 FOLLOWING FEATURES ARE UNDER DEVELOPMENT !!!
- - ShoppingCart
-    - ShoppingCartQtyUpdate.feature
 
  - Checkout
     - CompleteOrderAsGuest.feature

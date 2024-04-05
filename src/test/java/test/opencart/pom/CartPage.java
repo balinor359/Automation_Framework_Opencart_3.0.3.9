@@ -20,6 +20,10 @@ public class CartPage extends TestUtilities {
     private static final String CART_PAGE_HEADING = "Shopping Cart";
     private static final String CART_PAGE_CONTAINER_MISSING = "The Cart page container is missing!";
     private static final String CART_PAGE_URL = "https://opencart-test.test/index.php?route=checkout/cart";
+    private static final String SUCCESS_MESSAGE_MISSING_MESSAGE = "Success message is missing!";
+    private static final String SUCCESS_MESSAGE_DIFFERENT_MESSAGE = "Success message is different!";
+    private static final String SUCCESS_MESSAGE_TEXT = "Success: You have modified your shopping cart!";
+    private static final String WRONG_CALCULATIONS_TEXT = "The product total price did not match with the expected one from calculations!";
 
     /* Declaring page elements */
     @FindBy(xpath = ".//div[@id='checkout-cart']//h1")
@@ -38,7 +42,8 @@ public class CartPage extends TestUtilities {
     private WebElement inputQty;
     @FindBy(xpath = ".//button[@qa='button_update']")
     private WebElement updateItemQtyInShoppingCart;
-
+    @FindBy(xpath = "//div[@qa='alert-success']")
+    private WebElement successMsg;
 
     /* This is constructor for cart page using PageFactory for web-elements */
     public CartPage(WebDriver driver) {
@@ -144,7 +149,7 @@ public class CartPage extends TestUtilities {
     }
 
     /* Method who update product Qty in the Cart by submitted item name */
-    public void updateProductQtyInCart(String productName) {
+    public void updateProductQtyInCart(String productName, String productQty) {
 
         /* Go through all products saved in Cart */
         for (WebElement product : cartProductRow) {
@@ -157,11 +162,57 @@ public class CartPage extends TestUtilities {
             /* Locate submitted product and update it */
             if (cartItemNameText.equals(productName)) {
 
+                inputQty.click();
+                inputQty.clear();
+                inputQty.sendKeys(productQty);
+
                 /* Update product Qty - update button */
                 updateItemQtyInShoppingCart.click();
 
             }
         }
     }
+
+    /* Method who validate product Qty in the Cart is changed */
+    public void validateProductQtyInCart(String productName, int productQty) {
+
+        /* Go through all products saved in Cart */
+        for (WebElement product : cartProductRow) {
+
+            /* Take element - Name */
+            WebElement cartItemName = product.findElement(By.xpath(".//td[@qa='product-name']/a"));
+            Assert.assertTrue(cartItemName.isDisplayed(), GenericMessages.PRODUCTS_NAME_MISSING_MESSAGE);
+            String cartItemNameText = cartItemName.getText();
+
+            /* Locate submitted product and update it */
+            if (cartItemNameText.equals(productName)) {
+                WebElement productPrice = product.findElement(By.xpath(".//td[@qa='product-price']"));
+                WebElement productTotal = product.findElement(By.xpath(".//td[@qa='column-total']"));
+
+                // Get the text from WebElement
+                String productPriceText = productPrice.getText();
+                String productTotalText = productTotal.getText();
+
+                // Remove the currency symbol and any non-numeric characters from the strings
+                double price = Double.parseDouble(productPriceText.replaceAll("[^\\d.]+", ""));
+                double total = Double.parseDouble(productTotalText.replaceAll("[^\\d.]+", ""));
+
+
+                double multipliedPrice = price * productQty;
+
+                Assert.assertEquals(total, multipliedPrice, WRONG_CALCULATIONS_TEXT);
+
+            }
+        }
+    }
+    /* This method validate success message, is it visible and the same as provided */
+    public void validateSuccessMessageForModifiedCart() {
+        TestUtilities.waitVisible(driver,successMsg,5);
+        Assert.assertTrue(successMsg.isDisplayed(), SUCCESS_MESSAGE_MISSING_MESSAGE);
+
+        String alertMessage = successMsg.getText().replace("×", "").trim();
+        Assert.assertEquals(alertMessage, SUCCESS_MESSAGE_TEXT, SUCCESS_MESSAGE_DIFFERENT_MESSAGE);
+    }
+//Assert.assertEquals(homePage.getItemsInTheCart(), 2, HomePage.CART_BADGE_WRONG_AMOUNT);
 
 }
