@@ -20,13 +20,14 @@ public class ShoppingCartQtyUpdate extends TestUtilities {
         cartPage.validateSuccessMessageForModifiedCart();
 
     }
+
     @Then("user should see {string} product total price be multiplied by {int}")
     public void user_should_see_product_total_price_be_multiplied_by(String string, int number) {
-        System.out.println("Inside Step - user should see \"" + string + "\" product total price be multiplied by \"" + number );
-        MyFileWriter.writeToLog("Inside Step - user should see  \"" + string + "\" product total price be multiplied by \"" + number );
+        System.out.println("Inside Step - user should see \"" + string + "\" product total price be multiplied by \"" + number);
+        MyFileWriter.writeToLog("Inside Step - user should see  \"" + string + "\" product total price be multiplied by \"" + number);
 
         CartPage cartPage = new CartPage(TestUtilities.driver);
-        cartPage.validateProductQtyInCart(string,number);
+        cartPage.validateProductQtyInCart(string, number);
 
     }
 

@@ -19,6 +19,7 @@ public class EmptyCartCheckout extends TestUtilities {
         homePage.clickMinicartButton();
 
     }
+
     @Then("the user should see {string} minicart message.")
     public void the_user_should_see_minicart_message(String string) {
         System.out.println("Inside Step - the user should see " + string + " minicart message.");
@@ -38,6 +39,7 @@ public class EmptyCartCheckout extends TestUtilities {
         homePage.topLinksValidator();
         homePage.clickOnHeaderCheckoutLink();
     }
+
     @Then("the user should be redirected to shopping cart page and see {string} message.")
     public void the_user_should_be_redirected_to_shopping_cart_page_and_see_message(String string) {
         System.out.println("Inside Step - the user should be redirected to shopping cart page and see \"" + string + "\" message.");

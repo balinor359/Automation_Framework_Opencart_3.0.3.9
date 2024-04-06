@@ -200,14 +200,18 @@ public class CartPage extends TestUtilities {
 
                 double multipliedPrice = price * productQty;
 
+                System.out.println("Product price: " + price + " | Product Qty: " + productQty + " | Product Total: " + total + " | Product Multiplied Price: " + multipliedPrice);
+                MyFileWriter.writeToLog("Product price: " + price + " | Product Qty: " + productQty + " | Product Total: " + total + " | Product Multiplied Price: " + multipliedPrice);
+
                 Assert.assertEquals(total, multipliedPrice, WRONG_CALCULATIONS_TEXT);
 
             }
         }
     }
+
     /* This method validate success message, is it visible and the same as provided */
     public void validateSuccessMessageForModifiedCart() {
-        TestUtilities.waitVisible(driver,successMsg,5);
+        TestUtilities.waitVisible(driver, successMsg, 5);
         Assert.assertTrue(successMsg.isDisplayed(), SUCCESS_MESSAGE_MISSING_MESSAGE);
 
         String alertMessage = successMsg.getText().replace("×", "").trim();

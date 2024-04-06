@@ -14397,3 +14397,97 @@ ________________________________________________________________________________
 05/04/2024 16:23:28 : Inside Step - user should see  "iPod Nano" product total price be multiplied by "2
 05/04/2024 16:23:30 : Test End!
 _________________________________________________________________________________________
+06/04/2024 18:37:58 : Test Start!
+06/04/2024 18:38:01 : Inside Step - the user is on home page
+06/04/2024 18:38:01 : Inside Step - the user add "Samsung Galaxy Tab 10.1" product in shopping cart from home page
+06/04/2024 18:38:03 : Inside Step - navigate to shopping cart page
+06/04/2024 18:38:05 : Inside Step - select  "Samsung Galaxy Tab 10.1"  product and insert new value "2" in product quantity field and click update button
+06/04/2024 18:38:05 : Cart contains items.
+06/04/2024 18:38:05 : Cart items are valid.
+06/04/2024 18:38:05 : Inside Step - user should see  "Samsung Galaxy Tab 10.1" product total price be multiplied by "2
+06/04/2024 18:38:06 : Test End!
+_________________________________________________________________________________________
+06/04/2024 18:41:08 : Test Start!
+06/04/2024 18:41:11 : Inside Step - the user is on home page
+06/04/2024 18:41:11 : Inside Step - the user add "Samsung Galaxy Tab 10.1" product in shopping cart from home page
+06/04/2024 18:41:13 : Inside Step - navigate to shopping cart page
+06/04/2024 18:41:14 : Inside Step - select  "Samsung Galaxy Tab 10.1"  product and insert new value "2" in product quantity field and click update button
+06/04/2024 18:41:14 : Cart contains items.
+06/04/2024 18:41:14 : Cart items are valid.
+06/04/2024 18:41:15 : Inside Step - user should see  "Samsung Galaxy Tab 10.1" product total price be multiplied by "2
+06/04/2024 18:41:15 : Product price: 199.99 / Product Qty: 2 / Product Total: 399.98 / Product Multiplied Price: 399.98
+06/04/2024 18:41:15 : Test End!
+_________________________________________________________________________________________
+06/04/2024 18:42:50 : Test Start!
+06/04/2024 18:42:52 : Inside Step - the user is on home page
+06/04/2024 18:42:52 : Inside Step - the user add "Samsung Galaxy Tab 10.1" product in shopping cart from home page
+06/04/2024 18:42:54 : Inside Step - navigate to shopping cart page
+06/04/2024 18:42:55 : Inside Step - select  "Samsung Galaxy Tab 10.1"  product and insert new value "2" in product quantity field and click update button
+06/04/2024 18:42:56 : Cart contains items.
+06/04/2024 18:42:56 : Cart items are valid.
+06/04/2024 18:42:56 : Inside Step - user should see  "Samsung Galaxy Tab 10.1" product total price be multiplied by "2
+06/04/2024 18:42:56 : Product price: 199.99 | Product Qty: 2 | Product Total: 399.98 | Product Multiplied Price: 399.98
+06/04/2024 18:42:56 : Test End!
+_________________________________________________________________________________________
+06/04/2024 18:43:24 : Test Start!
+06/04/2024 18:43:26 : Inside Step - the user is on home page
+06/04/2024 18:43:26 : Inside Step - the user add "Samsung Galaxy Tab 10.1" product in shopping cart from home page
+06/04/2024 18:43:28 : Inside Step - navigate to shopping cart page
+06/04/2024 18:43:29 : Inside Step - select  "Samsung Galaxy Tab 10.1"  product and insert new value "5" in product quantity field and click update button
+06/04/2024 18:43:30 : Cart contains items.
+06/04/2024 18:43:30 : Cart items are valid.
+06/04/2024 18:43:30 : Inside Step - user should see  "Samsung Galaxy Tab 10.1" product total price be multiplied by "5
+06/04/2024 18:43:30 : Product price: 199.99 | Product Qty: 5 | Product Total: 999.95 | Product Multiplied Price: 999.95
+06/04/2024 18:43:30 : Test End!
+_________________________________________________________________________________________
+06/04/2024 19:03:38 : Test Start!
+06/04/2024 19:03:40 : Inside Step - the user is on home page
+06/04/2024 19:03:40 : Inside Step - the user add "iPod Nano" product in shopping cart from home page
+06/04/2024 19:03:42 : Inside Step - navigate to shopping cart page
+06/04/2024 19:03:44 : Inside Step - select  "iPod Nano"  product and insert new value "2" in product quantity field and click update button
+06/04/2024 19:03:44 : Cart contains items.
+06/04/2024 19:03:44 : Cart items are valid.
+06/04/2024 19:03:44 : Inside Step - user should see  "iPod Nano" product total price be multiplied by "2
+06/04/2024 19:03:44 : Product price: 100.0 | Product Qty: 2 | Product Total: 200.0 | Product Multiplied Price: 200.0
+06/04/2024 19:03:44 : Test End!
+_________________________________________________________________________________________
+06/04/2024 19:06:41 : Test Start!
+06/04/2024 19:06:43 : Inside Step - the user is on home page
+06/04/2024 19:06:43 : Test End!
+_________________________________________________________________________________________
+06/04/2024 19:09:23 : Test Start!
+06/04/2024 19:09:42 : Test Start!
+06/04/2024 19:09:44 : Inside Step - the user is on home page
+06/04/2024 19:09:44 : Test End!
+_________________________________________________________________________________________
+06/04/2024 19:13:06 : Test Start!
+06/04/2024 19:13:08 : Inside Step - the user is on home page
+06/04/2024 19:13:08 : Inside Step - the user add  "Samsung SyncMaster 941BW" product to shopping cart from homepage
+06/04/2024 19:13:08 : Inside Step - click on <Checkout> button in header
+06/04/2024 19:13:08 : Inside Step - select <Guest Checkout> in checkout page
+06/04/2024 19:13:08 : Inside Step - go through all checkout steps
+06/04/2024 19:13:08 : Inside Step - fill all required fields with valid credentials
+06/04/2024 19:13:08 : Inside Step - click on <Confirm Order> button
+06/04/2024 19:13:08 : Inside Step - the user should be redirected to success page and see "Your order has been placed!" message.
+06/04/2024 19:13:08 : Test End!
+_________________________________________________________________________________________
+06/04/2024 19:32:59 : Test Start!
+06/04/2024 19:33:01 : Inside Step - the user is on home page
+06/04/2024 19:33:02 : Inside Step - the user add  "Samsung SyncMaster 941BW" product to shopping cart from homepage
+06/04/2024 19:33:02 : Inside Step - click on <Checkout> button in header
+06/04/2024 19:33:02 : Inside Step - select <Guest Checkout> in checkout page
+06/04/2024 19:33:02 : Inside Step - go through all checkout steps filling all required fields with valid credentials
+06/04/2024 19:33:02 : Inside Step - click on <Confirm Order> button
+06/04/2024 19:33:02 : Inside Step - the user should be redirected to success page and see "Your order has been placed!" message.
+06/04/2024 19:33:02 : Test End!
+_________________________________________________________________________________________
+06/04/2024 19:33:42 : Test Start!
+06/04/2024 19:33:45 : Inside Step - the user is on home page
+06/04/2024 19:33:45 : Inside Step - the user add  "Samsung SyncMaster 941BW" product to shopping cart from homepage
+06/04/2024 19:33:45 : Inside Step - click on <Checkout> button in header
+06/04/2024 19:33:45 : Inside Step - select <Guest Checkout> in checkout page
+06/04/2024 19:33:45 : Inside Step - go through all checkout steps filling all required fields with valid credentials
+06/04/2024 19:33:45 : Inside Step - click on <Confirm Order> button
+06/04/2024 19:33:45 : Inside Step - the user should be redirected to success page and see "Your order has been placed!" message.
+06/04/2024 19:33:45 : Test End!
+_________________________________________________________________________________________
