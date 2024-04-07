@@ -468,14 +468,14 @@ public class HomePage extends TestUtilities {
     }
 
     /* Method who validate and click "Checkout" link in header */
-    public CartPage clickOnHeaderCheckoutLink() {
+    public CheckoutPage clickOnHeaderCheckoutLink() {
         TestUtilities.scrollToMethod(driver, headerCheckoutLink);
         TestUtilities.waitClickable(driver, headerCheckoutLink, 5);
         Assert.assertTrue(headerCheckoutLink.isDisplayed(), CHECKOUT_LINK_MISSING_MESSAGE);
         Assert.assertEquals(headerCheckoutLink.getText(), GenericMessages.CHECKOUT_LINK_TEXT, GenericMessages.CHECKOUT_LINK_DIFFERENT_TEXT_MESSAGE);
         headerCheckoutLink.click();
-        /* Return driver to CartPage (POM) */
-        return new CartPage(driver);
+        /* Return driver to CheckoutPage (POM) */
+        return new CheckoutPage(driver);
     }
 
     /* Method who validate and click "Shopping Cart" link in header */

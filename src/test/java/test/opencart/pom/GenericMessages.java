@@ -17,6 +17,8 @@ public class GenericMessages {
     public static final String REVIEW_FORM_MISSING_MESSAGE = "Review form is missing!";
     public static final String REVIEW_TEXTAREA_MISSING_MESSAGE = "Review textarea is missing!";
     public static final String CONTINUE_BUTTON_MISSING_MESSAGE = "Continue button is missing!";
+    public static final String CONTINUE_BUTTON_TEXT = "Continue";
+    public static final String CONTINUE_BUTTON_DIFFERENT_TEXT_MESSAGE = "'Continue' button text is different!";
     public static final String LOGIN_BUTTON_MISSING_MESSAGE = "Login button is missing!";
     public static final String KEYWORD_IN_PRODUCT_NAME = "The product name doesn't contain the given keyword!";
     public static final String MISSING_ELEMENT_MESSAGE = "Element ( %s ) is missing!";
@@ -47,4 +49,8 @@ public class GenericMessages {
     public static final String CHECKOUT_LINK_DIFFERENT_TEXT_MESSAGE = "'Checkout' link text is different!";
     public static final String SHOPPING_CART_LINK_TEXT = "Shopping Cart";
     public static final String SHOPPING_CART_LINK_DIFFERENT_TEXT_MESSAGE = "'Shopping Cart' link text is different!";
+    public static final String RADIO_BUTTON_MISSING_MESSAGE = "Radio button is missing!";
+    public static final String RADIO_BUTTON_DIFFERENT_TEXT_MESSAGE = "Radio button text is different!";
+    public static final String RADIO_BUTTON_REGISTER_TEXT = "Register Account";
+    public static final String RADIO_BUTTON_GUEST_TEXT = "Guest Checkout";
 }

@@ -2,6 +2,8 @@ package StepDefinitions;
 
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
+import test.opencart.pom.CheckoutPage;
+import test.opencart.pom.HomePage;
 import test.opencart.pom.RegistrationPage;
 import test.opencart.utilities.MyFileWriter;
 import test.opencart.utilities.TestUtilities;
@@ -14,16 +16,32 @@ public class CompleteOrderAsGuest extends TestUtilities {
     public void the_user_add_product_to_shopping_cart_from_homepage(String string) {
         System.out.println("Inside Step - the user add \"" + string + "\" product to shopping cart from homepage");
         MyFileWriter.writeToLog("Inside Step - the user add  \"" + string + "\" product to shopping cart from homepage");
+
+        HomePage homePage = new HomePage(TestUtilities.driver);
+        homePage.addProductToProductList(string);
+        homePage.addProductToCart(string);
     }
     @When("click on <Checkout> button in header")
     public void click_on_checkout_button_in_header() {
         System.out.println("Inside Step - click on <Checkout> button in header");
         MyFileWriter.writeToLog("Inside Step - click on <Checkout> button in header");
+
+        HomePage homePage = new HomePage(TestUtilities.driver);
+        homePage.clickOnHeaderCheckoutLink();
+
     }
     @When("select <Guest Checkout> in checkout page")
     public void select_guest_checkout_in_checkout_page() {
         System.out.println("Inside Step - select <Guest Checkout> in checkout page");
         MyFileWriter.writeToLog("Inside Step - select <Guest Checkout> in checkout page");
+
+        CheckoutPage checkoutPage = new CheckoutPage(TestUtilities.driver);
+        checkoutPage.checkoutPageValidator();
+
+        checkoutPage.clickOnGuestCheckoutRadioBtn();
+        checkoutPage.clickOnStepOneContinueBtn();
+
+        simpleWait(3000);
     }
     @When("go through all checkout steps filling all required fields with valid credentials as follows:")
     public void go_through_all_checkout_steps_filling_all_required_fields_with_valid_credentials_as_follows(io.cucumber.datatable.DataTable dataTable) {

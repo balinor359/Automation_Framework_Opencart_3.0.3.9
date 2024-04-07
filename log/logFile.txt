@@ -14491,3 +14491,83 @@ ________________________________________________________________________________
 06/04/2024 19:33:45 : Inside Step - the user should be redirected to success page and see "Your order has been placed!" message.
 06/04/2024 19:33:45 : Test End!
 _________________________________________________________________________________________
+07/04/2024 11:28:07 : Test Start!
+07/04/2024 11:28:10 : Inside Step - the user is on home page
+07/04/2024 11:28:10 : Inside Step - the user clicks on mini cart in header
+07/04/2024 11:28:11 : Inside Step - the user should see Your shopping cart is empty! minicart message.
+07/04/2024 11:28:11 : Test End!
+_________________________________________________________________________________________
+07/04/2024 11:28:11 : Test Start!
+07/04/2024 11:28:12 : Inside Step - the user is on home page
+07/04/2024 11:28:13 : Inside Step - the user clicks on Checkout link in header
+07/04/2024 11:28:14 : Inside Step - the user should be redirected to shopping cart page and see "Your shopping cart is empty!" message.
+07/04/2024 11:28:14 : Test End!
+_________________________________________________________________________________________
+07/04/2024 11:28:49 : Test Start!
+07/04/2024 11:28:52 : Inside Step - the user is on home page
+07/04/2024 11:28:52 : Inside Step - the user clicks on mini cart in header
+07/04/2024 11:28:53 : Inside Step - the user should see Your shopping cart is empty! minicart message.
+07/04/2024 11:28:53 : Test End!
+_________________________________________________________________________________________
+07/04/2024 11:28:53 : Test Start!
+07/04/2024 11:28:54 : Inside Step - the user is on home page
+07/04/2024 11:28:54 : Inside Step - the user clicks on Checkout link in header
+07/04/2024 11:28:56 : Inside Step - the user should be redirected to shopping cart page and see "Your shopping cart is empty!" message.
+07/04/2024 11:28:56 : Test End!
+_________________________________________________________________________________________
+07/04/2024 11:31:03 : Test Start!
+07/04/2024 11:31:05 : Inside Step - the user is on home page
+07/04/2024 11:31:05 : Inside Step - the user clicks on mini cart in header
+07/04/2024 11:31:06 : Inside Step - the user should see Your shopping cart is empty! minicart message.
+07/04/2024 11:31:06 : Test End!
+_________________________________________________________________________________________
+07/04/2024 11:31:06 : Test Start!
+07/04/2024 11:31:08 : Inside Step - the user is on home page
+07/04/2024 11:31:08 : Inside Step - the user clicks on Checkout link in header
+07/04/2024 11:31:09 : Inside Step - the user should be redirected to shopping cart page and see "Your shopping cart is empty!" message.
+07/04/2024 11:31:14 : Test End!
+_________________________________________________________________________________________
+07/04/2024 11:37:39 : Test Start!
+07/04/2024 11:37:41 : Inside Step - the user is on home page
+07/04/2024 11:37:41 : Inside Step - the user add  "Samsung SyncMaster 941BW" product to shopping cart from homepage
+07/04/2024 11:37:44 : Inside Step - click on <Checkout> button in header
+07/04/2024 11:37:45 : Inside Step - select <Guest Checkout> in checkout page
+07/04/2024 11:37:48 : Inside Step - go through all checkout steps filling all required fields with valid credentials
+07/04/2024 11:37:48 : Inside Step - click on <Confirm Order> button
+07/04/2024 11:37:48 : Inside Step - the user should be redirected to success page and see "Your order has been placed!" message.
+07/04/2024 11:37:48 : Test End!
+_________________________________________________________________________________________
+07/04/2024 11:55:54 : Test Start!
+07/04/2024 11:55:57 : Inside Step - the user is on home page
+07/04/2024 11:55:57 : Inside Step - the user add  "Samsung SyncMaster 941BW" product to shopping cart from homepage
+07/04/2024 11:55:59 : Inside Step - click on <Checkout> button in header
+07/04/2024 11:56:00 : Inside Step - select <Guest Checkout> in checkout page
+07/04/2024 11:56:03 : Inside Step - go through all checkout steps filling all required fields with valid credentials
+07/04/2024 11:56:03 : Inside Step - click on <Confirm Order> button
+07/04/2024 11:56:03 : Inside Step - the user should be redirected to success page and see "Your order has been placed!" message.
+07/04/2024 11:56:03 : Test End!
+_________________________________________________________________________________________
+07/04/2024 12:09:25 : Test Start!
+07/04/2024 12:09:27 : Inside Step - the user is on home page
+07/04/2024 12:09:27 : Inside Step - the user add  "Samsung SyncMaster 941BW" product to shopping cart from homepage
+07/04/2024 12:09:29 : Inside Step - click on <Checkout> button in header
+07/04/2024 12:09:30 : Inside Step - select <Guest Checkout> in checkout page
+07/04/2024 12:09:31 : Test End!
+_________________________________________________________________________________________
+07/04/2024 12:12:16 : Test Start!
+07/04/2024 12:12:18 : Inside Step - the user is on home page
+07/04/2024 12:12:18 : Inside Step - the user add  "Samsung SyncMaster 941BW" product to shopping cart from homepage
+07/04/2024 12:12:20 : Inside Step - click on <Checkout> button in header
+07/04/2024 12:12:21 : Inside Step - select <Guest Checkout> in checkout page
+07/04/2024 12:12:23 : Test End!
+_________________________________________________________________________________________
+07/04/2024 12:12:59 : Test Start!
+07/04/2024 12:13:01 : Inside Step - the user is on home page
+07/04/2024 12:13:01 : Inside Step - the user add  "Samsung SyncMaster 941BW" product to shopping cart from homepage
+07/04/2024 12:13:03 : Inside Step - click on <Checkout> button in header
+07/04/2024 12:13:04 : Inside Step - select <Guest Checkout> in checkout page
+07/04/2024 12:13:09 : Inside Step - go through all checkout steps filling all required fields with valid credentials
+07/04/2024 12:13:09 : Inside Step - click on <Confirm Order> button
+07/04/2024 12:13:09 : Inside Step - the user should be redirected to success page and see "Your order has been placed!" message.
+07/04/2024 12:13:09 : Test End!
+_________________________________________________________________________________________
