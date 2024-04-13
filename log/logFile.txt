@@ -14571,3 +14571,127 @@ ________________________________________________________________________________
 07/04/2024 12:13:09 : Inside Step - the user should be redirected to success page and see "Your order has been placed!" message.
 07/04/2024 12:13:09 : Test End!
 _________________________________________________________________________________________
+10/04/2024 18:08:15 : Test Start!
+10/04/2024 18:08:18 : Inside Step - the user is on home page
+10/04/2024 18:08:19 : Inside Step - the user add  "Samsung SyncMaster 941BW" product to shopping cart from homepage
+10/04/2024 18:08:21 : Inside Step - click on <Checkout> button in header
+10/04/2024 18:08:22 : Inside Step - select <Guest Checkout> in checkout page
+10/04/2024 18:08:27 : Inside Step - go through all checkout steps filling all required fields with valid credentials
+10/04/2024 18:08:27 : Inside Step - click on <Confirm Order> button
+10/04/2024 18:08:27 : Inside Step - the user should be redirected to success page and see "Your order has been placed!" message.
+10/04/2024 18:08:27 : Test End!
+_________________________________________________________________________________________
+10/04/2024 18:36:30 : Test Start!
+10/04/2024 18:36:32 : Inside Step - the user is on home page
+10/04/2024 18:36:33 : Inside Step - the user add  "Samsung SyncMaster 941BW" product to shopping cart from homepage
+10/04/2024 18:36:35 : Inside Step - click on <Checkout> button in header
+10/04/2024 18:36:36 : Inside Step - select <Guest Checkout> in checkout page
+10/04/2024 18:36:41 : Inside Step - go through all checkout steps filling all required fields with valid credentials
+10/04/2024 18:36:41 : Test End!
+_________________________________________________________________________________________
+10/04/2024 18:37:35 : Test Start!
+10/04/2024 18:37:37 : Inside Step - the user is on home page
+10/04/2024 18:37:37 : Inside Step - the user add  "Samsung SyncMaster 941BW" product to shopping cart from homepage
+10/04/2024 18:37:39 : Inside Step - click on <Checkout> button in header
+10/04/2024 18:37:40 : Inside Step - select <Guest Checkout> in checkout page
+10/04/2024 18:37:45 : Inside Step - go through all checkout steps filling all required fields with valid credentials
+10/04/2024 18:37:46 : Inside Step - click on <Confirm Order> button
+10/04/2024 18:37:46 : Inside Step - the user should be redirected to success page and see "Your order has been placed!" message.
+10/04/2024 18:37:46 : Test End!
+_________________________________________________________________________________________
+10/04/2024 18:38:14 : Test Start!
+10/04/2024 18:38:17 : Inside Step - the user is on home page
+10/04/2024 18:38:17 : Inside Step - the user add  "Samsung SyncMaster 941BW" product to shopping cart from homepage
+10/04/2024 18:38:19 : Inside Step - click on <Checkout> button in header
+10/04/2024 18:38:21 : Inside Step - select <Guest Checkout> in checkout page
+10/04/2024 18:38:22 : Inside Step - go through all checkout steps filling all required fields with valid credentials
+10/04/2024 18:38:28 : Inside Step - click on <Confirm Order> button
+10/04/2024 18:38:28 : Inside Step - the user should be redirected to success page and see "Your order has been placed!" message.
+10/04/2024 18:38:28 : Test End!
+_________________________________________________________________________________________
+10/04/2024 18:39:34 : Test Start!
+10/04/2024 18:39:37 : Inside Step - the user is on home page
+10/04/2024 18:39:37 : Inside Step - the user add  "Samsung SyncMaster 941BW" product to shopping cart from homepage
+10/04/2024 18:39:39 : Inside Step - click on <Checkout> button in header
+10/04/2024 18:39:40 : Inside Step - select <Guest Checkout> in checkout page
+10/04/2024 18:39:42 : Inside Step - go through all checkout steps filling all required fields with valid credentials
+10/04/2024 18:39:44 : Test End!
+_________________________________________________________________________________________
+10/04/2024 18:41:44 : Test Start!
+10/04/2024 18:41:47 : Inside Step - the user is on home page
+10/04/2024 18:41:47 : Inside Step - the user add  "Samsung SyncMaster 941BW" product to shopping cart from homepage
+10/04/2024 18:41:49 : Inside Step - click on <Checkout> button in header
+10/04/2024 18:41:50 : Inside Step - select <Guest Checkout> in checkout page
+10/04/2024 18:41:52 : Inside Step - go through all checkout steps filling all required fields with valid credentials
+10/04/2024 18:42:03 : Inside Step - click on <Confirm Order> button
+10/04/2024 18:42:03 : Inside Step - the user should be redirected to success page and see "Your order has been placed!" message.
+10/04/2024 18:42:03 : Test End!
+_________________________________________________________________________________________
+10/04/2024 18:44:07 : Test Start!
+10/04/2024 18:44:09 : Inside Step - the user is on home page
+10/04/2024 18:44:10 : Inside Step - the user add  "Samsung SyncMaster 941BW" product to shopping cart from homepage
+10/04/2024 18:44:12 : Inside Step - click on <Checkout> button in header
+10/04/2024 18:44:13 : Inside Step - select <Guest Checkout> in checkout page
+10/04/2024 18:44:15 : Inside Step - go through all checkout steps filling all required fields with valid credentials
+10/04/2024 18:44:31 : Inside Step - click on <Confirm Order> button
+10/04/2024 18:44:31 : Inside Step - the user should be redirected to success page and see "Your order has been placed!" message.
+10/04/2024 18:44:31 : Test End!
+_________________________________________________________________________________________
+10/04/2024 18:47:28 : Test Start!
+10/04/2024 18:47:31 : Inside Step - the user is on home page
+10/04/2024 18:47:31 : Inside Step - the user add  "Samsung SyncMaster 941BW" product to shopping cart from homepage
+10/04/2024 18:47:33 : Inside Step - click on <Checkout> button in header
+10/04/2024 18:47:34 : Inside Step - select <Guest Checkout> in checkout page
+10/04/2024 18:47:36 : Inside Step - go through all checkout steps filling all required fields with valid credentials
+10/04/2024 18:47:53 : Inside Step - click on <Confirm Order> button
+10/04/2024 18:47:53 : Inside Step - the user should be redirected to success page and see "Your order has been placed!" message.
+10/04/2024 18:47:53 : Test End!
+_________________________________________________________________________________________
+10/04/2024 18:48:23 : Test Start!
+10/04/2024 18:48:25 : Inside Step - the user is on home page
+10/04/2024 18:48:25 : Inside Step - the user add  "Samsung SyncMaster 941BW" product to shopping cart from homepage
+10/04/2024 18:48:27 : Inside Step - click on <Checkout> button in header
+10/04/2024 18:48:28 : Inside Step - select <Guest Checkout> in checkout page
+10/04/2024 18:48:30 : Inside Step - go through all checkout steps filling all required fields with valid credentials
+10/04/2024 18:48:46 : Inside Step - click on <Confirm Order> button
+10/04/2024 18:48:46 : Inside Step - the user should be redirected to success page and see "Your order has been placed!" message.
+10/04/2024 18:48:46 : Test End!
+_________________________________________________________________________________________
+10/04/2024 19:19:18 : Test Start!
+10/04/2024 19:19:21 : Inside Step - the user is on home page
+10/04/2024 19:19:21 : Inside Step - the user add  "Samsung SyncMaster 941BW" product to shopping cart from homepage
+10/04/2024 19:19:23 : Inside Step - click on <Checkout> button in header
+10/04/2024 19:19:24 : Inside Step - select <Guest Checkout> in checkout page
+10/04/2024 19:19:26 : Inside Step - go through all checkout steps filling all required fields with valid credentials
+10/04/2024 19:19:35 : Test End!
+_________________________________________________________________________________________
+10/04/2024 19:21:09 : Test Start!
+10/04/2024 19:21:12 : Inside Step - the user is on home page
+10/04/2024 19:21:12 : Inside Step - the user add  "Samsung SyncMaster 941BW" product to shopping cart from homepage
+10/04/2024 19:21:14 : Inside Step - click on <Checkout> button in header
+10/04/2024 19:21:15 : Inside Step - select <Guest Checkout> in checkout page
+10/04/2024 19:21:17 : Inside Step - go through all checkout steps filling all required fields with valid credentials
+10/04/2024 19:21:28 : Inside Step - click on <Confirm Order> button
+10/04/2024 19:21:28 : Inside Step - the user should be redirected to success page and see "Your order has been placed!" message.
+10/04/2024 19:21:28 : Test End!
+_________________________________________________________________________________________
+11/04/2024 19:03:20 : Test Start!
+11/04/2024 19:03:24 : Inside Step - the user is on home page
+11/04/2024 19:03:24 : Inside Step - the user add  "Samsung SyncMaster 941BW" product to shopping cart from homepage
+11/04/2024 19:03:26 : Inside Step - click on <Checkout> button in header
+11/04/2024 19:03:27 : Inside Step - select <Guest Checkout> in checkout page
+11/04/2024 19:03:29 : Inside Step - go through all checkout steps filling all required fields with valid credentials
+11/04/2024 19:03:40 : Inside Step - click on <Confirm Order> button
+11/04/2024 19:03:40 : Inside Step - the user should be redirected to success page and see "Your order has been placed!" message.
+11/04/2024 19:03:40 : Test End!
+_________________________________________________________________________________________
+12/04/2024 19:28:52 : Test Start!
+12/04/2024 19:28:55 : Inside Step - the user is on home page
+12/04/2024 19:28:55 : Inside Step - the user add  "Samsung SyncMaster 941BW" product to shopping cart from homepage
+12/04/2024 19:28:57 : Inside Step - click on <Checkout> button in header
+12/04/2024 19:28:58 : Inside Step - select <Guest Checkout> in checkout page
+12/04/2024 19:29:00 : Inside Step - go through all checkout steps filling all required fields with valid credentials
+12/04/2024 19:29:03 : Inside Step - click on <Confirm Order> button
+12/04/2024 19:29:12 : Inside Step - the user should be redirected to success page and see "Your order has been placed!" message.
+12/04/2024 19:29:12 : Test End!
+_________________________________________________________________________________________

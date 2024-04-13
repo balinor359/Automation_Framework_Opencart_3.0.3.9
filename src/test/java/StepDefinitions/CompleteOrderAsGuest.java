@@ -41,7 +41,7 @@ public class CompleteOrderAsGuest extends TestUtilities {
         checkoutPage.clickOnGuestCheckoutRadioBtn();
         checkoutPage.clickOnStepOneContinueBtn();
 
-        simpleWait(3000);
+
     }
     @When("go through all checkout steps filling all required fields with valid credentials as follows:")
     public void go_through_all_checkout_steps_filling_all_required_fields_with_valid_credentials_as_follows(io.cucumber.datatable.DataTable dataTable) {
@@ -61,19 +61,27 @@ public class CompleteOrderAsGuest extends TestUtilities {
         String region = credentials.get(0).get("region");
         String comment = credentials.get(0).get("comment");
 
-//        RegistrationPage registrationPage = new RegistrationPage(TestUtilities.driver);
-//        checkoutPage.fillCheckoutForm(firstName, lastName, email, telephone, address, city, postCode, country, region);
+        CheckoutPage checkoutPage = new CheckoutPage(TestUtilities.driver);
+        checkoutPage.fillCheckoutFormGuest(firstName, lastName, email, telephone, address, city, postCode, country, region);
 
+        checkoutPage.addCommentToTheOrder(comment);
+        checkoutPage.acceptTerms();
 
     }
     @When("click on <Confirm Order> button")
     public void click_on_confirm_order_button() {
         System.out.println("Inside Step - click on <Confirm Order> button");
         MyFileWriter.writeToLog("Inside Step - click on <Confirm Order> button");
+
+        CheckoutPage checkoutPage = new CheckoutPage(TestUtilities.driver);
+        checkoutPage.completeOrder();
+
+        simpleWait(8000);
     }
     @Then("the user should be redirected to success page and see {string} message.")
     public void the_user_should_be_redirected_to_success_page_and_see_message(String string) {
         System.out.println("Inside Step - the user should be redirected to success page and see \"" + string + "\" message.");
         MyFileWriter.writeToLog("Inside Step - the user should be redirected to success page and see \"" + string + "\" message.");
+
     }
 }
