@@ -14,15 +14,6 @@ public class ContactPage extends TestUtilities {
     protected WebDriver driver;
 
     /* Declaring string variables for the current page */
-    private static final String CONTACT_PAGE_HEADING = "Contact Us";
-    private static final String CONTACT_FORM_MISSING_MESSAGE = "Contact form is missing!";
-    private static final String EMAIL_INPUT_MISSING_MESSAGE = "Email input is missing!";
-    private static final String ENQUIRY_TEXTAREA_MISSING_MESSAGE = "Enquiry textarea is missing!";
-    private static final String SUCCESS_MESSAGE_MISSING_MESSAGE = "Success message is missing!";
-    private static final String SUCCESS_MESSAGE_DIFFERENT_MESSAGE = "Success message is different!";
-    private static final String CONTACT_PAGE_URL = "https://opencart-test.test/index.php?route=information/contact";
-    private static final String CONTACT_SUCCESS_PAGE_URL = "https://opencart-test.test/index.php?route=information/contact/success";
-    private static final String ENQUIRY_FAILED_MESSAGE = "Enquiry sending failed!";
 
     /* Declaring page elements */
     @FindBy(xpath = "//div[@id='information-contact']//h1")
@@ -52,12 +43,12 @@ public class ContactPage extends TestUtilities {
         Assert.assertTrue(heading.isDisplayed(), GenericMessages.PAGE_HEADING_MISSING_MESSAGE);
 
         /* Validate Contact page heading contains right text */
-        Assert.assertEquals(heading.getText(), CONTACT_PAGE_HEADING, GenericMessages.DIFFERENT_PAGE_HEADING);
+        Assert.assertEquals(heading.getText(), GenericMessages.CONTACT_PAGE_HEADING, GenericMessages.DIFFERENT_PAGE_HEADING);
 
-        Assert.assertTrue(contactForm.isDisplayed(), CONTACT_FORM_MISSING_MESSAGE);
+        Assert.assertTrue(contactForm.isDisplayed(), GenericMessages.CONTACT_FORM_MISSING_MESSAGE);
         Assert.assertTrue(inputName.isDisplayed(), GenericMessages.NAME_INPUT_MISSING_MESSAGE);
-        Assert.assertTrue(inputEmail.isDisplayed(), EMAIL_INPUT_MISSING_MESSAGE);
-        Assert.assertTrue(enquiryTextarea.isDisplayed(), ENQUIRY_TEXTAREA_MISSING_MESSAGE);
+        Assert.assertTrue(inputEmail.isDisplayed(), GenericMessages.CONTACT_EMAIL_INPUT_MISSING_MESSAGE);
+        Assert.assertTrue(enquiryTextarea.isDisplayed(), GenericMessages.ENQUIRY_TEXTAREA_MISSING_MESSAGE);
         Assert.assertTrue(contactFormSubmitBtn.isDisplayed(), GenericMessages.SUBMIT_BUTTON_MISSING_MESSAGE);
     }
 
@@ -93,8 +84,8 @@ public class ContactPage extends TestUtilities {
             contactFormSubmitBtn.click();
 
             /* Check if the current page is the contact page */
-            if (driver.getCurrentUrl().equals(CONTACT_PAGE_URL)) {
-                Assert.assertEquals(driver.getCurrentUrl(), CONTACT_SUCCESS_PAGE_URL, ENQUIRY_FAILED_MESSAGE);
+            if (driver.getCurrentUrl().equals(GenericMessages.CONTACT_PAGE_URL)) {
+                Assert.assertEquals(driver.getCurrentUrl(), GenericMessages.CONTACT_SUCCESS_PAGE_URL, GenericMessages.ENQUIRY_FAILED_MESSAGE);
             }
 
         } catch (NullPointerException e) {
@@ -109,7 +100,7 @@ public class ContactPage extends TestUtilities {
 
     /* This method validate success message, is it visible and the same as provided */
     public void validateSuccessMessage(String message) {
-        Assert.assertTrue(successMsg.isDisplayed(), SUCCESS_MESSAGE_MISSING_MESSAGE);
-        Assert.assertEquals(successMsg.getText(), message, SUCCESS_MESSAGE_DIFFERENT_MESSAGE);
+        Assert.assertTrue(successMsg.isDisplayed(), GenericMessages.SUCCESS_MESSAGE_MISSING_MESSAGE);
+        Assert.assertEquals(successMsg.getText(), message, GenericMessages.SUCCESS_MESSAGE_DIFFERENT_MESSAGE);
     }
 }

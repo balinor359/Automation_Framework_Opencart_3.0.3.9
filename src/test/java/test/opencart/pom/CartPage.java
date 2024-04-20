@@ -17,13 +17,6 @@ public class CartPage extends TestUtilities {
     protected WebDriver driver;
 
     /* Declaring string variables for the current page */
-    private static final String CART_PAGE_HEADING = "Shopping Cart";
-    private static final String CART_PAGE_CONTAINER_MISSING = "The Cart page container is missing!";
-    private static final String CART_PAGE_URL = "https://opencart-test.test/index.php?route=checkout/cart";
-    private static final String SUCCESS_MESSAGE_MISSING_MESSAGE = "Success message is missing!";
-    private static final String SUCCESS_MESSAGE_DIFFERENT_MESSAGE = "Success message is different!";
-    private static final String SUCCESS_MESSAGE_TEXT = "Success: You have modified your shopping cart!";
-    private static final String WRONG_CALCULATIONS_TEXT = "The product total price did not match with the expected one from calculations!";
 
     /* Declaring page elements */
     @FindBy(xpath = ".//div[@id='checkout-cart']//h1")
@@ -54,7 +47,7 @@ public class CartPage extends TestUtilities {
     /* This method validate empty cart page heading and error message are visible and with right text */
     public void emptyCartPageValidator(String message) {
         Assert.assertTrue(headingEmptyCart.isDisplayed(), GenericMessages.PAGE_HEADING_MISSING_MESSAGE);
-        Assert.assertEquals(headingEmptyCart.getText(), CART_PAGE_HEADING, GenericMessages.DIFFERENT_PAGE_HEADING);
+        Assert.assertEquals(headingEmptyCart.getText(), GenericMessages.CART_PAGE_HEADING, GenericMessages.DIFFERENT_PAGE_HEADING);
 
         Assert.assertTrue(textEmptyCart.isDisplayed(), GenericMessages.CART_IS_EMPTY_MESSAGE_MISSING_MESSAGE);
         Assert.assertEquals(textEmptyCart.getText(), message, GenericMessages.CART_IS_EMPTY_MESSAGE_DIFFERENT_MESSAGE);
@@ -65,12 +58,12 @@ public class CartPage extends TestUtilities {
     public void cartPageValidator() {
 
         /* Check if the current page is the cart page */
-        if (driver.getCurrentUrl().equals(CART_PAGE_URL)) {
+        if (driver.getCurrentUrl().equals(GenericMessages.CART_PAGE_URL)) {
 
             /* Validate cart page container and heading exist  */
-            Assert.assertTrue(cartPageContainer.isDisplayed(), CART_PAGE_CONTAINER_MISSING);
+            Assert.assertTrue(cartPageContainer.isDisplayed(), GenericMessages.CART_PAGE_CONTAINER_MISSING);
             Assert.assertTrue(heading.isDisplayed(), GenericMessages.PAGE_HEADING_MISSING_MESSAGE);
-            Assert.assertEquals(heading.getText(), CART_PAGE_HEADING, GenericMessages.DIFFERENT_PAGE_HEADING);
+            Assert.assertEquals(heading.getText(), GenericMessages.CART_PAGE_HEADING, GenericMessages.DIFFERENT_PAGE_HEADING);
 
             /* If cart product list have items, check their name,image and price */
             if (cartProductRow.size() > 0) {
@@ -203,7 +196,7 @@ public class CartPage extends TestUtilities {
                 System.out.println("Product price: " + price + " | Product Qty: " + productQty + " | Product Total: " + total + " | Product Multiplied Price: " + multipliedPrice);
                 MyFileWriter.writeToLog("Product price: " + price + " | Product Qty: " + productQty + " | Product Total: " + total + " | Product Multiplied Price: " + multipliedPrice);
 
-                Assert.assertEquals(total, multipliedPrice, WRONG_CALCULATIONS_TEXT);
+                Assert.assertEquals(total, multipliedPrice, GenericMessages.WRONG_CALCULATIONS_TEXT);
 
             }
         }
@@ -212,10 +205,10 @@ public class CartPage extends TestUtilities {
     /* This method validate success message, is it visible and the same as provided */
     public void validateSuccessMessageForModifiedCart() {
         TestUtilities.waitVisible(driver, successMsg, 5);
-        Assert.assertTrue(successMsg.isDisplayed(), SUCCESS_MESSAGE_MISSING_MESSAGE);
+        Assert.assertTrue(successMsg.isDisplayed(), GenericMessages.SUCCESS_MESSAGE_MISSING_MESSAGE);
 
         String alertMessage = successMsg.getText().replace("×", "").trim();
-        Assert.assertEquals(alertMessage, SUCCESS_MESSAGE_TEXT, SUCCESS_MESSAGE_DIFFERENT_MESSAGE);
+        Assert.assertEquals(alertMessage, GenericMessages.SUCCESS_MESSAGE_TEXT, GenericMessages.SUCCESS_MESSAGE_DIFFERENT_MESSAGE);
     }
 //Assert.assertEquals(homePage.getItemsInTheCart(), 2, HomePage.CART_BADGE_WRONG_AMOUNT);
 

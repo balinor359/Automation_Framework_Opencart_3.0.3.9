@@ -15,7 +15,6 @@ public class OrderSuccessPage extends TestUtilities {
     protected WebDriver driver;
 
     /* Declaring string variables for the current page */
-    public static final String SUCCESS_ORDER_PAGE_HEADING = "Your order has been placed!";
 
     /* Declaring page elements */
     @FindBy(xpath = "//div[@id='common-success']//h1")
@@ -24,18 +23,25 @@ public class OrderSuccessPage extends TestUtilities {
     private WebElement continueButton;
     @FindBy(xpath = ".//a[@qa='homepage_link']")
     private WebElement homepageLink;
+    @FindBy(xpath = "//p[@qa='success_info_1']")
+    private WebElement successMsg;
 
-    /* This is constructor for registration success page using PageFactory for web-elements */
+    /* This is constructor for order success page using PageFactory for web-elements */
     public OrderSuccessPage(WebDriver driver) {
         this.driver = driver;
         PageFactory.initElements(driver, this);
     }
 
-    /* This method validate heading and continue button on order success page are visible */
-    public void orderSuccessPageValidator() {
+    /* This method validate heading, continue button and success message on order success page */
+    public void orderSuccessPageValidator(String message) {
         try {
-            Assert.assertEquals(heading.getText(), SUCCESS_ORDER_PAGE_HEADING, GenericMessages.DIFFERENT_PAGE_HEADING);
+            Assert.assertEquals(heading.getText(), message, GenericMessages.DIFFERENT_PAGE_HEADING);
             Assert.assertTrue(continueButton.isDisplayed(), GenericMessages.CONTINUE_BUTTON_MISSING_MESSAGE);
+
+            /* Validate success message */
+            Assert.assertTrue(successMsg.isDisplayed(), GenericMessages.SUCCESS_MESSAGE_MISSING_MESSAGE);
+            Assert.assertEquals(successMsg.getText(), GenericMessages.SUCCESS_ORDER_PAGE_TEXT, GenericMessages.SUCCESS_MESSAGE_DIFFERENT_MESSAGE);
+
         } catch (NoSuchElementException e) {
             System.out.println(String.format(GenericMessages.MISSING_ELEMENT_MESSAGE, heading));
             MyFileWriter.writeToLog(String.format(GenericMessages.MISSING_ELEMENT_MESSAGE, heading));

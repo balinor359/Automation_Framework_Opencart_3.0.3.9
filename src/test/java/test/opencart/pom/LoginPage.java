@@ -16,11 +16,6 @@ public class LoginPage extends TestUtilities {
     protected WebDriver driver;
 
     /* Declaring string variables for the current page */
-    private static final String LOGIN_PAGE_FORM_HEADING = "Returning Customer";
-    private static final String LOGIN_FAILED_MESSAGE = "Login failed!";
-    private static final String LOGIN_PAGE_URL = "https://opencart-test.test/index.php?route=account/login";
-    private static final String USER_ACCOUNT_PAGE_URL = "https://opencart-test.test/index.php?route=account/account";
-    private static final String LOGIN_FORM_MISSING_MESSAGE = "Login form is missing!";
     private static final Object RETURN_NULL_OBJECT = null;
     private static String errorMessage = "";
 
@@ -52,8 +47,8 @@ public class LoginPage extends TestUtilities {
     /* This method validate login page heading and form elements are visible */
     public void loginPageValidator() {
         Assert.assertTrue(login_heading.isDisplayed(), GenericMessages.PAGE_HEADING_MISSING_MESSAGE);
-        Assert.assertEquals(login_heading.getText(), LOGIN_PAGE_FORM_HEADING, GenericMessages.DIFFERENT_PAGE_HEADING);
-        Assert.assertTrue(loginForm.isDisplayed(), LOGIN_FORM_MISSING_MESSAGE);
+        Assert.assertEquals(login_heading.getText(), GenericMessages.LOGIN_PAGE_FORM_HEADING, GenericMessages.DIFFERENT_PAGE_HEADING);
+        Assert.assertTrue(loginForm.isDisplayed(), GenericMessages.LOGIN_FORM_MISSING_MESSAGE);
         Assert.assertTrue(inputEmail.isDisplayed(), GenericMessages.EMAIL_INPUT_MISSING_MESSAGE);
         Assert.assertTrue(inputPassword.isDisplayed(), GenericMessages.PASSWORD_INPUT_MISSING_MESSAGE);
         Assert.assertTrue(loginBtn.isDisplayed(), GenericMessages.LOGIN_BUTTON_MISSING_MESSAGE);
@@ -81,13 +76,13 @@ public class LoginPage extends TestUtilities {
             loginBtn.click();
 
             /* Check if the current page is the login page */
-            if (driver.getCurrentUrl().equals(LOGIN_PAGE_URL)) {
+            if (driver.getCurrentUrl().equals(GenericMessages.LOGIN_PAGE_URL)) {
 
                 /* Throw a runtime exception, log the error and stop the test */
                 System.out.println("Login failed. Error: " + returnErrorText());
                 MyFileWriter.writeToLog("Login failed. Error: " + returnErrorText());
 
-                Assert.assertEquals(driver.getCurrentUrl(), USER_ACCOUNT_PAGE_URL, LOGIN_FAILED_MESSAGE + " Error: " + returnErrorText());
+                Assert.assertEquals(driver.getCurrentUrl(), GenericMessages.USER_ACCOUNT_PAGE_URL, GenericMessages.LOGIN_FAILED_MESSAGE + " Error: " + returnErrorText());
 
                 throw new RuntimeException("Login failed. Error: " + returnErrorText());
             } else {

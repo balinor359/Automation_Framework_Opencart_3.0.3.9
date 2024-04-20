@@ -12,7 +12,6 @@ public class AccountPage extends TestUtilities {
     protected WebDriver driver;
 
     /* Declaring string variables for the current page */
-    public static final String ACCOUNT_PAGE_CONTAINER_MISSING = "The Account page container is missing!";
 
     /* Declaring page elements */
     @FindBy(xpath = "//div[@id='account-account']")
@@ -25,9 +24,10 @@ public class AccountPage extends TestUtilities {
         this.driver = driver;
         PageFactory.initElements(driver, this);
     }
+
     /* This method validate account page container is visible */
     public void accountPageValidator() {
-        Assert.assertTrue(accountPageContainer.isDisplayed(), ACCOUNT_PAGE_CONTAINER_MISSING);
+        Assert.assertTrue(accountPageContainer.isDisplayed(), GenericMessages.ACCOUNT_PAGE_CONTAINER_MISSING);
     }
 
 }

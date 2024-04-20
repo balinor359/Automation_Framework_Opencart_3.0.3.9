@@ -4,7 +4,7 @@ import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import test.opencart.pom.CheckoutPage;
 import test.opencart.pom.HomePage;
-import test.opencart.pom.RegistrationPage;
+import test.opencart.pom.OrderSuccessPage;
 import test.opencart.utilities.MyFileWriter;
 import test.opencart.utilities.TestUtilities;
 
@@ -21,6 +21,7 @@ public class CompleteOrderAsGuest extends TestUtilities {
         homePage.addProductToProductList(string);
         homePage.addProductToCart(string);
     }
+
     @When("click on <Checkout> button in header")
     public void click_on_checkout_button_in_header() {
         System.out.println("Inside Step - click on <Checkout> button in header");
@@ -30,6 +31,7 @@ public class CompleteOrderAsGuest extends TestUtilities {
         homePage.clickOnHeaderCheckoutLink();
 
     }
+
     @When("select <Guest Checkout> in checkout page")
     public void select_guest_checkout_in_checkout_page() {
         System.out.println("Inside Step - select <Guest Checkout> in checkout page");
@@ -41,8 +43,8 @@ public class CompleteOrderAsGuest extends TestUtilities {
         checkoutPage.clickOnGuestCheckoutRadioBtn();
         checkoutPage.clickOnStepOneContinueBtn();
 
-
     }
+
     @When("go through all checkout steps filling all required fields with valid credentials as follows:")
     public void go_through_all_checkout_steps_filling_all_required_fields_with_valid_credentials_as_follows(io.cucumber.datatable.DataTable dataTable) {
         System.out.println("Inside Step - go through all checkout steps filling all required fields with valid credentials");
@@ -68,6 +70,7 @@ public class CompleteOrderAsGuest extends TestUtilities {
         checkoutPage.acceptTerms();
 
     }
+
     @When("click on <Confirm Order> button")
     public void click_on_confirm_order_button() {
         System.out.println("Inside Step - click on <Confirm Order> button");
@@ -76,12 +79,16 @@ public class CompleteOrderAsGuest extends TestUtilities {
         CheckoutPage checkoutPage = new CheckoutPage(TestUtilities.driver);
         checkoutPage.completeOrder();
 
-        simpleWait(8000);
     }
+
     @Then("the user should be redirected to success page and see {string} message.")
     public void the_user_should_be_redirected_to_success_page_and_see_message(String string) {
         System.out.println("Inside Step - the user should be redirected to success page and see \"" + string + "\" message.");
         MyFileWriter.writeToLog("Inside Step - the user should be redirected to success page and see \"" + string + "\" message.");
+
+        OrderSuccessPage orderSuccessPage = new OrderSuccessPage(TestUtilities.driver);
+        orderSuccessPage.orderSuccessPageValidator(string);
+        orderSuccessPage.clickOnContinueButton();
 
     }
 }

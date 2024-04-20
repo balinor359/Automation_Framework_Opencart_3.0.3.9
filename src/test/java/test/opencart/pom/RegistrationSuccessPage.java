@@ -15,7 +15,6 @@ public class RegistrationSuccessPage extends TestUtilities {
     protected WebDriver driver;
 
     /* Declaring string variables for the current page */
-    public static final String SUCCESS_REGISTER_PAGE_HEADING = "Your Account Has Been Created!";
 
     /* Declaring page elements */
     @FindBy(xpath = "//div[@id='common-success']//h1")
@@ -34,7 +33,7 @@ public class RegistrationSuccessPage extends TestUtilities {
     /* This method validate heading and continue button on registration success page are visible */
     public void registrationSuccessPageValidator() {
         try {
-            Assert.assertEquals(heading.getText(), SUCCESS_REGISTER_PAGE_HEADING, GenericMessages.DIFFERENT_PAGE_HEADING);
+            Assert.assertEquals(heading.getText(), GenericMessages.SUCCESS_REGISTER_PAGE_HEADING, GenericMessages.DIFFERENT_PAGE_HEADING);
             Assert.assertTrue(continueButton.isDisplayed(), GenericMessages.CONTINUE_BUTTON_MISSING_MESSAGE);
         } catch (NoSuchElementException e) {
             System.out.println(String.format(GenericMessages.MISSING_ELEMENT_MESSAGE, heading));

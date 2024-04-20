@@ -15,9 +15,6 @@ public class CheckoutPage extends TestUtilities {
     protected WebDriver driver;
 
     /* Declaring string variables for the current page */
-    private static final String CHECKOUT_PAGE_HEADING = "Checkout";
-    private static final String CHECKOUT_PAGE_CONTAINER_MISSING = "The Checkout page container is missing!";
-    private static final String CHECKOUT_PAGE_URL = "https://opencart-test.test/index.php?route=checkout/checkout";
 
     /* Declaring page elements */
     @FindBy(xpath = ".//div[@id='checkout-checkout']//h1")
@@ -30,7 +27,6 @@ public class CheckoutPage extends TestUtilities {
     private WebElement guestRadioBtn;
     @FindBy(xpath = ".//input[@id='button-account']")
     private WebElement btnAccountStepOne;
-
     @FindBy(xpath = ".//input[@id='input-payment-firstname']")
     private WebElement inputFirstName;
     @FindBy(xpath = ".//input[@id='input-payment-lastname']")
@@ -68,16 +64,17 @@ public class CheckoutPage extends TestUtilities {
         this.driver = driver;
         PageFactory.initElements(driver, this);
     }
+
     /* This method validate checkout page heading exist and assure that redirect is successfully */
     public void checkoutPageValidator() {
 
         /* Check if the current page is the checkout page */
-        if (driver.getCurrentUrl().equals(CHECKOUT_PAGE_URL)) {
+        if (driver.getCurrentUrl().equals(GenericMessages.CHECKOUT_PAGE_URL)) {
 
             /* Validate cart page container and heading exist  */
-            Assert.assertTrue(checkoutPageContainer.isDisplayed(), CHECKOUT_PAGE_CONTAINER_MISSING);
+            Assert.assertTrue(checkoutPageContainer.isDisplayed(), GenericMessages.CHECKOUT_PAGE_CONTAINER_MISSING);
             Assert.assertTrue(heading.isDisplayed(), GenericMessages.PAGE_HEADING_MISSING_MESSAGE);
-            Assert.assertEquals(heading.getText(), CHECKOUT_PAGE_HEADING, GenericMessages.DIFFERENT_PAGE_HEADING);
+            Assert.assertEquals(heading.getText(), GenericMessages.CHECKOUT_PAGE_HEADING, GenericMessages.DIFFERENT_PAGE_HEADING);
 
         } else {
             System.out.println(GenericMessages.REDIRECT_FAILED);
@@ -112,43 +109,43 @@ public class CheckoutPage extends TestUtilities {
     public void fillCheckoutFormGuest(String firstName, String lastName, String email, String telephone, String address, String city, String postCode, String country, String region) {
 
         /* Clear, click and input data into the field */
-        TestUtilities.waitClickable(driver, inputFirstName,5);
+        TestUtilities.waitClickable(driver, inputFirstName, 5);
         inputFirstName.clear();
         inputFirstName.click();
         inputFirstName.sendKeys(firstName);
 
         /* Clear, click and input data into the field */
-        TestUtilities.waitClickable(driver, inputLastName,5);
+        TestUtilities.waitClickable(driver, inputLastName, 5);
         inputLastName.clear();
         inputLastName.click();
         inputLastName.sendKeys(lastName);
 
         /* Clear, click and input data into the field */
-        TestUtilities.waitClickable(driver, inputEmail,5);
+        TestUtilities.waitClickable(driver, inputEmail, 5);
         inputEmail.clear();
         inputEmail.click();
         inputEmail.sendKeys(email);
 
         /* Clear, click and input data into the field */
-        TestUtilities.waitClickable(driver, inputTelephone,5);
+        TestUtilities.waitClickable(driver, inputTelephone, 5);
         inputTelephone.clear();
         inputTelephone.click();
         inputTelephone.sendKeys(telephone);
 
         /* Clear, click and input data into the field */
-        TestUtilities.waitClickable(driver, inputAddress1,5);
+        TestUtilities.waitClickable(driver, inputAddress1, 5);
         inputAddress1.clear();
         inputAddress1.click();
         inputAddress1.sendKeys(address);
 
         /* Clear, click and input data into the field */
-        TestUtilities.waitClickable(driver, inputCity,5);
+        TestUtilities.waitClickable(driver, inputCity, 5);
         inputCity.clear();
         inputCity.click();
         inputCity.sendKeys(city);
 
         /* Clear, click and input data into the field */
-        TestUtilities.waitClickable(driver, inputPostCode,5);
+        TestUtilities.waitClickable(driver, inputPostCode, 5);
         inputPostCode.clear();
         inputPostCode.click();
         inputPostCode.sendKeys(postCode);
@@ -162,7 +159,7 @@ public class CheckoutPage extends TestUtilities {
         countryZone.selectByVisibleText(region);
 
         /* Click "Continue" button on step 2 */
-        TestUtilities.waitClickable(driver, btnGuestStep2,5);
+        TestUtilities.waitClickable(driver, btnGuestStep2, 5);
         btnGuestStep2.click();
 
     }
@@ -177,7 +174,7 @@ public class CheckoutPage extends TestUtilities {
         orderCommentTextarea.sendKeys(comment);
 
         /* Click "Continue" button on step 4 */
-        TestUtilities.waitClickable(driver, btnContinueStep4,5);
+        TestUtilities.waitClickable(driver, btnContinueStep4, 5);
         btnContinueStep4.click();
     }
 
@@ -189,15 +186,19 @@ public class CheckoutPage extends TestUtilities {
         agreeTermsCheckbox.click();
 
         /* Click "Continue" button on step 5 */
-        TestUtilities.waitClickable(driver, btnContinueStep5,5);
+        TestUtilities.waitClickable(driver, btnContinueStep5, 5);
         btnContinueStep5.click();
     }
 
     /* This method complete the order */
-    public void completeOrder() {
+    public OrderSuccessPage completeOrder() {
 
         /* Click "Confirm Order" on step 6 */
-        TestUtilities.waitClickable(driver, btnConfirmOrder,5);
+        TestUtilities.waitClickable(driver, btnConfirmOrder, 5);
         btnConfirmOrder.click();
+
+        /* Return driver to SuccessPage (POM) */
+        return new OrderSuccessPage(driver);
     }
+
 }

@@ -25,6 +25,7 @@ public class AddProductToWishlistAsLoggedUser extends TestUtilities {
         homePage.homepageValidator();
 
     }
+
     @When("the user login into his profile with email {string}, and password {string}")
     public void the_user_login_into_his_profile_with_email_and_password(String email, String password) {
         System.out.println("Inside Step - the user login into his profile with email " + email + ", and password " + password);
@@ -39,6 +40,7 @@ public class AddProductToWishlistAsLoggedUser extends TestUtilities {
         AccountPage accountPage = loginPage.clickOnLoginButton();
         accountPage.accountPageValidator();
     }
+
     @When("user add product from homepage to his wishlist")
     public void user_add_product_from_homepage_to_his_wishlist() {
         System.out.println("Inside Step - user add product from homepage to his wishlist");
@@ -52,6 +54,7 @@ public class AddProductToWishlistAsLoggedUser extends TestUtilities {
         homePage.validateAddedProductToWishlist("MacBook");
 
     }
+
     @When("click on <Wish List> button in header")
     public void click_on_button_in_header() {
         System.out.println("Inside Step - click on <Wish List> button in header");
@@ -61,6 +64,7 @@ public class AddProductToWishlistAsLoggedUser extends TestUtilities {
         homePage.clickOnHeaderWishlistPageLink();
 
     }
+
     @Then("the user should be redirected to his wishlist page and see added product there.")
     public void the_user_should_be_redirected_to_his_wishlist_page_and_see_added_product_there() {
         System.out.println("Inside Step - the user should be redirected to his wishlist page and see added product there.");

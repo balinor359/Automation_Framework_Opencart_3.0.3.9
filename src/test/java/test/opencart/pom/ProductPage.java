@@ -1,7 +1,6 @@
 package test.opencart.pom;
 
 import test.opencart.objects.Product;
-import test.opencart.utilities.MyFileWriter;
 import test.opencart.utilities.TestUtilities;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -15,8 +14,6 @@ public class ProductPage extends TestUtilities {
     protected WebDriver driver;
 
     /* Declaring string variables for the current page */
-    private static final String SUCCESS_MESSAGE_MISSING_MESSAGE = "Success message is missing!";
-    private static final String SUCCESS_MESSAGE_DIFFERENT_MESSAGE = "Success message is different!";
 
     /* Declaring page elements */
     @FindBy(xpath = ".//h1[@qa='product_name_heading']")
@@ -143,8 +140,8 @@ public class ProductPage extends TestUtilities {
 
     /* This method validate success message, is it visible and the same as provided */
     public void validateSuccessMessage(String message) {
-        Assert.assertTrue(reviewSuccessMsg.isDisplayed(), SUCCESS_MESSAGE_MISSING_MESSAGE);
-        Assert.assertEquals(reviewSuccessMsg.getText(), message, SUCCESS_MESSAGE_DIFFERENT_MESSAGE);
+        Assert.assertTrue(reviewSuccessMsg.isDisplayed(), GenericMessages.SUCCESS_MESSAGE_MISSING_MESSAGE);
+        Assert.assertEquals(reviewSuccessMsg.getText(), message, GenericMessages.SUCCESS_MESSAGE_DIFFERENT_MESSAGE);
     }
 
 }

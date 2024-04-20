@@ -18,32 +18,6 @@ public class HomePage extends TestUtilities {
     protected WebDriver driver;
 
     /* Declaring string variables for the current page */
-    private static final String HOME_PAGE_HEADING = "This Opencart is for testing purposes only!";
-    private static final String TOP_LINKS_CONTAINER_MISSING_MESSAGE = "Top links container is missing!";
-    private static final String LOGO_MISSING_MESSAGE = "Logo is missing!";
-    private static final String LOGIN_LINK_MISSING_MESSAGE = "Login link is missing!";
-    private static final String REGISTER_LINK_MISSING_MESSAGE = "Register link is missing!";
-    private static final String WISHLIST_LINK_MISSING_MESSAGE = "Wishlist link is missing!";
-    private static final String SHOPPING_CART_MISSING_MESSAGE = "Shopping cart link is missing!";
-    private static final String CHECKOUT_LINK_MISSING_MESSAGE = "Checkout link is missing!";
-    private static final String SEARCH_BAR_INPUT_MISSING_MESSAGE = "Search bar input is missing!";
-    private static final String CONTACT_PAGE_FOOTER_LINK_MISSING_MESSAGE = "Contact page footer link is missing!";
-    private static final String CONTACT_PAGE_FOOTER_LINK_DIFFERENT_TEXT = "The contact page link text is different!";
-    private static final String SEARCH_BAR_SUBMIT_BTN_MISSING_MESSAGE = "Search bar submit button is missing!";
-    private static final String ABOUT_US_FOOTER_LINK_MISSING_MESSAGE = "About Us footer link is missing!";
-    private static final String DELIVERY_FOOTER_LINK_MISSING_MESSAGE = "Delivery Information footer link is missing!";
-    private static final String PRIVACY_FOOTER_LINK_MISSING_MESSAGE = "Privacy Policy footer link is missing!";
-    private static final String TERMS_FOOTER_LINK_MISSING_MESSAGE = "Terms & Conditions footer link is missing!";
-    private static final String ABOUT_US_LINK_URL = "https://opencart-test.test/index.php?route=information/information&information_id=4";
-    private static final String DELIVERY_INFORMATION_LINK_URL = "https://opencart-test.test/index.php?route=information/information&information_id=6";
-    private static final String PRIVACY_POLICY_LINK_URL = "https://opencart-test.test/index.php?route=information/information&information_id=3";
-    private static final String TERMS_AND_CONDITIONS_LINK_URL = "https://opencart-test.test/index.php?route=information/information&information_id=5";
-    private static final String ABOUT_US_PAGE_HEADING = "About Us";
-    private static final String DELIVERY_INFORMATION_PAGE_HEADING = "Delivery Information";
-    private static final String PRIVACY_POLICY_PAGE_HEADING = "Privacy Policy";
-    private static final String TERMS_AND_CONDITIONS_PAGE_HEADING = "Terms & Conditions";
-    private static final String REDIRECT_IS_SUCCESSFUL = "Redirect is successful!";
-    private static final String REDIRECT_FAILED = "Redirect failed!";
     private static final Object RETURN_NULL_OBJECT = null;
     public static String SEARCH_KEYWORD = "";
     public static ArrayList<Double> originalPriceList = new ArrayList<>();
@@ -118,18 +92,18 @@ public class HomePage extends TestUtilities {
 
         TestUtilities.waitVisible(driver, heading, 5);
         Assert.assertTrue(heading.isDisplayed(), GenericMessages.PAGE_HEADING_MISSING_MESSAGE);
-        Assert.assertEquals(heading.getText(), HOME_PAGE_HEADING, GenericMessages.DIFFERENT_PAGE_HEADING);
+        Assert.assertEquals(heading.getText(), GenericMessages.HOME_PAGE_HEADING, GenericMessages.DIFFERENT_PAGE_HEADING);
     }
 
     /* This method validate top links in header are visible */
     public void topLinksValidator() {
-        Assert.assertTrue(headerLinksContainer.isDisplayed(), TOP_LINKS_CONTAINER_MISSING_MESSAGE);
+        Assert.assertTrue(headerLinksContainer.isDisplayed(), GenericMessages.TOP_LINKS_CONTAINER_MISSING_MESSAGE);
         headerAccountDropdownToggle.click();
-        Assert.assertTrue(headerLoginLink.isDisplayed(), LOGIN_LINK_MISSING_MESSAGE);
-        Assert.assertTrue(headerRegisterLink.isDisplayed(), REGISTER_LINK_MISSING_MESSAGE);
-        Assert.assertTrue(headerWishlistLink.isDisplayed(), WISHLIST_LINK_MISSING_MESSAGE);
-        Assert.assertTrue(headerShoppingCartLink.isDisplayed(), SHOPPING_CART_MISSING_MESSAGE);
-        Assert.assertTrue(headerCheckoutLink.isDisplayed(), CHECKOUT_LINK_MISSING_MESSAGE);
+        Assert.assertTrue(headerLoginLink.isDisplayed(), GenericMessages.LOGIN_LINK_MISSING_MESSAGE);
+        Assert.assertTrue(headerRegisterLink.isDisplayed(), GenericMessages.REGISTER_LINK_MISSING_MESSAGE);
+        Assert.assertTrue(headerWishlistLink.isDisplayed(), GenericMessages.WISHLIST_LINK_MISSING_MESSAGE);
+        Assert.assertTrue(headerShoppingCartLink.isDisplayed(), GenericMessages.SHOPPING_CART_MISSING_MESSAGE);
+        Assert.assertTrue(headerCheckoutLink.isDisplayed(), GenericMessages.CHECKOUT_LINK_MISSING_MESSAGE);
     }
 
     /* Click method for "Register" link in header */
@@ -145,7 +119,7 @@ public class HomePage extends TestUtilities {
 
             TestUtilities.scrollTo(driver, homepageLink);
             TestUtilities.waitClickable(driver, homepageLink, 5);
-            Assert.assertTrue(homepageLink.isDisplayed(), LOGO_MISSING_MESSAGE);
+            Assert.assertTrue(homepageLink.isDisplayed(), GenericMessages.LOGO_MISSING_MESSAGE);
 
             TestUtilities.clickMethod(driver, homepageLink);
 
@@ -160,8 +134,8 @@ public class HomePage extends TestUtilities {
 
     /* This method validate search bar is visible */
     public void searchBarValidator() {
-        Assert.assertTrue(searchInput.isDisplayed(), SEARCH_BAR_INPUT_MISSING_MESSAGE);
-        Assert.assertTrue(searchSubmitBtn.isDisplayed(), SEARCH_BAR_SUBMIT_BTN_MISSING_MESSAGE);
+        Assert.assertTrue(searchInput.isDisplayed(), GenericMessages.SEARCH_BAR_INPUT_MISSING_MESSAGE);
+        Assert.assertTrue(searchSubmitBtn.isDisplayed(), GenericMessages.SEARCH_BAR_SUBMIT_BTN_MISSING_MESSAGE);
     }
 
     /* This method place keyword into search bar input field */
@@ -185,8 +159,8 @@ public class HomePage extends TestUtilities {
 
     /* This method validate footer contact page link is visible and have right text */
     public void footerContactPageLinkValidator() {
-        Assert.assertTrue(contactPageLink.isDisplayed(), CONTACT_PAGE_FOOTER_LINK_MISSING_MESSAGE);
-        Assert.assertEquals(contactPageLink.getText(), GenericMessages.CONTACT_PAGE_FOOTER_LINK_TEXT, CONTACT_PAGE_FOOTER_LINK_DIFFERENT_TEXT);
+        Assert.assertTrue(contactPageLink.isDisplayed(), GenericMessages.CONTACT_PAGE_FOOTER_LINK_MISSING_MESSAGE);
+        Assert.assertEquals(contactPageLink.getText(), GenericMessages.CONTACT_PAGE_FOOTER_LINK_TEXT, GenericMessages.CONTACT_PAGE_FOOTER_LINK_DIFFERENT_TEXT);
     }
 
     /* Click method for contact page link in footer */
@@ -198,22 +172,22 @@ public class HomePage extends TestUtilities {
 
     /* This method validate footer information pages links is visible and have right text */
     public void footerInformationPagesLinksValidator() {
-        Assert.assertTrue(footerAboutLink.isDisplayed(), ABOUT_US_FOOTER_LINK_MISSING_MESSAGE);
+        Assert.assertTrue(footerAboutLink.isDisplayed(), GenericMessages.ABOUT_US_FOOTER_LINK_MISSING_MESSAGE);
         String fontColorAboutLink = footerAboutLink.getCssValue("color");
         String fontColorHexAboutLink = Color.fromString(fontColorAboutLink).asHex();
         Assert.assertEquals(fontColorHexAboutLink, GenericMessages.FOOTER_LINK_FONT_COLOR, GenericMessages.DIFFERENT_CSS_VALUE);
 
-        Assert.assertTrue(footerDeliveryLink.isDisplayed(), DELIVERY_FOOTER_LINK_MISSING_MESSAGE);
+        Assert.assertTrue(footerDeliveryLink.isDisplayed(), GenericMessages.DELIVERY_FOOTER_LINK_MISSING_MESSAGE);
         String fontColorDeliveryLink = footerDeliveryLink.getCssValue("color");
         String fontColorHexDeliveryLink = Color.fromString(fontColorDeliveryLink).asHex();
         Assert.assertEquals(fontColorHexDeliveryLink, GenericMessages.FOOTER_LINK_FONT_COLOR, GenericMessages.DIFFERENT_CSS_VALUE);
 
-        Assert.assertTrue(footerPrivacyLink.isDisplayed(), PRIVACY_FOOTER_LINK_MISSING_MESSAGE);
+        Assert.assertTrue(footerPrivacyLink.isDisplayed(), GenericMessages.PRIVACY_FOOTER_LINK_MISSING_MESSAGE);
         String fontColorPrivacyLink = footerPrivacyLink.getCssValue("color");
         String fontColorHexPrivacyLink = Color.fromString(fontColorPrivacyLink).asHex();
         Assert.assertEquals(fontColorHexPrivacyLink, GenericMessages.FOOTER_LINK_FONT_COLOR, GenericMessages.DIFFERENT_CSS_VALUE);
 
-        Assert.assertTrue(footerTermsLink.isDisplayed(), TERMS_FOOTER_LINK_MISSING_MESSAGE);
+        Assert.assertTrue(footerTermsLink.isDisplayed(), GenericMessages.TERMS_FOOTER_LINK_MISSING_MESSAGE);
         String fontColorTermsLink = footerTermsLink.getCssValue("color");
         String fontColorHexTermsLink = Color.fromString(fontColorTermsLink).asHex();
         Assert.assertEquals(fontColorHexTermsLink, GenericMessages.FOOTER_LINK_FONT_COLOR, GenericMessages.DIFFERENT_CSS_VALUE);
@@ -243,64 +217,64 @@ public class HomePage extends TestUtilities {
 
     /* Method who validate correctness of the footer link and print right messages in console and log file */
     public void validateAboutPage() {
-        if (driver.getCurrentUrl().equals(ABOUT_US_LINK_URL)) {
-            System.out.println(REDIRECT_IS_SUCCESSFUL);
-            MyFileWriter.writeToLog(REDIRECT_IS_SUCCESSFUL);
-            Assert.assertEquals(infoPageHeading.getText(), ABOUT_US_PAGE_HEADING, GenericMessages.DIFFERENT_PAGE_HEADING);
+        if (driver.getCurrentUrl().equals(GenericMessages.ABOUT_US_LINK_URL)) {
+            System.out.println(GenericMessages.REDIRECT_IS_SUCCESSFUL);
+            MyFileWriter.writeToLog(GenericMessages.REDIRECT_IS_SUCCESSFUL);
+            Assert.assertEquals(infoPageHeading.getText(), GenericMessages.ABOUT_US_PAGE_HEADING, GenericMessages.DIFFERENT_PAGE_HEADING);
         } else {
-            System.out.println(REDIRECT_FAILED);
-            MyFileWriter.writeToLog(REDIRECT_FAILED);
-            Assert.assertEquals(driver.getCurrentUrl(), ABOUT_US_LINK_URL, REDIRECT_FAILED);
+            System.out.println(GenericMessages.REDIRECT_FAILED);
+            MyFileWriter.writeToLog(GenericMessages.REDIRECT_FAILED);
+            Assert.assertEquals(driver.getCurrentUrl(), GenericMessages.ABOUT_US_LINK_URL, GenericMessages.REDIRECT_FAILED);
         }
     }
 
     /* Method who validate correctness of the footer link and print right messages in console and log file */
     public void validateDeliveryPage() {
-        if (driver.getCurrentUrl().equals(DELIVERY_INFORMATION_LINK_URL)) {
-            System.out.println(REDIRECT_IS_SUCCESSFUL);
-            MyFileWriter.writeToLog(REDIRECT_IS_SUCCESSFUL);
-            Assert.assertEquals(infoPageHeading.getText(), DELIVERY_INFORMATION_PAGE_HEADING, GenericMessages.DIFFERENT_PAGE_HEADING);
+        if (driver.getCurrentUrl().equals(GenericMessages.DELIVERY_INFORMATION_LINK_URL)) {
+            System.out.println(GenericMessages.REDIRECT_IS_SUCCESSFUL);
+            MyFileWriter.writeToLog(GenericMessages.REDIRECT_IS_SUCCESSFUL);
+            Assert.assertEquals(infoPageHeading.getText(), GenericMessages.DELIVERY_INFORMATION_PAGE_HEADING, GenericMessages.DIFFERENT_PAGE_HEADING);
         } else {
-            System.out.println(REDIRECT_FAILED);
-            MyFileWriter.writeToLog(REDIRECT_FAILED);
-            Assert.assertEquals(driver.getCurrentUrl(), DELIVERY_INFORMATION_LINK_URL, REDIRECT_FAILED);
+            System.out.println(GenericMessages.REDIRECT_FAILED);
+            MyFileWriter.writeToLog(GenericMessages.REDIRECT_FAILED);
+            Assert.assertEquals(driver.getCurrentUrl(), GenericMessages.DELIVERY_INFORMATION_LINK_URL, GenericMessages.REDIRECT_FAILED);
         }
     }
 
     /* Method who validate correctness of the footer link and print right messages in console and log file */
     public void validatePrivacyPage() {
-        if (driver.getCurrentUrl().equals(PRIVACY_POLICY_LINK_URL)) {
-            System.out.println(REDIRECT_IS_SUCCESSFUL);
-            MyFileWriter.writeToLog(REDIRECT_IS_SUCCESSFUL);
-            Assert.assertEquals(infoPageHeading.getText(), PRIVACY_POLICY_PAGE_HEADING, GenericMessages.DIFFERENT_PAGE_HEADING);
+        if (driver.getCurrentUrl().equals(GenericMessages.PRIVACY_POLICY_LINK_URL)) {
+            System.out.println(GenericMessages.REDIRECT_IS_SUCCESSFUL);
+            MyFileWriter.writeToLog(GenericMessages.REDIRECT_IS_SUCCESSFUL);
+            Assert.assertEquals(infoPageHeading.getText(), GenericMessages.PRIVACY_POLICY_PAGE_HEADING, GenericMessages.DIFFERENT_PAGE_HEADING);
         } else {
-            System.out.println(REDIRECT_FAILED);
-            MyFileWriter.writeToLog(REDIRECT_FAILED);
-            Assert.assertEquals(driver.getCurrentUrl(), PRIVACY_POLICY_LINK_URL, REDIRECT_FAILED);
+            System.out.println(GenericMessages.REDIRECT_FAILED);
+            MyFileWriter.writeToLog(GenericMessages.REDIRECT_FAILED);
+            Assert.assertEquals(driver.getCurrentUrl(), GenericMessages.PRIVACY_POLICY_LINK_URL, GenericMessages.REDIRECT_FAILED);
         }
     }
 
     /* Method who validate correctness of the footer link and print right messages in console and log file */
     public void validateTermsPage() {
-        if (driver.getCurrentUrl().equals(TERMS_AND_CONDITIONS_LINK_URL)) {
-            System.out.println(REDIRECT_IS_SUCCESSFUL);
-            MyFileWriter.writeToLog(REDIRECT_IS_SUCCESSFUL);
-            Assert.assertEquals(infoPageHeading.getText(), TERMS_AND_CONDITIONS_PAGE_HEADING, GenericMessages.DIFFERENT_PAGE_HEADING);
+        if (driver.getCurrentUrl().equals(GenericMessages.TERMS_AND_CONDITIONS_LINK_URL)) {
+            System.out.println(GenericMessages.REDIRECT_IS_SUCCESSFUL);
+            MyFileWriter.writeToLog(GenericMessages.REDIRECT_IS_SUCCESSFUL);
+            Assert.assertEquals(infoPageHeading.getText(), GenericMessages.TERMS_AND_CONDITIONS_PAGE_HEADING, GenericMessages.DIFFERENT_PAGE_HEADING);
         } else {
-            System.out.println(REDIRECT_FAILED);
-            MyFileWriter.writeToLog(REDIRECT_FAILED);
-            Assert.assertEquals(driver.getCurrentUrl(), TERMS_AND_CONDITIONS_LINK_URL, REDIRECT_FAILED);
+            System.out.println(GenericMessages.REDIRECT_FAILED);
+            MyFileWriter.writeToLog(GenericMessages.REDIRECT_FAILED);
+            Assert.assertEquals(driver.getCurrentUrl(), GenericMessages.TERMS_AND_CONDITIONS_LINK_URL, GenericMessages.REDIRECT_FAILED);
         }
     }
 
     /* Click method for login page link in header */
     public LoginPage clickOnLoginPageLink() {
         TestUtilities.waitClickable(driver, headerAccountDropdownToggle, 5);
-        Assert.assertTrue(headerLinksContainer.isDisplayed(), TOP_LINKS_CONTAINER_MISSING_MESSAGE);
+        Assert.assertTrue(headerLinksContainer.isDisplayed(), GenericMessages.TOP_LINKS_CONTAINER_MISSING_MESSAGE);
         headerAccountDropdownToggle.click();
 
         TestUtilities.waitClickable(driver, headerLoginLink, 5);
-        Assert.assertTrue(headerLoginLink.isDisplayed(), LOGIN_LINK_MISSING_MESSAGE);
+        Assert.assertTrue(headerLoginLink.isDisplayed(), GenericMessages.LOGIN_LINK_MISSING_MESSAGE);
         headerLoginLink.click();
 
         /* Return driver to ContactPage (POM) */
@@ -364,7 +338,7 @@ public class HomePage extends TestUtilities {
 
     /* Click method for user wishlist page link in header */
     public WishlistPage clickOnHeaderWishlistPageLink() {
-        Assert.assertTrue(headerWishlistLink.isDisplayed(), WISHLIST_LINK_MISSING_MESSAGE);
+        Assert.assertTrue(headerWishlistLink.isDisplayed(), GenericMessages.WISHLIST_LINK_MISSING_MESSAGE);
         TestUtilities.scrollToMethod(driver, headerWishlistLink);
         TestUtilities.waitClickable(driver, headerWishlistLink, 5);
         headerWishlistLink.click();
@@ -471,7 +445,7 @@ public class HomePage extends TestUtilities {
     public CheckoutPage clickOnHeaderCheckoutLink() {
         TestUtilities.scrollToMethod(driver, headerCheckoutLink);
         TestUtilities.waitClickable(driver, headerCheckoutLink, 5);
-        Assert.assertTrue(headerCheckoutLink.isDisplayed(), CHECKOUT_LINK_MISSING_MESSAGE);
+        Assert.assertTrue(headerCheckoutLink.isDisplayed(), GenericMessages.CHECKOUT_LINK_MISSING_MESSAGE);
         Assert.assertEquals(headerCheckoutLink.getText(), GenericMessages.CHECKOUT_LINK_TEXT, GenericMessages.CHECKOUT_LINK_DIFFERENT_TEXT_MESSAGE);
         headerCheckoutLink.click();
         /* Return driver to CheckoutPage (POM) */
@@ -482,7 +456,7 @@ public class HomePage extends TestUtilities {
     public CartPage clickOnHeaderShoppingCartLink() {
         TestUtilities.scrollToMethod(driver, headerShoppingCartLink);
         TestUtilities.waitClickable(driver, headerShoppingCartLink, 5);
-        Assert.assertTrue(headerShoppingCartLink.isDisplayed(), SHOPPING_CART_MISSING_MESSAGE);
+        Assert.assertTrue(headerShoppingCartLink.isDisplayed(), GenericMessages.SHOPPING_CART_MISSING_MESSAGE);
         Assert.assertEquals(headerShoppingCartLink.getText(), GenericMessages.SHOPPING_CART_LINK_TEXT, GenericMessages.SHOPPING_CART_LINK_DIFFERENT_TEXT_MESSAGE);
         headerShoppingCartLink.click();
         /* Return driver to CartPage (POM) */

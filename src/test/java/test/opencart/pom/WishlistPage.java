@@ -17,9 +17,6 @@ public class WishlistPage extends TestUtilities {
     protected WebDriver driver;
 
     /* Declaring string variables for the current page */
-    private static final String WISHLIST_PAGE_HEADING = "My Wish List";
-    private static final String WISHLIST_PAGE_CONTAINER_MISSING = "The Wishlist page container is missing!";
-    private static final String WISHLIST_PAGE_URL = "https://opencart-test.test/index.php?route=account/wishlist";
 
     /* Declaring page elements */
     @FindBy(xpath = "//div[@id='account-wishlist']")
@@ -46,12 +43,12 @@ public class WishlistPage extends TestUtilities {
     /* This method validate account page container is visible */
     public void wishlistPageValidator() {
         /* Check if the current page is the wishlist page */
-        if (driver.getCurrentUrl().equals(WISHLIST_PAGE_URL)) {
-            Assert.assertTrue(wishlistPageContainer.isDisplayed(), WISHLIST_PAGE_CONTAINER_MISSING);
+        if (driver.getCurrentUrl().equals(GenericMessages.WISHLIST_PAGE_URL)) {
+            Assert.assertTrue(wishlistPageContainer.isDisplayed(), GenericMessages.WISHLIST_PAGE_CONTAINER_MISSING);
             Assert.assertTrue(heading.isDisplayed(), GenericMessages.PAGE_HEADING_MISSING_MESSAGE);
 
             /* Validate Wishlist page heading contains  */
-            Assert.assertEquals(heading.getText(), WISHLIST_PAGE_HEADING, GenericMessages.DIFFERENT_PAGE_HEADING);
+            Assert.assertEquals(heading.getText(), GenericMessages.WISHLIST_PAGE_HEADING, GenericMessages.DIFFERENT_PAGE_HEADING);
 
             /* If wishlist have items, check their name,image and price */
             if (wishlistItems.size() > 0) {
