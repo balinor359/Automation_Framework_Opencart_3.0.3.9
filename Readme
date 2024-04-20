@@ -17,5 +17,4 @@ The Framework includes:
 FOLLOWING FEATURES ARE UNDER DEVELOPMENT !!!
 
  - Checkout
-    - CompleteOrderAsGuest.feature
     - CompleteOrderAsLoggedUser.feature
