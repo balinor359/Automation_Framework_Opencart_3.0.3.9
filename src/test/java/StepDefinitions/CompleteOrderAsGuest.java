@@ -22,16 +22,6 @@ public class CompleteOrderAsGuest extends TestUtilities {
         homePage.addProductToCart(string);
     }
 
-    @When("click on <Checkout> button in header")
-    public void click_on_checkout_button_in_header() {
-        System.out.println("Inside Step - click on <Checkout> button in header");
-        MyFileWriter.writeToLog("Inside Step - click on <Checkout> button in header");
-
-        HomePage homePage = new HomePage(TestUtilities.driver);
-        homePage.clickOnHeaderCheckoutLink();
-
-    }
-
     @When("select <Guest Checkout> in checkout page")
     public void select_guest_checkout_in_checkout_page() {
         System.out.println("Inside Step - select <Guest Checkout> in checkout page");
@@ -71,24 +61,4 @@ public class CompleteOrderAsGuest extends TestUtilities {
 
     }
 
-    @When("click on <Confirm Order> button")
-    public void click_on_confirm_order_button() {
-        System.out.println("Inside Step - click on <Confirm Order> button");
-        MyFileWriter.writeToLog("Inside Step - click on <Confirm Order> button");
-
-        CheckoutPage checkoutPage = new CheckoutPage(TestUtilities.driver);
-        checkoutPage.completeOrder();
-
-    }
-
-    @Then("the user should be redirected to success page and see {string} message.")
-    public void the_user_should_be_redirected_to_success_page_and_see_message(String string) {
-        System.out.println("Inside Step - the user should be redirected to success page and see \"" + string + "\" message.");
-        MyFileWriter.writeToLog("Inside Step - the user should be redirected to success page and see \"" + string + "\" message.");
-
-        OrderSuccessPage orderSuccessPage = new OrderSuccessPage(TestUtilities.driver);
-        orderSuccessPage.orderSuccessPageValidator(string);
-        orderSuccessPage.clickOnContinueButton();
-
-    }
 }

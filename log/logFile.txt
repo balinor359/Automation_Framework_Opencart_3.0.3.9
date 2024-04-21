@@ -14788,3 +14788,26 @@ ________________________________________________________________________________
 20/04/2024 17:19:55 : Inside Step - the user should be redirected to success page and see "Your order has been placed!" message.
 20/04/2024 17:19:56 : Test End!
 _________________________________________________________________________________________
+20/04/2024 17:25:46 : Test Start!
+20/04/2024 17:25:48 : Inside Step - the user is on home page
+20/04/2024 17:25:48 : Inside Step - the user login into his profile with email ivanov@test.test, and password ivanov
+20/04/2024 17:25:49 : Login failed. Error: Warning: No match for E-Mail Address and/or Password.
+20/04/2024 17:25:49 : Test End!
+_________________________________________________________________________________________
+20/04/2024 17:38:22 : Test Start!
+20/04/2024 17:38:24 : Inside Step - the user have a profile in website and is on home page
+20/04/2024 17:38:24 : Connecting to DB...
+20/04/2024 17:38:24 : __________________________Create Customer___________________________________
+20/04/2024 17:38:24 : Disconnecting from DB...
+20/04/2024 17:38:24 : Connecting to DB...
+20/04/2024 17:38:24 : __________________________Database Response___________________________________
+20/04/2024 17:38:24 : Customer ID:2 | First Name:Georgi | Last Name:Petrov | Email:petrov@test.test | Telephone:0883225512 | Newsletter:0 | Date Added:2023-11-24 15:13:50
+20/04/2024 17:38:24 : Customer ID:3 | First Name:Gergana | Last Name:Dimitrova | Email:dimitrova@test.test | Telephone:0888888888 | Newsletter:1 | Date Added:2023-11-24 15:16:16
+20/04/2024 17:38:24 : Customer ID:40 | First Name:Kiril | Last Name:Todorov | Email:todorov@test.test | Telephone:0883198565 | Newsletter:1 | Date Added:2023-11-28 18:26:48
+20/04/2024 17:38:24 : Customer ID:122 | First Name:Vasil | Last Name:Vasilev | Email:vasilev@test.test | Telephone:0884395614 | Newsletter:1 | Date Added:2024-02-05 19:12:32
+20/04/2024 17:38:24 : Customer ID:199 | First Name:Ivan | Last Name:Ivanov | Email:ivanov@test.test | Telephone:0887446682 | Newsletter:1 | Date Added:2024-04-20 17:38:25
+20/04/2024 17:38:24 : ____________________________________________________________________________
+20/04/2024 17:38:24 : Disconnecting from DB...
+20/04/2024 17:38:25 : Inside Step - the user login into his profile with email ivanov@test.test, and password ivanov
+20/04/2024 17:38:26 : Test End!
+_________________________________________________________________________________________

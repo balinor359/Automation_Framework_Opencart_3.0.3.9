@@ -16,8 +16,8 @@ import io.cucumber.testng.AbstractTestNGCucumberTests;
 //                "src/test/resources/features/AutomatedTesting/ShoppingCart/MinicartCartData.feature",
 //                "src/test/resources/features/AutomatedTesting/ShoppingCart/ShoppingCartDeleteProduct.feature",
 //                "src/test/resources/features/AutomatedTesting/ShoppingCart/ShoppingCartQtyUpdate.feature",
-                "src/test/resources/features/AutomatedTesting/Checkout/CompleteOrderAsGuest.feature",
-//                "src/test/resources/features/AutomatedTesting/Checkout/CompleteOrderAsLoggedUser.feature",
+//                "src/test/resources/features/AutomatedTesting/Checkout/CompleteOrderAsGuest.feature",
+                "src/test/resources/features/AutomatedTesting/Checkout/CompleteOrderAsLoggedUser.feature",
 //                "src/test/resources/features/Crud/Crud.feature"
                 },
 

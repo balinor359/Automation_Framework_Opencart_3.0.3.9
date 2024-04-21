@@ -1,45 +1,14 @@
 package StepDefinitions;
 
-import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
-import test.opencart.pom.AccountPage;
 import test.opencart.pom.HomePage;
-import test.opencart.pom.LoginPage;
 import test.opencart.pom.WishlistPage;
 import test.opencart.utilities.DbCrud;
 import test.opencart.utilities.MyFileWriter;
 import test.opencart.utilities.TestUtilities;
 
 public class AddProductToWishlistAsLoggedUser extends TestUtilities {
-    @Given("the user have a profile in website and is on home page")
-    public void the_user_have_a_profile_in_website_and_is_on_home_page() {
-        System.out.println("Inside Step - the user have a profile in website and is on home page");
-        MyFileWriter.writeToLog("Inside Step - the user have a profile in website and is on home page");
-
-        DbCrud dbCrud = new DbCrud();
-        dbCrud.createDbCustomer();
-        dbCrud.readDbCustomers();
-
-        HomePage homePage = new HomePage(TestUtilities.driver);
-        homePage.homepageValidator();
-
-    }
-
-    @When("the user login into his profile with email {string}, and password {string}")
-    public void the_user_login_into_his_profile_with_email_and_password(String email, String password) {
-        System.out.println("Inside Step - the user login into his profile with email " + email + ", and password " + password);
-        MyFileWriter.writeToLog("Inside Step - the user login into his profile with email " + email + ", and password " + password);
-
-        HomePage homePage = new HomePage(TestUtilities.driver);
-
-        LoginPage loginPage = homePage.clickOnLoginPageLink();
-        loginPage.loginPageValidator();
-        loginPage.fillLoginForm(email, password);
-
-        AccountPage accountPage = loginPage.clickOnLoginButton();
-        accountPage.accountPageValidator();
-    }
 
     @When("user add product from homepage to his wishlist")
     public void user_add_product_from_homepage_to_his_wishlist() {
