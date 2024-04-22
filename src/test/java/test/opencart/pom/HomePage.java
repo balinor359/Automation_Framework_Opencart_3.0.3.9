@@ -90,6 +90,7 @@ public class HomePage extends TestUtilities {
     /* This method validate homepage heading */
     public void homepageValidator() {
 
+        TestUtilities.scrollToMethod(driver, heading);
         TestUtilities.waitVisible(driver, heading, 5);
         Assert.assertTrue(heading.isDisplayed(), GenericMessages.PAGE_HEADING_MISSING_MESSAGE);
         Assert.assertEquals(heading.getText(), GenericMessages.HOME_PAGE_HEADING, GenericMessages.DIFFERENT_PAGE_HEADING);

@@ -14811,3 +14811,1673 @@ ________________________________________________________________________________
 20/04/2024 17:38:25 : Inside Step - the user login into his profile with email ivanov@test.test, and password ivanov
 20/04/2024 17:38:26 : Test End!
 _________________________________________________________________________________________
+22/04/2024 18:14:47 : Test Start!
+22/04/2024 18:14:50 : Inside Step - the user have a profile in website and is on home page
+22/04/2024 18:14:50 : Connecting to DB...
+22/04/2024 18:14:50 : __________________________Create Customer___________________________________
+22/04/2024 18:14:50 : Disconnecting from DB...
+22/04/2024 18:14:50 : Connecting to DB...
+22/04/2024 18:14:50 : __________________________Database Response___________________________________
+22/04/2024 18:14:50 : Customer ID:2 | First Name:Georgi | Last Name:Petrov | Email:petrov@test.test | Telephone:0883225512 | Newsletter:0 | Date Added:2023-11-24 15:13:50
+22/04/2024 18:14:50 : Customer ID:3 | First Name:Gergana | Last Name:Dimitrova | Email:dimitrova@test.test | Telephone:0888888888 | Newsletter:1 | Date Added:2023-11-24 15:16:16
+22/04/2024 18:14:50 : Customer ID:40 | First Name:Kiril | Last Name:Todorov | Email:todorov@test.test | Telephone:0883198565 | Newsletter:1 | Date Added:2023-11-28 18:26:48
+22/04/2024 18:14:50 : Customer ID:122 | First Name:Vasil | Last Name:Vasilev | Email:vasilev@test.test | Telephone:0884395614 | Newsletter:1 | Date Added:2024-02-05 19:12:32
+22/04/2024 18:14:50 : Customer ID:200 | First Name:Ivan | Last Name:Ivanov | Email:ivanov@test.test | Telephone:0887446682 | Newsletter:1 | Date Added:2024-04-22 18:14:51
+22/04/2024 18:14:50 : Customer ID:199 | First Name:Ivan | Last Name:Ivanov | Email:ivanov@test.test | Telephone:0887446682 | Newsletter:1 | Date Added:2024-04-20 17:38:25
+22/04/2024 18:14:50 : ____________________________________________________________________________
+22/04/2024 18:14:50 : Disconnecting from DB...
+22/04/2024 18:14:51 : Inside Step - the user login into his profile with email ivanov@test.test, and password ivanov
+22/04/2024 18:14:52 : Inside Step - the user add "iPod Touch" product to shopping cart from product page
+22/04/2024 18:14:52 : Inside Step - click on <Checkout> button in header
+22/04/2024 18:14:53 : Inside Step - o through all checkout steps
+22/04/2024 18:14:53 : Inside Step - fill all required fields with valid credentials
+22/04/2024 18:14:53 : Inside Step - click on <Confirm Order> button
+22/04/2024 18:15:03 : Test End!
+_________________________________________________________________________________________
+22/04/2024 18:50:36 : Test Start!
+22/04/2024 18:50:38 : Inside Step - the user have a profile in website and is on home page
+22/04/2024 18:50:38 : Connecting to DB...
+22/04/2024 18:50:38 : __________________________Create Customer___________________________________
+22/04/2024 18:50:38 : Disconnecting from DB...
+22/04/2024 18:50:38 : Connecting to DB...
+22/04/2024 18:50:38 : __________________________Database Response___________________________________
+22/04/2024 18:50:38 : Customer ID:2 | First Name:Georgi | Last Name:Petrov | Email:petrov@test.test | Telephone:0883225512 | Newsletter:0 | Date Added:2023-11-24 15:13:50
+22/04/2024 18:50:38 : Customer ID:3 | First Name:Gergana | Last Name:Dimitrova | Email:dimitrova@test.test | Telephone:0888888888 | Newsletter:1 | Date Added:2023-11-24 15:16:16
+22/04/2024 18:50:38 : Customer ID:40 | First Name:Kiril | Last Name:Todorov | Email:todorov@test.test | Telephone:0883198565 | Newsletter:1 | Date Added:2023-11-28 18:26:48
+22/04/2024 18:50:38 : Customer ID:122 | First Name:Vasil | Last Name:Vasilev | Email:vasilev@test.test | Telephone:0884395614 | Newsletter:1 | Date Added:2024-02-05 19:12:32
+22/04/2024 18:50:38 : Customer ID:201 | First Name:Ivan | Last Name:Ivanov | Email:ivanov@test.test | Telephone:0887446682 | Newsletter:1 | Date Added:2024-04-22 18:50:39
+22/04/2024 18:50:38 : Customer ID:200 | First Name:Ivan | Last Name:Ivanov | Email:ivanov@test.test | Telephone:0887446682 | Newsletter:1 | Date Added:2024-04-22 18:14:51
+22/04/2024 18:50:38 : Customer ID:199 | First Name:Ivan | Last Name:Ivanov | Email:ivanov@test.test | Telephone:0887446682 | Newsletter:1 | Date Added:2024-04-20 17:38:25
+22/04/2024 18:50:38 : ____________________________________________________________________________
+22/04/2024 18:50:38 : Disconnecting from DB...
+22/04/2024 18:50:38 : Inside Step - the user login into his profile with email ivanov@test.test, and password ivanov
+22/04/2024 18:50:40 : Inside Step - the user add "iPod Touch" product to shopping cart from product page
+22/04/2024 18:50:50 : Test End!
+_________________________________________________________________________________________
+22/04/2024 18:52:24 : Test Start!
+22/04/2024 18:52:26 : Inside Step - the user have a profile in website and is on home page
+22/04/2024 18:52:26 : Connecting to DB...
+22/04/2024 18:52:26 : __________________________Create Customer___________________________________
+22/04/2024 18:52:26 : Disconnecting from DB...
+22/04/2024 18:52:26 : Connecting to DB...
+22/04/2024 18:52:26 : __________________________Database Response___________________________________
+22/04/2024 18:52:26 : Customer ID:2 | First Name:Georgi | Last Name:Petrov | Email:petrov@test.test | Telephone:0883225512 | Newsletter:0 | Date Added:2023-11-24 15:13:50
+22/04/2024 18:52:26 : Customer ID:3 | First Name:Gergana | Last Name:Dimitrova | Email:dimitrova@test.test | Telephone:0888888888 | Newsletter:1 | Date Added:2023-11-24 15:16:16
+22/04/2024 18:52:26 : Customer ID:40 | First Name:Kiril | Last Name:Todorov | Email:todorov@test.test | Telephone:0883198565 | Newsletter:1 | Date Added:2023-11-28 18:26:48
+22/04/2024 18:52:26 : Customer ID:122 | First Name:Vasil | Last Name:Vasilev | Email:vasilev@test.test | Telephone:0884395614 | Newsletter:1 | Date Added:2024-02-05 19:12:32
+22/04/2024 18:52:26 : Customer ID:202 | First Name:Ivan | Last Name:Ivanov | Email:ivanov@test.test | Telephone:0887446682 | Newsletter:1 | Date Added:2024-04-22 18:52:27
+22/04/2024 18:52:26 : Customer ID:201 | First Name:Ivan | Last Name:Ivanov | Email:ivanov@test.test | Telephone:0887446682 | Newsletter:1 | Date Added:2024-04-22 18:50:39
+22/04/2024 18:52:26 : Customer ID:200 | First Name:Ivan | Last Name:Ivanov | Email:ivanov@test.test | Telephone:0887446682 | Newsletter:1 | Date Added:2024-04-22 18:14:51
+22/04/2024 18:52:26 : Customer ID:199 | First Name:Ivan | Last Name:Ivanov | Email:ivanov@test.test | Telephone:0887446682 | Newsletter:1 | Date Added:2024-04-20 17:38:25
+22/04/2024 18:52:26 : ____________________________________________________________________________
+22/04/2024 18:52:26 : Disconnecting from DB...
+22/04/2024 18:52:26 : Inside Step - the user login into his profile with email ivanov@test.test, and password ivanov
+22/04/2024 18:52:28 : Inside Step - the user add "iPod Touch" product to shopping cart from product page
+22/04/2024 18:52:38 : Test End!
+_________________________________________________________________________________________
+22/04/2024 18:52:53 : Test Start!
+22/04/2024 18:52:55 : Inside Step - the user have a profile in website and is on home page
+22/04/2024 18:52:55 : Connecting to DB...
+22/04/2024 18:52:55 : __________________________Create Customer___________________________________
+22/04/2024 18:52:55 : Disconnecting from DB...
+22/04/2024 18:52:55 : Connecting to DB...
+22/04/2024 18:52:55 : __________________________Database Response___________________________________
+22/04/2024 18:52:55 : Customer ID:2 | First Name:Georgi | Last Name:Petrov | Email:petrov@test.test | Telephone:0883225512 | Newsletter:0 | Date Added:2023-11-24 15:13:50
+22/04/2024 18:52:55 : Customer ID:3 | First Name:Gergana | Last Name:Dimitrova | Email:dimitrova@test.test | Telephone:0888888888 | Newsletter:1 | Date Added:2023-11-24 15:16:16
+22/04/2024 18:52:55 : Customer ID:40 | First Name:Kiril | Last Name:Todorov | Email:todorov@test.test | Telephone:0883198565 | Newsletter:1 | Date Added:2023-11-28 18:26:48
+22/04/2024 18:52:55 : Customer ID:122 | First Name:Vasil | Last Name:Vasilev | Email:vasilev@test.test | Telephone:0884395614 | Newsletter:1 | Date Added:2024-02-05 19:12:32
+22/04/2024 18:52:55 : Customer ID:203 | First Name:Ivan | Last Name:Ivanov | Email:ivanov@test.test | Telephone:0887446682 | Newsletter:1 | Date Added:2024-04-22 18:52:56
+22/04/2024 18:52:55 : Customer ID:202 | First Name:Ivan | Last Name:Ivanov | Email:ivanov@test.test | Telephone:0887446682 | Newsletter:1 | Date Added:2024-04-22 18:52:27
+22/04/2024 18:52:55 : Customer ID:201 | First Name:Ivan | Last Name:Ivanov | Email:ivanov@test.test | Telephone:0887446682 | Newsletter:1 | Date Added:2024-04-22 18:50:39
+22/04/2024 18:52:55 : Customer ID:200 | First Name:Ivan | Last Name:Ivanov | Email:ivanov@test.test | Telephone:0887446682 | Newsletter:1 | Date Added:2024-04-22 18:14:51
+22/04/2024 18:52:55 : Customer ID:199 | First Name:Ivan | Last Name:Ivanov | Email:ivanov@test.test | Telephone:0887446682 | Newsletter:1 | Date Added:2024-04-20 17:38:25
+22/04/2024 18:52:55 : ____________________________________________________________________________
+22/04/2024 18:52:55 : Disconnecting from DB...
+22/04/2024 18:52:55 : Inside Step - the user login into his profile with email ivanov@test.test, and password ivanov
+22/04/2024 18:52:56 : Inside Step - user add product from homepage to his wishlist
+22/04/2024 18:52:59 : <<< Shows Alert: Success: You have added MacBook to your wish list! >>>
+22/04/2024 18:52:59 : Inside Step - click on <Wish List> button in header
+22/04/2024 18:53:00 : Inside Step - the user should be redirected to his wishlist page and see added product there.
+22/04/2024 18:53:00 : Wishlist contains items.
+22/04/2024 18:53:00 : Wishlist items are valid.
+22/04/2024 18:53:00 : Connecting to DB...
+22/04/2024 18:53:00 : __________________________Deleting Customer_________________________________
+22/04/2024 18:53:00 : Disconnecting from DB...
+22/04/2024 18:53:00 : Connecting to DB...
+22/04/2024 18:53:01 : __________________________Database Response___________________________________
+22/04/2024 18:53:01 : Customer ID:2 | First Name:Georgi | Last Name:Petrov | Email:petrov@test.test | Telephone:0883225512 | Newsletter:0 | Date Added:2023-11-24 15:13:50
+22/04/2024 18:53:01 : Customer ID:3 | First Name:Gergana | Last Name:Dimitrova | Email:dimitrova@test.test | Telephone:0888888888 | Newsletter:1 | Date Added:2023-11-24 15:16:16
+22/04/2024 18:53:01 : Customer ID:40 | First Name:Kiril | Last Name:Todorov | Email:todorov@test.test | Telephone:0883198565 | Newsletter:1 | Date Added:2023-11-28 18:26:48
+22/04/2024 18:53:01 : Customer ID:122 | First Name:Vasil | Last Name:Vasilev | Email:vasilev@test.test | Telephone:0884395614 | Newsletter:1 | Date Added:2024-02-05 19:12:32
+22/04/2024 18:53:01 : ____________________________________________________________________________
+22/04/2024 18:53:01 : Disconnecting from DB...
+22/04/2024 18:53:01 : Test End!
+_________________________________________________________________________________________
+22/04/2024 18:55:30 : Test Start!
+22/04/2024 18:55:32 : Inside Step - the user have a profile in website and is on home page
+22/04/2024 18:55:32 : Connecting to DB...
+22/04/2024 18:55:32 : __________________________Create Customer___________________________________
+22/04/2024 18:55:32 : Disconnecting from DB...
+22/04/2024 18:55:32 : Connecting to DB...
+22/04/2024 18:55:32 : __________________________Database Response___________________________________
+22/04/2024 18:55:32 : Customer ID:2 | First Name:Georgi | Last Name:Petrov | Email:petrov@test.test | Telephone:0883225512 | Newsletter:0 | Date Added:2023-11-24 15:13:50
+22/04/2024 18:55:32 : Customer ID:3 | First Name:Gergana | Last Name:Dimitrova | Email:dimitrova@test.test | Telephone:0888888888 | Newsletter:1 | Date Added:2023-11-24 15:16:16
+22/04/2024 18:55:32 : Customer ID:40 | First Name:Kiril | Last Name:Todorov | Email:todorov@test.test | Telephone:0883198565 | Newsletter:1 | Date Added:2023-11-28 18:26:48
+22/04/2024 18:55:32 : Customer ID:122 | First Name:Vasil | Last Name:Vasilev | Email:vasilev@test.test | Telephone:0884395614 | Newsletter:1 | Date Added:2024-02-05 19:12:32
+22/04/2024 18:55:32 : Customer ID:204 | First Name:Ivan | Last Name:Ivanov | Email:ivanov@test.test | Telephone:0887446682 | Newsletter:1 | Date Added:2024-04-22 18:55:32
+22/04/2024 18:55:32 : ____________________________________________________________________________
+22/04/2024 18:55:32 : Disconnecting from DB...
+22/04/2024 18:55:32 : Inside Step - the user login into his profile with email ivanov@test.test, and password ivanov
+22/04/2024 18:55:33 : Inside Step - user add product from homepage to his wishlist
+22/04/2024 18:55:36 : <<< Shows Alert: Success: You have added MacBook to your wish list! >>>
+22/04/2024 18:55:36 : Inside Step - click on <Wish List> button in header
+22/04/2024 18:55:37 : Inside Step - the user should be redirected to his wishlist page and see added product there.
+22/04/2024 18:55:37 : Wishlist contains items.
+22/04/2024 18:55:37 : Wishlist items are valid.
+22/04/2024 18:55:37 : Connecting to DB...
+22/04/2024 18:55:37 : __________________________Deleting Customer_________________________________
+22/04/2024 18:55:37 : Disconnecting from DB...
+22/04/2024 18:55:37 : Connecting to DB...
+22/04/2024 18:55:37 : __________________________Database Response___________________________________
+22/04/2024 18:55:37 : Customer ID:2 | First Name:Georgi | Last Name:Petrov | Email:petrov@test.test | Telephone:0883225512 | Newsletter:0 | Date Added:2023-11-24 15:13:50
+22/04/2024 18:55:37 : Customer ID:3 | First Name:Gergana | Last Name:Dimitrova | Email:dimitrova@test.test | Telephone:0888888888 | Newsletter:1 | Date Added:2023-11-24 15:16:16
+22/04/2024 18:55:37 : Customer ID:40 | First Name:Kiril | Last Name:Todorov | Email:todorov@test.test | Telephone:0883198565 | Newsletter:1 | Date Added:2023-11-28 18:26:48
+22/04/2024 18:55:37 : Customer ID:122 | First Name:Vasil | Last Name:Vasilev | Email:vasilev@test.test | Telephone:0884395614 | Newsletter:1 | Date Added:2024-02-05 19:12:32
+22/04/2024 18:55:37 : ____________________________________________________________________________
+22/04/2024 18:55:37 : Disconnecting from DB...
+22/04/2024 18:55:37 : Test End!
+_________________________________________________________________________________________
+22/04/2024 18:57:14 : Test Start!
+22/04/2024 18:57:17 : Inside Step - the user have a profile in website and is on home page
+22/04/2024 18:57:17 : Connecting to DB...
+22/04/2024 18:57:17 : __________________________Create Customer___________________________________
+22/04/2024 18:57:17 : Disconnecting from DB...
+22/04/2024 18:57:17 : Connecting to DB...
+22/04/2024 18:57:17 : __________________________Database Response___________________________________
+22/04/2024 18:57:17 : Customer ID:2 | First Name:Georgi | Last Name:Petrov | Email:petrov@test.test | Telephone:0883225512 | Newsletter:0 | Date Added:2023-11-24 15:13:50
+22/04/2024 18:57:17 : Customer ID:3 | First Name:Gergana | Last Name:Dimitrova | Email:dimitrova@test.test | Telephone:0888888888 | Newsletter:1 | Date Added:2023-11-24 15:16:16
+22/04/2024 18:57:17 : Customer ID:40 | First Name:Kiril | Last Name:Todorov | Email:todorov@test.test | Telephone:0883198565 | Newsletter:1 | Date Added:2023-11-28 18:26:48
+22/04/2024 18:57:17 : Customer ID:122 | First Name:Vasil | Last Name:Vasilev | Email:vasilev@test.test | Telephone:0884395614 | Newsletter:1 | Date Added:2024-02-05 19:12:32
+22/04/2024 18:57:17 : Customer ID:205 | First Name:Ivan | Last Name:Ivanov | Email:ivanov@test.test | Telephone:0887446682 | Newsletter:1 | Date Added:2024-04-22 18:57:17
+22/04/2024 18:57:17 : ____________________________________________________________________________
+22/04/2024 18:57:17 : Disconnecting from DB...
+22/04/2024 18:57:17 : Inside Step - the user login into his profile with email ivanov@test.test, and password ivanov
+22/04/2024 18:57:18 : Inside Step - the user add "iPod Touch" product to shopping cart from product page
+22/04/2024 18:57:29 : Inside Step - click on <Checkout> button in header
+22/04/2024 18:57:30 : Inside Step - go through all checkout steps
+22/04/2024 18:57:30 : Inside Step - fill all required fields with valid credentials
+22/04/2024 18:57:30 : Inside Step - click on <Confirm Order> button
+22/04/2024 18:57:40 : Test End!
+_________________________________________________________________________________________
+22/04/2024 18:58:39 : Test Start!
+22/04/2024 18:58:41 : Inside Step - the user have a profile in website and is on home page
+22/04/2024 18:58:41 : Connecting to DB...
+22/04/2024 18:58:41 : __________________________Create Customer___________________________________
+22/04/2024 18:58:41 : Disconnecting from DB...
+22/04/2024 18:58:41 : Connecting to DB...
+22/04/2024 18:58:41 : __________________________Database Response___________________________________
+22/04/2024 18:58:41 : Customer ID:2 | First Name:Georgi | Last Name:Petrov | Email:petrov@test.test | Telephone:0883225512 | Newsletter:0 | Date Added:2023-11-24 15:13:50
+22/04/2024 18:58:41 : Customer ID:3 | First Name:Gergana | Last Name:Dimitrova | Email:dimitrova@test.test | Telephone:0888888888 | Newsletter:1 | Date Added:2023-11-24 15:16:16
+22/04/2024 18:58:41 : Customer ID:40 | First Name:Kiril | Last Name:Todorov | Email:todorov@test.test | Telephone:0883198565 | Newsletter:1 | Date Added:2023-11-28 18:26:48
+22/04/2024 18:58:41 : Customer ID:122 | First Name:Vasil | Last Name:Vasilev | Email:vasilev@test.test | Telephone:0884395614 | Newsletter:1 | Date Added:2024-02-05 19:12:32
+22/04/2024 18:58:41 : Customer ID:206 | First Name:Ivan | Last Name:Ivanov | Email:ivanov@test.test | Telephone:0887446682 | Newsletter:1 | Date Added:2024-04-22 18:58:42
+22/04/2024 18:58:41 : Customer ID:205 | First Name:Ivan | Last Name:Ivanov | Email:ivanov@test.test | Telephone:0887446682 | Newsletter:1 | Date Added:2024-04-22 18:57:17
+22/04/2024 18:58:41 : ____________________________________________________________________________
+22/04/2024 18:58:41 : Disconnecting from DB...
+22/04/2024 18:58:41 : Inside Step - the user login into his profile with email ivanov@test.test, and password ivanov
+22/04/2024 18:58:42 : Inside Step - the user add "iPod Touch" product to shopping cart from product page
+22/04/2024 18:58:53 : Inside Step - click on <Checkout> button in header
+22/04/2024 18:58:54 : Inside Step - go through all checkout steps
+22/04/2024 18:58:54 : Inside Step - fill all required fields with valid credentials
+22/04/2024 18:58:54 : Inside Step - click on <Confirm Order> button
+22/04/2024 18:59:04 : Test End!
+_________________________________________________________________________________________
+22/04/2024 19:05:00 : Test Start!
+22/04/2024 19:05:03 : Inside Step - the user have a profile in website and is on home page
+22/04/2024 19:05:03 : Connecting to DB...
+22/04/2024 19:05:03 : __________________________Create Customer___________________________________
+22/04/2024 19:05:03 : Disconnecting from DB...
+22/04/2024 19:05:03 : Connecting to DB...
+22/04/2024 19:05:03 : __________________________Database Response___________________________________
+22/04/2024 19:05:03 : Customer ID:2 | First Name:Georgi | Last Name:Petrov | Email:petrov@test.test | Telephone:0883225512 | Newsletter:0 | Date Added:2023-11-24 15:13:50
+22/04/2024 19:05:03 : Customer ID:3 | First Name:Gergana | Last Name:Dimitrova | Email:dimitrova@test.test | Telephone:0888888888 | Newsletter:1 | Date Added:2023-11-24 15:16:16
+22/04/2024 19:05:03 : Customer ID:40 | First Name:Kiril | Last Name:Todorov | Email:todorov@test.test | Telephone:0883198565 | Newsletter:1 | Date Added:2023-11-28 18:26:48
+22/04/2024 19:05:03 : Customer ID:122 | First Name:Vasil | Last Name:Vasilev | Email:vasilev@test.test | Telephone:0884395614 | Newsletter:1 | Date Added:2024-02-05 19:12:32
+22/04/2024 19:05:03 : Customer ID:207 | First Name:Ivan | Last Name:Ivanov | Email:ivanov@test.test | Telephone:0887446682 | Newsletter:1 | Date Added:2024-04-22 19:05:03
+22/04/2024 19:05:03 : Customer ID:206 | First Name:Ivan | Last Name:Ivanov | Email:ivanov@test.test | Telephone:0887446682 | Newsletter:1 | Date Added:2024-04-22 18:58:42
+22/04/2024 19:05:03 : Customer ID:205 | First Name:Ivan | Last Name:Ivanov | Email:ivanov@test.test | Telephone:0887446682 | Newsletter:1 | Date Added:2024-04-22 18:57:17
+22/04/2024 19:05:03 : ____________________________________________________________________________
+22/04/2024 19:05:03 : Disconnecting from DB...
+22/04/2024 19:05:03 : Inside Step - the user login into his profile with email ivanov@test.test, and password ivanov
+22/04/2024 19:05:04 : Inside Step - the user add "iPod Touch" product to shopping cart from product page
+22/04/2024 19:05:07 : Inside Step - click on <Checkout> button in header
+22/04/2024 19:05:08 : Inside Step - go through all checkout steps
+22/04/2024 19:05:16 : Inside Step - fill all required fields with valid credentials
+22/04/2024 19:05:16 : Inside Step - click on <Confirm Order> button
+22/04/2024 19:05:26 : Test End!
+_________________________________________________________________________________________
+22/04/2024 19:10:42 : Test Start!
+22/04/2024 19:10:44 : Inside Step - the user have a profile in website and is on home page
+22/04/2024 19:10:44 : Connecting to DB...
+22/04/2024 19:10:44 : __________________________Create Customer___________________________________
+22/04/2024 19:10:44 : Disconnecting from DB...
+22/04/2024 19:10:44 : Connecting to DB...
+22/04/2024 19:10:44 : __________________________Database Response___________________________________
+22/04/2024 19:10:44 : Customer ID:2 | First Name:Georgi | Last Name:Petrov | Email:petrov@test.test | Telephone:0883225512 | Newsletter:0 | Date Added:2023-11-24 15:13:50
+22/04/2024 19:10:44 : Customer ID:3 | First Name:Gergana | Last Name:Dimitrova | Email:dimitrova@test.test | Telephone:0888888888 | Newsletter:1 | Date Added:2023-11-24 15:16:16
+22/04/2024 19:10:44 : Customer ID:40 | First Name:Kiril | Last Name:Todorov | Email:todorov@test.test | Telephone:0883198565 | Newsletter:1 | Date Added:2023-11-28 18:26:48
+22/04/2024 19:10:44 : Customer ID:122 | First Name:Vasil | Last Name:Vasilev | Email:vasilev@test.test | Telephone:0884395614 | Newsletter:1 | Date Added:2024-02-05 19:12:32
+22/04/2024 19:10:44 : Customer ID:208 | First Name:Ivan | Last Name:Ivanov | Email:ivanov@test.test | Telephone:0887446682 | Newsletter:1 | Date Added:2024-04-22 19:10:45
+22/04/2024 19:10:44 : Customer ID:207 | First Name:Ivan | Last Name:Ivanov | Email:ivanov@test.test | Telephone:0887446682 | Newsletter:1 | Date Added:2024-04-22 19:05:03
+22/04/2024 19:10:44 : Customer ID:206 | First Name:Ivan | Last Name:Ivanov | Email:ivanov@test.test | Telephone:0887446682 | Newsletter:1 | Date Added:2024-04-22 18:58:42
+22/04/2024 19:10:44 : Customer ID:205 | First Name:Ivan | Last Name:Ivanov | Email:ivanov@test.test | Telephone:0887446682 | Newsletter:1 | Date Added:2024-04-22 18:57:17
+22/04/2024 19:10:44 : ____________________________________________________________________________
+22/04/2024 19:10:44 : Disconnecting from DB...
+22/04/2024 19:10:44 : Inside Step - the user login into his profile with email ivanov@test.test, and password ivanov
+22/04/2024 19:10:45 : Inside Step - the user add "iPod Touch" product to shopping cart from product page
+22/04/2024 19:10:48 : Inside Step - click on <Checkout> button in header
+22/04/2024 19:10:49 : Inside Step - go through all checkout steps filling all required fields with valid credentials
+22/04/2024 19:11:00 : Test End!
+_________________________________________________________________________________________
+22/04/2024 19:17:07 : Test Start!
+22/04/2024 19:17:10 : Inside Step - the user have a profile in website and is on home page
+22/04/2024 19:17:10 : Connecting to DB...
+22/04/2024 19:17:10 : __________________________Create Customer___________________________________
+22/04/2024 19:17:10 : Disconnecting from DB...
+22/04/2024 19:17:10 : Connecting to DB...
+22/04/2024 19:17:10 : __________________________Database Response___________________________________
+22/04/2024 19:17:10 : Customer ID:2 | First Name:Georgi | Last Name:Petrov | Email:petrov@test.test | Telephone:0883225512 | Newsletter:0 | Date Added:2023-11-24 15:13:50
+22/04/2024 19:17:10 : Customer ID:3 | First Name:Gergana | Last Name:Dimitrova | Email:dimitrova@test.test | Telephone:0888888888 | Newsletter:1 | Date Added:2023-11-24 15:16:16
+22/04/2024 19:17:10 : Customer ID:40 | First Name:Kiril | Last Name:Todorov | Email:todorov@test.test | Telephone:0883198565 | Newsletter:1 | Date Added:2023-11-28 18:26:48
+22/04/2024 19:17:10 : Customer ID:122 | First Name:Vasil | Last Name:Vasilev | Email:vasilev@test.test | Telephone:0884395614 | Newsletter:1 | Date Added:2024-02-05 19:12:32
+22/04/2024 19:17:10 : Customer ID:209 | First Name:Ivan | Last Name:Ivanov | Email:ivanov@test.test | Telephone:0887446682 | Newsletter:1 | Date Added:2024-04-22 19:17:10
+22/04/2024 19:17:10 : Customer ID:208 | First Name:Ivan | Last Name:Ivanov | Email:ivanov@test.test | Telephone:0887446682 | Newsletter:1 | Date Added:2024-04-22 19:10:45
+22/04/2024 19:17:10 : Customer ID:207 | First Name:Ivan | Last Name:Ivanov | Email:ivanov@test.test | Telephone:0887446682 | Newsletter:1 | Date Added:2024-04-22 19:05:03
+22/04/2024 19:17:10 : Customer ID:206 | First Name:Ivan | Last Name:Ivanov | Email:ivanov@test.test | Telephone:0887446682 | Newsletter:1 | Date Added:2024-04-22 18:58:42
+22/04/2024 19:17:10 : Customer ID:205 | First Name:Ivan | Last Name:Ivanov | Email:ivanov@test.test | Telephone:0887446682 | Newsletter:1 | Date Added:2024-04-22 18:57:17
+22/04/2024 19:17:10 : ____________________________________________________________________________
+22/04/2024 19:17:10 : Disconnecting from DB...
+22/04/2024 19:17:10 : Inside Step - the user login into his profile with email ivanov@test.test, and password ivanov
+22/04/2024 19:17:11 : Inside Step - the user add "iPod Touch" product to shopping cart from product page
+22/04/2024 19:17:14 : Inside Step - click on <Checkout> button in header
+22/04/2024 19:17:15 : Inside Step - go through all checkout steps filling all required fields with valid user credentials
+22/04/2024 19:17:25 : Test End!
+_________________________________________________________________________________________
+22/04/2024 19:18:45 : Test Start!
+22/04/2024 19:18:47 : Inside Step - the user have a profile in website and is on home page
+22/04/2024 19:18:47 : Connecting to DB...
+22/04/2024 19:18:48 : __________________________Create Customer___________________________________
+22/04/2024 19:18:48 : Disconnecting from DB...
+22/04/2024 19:18:48 : Connecting to DB...
+22/04/2024 19:18:48 : __________________________Database Response___________________________________
+22/04/2024 19:18:48 : Customer ID:2 | First Name:Georgi | Last Name:Petrov | Email:petrov@test.test | Telephone:0883225512 | Newsletter:0 | Date Added:2023-11-24 15:13:50
+22/04/2024 19:18:48 : Customer ID:3 | First Name:Gergana | Last Name:Dimitrova | Email:dimitrova@test.test | Telephone:0888888888 | Newsletter:1 | Date Added:2023-11-24 15:16:16
+22/04/2024 19:18:48 : Customer ID:40 | First Name:Kiril | Last Name:Todorov | Email:todorov@test.test | Telephone:0883198565 | Newsletter:1 | Date Added:2023-11-28 18:26:48
+22/04/2024 19:18:48 : Customer ID:122 | First Name:Vasil | Last Name:Vasilev | Email:vasilev@test.test | Telephone:0884395614 | Newsletter:1 | Date Added:2024-02-05 19:12:32
+22/04/2024 19:18:48 : Customer ID:210 | First Name:Ivan | Last Name:Ivanov | Email:ivanov@test.test | Telephone:0887446682 | Newsletter:1 | Date Added:2024-04-22 19:18:48
+22/04/2024 19:18:48 : Customer ID:209 | First Name:Ivan | Last Name:Ivanov | Email:ivanov@test.test | Telephone:0887446682 | Newsletter:1 | Date Added:2024-04-22 19:17:10
+22/04/2024 19:18:48 : Customer ID:208 | First Name:Ivan | Last Name:Ivanov | Email:ivanov@test.test | Telephone:0887446682 | Newsletter:1 | Date Added:2024-04-22 19:10:45
+22/04/2024 19:18:48 : Customer ID:207 | First Name:Ivan | Last Name:Ivanov | Email:ivanov@test.test | Telephone:0887446682 | Newsletter:1 | Date Added:2024-04-22 19:05:03
+22/04/2024 19:18:48 : Customer ID:206 | First Name:Ivan | Last Name:Ivanov | Email:ivanov@test.test | Telephone:0887446682 | Newsletter:1 | Date Added:2024-04-22 18:58:42
+22/04/2024 19:18:48 : Customer ID:205 | First Name:Ivan | Last Name:Ivanov | Email:ivanov@test.test | Telephone:0887446682 | Newsletter:1 | Date Added:2024-04-22 18:57:17
+22/04/2024 19:18:48 : ____________________________________________________________________________
+22/04/2024 19:18:48 : Disconnecting from DB...
+22/04/2024 19:18:48 : Inside Step - the user login into his profile with email ivanov@test.test, and password ivanov
+22/04/2024 19:18:49 : Inside Step - the user add "iPod Touch" product to shopping cart from product page
+22/04/2024 19:18:52 : Inside Step - click on <Checkout> button in header
+22/04/2024 19:18:53 : Inside Step - go through all checkout steps filling all required fields with valid user credentials
+22/04/2024 19:19:04 : Test End!
+_________________________________________________________________________________________
+22/04/2024 19:20:54 : Test Start!
+22/04/2024 19:20:56 : Inside Step - the user have a profile in website and is on home page
+22/04/2024 19:20:56 : Connecting to DB...
+22/04/2024 19:20:57 : __________________________Create Customer___________________________________
+22/04/2024 19:20:57 : Disconnecting from DB...
+22/04/2024 19:20:57 : Connecting to DB...
+22/04/2024 19:20:57 : __________________________Database Response___________________________________
+22/04/2024 19:20:57 : Customer ID:2 | First Name:Georgi | Last Name:Petrov | Email:petrov@test.test | Telephone:0883225512 | Newsletter:0 | Date Added:2023-11-24 15:13:50
+22/04/2024 19:20:57 : Customer ID:3 | First Name:Gergana | Last Name:Dimitrova | Email:dimitrova@test.test | Telephone:0888888888 | Newsletter:1 | Date Added:2023-11-24 15:16:16
+22/04/2024 19:20:57 : Customer ID:40 | First Name:Kiril | Last Name:Todorov | Email:todorov@test.test | Telephone:0883198565 | Newsletter:1 | Date Added:2023-11-28 18:26:48
+22/04/2024 19:20:57 : Customer ID:122 | First Name:Vasil | Last Name:Vasilev | Email:vasilev@test.test | Telephone:0884395614 | Newsletter:1 | Date Added:2024-02-05 19:12:32
+22/04/2024 19:20:57 : Customer ID:211 | First Name:Ivan | Last Name:Ivanov | Email:ivanov@test.test | Telephone:0887446682 | Newsletter:1 | Date Added:2024-04-22 19:20:57
+22/04/2024 19:20:57 : Customer ID:210 | First Name:Ivan | Last Name:Ivanov | Email:ivanov@test.test | Telephone:0887446682 | Newsletter:1 | Date Added:2024-04-22 19:18:48
+22/04/2024 19:20:57 : Customer ID:209 | First Name:Ivan | Last Name:Ivanov | Email:ivanov@test.test | Telephone:0887446682 | Newsletter:1 | Date Added:2024-04-22 19:17:10
+22/04/2024 19:20:57 : Customer ID:208 | First Name:Ivan | Last Name:Ivanov | Email:ivanov@test.test | Telephone:0887446682 | Newsletter:1 | Date Added:2024-04-22 19:10:45
+22/04/2024 19:20:57 : Customer ID:207 | First Name:Ivan | Last Name:Ivanov | Email:ivanov@test.test | Telephone:0887446682 | Newsletter:1 | Date Added:2024-04-22 19:05:03
+22/04/2024 19:20:57 : Customer ID:206 | First Name:Ivan | Last Name:Ivanov | Email:ivanov@test.test | Telephone:0887446682 | Newsletter:1 | Date Added:2024-04-22 18:58:42
+22/04/2024 19:20:57 : Customer ID:205 | First Name:Ivan | Last Name:Ivanov | Email:ivanov@test.test | Telephone:0887446682 | Newsletter:1 | Date Added:2024-04-22 18:57:17
+22/04/2024 19:20:57 : ____________________________________________________________________________
+22/04/2024 19:20:57 : Disconnecting from DB...
+22/04/2024 19:20:57 : Inside Step - the user login into his profile with email ivanov@test.test, and password ivanov
+22/04/2024 19:20:58 : Inside Step - the user add "iPod Touch" product to shopping cart from product page
+22/04/2024 19:21:01 : Inside Step - click on <Checkout> button in header
+22/04/2024 19:21:02 : Inside Step - go through all checkout steps filling all required fields with valid user credentials
+22/04/2024 19:21:13 : Test End!
+_________________________________________________________________________________________
+22/04/2024 19:22:46 : Test Start!
+22/04/2024 19:22:48 : Inside Step - the user have a profile in website and is on home page
+22/04/2024 19:22:48 : Connecting to DB...
+22/04/2024 19:22:49 : __________________________Create Customer___________________________________
+22/04/2024 19:22:49 : Disconnecting from DB...
+22/04/2024 19:22:49 : Connecting to DB...
+22/04/2024 19:22:49 : __________________________Database Response___________________________________
+22/04/2024 19:22:49 : Customer ID:2 | First Name:Georgi | Last Name:Petrov | Email:petrov@test.test | Telephone:0883225512 | Newsletter:0 | Date Added:2023-11-24 15:13:50
+22/04/2024 19:22:49 : Customer ID:3 | First Name:Gergana | Last Name:Dimitrova | Email:dimitrova@test.test | Telephone:0888888888 | Newsletter:1 | Date Added:2023-11-24 15:16:16
+22/04/2024 19:22:49 : Customer ID:40 | First Name:Kiril | Last Name:Todorov | Email:todorov@test.test | Telephone:0883198565 | Newsletter:1 | Date Added:2023-11-28 18:26:48
+22/04/2024 19:22:49 : Customer ID:122 | First Name:Vasil | Last Name:Vasilev | Email:vasilev@test.test | Telephone:0884395614 | Newsletter:1 | Date Added:2024-02-05 19:12:32
+22/04/2024 19:22:49 : Customer ID:212 | First Name:Ivan | Last Name:Ivanov | Email:ivanov@test.test | Telephone:0887446682 | Newsletter:1 | Date Added:2024-04-22 19:22:49
+22/04/2024 19:22:49 : Customer ID:211 | First Name:Ivan | Last Name:Ivanov | Email:ivanov@test.test | Telephone:0887446682 | Newsletter:1 | Date Added:2024-04-22 19:20:57
+22/04/2024 19:22:49 : Customer ID:210 | First Name:Ivan | Last Name:Ivanov | Email:ivanov@test.test | Telephone:0887446682 | Newsletter:1 | Date Added:2024-04-22 19:18:48
+22/04/2024 19:22:49 : Customer ID:209 | First Name:Ivan | Last Name:Ivanov | Email:ivanov@test.test | Telephone:0887446682 | Newsletter:1 | Date Added:2024-04-22 19:17:10
+22/04/2024 19:22:49 : Customer ID:208 | First Name:Ivan | Last Name:Ivanov | Email:ivanov@test.test | Telephone:0887446682 | Newsletter:1 | Date Added:2024-04-22 19:10:45
+22/04/2024 19:22:49 : Customer ID:207 | First Name:Ivan | Last Name:Ivanov | Email:ivanov@test.test | Telephone:0887446682 | Newsletter:1 | Date Added:2024-04-22 19:05:03
+22/04/2024 19:22:49 : Customer ID:206 | First Name:Ivan | Last Name:Ivanov | Email:ivanov@test.test | Telephone:0887446682 | Newsletter:1 | Date Added:2024-04-22 18:58:42
+22/04/2024 19:22:49 : Customer ID:205 | First Name:Ivan | Last Name:Ivanov | Email:ivanov@test.test | Telephone:0887446682 | Newsletter:1 | Date Added:2024-04-22 18:57:17
+22/04/2024 19:22:49 : ____________________________________________________________________________
+22/04/2024 19:22:49 : Disconnecting from DB...
+22/04/2024 19:22:49 : Inside Step - the user login into his profile with email ivanov@test.test, and password ivanov
+22/04/2024 19:22:50 : Inside Step - the user add "iPod Touch" product to shopping cart from product page
+22/04/2024 19:22:53 : Inside Step - click on <Checkout> button in header
+22/04/2024 19:22:54 : Inside Step - go through all checkout steps filling all required fields with valid user credentials
+22/04/2024 19:22:58 : Inside Step - click on <Confirm Order> button
+22/04/2024 19:22:58 : Inside Step - the user should be redirected to success page and see "Your order has been placed!" message.
+22/04/2024 19:23:00 : Test End!
+_________________________________________________________________________________________
+22/04/2024 19:28:01 : Test Start!
+22/04/2024 19:28:03 : Inside Step - the user have a profile in website and is on home page
+22/04/2024 19:28:03 : Connecting to DB...
+22/04/2024 19:28:03 : __________________________Create Customer___________________________________
+22/04/2024 19:28:03 : Disconnecting from DB...
+22/04/2024 19:28:03 : Connecting to DB...
+22/04/2024 19:28:03 : __________________________Database Response___________________________________
+22/04/2024 19:28:03 : Customer ID:2 | First Name:Georgi | Last Name:Petrov | Email:petrov@test.test | Telephone:0883225512 | Newsletter:0 | Date Added:2023-11-24 15:13:50
+22/04/2024 19:28:03 : Customer ID:3 | First Name:Gergana | Last Name:Dimitrova | Email:dimitrova@test.test | Telephone:0888888888 | Newsletter:1 | Date Added:2023-11-24 15:16:16
+22/04/2024 19:28:03 : Customer ID:40 | First Name:Kiril | Last Name:Todorov | Email:todorov@test.test | Telephone:0883198565 | Newsletter:1 | Date Added:2023-11-28 18:26:48
+22/04/2024 19:28:03 : Customer ID:213 | First Name:Ivan | Last Name:Ivanov | Email:ivanov@test.test | Telephone:0887446682 | Newsletter:1 | Date Added:2024-04-22 19:28:04
+22/04/2024 19:28:03 : Customer ID:122 | First Name:Vasil | Last Name:Vasilev | Email:vasilev@test.test | Telephone:0884395614 | Newsletter:1 | Date Added:2024-02-05 19:12:32
+22/04/2024 19:28:03 : Customer ID:212 | First Name:Ivan | Last Name:Ivanov | Email:ivanov@test.test | Telephone:0887446682 | Newsletter:1 | Date Added:2024-04-22 19:22:49
+22/04/2024 19:28:03 : Customer ID:211 | First Name:Ivan | Last Name:Ivanov | Email:ivanov@test.test | Telephone:0887446682 | Newsletter:1 | Date Added:2024-04-22 19:20:57
+22/04/2024 19:28:03 : Customer ID:210 | First Name:Ivan | Last Name:Ivanov | Email:ivanov@test.test | Telephone:0887446682 | Newsletter:1 | Date Added:2024-04-22 19:18:48
+22/04/2024 19:28:03 : Customer ID:209 | First Name:Ivan | Last Name:Ivanov | Email:ivanov@test.test | Telephone:0887446682 | Newsletter:1 | Date Added:2024-04-22 19:17:10
+22/04/2024 19:28:03 : Customer ID:208 | First Name:Ivan | Last Name:Ivanov | Email:ivanov@test.test | Telephone:0887446682 | Newsletter:1 | Date Added:2024-04-22 19:10:45
+22/04/2024 19:28:03 : Customer ID:207 | First Name:Ivan | Last Name:Ivanov | Email:ivanov@test.test | Telephone:0887446682 | Newsletter:1 | Date Added:2024-04-22 19:05:03
+22/04/2024 19:28:03 : Customer ID:206 | First Name:Ivan | Last Name:Ivanov | Email:ivanov@test.test | Telephone:0887446682 | Newsletter:1 | Date Added:2024-04-22 18:58:42
+22/04/2024 19:28:03 : Customer ID:205 | First Name:Ivan | Last Name:Ivanov | Email:ivanov@test.test | Telephone:0887446682 | Newsletter:1 | Date Added:2024-04-22 18:57:17
+22/04/2024 19:28:03 : ____________________________________________________________________________
+22/04/2024 19:28:03 : Disconnecting from DB...
+22/04/2024 19:28:03 : Inside Step - the user login into his profile with email ivanov@test.test, and password ivanov
+22/04/2024 19:28:04 : Inside Step - the user add "iPod Touch" product to shopping cart from product page
+22/04/2024 19:28:07 : Inside Step - click on <Checkout> button in header
+22/04/2024 19:28:08 : Inside Step - go through all checkout steps filling all required fields with valid user credentials
+22/04/2024 19:28:12 : Inside Step - click on <Confirm Order> button
+22/04/2024 19:28:13 : Inside Step - the user must be redirected to success page and see "Your order has been placed!" message.
+22/04/2024 19:28:15 : Connecting to DB...
+22/04/2024 19:28:15 : __________________________Deleting Customer_________________________________
+22/04/2024 19:28:15 : Disconnecting from DB...
+22/04/2024 19:28:15 : Connecting to DB...
+22/04/2024 19:28:15 : __________________________Database Response___________________________________
+22/04/2024 19:28:15 : Customer ID:2 | First Name:Georgi | Last Name:Petrov | Email:petrov@test.test | Telephone:0883225512 | Newsletter:0 | Date Added:2023-11-24 15:13:50
+22/04/2024 19:28:15 : Customer ID:3 | First Name:Gergana | Last Name:Dimitrova | Email:dimitrova@test.test | Telephone:0888888888 | Newsletter:1 | Date Added:2023-11-24 15:16:16
+22/04/2024 19:28:15 : Customer ID:40 | First Name:Kiril | Last Name:Todorov | Email:todorov@test.test | Telephone:0883198565 | Newsletter:1 | Date Added:2023-11-28 18:26:48
+22/04/2024 19:28:15 : Customer ID:122 | First Name:Vasil | Last Name:Vasilev | Email:vasilev@test.test | Telephone:0884395614 | Newsletter:1 | Date Added:2024-02-05 19:12:32
+22/04/2024 19:28:15 : ____________________________________________________________________________
+22/04/2024 19:28:15 : Disconnecting from DB...
+22/04/2024 19:28:15 : Test End!
+_________________________________________________________________________________________
+22/04/2024 19:32:31 : Test Start!
+22/04/2024 19:32:36 : Inside Step - the user have a profile in website and is on home page
+22/04/2024 19:32:36 : Connecting to DB...
+22/04/2024 19:32:36 : __________________________Create Customer___________________________________
+22/04/2024 19:32:36 : Disconnecting from DB...
+22/04/2024 19:32:36 : Connecting to DB...
+22/04/2024 19:32:36 : __________________________Database Response___________________________________
+22/04/2024 19:32:36 : Customer ID:2 | First Name:Georgi | Last Name:Petrov | Email:petrov@test.test | Telephone:0883225512 | Newsletter:0 | Date Added:2023-11-24 15:13:50
+22/04/2024 19:32:36 : Customer ID:3 | First Name:Gergana | Last Name:Dimitrova | Email:dimitrova@test.test | Telephone:0888888888 | Newsletter:1 | Date Added:2023-11-24 15:16:16
+22/04/2024 19:32:36 : Customer ID:40 | First Name:Kiril | Last Name:Todorov | Email:todorov@test.test | Telephone:0883198565 | Newsletter:1 | Date Added:2023-11-28 18:26:48
+22/04/2024 19:32:36 : Customer ID:122 | First Name:Vasil | Last Name:Vasilev | Email:vasilev@test.test | Telephone:0884395614 | Newsletter:1 | Date Added:2024-02-05 19:12:32
+22/04/2024 19:32:36 : Customer ID:214 | First Name:Ivan | Last Name:Ivanov | Email:ivanov@test.test | Telephone:0887446682 | Newsletter:1 | Date Added:2024-04-22 19:32:36
+22/04/2024 19:32:36 : ____________________________________________________________________________
+22/04/2024 19:32:36 : Disconnecting from DB...
+22/04/2024 19:32:36 : Inside Step - the user login into his profile with email ivanov@test.test, and password ivanov
+22/04/2024 19:32:37 : Inside Step - the user add "iPod Touch" product to shopping cart from product page
+22/04/2024 19:32:40 : Inside Step - click on <Checkout> button in header
+22/04/2024 19:32:41 : Inside Step - go through all checkout steps filling all required fields with valid user credentials
+22/04/2024 19:32:45 : Inside Step - click on <Confirm Order> button
+22/04/2024 19:32:46 : Inside Step - the user must be redirected to success page and see "Your order has been placed!" message.
+22/04/2024 19:32:47 : Connecting to DB...
+22/04/2024 19:32:47 : __________________________Deleting Customer_________________________________
+22/04/2024 19:32:47 : Disconnecting from DB...
+22/04/2024 19:32:47 : Connecting to DB...
+22/04/2024 19:32:47 : __________________________Database Response___________________________________
+22/04/2024 19:32:47 : Customer ID:2 | First Name:Georgi | Last Name:Petrov | Email:petrov@test.test | Telephone:0883225512 | Newsletter:0 | Date Added:2023-11-24 15:13:50
+22/04/2024 19:32:47 : Customer ID:3 | First Name:Gergana | Last Name:Dimitrova | Email:dimitrova@test.test | Telephone:0888888888 | Newsletter:1 | Date Added:2023-11-24 15:16:16
+22/04/2024 19:32:47 : Customer ID:40 | First Name:Kiril | Last Name:Todorov | Email:todorov@test.test | Telephone:0883198565 | Newsletter:1 | Date Added:2023-11-28 18:26:48
+22/04/2024 19:32:47 : Customer ID:122 | First Name:Vasil | Last Name:Vasilev | Email:vasilev@test.test | Telephone:0884395614 | Newsletter:1 | Date Added:2024-02-05 19:12:32
+22/04/2024 19:32:47 : ____________________________________________________________________________
+22/04/2024 19:32:47 : Disconnecting from DB...
+22/04/2024 19:32:47 : Test End!
+_________________________________________________________________________________________
+22/04/2024 19:33:05 : Test Start!
+22/04/2024 19:33:11 : Inside Step - the user have a profile in website and is on home page
+22/04/2024 19:33:11 : Connecting to DB...
+22/04/2024 19:33:11 : __________________________Create Customer___________________________________
+22/04/2024 19:33:11 : Disconnecting from DB...
+22/04/2024 19:33:11 : Connecting to DB...
+22/04/2024 19:33:11 : __________________________Database Response___________________________________
+22/04/2024 19:33:11 : Customer ID:2 | First Name:Georgi | Last Name:Petrov | Email:petrov@test.test | Telephone:0883225512 | Newsletter:0 | Date Added:2023-11-24 15:13:50
+22/04/2024 19:33:11 : Customer ID:3 | First Name:Gergana | Last Name:Dimitrova | Email:dimitrova@test.test | Telephone:0888888888 | Newsletter:1 | Date Added:2023-11-24 15:16:16
+22/04/2024 19:33:11 : Customer ID:40 | First Name:Kiril | Last Name:Todorov | Email:todorov@test.test | Telephone:0883198565 | Newsletter:1 | Date Added:2023-11-28 18:26:48
+22/04/2024 19:33:11 : Customer ID:122 | First Name:Vasil | Last Name:Vasilev | Email:vasilev@test.test | Telephone:0884395614 | Newsletter:1 | Date Added:2024-02-05 19:12:32
+22/04/2024 19:33:11 : Customer ID:215 | First Name:Ivan | Last Name:Ivanov | Email:ivanov@test.test | Telephone:0887446682 | Newsletter:1 | Date Added:2024-04-22 19:33:11
+22/04/2024 19:33:11 : ____________________________________________________________________________
+22/04/2024 19:33:11 : Disconnecting from DB...
+22/04/2024 19:33:11 : Inside Step - the user login into his profile with email ivanov@test.test, and password ivanov
+22/04/2024 19:33:12 : Inside Step - the user add "iPod Touch" product to shopping cart from product page
+22/04/2024 19:33:18 : Test End!
+_________________________________________________________________________________________
+22/04/2024 19:34:28 : Test Start!
+22/04/2024 19:34:33 : Inside Step - the user have a profile in website and is on home page
+22/04/2024 19:34:33 : Connecting to DB...
+22/04/2024 19:34:33 : __________________________Create Customer___________________________________
+22/04/2024 19:34:33 : Disconnecting from DB...
+22/04/2024 19:34:33 : Connecting to DB...
+22/04/2024 19:34:33 : __________________________Database Response___________________________________
+22/04/2024 19:34:33 : Customer ID:2 | First Name:Georgi | Last Name:Petrov | Email:petrov@test.test | Telephone:0883225512 | Newsletter:0 | Date Added:2023-11-24 15:13:50
+22/04/2024 19:34:33 : Customer ID:3 | First Name:Gergana | Last Name:Dimitrova | Email:dimitrova@test.test | Telephone:0888888888 | Newsletter:1 | Date Added:2023-11-24 15:16:16
+22/04/2024 19:34:33 : Customer ID:40 | First Name:Kiril | Last Name:Todorov | Email:todorov@test.test | Telephone:0883198565 | Newsletter:1 | Date Added:2023-11-28 18:26:48
+22/04/2024 19:34:33 : Customer ID:122 | First Name:Vasil | Last Name:Vasilev | Email:vasilev@test.test | Telephone:0884395614 | Newsletter:1 | Date Added:2024-02-05 19:12:32
+22/04/2024 19:34:33 : Customer ID:216 | First Name:Ivan | Last Name:Ivanov | Email:ivanov@test.test | Telephone:0887446682 | Newsletter:1 | Date Added:2024-04-22 19:34:34
+22/04/2024 19:34:33 : Customer ID:215 | First Name:Ivan | Last Name:Ivanov | Email:ivanov@test.test | Telephone:0887446682 | Newsletter:1 | Date Added:2024-04-22 19:33:11
+22/04/2024 19:34:33 : ____________________________________________________________________________
+22/04/2024 19:34:33 : Disconnecting from DB...
+22/04/2024 19:34:34 : Inside Step - the user login into his profile with email ivanov@test.test, and password ivanov
+22/04/2024 19:34:35 : Inside Step - the user add "iPod Touch" product to shopping cart from product page
+22/04/2024 19:34:41 : Test End!
+_________________________________________________________________________________________
+22/04/2024 19:36:17 : Test Start!
+22/04/2024 19:36:22 : Inside Step - the user have a profile in website and is on home page
+22/04/2024 19:36:22 : Connecting to DB...
+22/04/2024 19:36:22 : __________________________Create Customer___________________________________
+22/04/2024 19:36:22 : Disconnecting from DB...
+22/04/2024 19:36:22 : Connecting to DB...
+22/04/2024 19:36:22 : __________________________Database Response___________________________________
+22/04/2024 19:36:22 : Customer ID:2 | First Name:Georgi | Last Name:Petrov | Email:petrov@test.test | Telephone:0883225512 | Newsletter:0 | Date Added:2023-11-24 15:13:50
+22/04/2024 19:36:22 : Customer ID:3 | First Name:Gergana | Last Name:Dimitrova | Email:dimitrova@test.test | Telephone:0888888888 | Newsletter:1 | Date Added:2023-11-24 15:16:16
+22/04/2024 19:36:22 : Customer ID:40 | First Name:Kiril | Last Name:Todorov | Email:todorov@test.test | Telephone:0883198565 | Newsletter:1 | Date Added:2023-11-28 18:26:48
+22/04/2024 19:36:22 : Customer ID:122 | First Name:Vasil | Last Name:Vasilev | Email:vasilev@test.test | Telephone:0884395614 | Newsletter:1 | Date Added:2024-02-05 19:12:32
+22/04/2024 19:36:22 : Customer ID:217 | First Name:Ivan | Last Name:Ivanov | Email:ivanov@test.test | Telephone:0887446682 | Newsletter:1 | Date Added:2024-04-22 19:36:23
+22/04/2024 19:36:22 : Customer ID:216 | First Name:Ivan | Last Name:Ivanov | Email:ivanov@test.test | Telephone:0887446682 | Newsletter:1 | Date Added:2024-04-22 19:34:34
+22/04/2024 19:36:22 : Customer ID:215 | First Name:Ivan | Last Name:Ivanov | Email:ivanov@test.test | Telephone:0887446682 | Newsletter:1 | Date Added:2024-04-22 19:33:11
+22/04/2024 19:36:22 : ____________________________________________________________________________
+22/04/2024 19:36:22 : Disconnecting from DB...
+22/04/2024 19:36:23 : Inside Step - the user login into his profile with email ivanov@test.test, and password ivanov
+22/04/2024 19:36:25 : Inside Step - the user add "iPod Touch" product to shopping cart from product page
+22/04/2024 19:36:27 : Inside Step - click on <Checkout> button in header
+22/04/2024 19:36:28 : Inside Step - go through all checkout steps filling all required fields with valid user credentials
+22/04/2024 19:36:34 : Inside Step - click on <Confirm Order> button
+22/04/2024 19:36:34 : Inside Step - the user must be redirected to success page and see "Your order has been placed!" message.
+22/04/2024 19:36:35 : Connecting to DB...
+22/04/2024 19:36:35 : __________________________Deleting Customer_________________________________
+22/04/2024 19:36:35 : Disconnecting from DB...
+22/04/2024 19:36:35 : Connecting to DB...
+22/04/2024 19:36:35 : __________________________Database Response___________________________________
+22/04/2024 19:36:35 : Customer ID:2 | First Name:Georgi | Last Name:Petrov | Email:petrov@test.test | Telephone:0883225512 | Newsletter:0 | Date Added:2023-11-24 15:13:50
+22/04/2024 19:36:35 : Customer ID:3 | First Name:Gergana | Last Name:Dimitrova | Email:dimitrova@test.test | Telephone:0888888888 | Newsletter:1 | Date Added:2023-11-24 15:16:16
+22/04/2024 19:36:35 : Customer ID:40 | First Name:Kiril | Last Name:Todorov | Email:todorov@test.test | Telephone:0883198565 | Newsletter:1 | Date Added:2023-11-28 18:26:48
+22/04/2024 19:36:35 : Customer ID:122 | First Name:Vasil | Last Name:Vasilev | Email:vasilev@test.test | Telephone:0884395614 | Newsletter:1 | Date Added:2024-02-05 19:12:32
+22/04/2024 19:36:35 : ____________________________________________________________________________
+22/04/2024 19:36:35 : Disconnecting from DB...
+22/04/2024 19:36:35 : Test End!
+_________________________________________________________________________________________
+22/04/2024 19:37:51 : Test Start!
+22/04/2024 19:37:53 : Inside Step - the user is on home page
+22/04/2024 19:37:54 : Inside Step - the user add  "Samsung SyncMaster 941BW" product to shopping cart from homepage
+22/04/2024 19:37:56 : Inside Step - click on <Checkout> button in header
+22/04/2024 19:37:58 : Inside Step - select <Guest Checkout> in checkout page
+22/04/2024 19:37:59 : Inside Step - go through all checkout steps filling all required fields with valid credentials
+22/04/2024 19:38:03 : Inside Step - click on <Confirm Order> button
+22/04/2024 19:38:04 : Inside Step - the user should be redirected to success page and see "Your order has been placed!" message.
+22/04/2024 19:38:05 : Test End!
+_________________________________________________________________________________________
+22/04/2024 19:38:05 : Test Start!
+22/04/2024 19:38:06 : Inside Step - the user have a profile in website and is on home page
+22/04/2024 19:38:06 : Connecting to DB...
+22/04/2024 19:38:07 : __________________________Create Customer___________________________________
+22/04/2024 19:38:07 : Disconnecting from DB...
+22/04/2024 19:38:07 : Connecting to DB...
+22/04/2024 19:38:07 : __________________________Database Response___________________________________
+22/04/2024 19:38:07 : Customer ID:2 | First Name:Georgi | Last Name:Petrov | Email:petrov@test.test | Telephone:0883225512 | Newsletter:0 | Date Added:2023-11-24 15:13:50
+22/04/2024 19:38:07 : Customer ID:3 | First Name:Gergana | Last Name:Dimitrova | Email:dimitrova@test.test | Telephone:0888888888 | Newsletter:1 | Date Added:2023-11-24 15:16:16
+22/04/2024 19:38:07 : Customer ID:40 | First Name:Kiril | Last Name:Todorov | Email:todorov@test.test | Telephone:0883198565 | Newsletter:1 | Date Added:2023-11-28 18:26:48
+22/04/2024 19:38:07 : Customer ID:122 | First Name:Vasil | Last Name:Vasilev | Email:vasilev@test.test | Telephone:0884395614 | Newsletter:1 | Date Added:2024-02-05 19:12:32
+22/04/2024 19:38:07 : Customer ID:218 | First Name:Ivan | Last Name:Ivanov | Email:ivanov@test.test | Telephone:0887446682 | Newsletter:1 | Date Added:2024-04-22 19:38:07
+22/04/2024 19:38:07 : ____________________________________________________________________________
+22/04/2024 19:38:07 : Disconnecting from DB...
+22/04/2024 19:38:08 : Inside Step - the user login into his profile with email ivanov@test.test, and password ivanov
+22/04/2024 19:38:09 : Inside Step - the user add "iPod Touch" product to shopping cart from product page
+22/04/2024 19:38:12 : Inside Step - click on <Checkout> button in header
+22/04/2024 19:38:13 : Inside Step - go through all checkout steps filling all required fields with valid user credentials
+22/04/2024 19:38:17 : Inside Step - click on <Confirm Order> button
+22/04/2024 19:38:18 : Inside Step - the user must be redirected to success page and see "Your order has been placed!" message.
+22/04/2024 19:38:19 : Connecting to DB...
+22/04/2024 19:38:19 : __________________________Deleting Customer_________________________________
+22/04/2024 19:38:19 : Disconnecting from DB...
+22/04/2024 19:38:19 : Connecting to DB...
+22/04/2024 19:38:19 : __________________________Database Response___________________________________
+22/04/2024 19:38:19 : Customer ID:2 | First Name:Georgi | Last Name:Petrov | Email:petrov@test.test | Telephone:0883225512 | Newsletter:0 | Date Added:2023-11-24 15:13:50
+22/04/2024 19:38:19 : Customer ID:3 | First Name:Gergana | Last Name:Dimitrova | Email:dimitrova@test.test | Telephone:0888888888 | Newsletter:1 | Date Added:2023-11-24 15:16:16
+22/04/2024 19:38:19 : Customer ID:40 | First Name:Kiril | Last Name:Todorov | Email:todorov@test.test | Telephone:0883198565 | Newsletter:1 | Date Added:2023-11-28 18:26:48
+22/04/2024 19:38:19 : Customer ID:122 | First Name:Vasil | Last Name:Vasilev | Email:vasilev@test.test | Telephone:0884395614 | Newsletter:1 | Date Added:2024-02-05 19:12:32
+22/04/2024 19:38:19 : ____________________________________________________________________________
+22/04/2024 19:38:19 : Disconnecting from DB...
+22/04/2024 19:38:19 : Test End!
+_________________________________________________________________________________________
+22/04/2024 19:38:19 : Test Start!
+22/04/2024 19:38:21 : Inside Step - the user have a profile in website and is on home page
+22/04/2024 19:38:21 : Connecting to DB...
+22/04/2024 19:38:21 : __________________________Create Customer___________________________________
+22/04/2024 19:38:21 : Disconnecting from DB...
+22/04/2024 19:38:21 : Connecting to DB...
+22/04/2024 19:38:21 : __________________________Database Response___________________________________
+22/04/2024 19:38:21 : Customer ID:2 | First Name:Georgi | Last Name:Petrov | Email:petrov@test.test | Telephone:0883225512 | Newsletter:0 | Date Added:2023-11-24 15:13:50
+22/04/2024 19:38:21 : Customer ID:3 | First Name:Gergana | Last Name:Dimitrova | Email:dimitrova@test.test | Telephone:0888888888 | Newsletter:1 | Date Added:2023-11-24 15:16:16
+22/04/2024 19:38:21 : Customer ID:40 | First Name:Kiril | Last Name:Todorov | Email:todorov@test.test | Telephone:0883198565 | Newsletter:1 | Date Added:2023-11-28 18:26:48
+22/04/2024 19:38:21 : Customer ID:122 | First Name:Vasil | Last Name:Vasilev | Email:vasilev@test.test | Telephone:0884395614 | Newsletter:1 | Date Added:2024-02-05 19:12:32
+22/04/2024 19:38:21 : Customer ID:219 | First Name:Ivan | Last Name:Ivanov | Email:ivanov@test.test | Telephone:0887446682 | Newsletter:1 | Date Added:2024-04-22 19:38:21
+22/04/2024 19:38:21 : ____________________________________________________________________________
+22/04/2024 19:38:21 : Disconnecting from DB...
+22/04/2024 19:38:21 : Inside Step - the user login into his profile with email ivanov@test.test, and password ivanov
+22/04/2024 19:38:23 : Inside Step - user add product from homepage to his wishlist
+22/04/2024 19:38:26 : <<< Shows Alert: Success: You have added MacBook to your wish list! >>>
+22/04/2024 19:38:26 : Inside Step - click on <Wish List> button in header
+22/04/2024 19:38:27 : Inside Step - the user should be redirected to his wishlist page and see added product there.
+22/04/2024 19:38:27 : Wishlist contains items.
+22/04/2024 19:38:27 : Wishlist items are valid.
+22/04/2024 19:38:27 : Connecting to DB...
+22/04/2024 19:38:27 : __________________________Deleting Customer_________________________________
+22/04/2024 19:38:27 : Disconnecting from DB...
+22/04/2024 19:38:27 : Connecting to DB...
+22/04/2024 19:38:27 : __________________________Database Response___________________________________
+22/04/2024 19:38:27 : Customer ID:2 | First Name:Georgi | Last Name:Petrov | Email:petrov@test.test | Telephone:0883225512 | Newsletter:0 | Date Added:2023-11-24 15:13:50
+22/04/2024 19:38:27 : Customer ID:3 | First Name:Gergana | Last Name:Dimitrova | Email:dimitrova@test.test | Telephone:0888888888 | Newsletter:1 | Date Added:2023-11-24 15:16:16
+22/04/2024 19:38:27 : Customer ID:40 | First Name:Kiril | Last Name:Todorov | Email:todorov@test.test | Telephone:0883198565 | Newsletter:1 | Date Added:2023-11-28 18:26:48
+22/04/2024 19:38:27 : Customer ID:122 | First Name:Vasil | Last Name:Vasilev | Email:vasilev@test.test | Telephone:0884395614 | Newsletter:1 | Date Added:2024-02-05 19:12:32
+22/04/2024 19:38:27 : ____________________________________________________________________________
+22/04/2024 19:38:27 : Disconnecting from DB...
+22/04/2024 19:38:27 : Test End!
+_________________________________________________________________________________________
+22/04/2024 19:38:27 : Test Start!
+22/04/2024 19:38:29 : Inside Step - the user is on home page
+22/04/2024 19:38:30 : Inside Step - the user open <About Us> link in footer
+22/04/2024 19:38:30 : Inside Step - the user should see About Us page.
+22/04/2024 19:38:30 : Redirect is successful!
+22/04/2024 19:38:30 : Test End!
+_________________________________________________________________________________________
+22/04/2024 19:38:30 : Test Start!
+22/04/2024 19:38:32 : Inside Step - the user is on home page
+22/04/2024 19:38:32 : Inside Step - the user open <Delivery Information> link in footer
+22/04/2024 19:38:33 : Inside Step - the user should see Delivery Information page.
+22/04/2024 19:38:33 : Redirect is successful!
+22/04/2024 19:38:33 : Test End!
+_________________________________________________________________________________________
+22/04/2024 19:38:33 : Test Start!
+22/04/2024 19:38:34 : Inside Step - the user is on home page
+22/04/2024 19:38:35 : Inside Step - the user open <Privacy Policy> link in footer
+22/04/2024 19:38:35 : Inside Step - the user should see Privacy Policy page.
+22/04/2024 19:38:35 : Redirect is successful!
+22/04/2024 19:38:35 : Test End!
+_________________________________________________________________________________________
+22/04/2024 19:38:36 : Test Start!
+22/04/2024 19:38:37 : Inside Step - the user is on home page
+22/04/2024 19:38:38 : Inside Step - the user open <Terms & Conditions> link in footer
+22/04/2024 19:38:38 : Inside Step - the user should see Terms & Conditions page.
+22/04/2024 19:38:38 : Redirect is successful!
+22/04/2024 19:38:38 : Test End!
+_________________________________________________________________________________________
+22/04/2024 19:38:38 : Test Start!
+22/04/2024 19:38:40 : Inside Step - the user is on home page
+22/04/2024 19:38:40 : Inside Step - the user navigate to contact page
+22/04/2024 19:38:41 : Inside Step - fill <Your Name> field as Ivan Ivanov
+22/04/2024 19:38:41 : Inside Step - fill <E-Mail Address> as ivanov@test.test
+22/04/2024 19:38:41 : Inside Step - fill <Enquiry> as This is the test message!
+22/04/2024 19:38:41 : Inside Step - click on <Submit> button
+22/04/2024 19:38:42 : Inside Step - the user should see "Your enquiry has been successfully sent to the store owner!" message.
+22/04/2024 19:38:42 : Test End!
+_________________________________________________________________________________________
+22/04/2024 19:38:42 : Test Start!
+22/04/2024 19:38:43 : Inside Step - the user is on home page
+22/04/2024 19:38:44 : Inside Step - the user navigate to product page
+22/04/2024 19:38:45 : Inside Step - click on `Reviews` tab
+22/04/2024 19:38:46 : Inside Step - fill the review form with valid data
+22/04/2024 19:38:46 : Inside Step - click on `Continue` button
+22/04/2024 19:38:46 : Inside Step - the user should see "Thank you for your review. It has been submitted to the webmaster for approval." notification message.
+22/04/2024 19:38:46 : Test End!
+_________________________________________________________________________________________
+22/04/2024 19:38:47 : Test Start!
+22/04/2024 19:38:48 : Inside Step - the user is on home page
+22/04/2024 19:38:49 : Inside Step - the user enters registration page
+22/04/2024 19:38:49 : Inside Step - insert valid credentials
+22/04/2024 19:38:50 : Inside Step - click on Continue button
+22/04/2024 19:38:50 : Registration failed. Error: Warning: E-Mail Address is already registered!
+22/04/2024 19:38:50 : Test End!
+_________________________________________________________________________________________
+22/04/2024 19:38:50 : Test Start!
+22/04/2024 19:38:52 : Inside Step - the user is on home page
+22/04/2024 19:38:52 : Inside Step - the user enter keyword iPod in header search bar
+22/04/2024 19:38:53 : Inside Step - click on search button
+22/04/2024 19:38:53 : Inside Step - the user should be redirected to search result page and see all products containing provided keyword.
+22/04/2024 19:38:53 : Search result - Product name: iPod Classic
+22/04/2024 19:38:53 : Search result - Product name: iPod Nano
+22/04/2024 19:38:53 : Search result - Product name: iPod Shuffle
+22/04/2024 19:38:53 : Search result - Product name: iPod Touch
+22/04/2024 19:38:53 : Test End!
+_________________________________________________________________________________________
+22/04/2024 19:38:53 : Test Start!
+22/04/2024 19:38:54 : Inside Step - the user is on home page
+22/04/2024 19:38:55 : Inside Step - the user clicks on mini cart in header
+22/04/2024 19:38:56 : Inside Step - the user should see Your shopping cart is empty! minicart message.
+22/04/2024 19:38:56 : Test End!
+_________________________________________________________________________________________
+22/04/2024 19:38:56 : Test Start!
+22/04/2024 19:38:58 : Inside Step - the user is on home page
+22/04/2024 19:38:59 : Inside Step - the user clicks on Checkout link in header
+22/04/2024 19:39:00 : Inside Step - the user should be redirected to shopping cart page and see "Your shopping cart is empty!" message.
+22/04/2024 19:39:00 : Test End!
+_________________________________________________________________________________________
+22/04/2024 19:39:00 : Test Start!
+22/04/2024 19:39:01 : Inside Step - the user is on home page
+22/04/2024 19:39:02 : Inside Step - the user add "MacBook" product in shopping cart from home page
+22/04/2024 19:39:04 : Inside Step - user clicks on mini cart in header he sees added product data
+22/04/2024 19:39:05 : Cart items are valid.
+22/04/2024 19:39:05 : Inside Step - navigate to shopping cart page
+22/04/2024 19:39:06 : Inside Step - the product data in the shopping cart page must be the same as mini cart product data
+22/04/2024 19:39:06 : Cart contains items.
+22/04/2024 19:39:06 : Cart items are valid.
+22/04/2024 19:39:06 : Test End!
+_________________________________________________________________________________________
+22/04/2024 19:39:06 : Test Start!
+22/04/2024 19:39:07 : Inside Step - the user is on home page
+22/04/2024 19:39:08 : Inside Step - the user add "iMac" product in shopping cart from home page
+22/04/2024 19:39:10 : Inside Step - navigate to shopping cart page
+22/04/2024 19:39:11 : Inside Step - user click on "iMac" product delete button
+22/04/2024 19:39:11 : Cart contains items.
+22/04/2024 19:39:11 : Cart items are valid.
+22/04/2024 19:39:11 : Inside Step - the user should see "Your shopping cart is empty!" message on the Shopping Cart page.
+22/04/2024 19:39:12 : Test End!
+_________________________________________________________________________________________
+22/04/2024 19:39:12 : Test Start!
+22/04/2024 19:39:13 : Inside Step - the user is on home page
+22/04/2024 19:39:14 : Inside Step - the user add "iPod Nano" product in shopping cart from home page
+22/04/2024 19:39:16 : Inside Step - navigate to shopping cart page
+22/04/2024 19:39:17 : Inside Step - select  "iPod Nano"  product and insert new value "2" in product quantity field and click update button
+22/04/2024 19:39:17 : Cart contains items.
+22/04/2024 19:39:17 : Cart items are valid.
+22/04/2024 19:39:17 : Inside Step - user should see  "iPod Nano" product total price be multiplied by "2
+22/04/2024 19:39:17 : Product price: 100.0 | Product Qty: 2 | Product Total: 200.0 | Product Multiplied Price: 200.0
+22/04/2024 19:39:17 : Test End!
+_________________________________________________________________________________________
+22/04/2024 19:39:18 : Test Start!
+22/04/2024 19:39:19 : Inside Step - I check the state of database table oc_customer
+22/04/2024 19:39:19 : Connecting to DB...
+22/04/2024 19:39:19 : __________________________Database Response___________________________________
+22/04/2024 19:39:19 : Customer ID:2 | First Name:Georgi | Last Name:Petrov | Email:petrov@test.test | Telephone:0883225512 | Newsletter:0 | Date Added:2023-11-24 15:13:50
+22/04/2024 19:39:19 : Customer ID:3 | First Name:Gergana | Last Name:Dimitrova | Email:dimitrova@test.test | Telephone:0888888888 | Newsletter:1 | Date Added:2023-11-24 15:16:16
+22/04/2024 19:39:19 : Customer ID:40 | First Name:Kiril | Last Name:Todorov | Email:todorov@test.test | Telephone:0883198565 | Newsletter:1 | Date Added:2023-11-28 18:26:48
+22/04/2024 19:39:19 : Customer ID:122 | First Name:Vasil | Last Name:Vasilev | Email:vasilev@test.test | Telephone:0884395614 | Newsletter:1 | Date Added:2024-02-05 19:12:32
+22/04/2024 19:39:19 : ____________________________________________________________________________
+22/04/2024 19:39:19 : Disconnecting from DB...
+22/04/2024 19:39:19 : Inside Step - I send POST HTTP request
+22/04/2024 19:39:19 : Connecting to DB...
+22/04/2024 19:39:19 : __________________________Create Customer___________________________________
+22/04/2024 19:39:19 : Disconnecting from DB...
+22/04/2024 19:39:19 : Inside Step - I receive a Response
+22/04/2024 19:39:19 : Connecting to DB...
+22/04/2024 19:39:19 : __________________________Database Response___________________________________
+22/04/2024 19:39:19 : Customer ID:2 | First Name:Georgi | Last Name:Petrov | Email:petrov@test.test | Telephone:0883225512 | Newsletter:0 | Date Added:2023-11-24 15:13:50
+22/04/2024 19:39:19 : Customer ID:3 | First Name:Gergana | Last Name:Dimitrova | Email:dimitrova@test.test | Telephone:0888888888 | Newsletter:1 | Date Added:2023-11-24 15:16:16
+22/04/2024 19:39:19 : Customer ID:40 | First Name:Kiril | Last Name:Todorov | Email:todorov@test.test | Telephone:0883198565 | Newsletter:1 | Date Added:2023-11-28 18:26:48
+22/04/2024 19:39:19 : Customer ID:122 | First Name:Vasil | Last Name:Vasilev | Email:vasilev@test.test | Telephone:0884395614 | Newsletter:1 | Date Added:2024-02-05 19:12:32
+22/04/2024 19:39:19 : Customer ID:220 | First Name:Ivan | Last Name:Ivanov | Email:ivanov@test.test | Telephone:0887446682 | Newsletter:1 | Date Added:2024-04-22 19:39:19
+22/04/2024 19:39:19 : ____________________________________________________________________________
+22/04/2024 19:39:19 : Disconnecting from DB...
+22/04/2024 19:39:19 : Test End!
+_________________________________________________________________________________________
+22/04/2024 19:39:19 : Test Start!
+22/04/2024 19:39:20 : Inside Step - I check the state of database table oc_customer
+22/04/2024 19:39:20 : Connecting to DB...
+22/04/2024 19:39:20 : __________________________Database Response___________________________________
+22/04/2024 19:39:20 : Customer ID:2 | First Name:Georgi | Last Name:Petrov | Email:petrov@test.test | Telephone:0883225512 | Newsletter:0 | Date Added:2023-11-24 15:13:50
+22/04/2024 19:39:20 : Customer ID:3 | First Name:Gergana | Last Name:Dimitrova | Email:dimitrova@test.test | Telephone:0888888888 | Newsletter:1 | Date Added:2023-11-24 15:16:16
+22/04/2024 19:39:20 : Customer ID:40 | First Name:Kiril | Last Name:Todorov | Email:todorov@test.test | Telephone:0883198565 | Newsletter:1 | Date Added:2023-11-28 18:26:48
+22/04/2024 19:39:20 : Customer ID:122 | First Name:Vasil | Last Name:Vasilev | Email:vasilev@test.test | Telephone:0884395614 | Newsletter:1 | Date Added:2024-02-05 19:12:32
+22/04/2024 19:39:20 : Customer ID:220 | First Name:Ivan | Last Name:Ivanov | Email:ivanov@test.test | Telephone:0887446682 | Newsletter:1 | Date Added:2024-04-22 19:39:19
+22/04/2024 19:39:20 : ____________________________________________________________________________
+22/04/2024 19:39:20 : Disconnecting from DB...
+22/04/2024 19:39:20 : Inside Step - I send GET HTTP request
+22/04/2024 19:39:20 : Connecting to DB...
+22/04/2024 19:39:20 : __________________________Database Response___________________________________
+22/04/2024 19:39:20 : Customer ID:2 | First Name:Georgi | Last Name:Petrov | Email:petrov@test.test | Telephone:0883225512 | Newsletter:0 | Date Added:2023-11-24 15:13:50
+22/04/2024 19:39:20 : Customer ID:3 | First Name:Gergana | Last Name:Dimitrova | Email:dimitrova@test.test | Telephone:0888888888 | Newsletter:1 | Date Added:2023-11-24 15:16:16
+22/04/2024 19:39:20 : Customer ID:40 | First Name:Kiril | Last Name:Todorov | Email:todorov@test.test | Telephone:0883198565 | Newsletter:1 | Date Added:2023-11-28 18:26:48
+22/04/2024 19:39:20 : Customer ID:122 | First Name:Vasil | Last Name:Vasilev | Email:vasilev@test.test | Telephone:0884395614 | Newsletter:1 | Date Added:2024-02-05 19:12:32
+22/04/2024 19:39:20 : Customer ID:220 | First Name:Ivan | Last Name:Ivanov | Email:ivanov@test.test | Telephone:0887446682 | Newsletter:1 | Date Added:2024-04-22 19:39:19
+22/04/2024 19:39:20 : ____________________________________________________________________________
+22/04/2024 19:39:20 : Disconnecting from DB...
+22/04/2024 19:39:20 : Inside Step - I receive a Response
+22/04/2024 19:39:20 : Connecting to DB...
+22/04/2024 19:39:20 : __________________________Database Response___________________________________
+22/04/2024 19:39:20 : Customer ID:2 | First Name:Georgi | Last Name:Petrov | Email:petrov@test.test | Telephone:0883225512 | Newsletter:0 | Date Added:2023-11-24 15:13:50
+22/04/2024 19:39:20 : Customer ID:3 | First Name:Gergana | Last Name:Dimitrova | Email:dimitrova@test.test | Telephone:0888888888 | Newsletter:1 | Date Added:2023-11-24 15:16:16
+22/04/2024 19:39:20 : Customer ID:40 | First Name:Kiril | Last Name:Todorov | Email:todorov@test.test | Telephone:0883198565 | Newsletter:1 | Date Added:2023-11-28 18:26:48
+22/04/2024 19:39:20 : Customer ID:122 | First Name:Vasil | Last Name:Vasilev | Email:vasilev@test.test | Telephone:0884395614 | Newsletter:1 | Date Added:2024-02-05 19:12:32
+22/04/2024 19:39:20 : Customer ID:220 | First Name:Ivan | Last Name:Ivanov | Email:ivanov@test.test | Telephone:0887446682 | Newsletter:1 | Date Added:2024-04-22 19:39:19
+22/04/2024 19:39:20 : ____________________________________________________________________________
+22/04/2024 19:39:20 : Disconnecting from DB...
+22/04/2024 19:39:20 : Test End!
+_________________________________________________________________________________________
+22/04/2024 19:39:20 : Test Start!
+22/04/2024 19:39:22 : Inside Step - I Read database customer table
+22/04/2024 19:39:22 : Connecting to DB...
+22/04/2024 19:39:22 : __________________________Database Response___________________________________
+22/04/2024 19:39:22 : Customer ID:2 | First Name:Georgi | Last Name:Petrov | Email:petrov@test.test | Telephone:0883225512 | Newsletter:0 | Date Added:2023-11-24 15:13:50
+22/04/2024 19:39:22 : Customer ID:3 | First Name:Gergana | Last Name:Dimitrova | Email:dimitrova@test.test | Telephone:0888888888 | Newsletter:1 | Date Added:2023-11-24 15:16:16
+22/04/2024 19:39:22 : Customer ID:40 | First Name:Kiril | Last Name:Todorov | Email:todorov@test.test | Telephone:0883198565 | Newsletter:1 | Date Added:2023-11-28 18:26:48
+22/04/2024 19:39:22 : Customer ID:122 | First Name:Vasil | Last Name:Vasilev | Email:vasilev@test.test | Telephone:0884395614 | Newsletter:1 | Date Added:2024-02-05 19:12:32
+22/04/2024 19:39:22 : Customer ID:220 | First Name:Ivan | Last Name:Ivanov | Email:ivanov@test.test | Telephone:0887446682 | Newsletter:1 | Date Added:2024-04-22 19:39:19
+22/04/2024 19:39:22 : ____________________________________________________________________________
+22/04/2024 19:39:22 : Disconnecting from DB...
+22/04/2024 19:39:22 : Inside Step - I send UPDATE HTTP request
+22/04/2024 19:39:22 : Connecting to DB...
+22/04/2024 19:39:22 : __________________________Updating Values___________________________________
+22/04/2024 19:39:22 : Disconnecting from DB...
+22/04/2024 19:39:22 : Inside Step - I receive a Response
+22/04/2024 19:39:22 : Connecting to DB...
+22/04/2024 19:39:22 : __________________________Database Response___________________________________
+22/04/2024 19:39:22 : Customer ID:2 | First Name:Georgi | Last Name:Petrov | Email:petrov@test.test | Telephone:0883225512 | Newsletter:0 | Date Added:2023-11-24 15:13:50
+22/04/2024 19:39:22 : Customer ID:3 | First Name:Gergana | Last Name:Dimitrova | Email:dimitrova@test.test | Telephone:0888888888 | Newsletter:1 | Date Added:2023-11-24 15:16:16
+22/04/2024 19:39:22 : Customer ID:40 | First Name:Kiril | Last Name:Todorov | Email:todorov@test.test | Telephone:0883198565 | Newsletter:1 | Date Added:2023-11-28 18:26:48
+22/04/2024 19:39:22 : Customer ID:122 | First Name:Vasil | Last Name:Vasilev | Email:vasilev@test.test | Telephone:0884395614 | Newsletter:1 | Date Added:2024-02-05 19:12:32
+22/04/2024 19:39:22 : Customer ID:220 | First Name:Ivan | Last Name:Ivanov | Email:ivanov@test.test | Telephone:0887446682 | Newsletter:1 | Date Added:2024-04-22 19:39:19
+22/04/2024 19:39:22 : ____________________________________________________________________________
+22/04/2024 19:39:22 : Disconnecting from DB...
+22/04/2024 19:39:22 : Test End!
+_________________________________________________________________________________________
+22/04/2024 19:39:22 : Test Start!
+22/04/2024 19:39:23 : Inside Step - I Read database customer table
+22/04/2024 19:39:23 : Connecting to DB...
+22/04/2024 19:39:23 : __________________________Database Response___________________________________
+22/04/2024 19:39:23 : Customer ID:2 | First Name:Georgi | Last Name:Petrov | Email:petrov@test.test | Telephone:0883225512 | Newsletter:0 | Date Added:2023-11-24 15:13:50
+22/04/2024 19:39:23 : Customer ID:3 | First Name:Gergana | Last Name:Dimitrova | Email:dimitrova@test.test | Telephone:0888888888 | Newsletter:1 | Date Added:2023-11-24 15:16:16
+22/04/2024 19:39:23 : Customer ID:40 | First Name:Kiril | Last Name:Todorov | Email:todorov@test.test | Telephone:0883198565 | Newsletter:1 | Date Added:2023-11-28 18:26:48
+22/04/2024 19:39:23 : Customer ID:122 | First Name:Vasil | Last Name:Vasilev | Email:vasilev@test.test | Telephone:0884395614 | Newsletter:1 | Date Added:2024-02-05 19:12:32
+22/04/2024 19:39:23 : Customer ID:220 | First Name:Ivan | Last Name:Ivanov | Email:ivanov@test.test | Telephone:0887446682 | Newsletter:1 | Date Added:2024-04-22 19:39:19
+22/04/2024 19:39:23 : ____________________________________________________________________________
+22/04/2024 19:39:23 : Disconnecting from DB...
+22/04/2024 19:39:23 : Inside Step - I send DELETE HTTP request
+22/04/2024 19:39:23 : Connecting to DB...
+22/04/2024 19:39:23 : __________________________Deleting Customer_________________________________
+22/04/2024 19:39:23 : Disconnecting from DB...
+22/04/2024 19:39:23 : Inside Step - I receive a Response
+22/04/2024 19:39:23 : Connecting to DB...
+22/04/2024 19:39:23 : __________________________Database Response___________________________________
+22/04/2024 19:39:23 : Customer ID:2 | First Name:Georgi | Last Name:Petrov | Email:petrov@test.test | Telephone:0883225512 | Newsletter:0 | Date Added:2023-11-24 15:13:50
+22/04/2024 19:39:23 : Customer ID:3 | First Name:Gergana | Last Name:Dimitrova | Email:dimitrova@test.test | Telephone:0888888888 | Newsletter:1 | Date Added:2023-11-24 15:16:16
+22/04/2024 19:39:23 : Customer ID:40 | First Name:Kiril | Last Name:Todorov | Email:todorov@test.test | Telephone:0883198565 | Newsletter:1 | Date Added:2023-11-28 18:26:48
+22/04/2024 19:39:23 : Customer ID:122 | First Name:Vasil | Last Name:Vasilev | Email:vasilev@test.test | Telephone:0884395614 | Newsletter:1 | Date Added:2024-02-05 19:12:32
+22/04/2024 19:39:23 : ____________________________________________________________________________
+22/04/2024 19:39:23 : Disconnecting from DB...
+22/04/2024 19:39:23 : Test End!
+_________________________________________________________________________________________
+22/04/2024 19:48:09 : Test Start!
+22/04/2024 19:48:11 : Inside Step - the user is on home page
+22/04/2024 19:48:12 : Inside Step - the user add  "Samsung SyncMaster 941BW" product to shopping cart from homepage
+22/04/2024 19:48:15 : Inside Step - click on <Checkout> button in header
+22/04/2024 19:48:16 : Inside Step - select <Guest Checkout> in checkout page
+22/04/2024 19:48:18 : Inside Step - go through all checkout steps filling all required fields with valid credentials
+22/04/2024 19:48:21 : Inside Step - click on <Confirm Order> button
+22/04/2024 19:48:22 : Inside Step - the user should be redirected to success page and see "Your order has been placed!" message.
+22/04/2024 19:48:24 : Test End!
+_________________________________________________________________________________________
+22/04/2024 19:48:24 : Test Start!
+22/04/2024 19:48:25 : Inside Step - the user have a profile in website and is on home page
+22/04/2024 19:48:25 : Connecting to DB...
+22/04/2024 19:48:25 : __________________________Create Customer___________________________________
+22/04/2024 19:48:25 : Disconnecting from DB...
+22/04/2024 19:48:25 : Connecting to DB...
+22/04/2024 19:48:25 : __________________________Database Response___________________________________
+22/04/2024 19:48:25 : Customer ID:2 | First Name:Georgi | Last Name:Petrov | Email:petrov@test.test | Telephone:0883225512 | Newsletter:0 | Date Added:2023-11-24 15:13:50
+22/04/2024 19:48:25 : Customer ID:3 | First Name:Gergana | Last Name:Dimitrova | Email:dimitrova@test.test | Telephone:0888888888 | Newsletter:1 | Date Added:2023-11-24 15:16:16
+22/04/2024 19:48:25 : Customer ID:40 | First Name:Kiril | Last Name:Todorov | Email:todorov@test.test | Telephone:0883198565 | Newsletter:1 | Date Added:2023-11-28 18:26:48
+22/04/2024 19:48:25 : Customer ID:221 | First Name:Ivan | Last Name:Ivanov | Email:ivanov@test.test | Telephone:0887446682 | Newsletter:1 | Date Added:2024-04-22 19:48:26
+22/04/2024 19:48:25 : ____________________________________________________________________________
+22/04/2024 19:48:25 : Disconnecting from DB...
+22/04/2024 19:48:26 : Inside Step - the user login into his profile with email ivanov@test.test, and password ivanov
+22/04/2024 19:48:27 : Inside Step - the user add "iPod Touch" product to shopping cart from product page
+22/04/2024 19:48:30 : Inside Step - click on <Checkout> button in header
+22/04/2024 19:48:32 : Inside Step - go through all checkout steps filling all required fields with valid user credentials
+22/04/2024 19:48:35 : Inside Step - click on <Confirm Order> button
+22/04/2024 19:48:36 : Inside Step - the user must be redirected to success page and see "Your order has been placed!" message.
+22/04/2024 19:48:37 : Connecting to DB...
+22/04/2024 19:48:37 : __________________________Deleting Customer_________________________________
+22/04/2024 19:48:37 : Disconnecting from DB...
+22/04/2024 19:48:37 : Connecting to DB...
+22/04/2024 19:48:37 : __________________________Database Response___________________________________
+22/04/2024 19:48:37 : Customer ID:2 | First Name:Georgi | Last Name:Petrov | Email:petrov@test.test | Telephone:0883225512 | Newsletter:0 | Date Added:2023-11-24 15:13:50
+22/04/2024 19:48:37 : Customer ID:3 | First Name:Gergana | Last Name:Dimitrova | Email:dimitrova@test.test | Telephone:0888888888 | Newsletter:1 | Date Added:2023-11-24 15:16:16
+22/04/2024 19:48:37 : Customer ID:40 | First Name:Kiril | Last Name:Todorov | Email:todorov@test.test | Telephone:0883198565 | Newsletter:1 | Date Added:2023-11-28 18:26:48
+22/04/2024 19:48:37 : ____________________________________________________________________________
+22/04/2024 19:48:37 : Disconnecting from DB...
+22/04/2024 19:48:37 : Test End!
+_________________________________________________________________________________________
+22/04/2024 19:48:37 : Test Start!
+22/04/2024 19:48:39 : Inside Step - the user have a profile in website and is on home page
+22/04/2024 19:48:39 : Connecting to DB...
+22/04/2024 19:48:39 : __________________________Create Customer___________________________________
+22/04/2024 19:48:39 : Disconnecting from DB...
+22/04/2024 19:48:39 : Connecting to DB...
+22/04/2024 19:48:39 : __________________________Database Response___________________________________
+22/04/2024 19:48:39 : Customer ID:2 | First Name:Georgi | Last Name:Petrov | Email:petrov@test.test | Telephone:0883225512 | Newsletter:0 | Date Added:2023-11-24 15:13:50
+22/04/2024 19:48:39 : Customer ID:3 | First Name:Gergana | Last Name:Dimitrova | Email:dimitrova@test.test | Telephone:0888888888 | Newsletter:1 | Date Added:2023-11-24 15:16:16
+22/04/2024 19:48:39 : Customer ID:40 | First Name:Kiril | Last Name:Todorov | Email:todorov@test.test | Telephone:0883198565 | Newsletter:1 | Date Added:2023-11-28 18:26:48
+22/04/2024 19:48:39 : Customer ID:222 | First Name:Ivan | Last Name:Ivanov | Email:ivanov@test.test | Telephone:0887446682 | Newsletter:1 | Date Added:2024-04-22 19:48:39
+22/04/2024 19:48:39 : ____________________________________________________________________________
+22/04/2024 19:48:39 : Disconnecting from DB...
+22/04/2024 19:48:40 : Inside Step - the user login into his profile with email ivanov@test.test, and password ivanov
+22/04/2024 19:48:41 : Inside Step - user add product from homepage to his wishlist
+22/04/2024 19:48:44 : <<< Shows Alert: Success: You have added MacBook to your wish list! >>>
+22/04/2024 19:48:44 : Inside Step - click on <Wish List> button in header
+22/04/2024 19:48:45 : Inside Step - the user should be redirected to his wishlist page and see added product there.
+22/04/2024 19:48:45 : Wishlist contains items.
+22/04/2024 19:48:45 : Wishlist items are valid.
+22/04/2024 19:48:45 : Connecting to DB...
+22/04/2024 19:48:45 : __________________________Deleting Customer_________________________________
+22/04/2024 19:48:45 : Disconnecting from DB...
+22/04/2024 19:48:45 : Connecting to DB...
+22/04/2024 19:48:45 : __________________________Database Response___________________________________
+22/04/2024 19:48:45 : Customer ID:2 | First Name:Georgi | Last Name:Petrov | Email:petrov@test.test | Telephone:0883225512 | Newsletter:0 | Date Added:2023-11-24 15:13:50
+22/04/2024 19:48:45 : Customer ID:3 | First Name:Gergana | Last Name:Dimitrova | Email:dimitrova@test.test | Telephone:0888888888 | Newsletter:1 | Date Added:2023-11-24 15:16:16
+22/04/2024 19:48:45 : Customer ID:40 | First Name:Kiril | Last Name:Todorov | Email:todorov@test.test | Telephone:0883198565 | Newsletter:1 | Date Added:2023-11-28 18:26:48
+22/04/2024 19:48:45 : ____________________________________________________________________________
+22/04/2024 19:48:45 : Disconnecting from DB...
+22/04/2024 19:48:45 : Test End!
+_________________________________________________________________________________________
+22/04/2024 19:48:45 : Test Start!
+22/04/2024 19:48:47 : Inside Step - the user is on home page
+22/04/2024 19:48:48 : Inside Step - the user open <About Us> link in footer
+22/04/2024 19:48:48 : Inside Step - the user should see About Us page.
+22/04/2024 19:48:48 : Redirect is successful!
+22/04/2024 19:48:48 : Test End!
+_________________________________________________________________________________________
+22/04/2024 19:48:48 : Test Start!
+22/04/2024 19:48:49 : Inside Step - the user is on home page
+22/04/2024 19:48:50 : Inside Step - the user open <Delivery Information> link in footer
+22/04/2024 19:48:51 : Inside Step - the user should see Delivery Information page.
+22/04/2024 19:48:51 : Redirect is successful!
+22/04/2024 19:48:51 : Test End!
+_________________________________________________________________________________________
+22/04/2024 19:48:51 : Test Start!
+22/04/2024 19:48:52 : Inside Step - the user is on home page
+22/04/2024 19:48:53 : Inside Step - the user open <Privacy Policy> link in footer
+22/04/2024 19:48:53 : Inside Step - the user should see Privacy Policy page.
+22/04/2024 19:48:53 : Redirect is successful!
+22/04/2024 19:48:53 : Test End!
+_________________________________________________________________________________________
+22/04/2024 19:48:53 : Test Start!
+22/04/2024 19:48:55 : Inside Step - the user is on home page
+22/04/2024 19:48:56 : Inside Step - the user open <Terms & Conditions> link in footer
+22/04/2024 19:48:56 : Inside Step - the user should see Terms & Conditions page.
+22/04/2024 19:48:56 : Redirect is successful!
+22/04/2024 19:48:56 : Test End!
+_________________________________________________________________________________________
+22/04/2024 19:48:56 : Test Start!
+22/04/2024 19:48:57 : Inside Step - the user is on home page
+22/04/2024 19:48:58 : Inside Step - the user navigate to contact page
+22/04/2024 19:48:59 : Inside Step - fill <Your Name> field as Ivan Ivanov
+22/04/2024 19:48:59 : Inside Step - fill <E-Mail Address> as ivanov@test.test
+22/04/2024 19:48:59 : Inside Step - fill <Enquiry> as This is the test message!
+22/04/2024 19:48:59 : Inside Step - click on <Submit> button
+22/04/2024 19:48:59 : Inside Step - the user should see "Your enquiry has been successfully sent to the store owner!" message.
+22/04/2024 19:48:59 : Test End!
+_________________________________________________________________________________________
+22/04/2024 19:49:00 : Test Start!
+22/04/2024 19:49:01 : Inside Step - the user is on home page
+22/04/2024 19:49:02 : Inside Step - the user navigate to product page
+22/04/2024 19:49:03 : Inside Step - click on `Reviews` tab
+22/04/2024 19:49:04 : Inside Step - fill the review form with valid data
+22/04/2024 19:49:04 : Inside Step - click on `Continue` button
+22/04/2024 19:49:04 : Inside Step - the user should see "Thank you for your review. It has been submitted to the webmaster for approval." notification message.
+22/04/2024 19:49:04 : Test End!
+_________________________________________________________________________________________
+22/04/2024 19:49:04 : Test Start!
+22/04/2024 19:49:06 : Inside Step - the user is on home page
+22/04/2024 19:49:07 : Inside Step - the user enters registration page
+22/04/2024 19:49:07 : Inside Step - insert valid credentials
+22/04/2024 19:49:08 : Inside Step - click on Continue button
+22/04/2024 19:49:09 : Inside Step - the user should been registered and redirect to its profile
+22/04/2024 19:49:10 : Test End!
+_________________________________________________________________________________________
+22/04/2024 19:49:10 : Test Start!
+22/04/2024 19:49:11 : Inside Step - the user is on home page
+22/04/2024 19:49:12 : Inside Step - the user enter keyword iPod in header search bar
+22/04/2024 19:49:12 : Inside Step - click on search button
+22/04/2024 19:49:12 : Inside Step - the user should be redirected to search result page and see all products containing provided keyword.
+22/04/2024 19:49:13 : Search result - Product name: iPod Classic
+22/04/2024 19:49:13 : Search result - Product name: iPod Nano
+22/04/2024 19:49:13 : Search result - Product name: iPod Shuffle
+22/04/2024 19:49:13 : Search result - Product name: iPod Touch
+22/04/2024 19:49:13 : Test End!
+_________________________________________________________________________________________
+22/04/2024 19:49:13 : Test Start!
+22/04/2024 19:49:14 : Inside Step - the user is on home page
+22/04/2024 19:49:15 : Inside Step - the user clicks on mini cart in header
+22/04/2024 19:49:16 : Inside Step - the user should see Your shopping cart is empty! minicart message.
+22/04/2024 19:49:16 : Test End!
+_________________________________________________________________________________________
+22/04/2024 19:49:16 : Test Start!
+22/04/2024 19:49:17 : Inside Step - the user is on home page
+22/04/2024 19:49:18 : Inside Step - the user clicks on Checkout link in header
+22/04/2024 19:49:19 : Inside Step - the user should be redirected to shopping cart page and see "Your shopping cart is empty!" message.
+22/04/2024 19:49:20 : Test End!
+_________________________________________________________________________________________
+22/04/2024 19:49:20 : Test Start!
+22/04/2024 19:49:21 : Inside Step - the user is on home page
+22/04/2024 19:49:22 : Inside Step - the user add "MacBook" product in shopping cart from home page
+22/04/2024 19:49:24 : Inside Step - user clicks on mini cart in header he sees added product data
+22/04/2024 19:49:24 : Cart items are valid.
+22/04/2024 19:49:24 : Inside Step - navigate to shopping cart page
+22/04/2024 19:49:26 : Inside Step - the product data in the shopping cart page must be the same as mini cart product data
+22/04/2024 19:49:26 : Cart contains items.
+22/04/2024 19:49:26 : Cart items are valid.
+22/04/2024 19:49:26 : Test End!
+_________________________________________________________________________________________
+22/04/2024 19:49:26 : Test Start!
+22/04/2024 19:49:27 : Inside Step - the user is on home page
+22/04/2024 19:49:28 : Inside Step - the user add "iMac" product in shopping cart from home page
+22/04/2024 19:49:30 : Inside Step - navigate to shopping cart page
+22/04/2024 19:49:31 : Inside Step - user click on "iMac" product delete button
+22/04/2024 19:49:31 : Cart contains items.
+22/04/2024 19:49:31 : Cart items are valid.
+22/04/2024 19:49:31 : Inside Step - the user should see "Your shopping cart is empty!" message on the Shopping Cart page.
+22/04/2024 19:49:31 : Test End!
+_________________________________________________________________________________________
+22/04/2024 19:49:31 : Test Start!
+22/04/2024 19:49:33 : Inside Step - the user is on home page
+22/04/2024 19:49:34 : Inside Step - the user add "iPod Nano" product in shopping cart from home page
+22/04/2024 19:49:35 : Inside Step - navigate to shopping cart page
+22/04/2024 19:49:37 : Inside Step - select  "iPod Nano"  product and insert new value "2" in product quantity field and click update button
+22/04/2024 19:49:37 : Cart contains items.
+22/04/2024 19:49:37 : Cart items are valid.
+22/04/2024 19:49:37 : Inside Step - user should see  "iPod Nano" product total price be multiplied by "2
+22/04/2024 19:49:37 : Product price: 100.0 | Product Qty: 2 | Product Total: 200.0 | Product Multiplied Price: 200.0
+22/04/2024 19:49:37 : Test End!
+_________________________________________________________________________________________
+22/04/2024 19:49:37 : Test Start!
+22/04/2024 19:49:39 : Inside Step - I check the state of database table oc_customer
+22/04/2024 19:49:39 : Connecting to DB...
+22/04/2024 19:49:39 : __________________________Database Response___________________________________
+22/04/2024 19:49:39 : Customer ID:2 | First Name:Georgi | Last Name:Petrov | Email:petrov@test.test | Telephone:0883225512 | Newsletter:0 | Date Added:2023-11-24 15:13:50
+22/04/2024 19:49:39 : Customer ID:3 | First Name:Gergana | Last Name:Dimitrova | Email:dimitrova@test.test | Telephone:0888888888 | Newsletter:1 | Date Added:2023-11-24 15:16:16
+22/04/2024 19:49:39 : Customer ID:40 | First Name:Kiril | Last Name:Todorov | Email:todorov@test.test | Telephone:0883198565 | Newsletter:1 | Date Added:2023-11-28 18:26:48
+22/04/2024 19:49:39 : Customer ID:223 | First Name:Vasil | Last Name:Vasilev | Email:vasilev@test.test | Telephone:0884395614 | Newsletter:1 | Date Added:2024-04-22 19:49:08
+22/04/2024 19:49:39 : ____________________________________________________________________________
+22/04/2024 19:49:39 : Disconnecting from DB...
+22/04/2024 19:49:39 : Inside Step - I send POST HTTP request
+22/04/2024 19:49:39 : Connecting to DB...
+22/04/2024 19:49:39 : __________________________Create Customer___________________________________
+22/04/2024 19:49:39 : Disconnecting from DB...
+22/04/2024 19:49:39 : Inside Step - I receive a Response
+22/04/2024 19:49:39 : Connecting to DB...
+22/04/2024 19:49:39 : __________________________Database Response___________________________________
+22/04/2024 19:49:39 : Customer ID:2 | First Name:Georgi | Last Name:Petrov | Email:petrov@test.test | Telephone:0883225512 | Newsletter:0 | Date Added:2023-11-24 15:13:50
+22/04/2024 19:49:39 : Customer ID:3 | First Name:Gergana | Last Name:Dimitrova | Email:dimitrova@test.test | Telephone:0888888888 | Newsletter:1 | Date Added:2023-11-24 15:16:16
+22/04/2024 19:49:39 : Customer ID:40 | First Name:Kiril | Last Name:Todorov | Email:todorov@test.test | Telephone:0883198565 | Newsletter:1 | Date Added:2023-11-28 18:26:48
+22/04/2024 19:49:39 : Customer ID:223 | First Name:Vasil | Last Name:Vasilev | Email:vasilev@test.test | Telephone:0884395614 | Newsletter:1 | Date Added:2024-04-22 19:49:08
+22/04/2024 19:49:39 : Customer ID:224 | First Name:Ivan | Last Name:Ivanov | Email:ivanov@test.test | Telephone:0887446682 | Newsletter:1 | Date Added:2024-04-22 19:49:39
+22/04/2024 19:49:39 : ____________________________________________________________________________
+22/04/2024 19:49:39 : Disconnecting from DB...
+22/04/2024 19:49:39 : Test End!
+_________________________________________________________________________________________
+22/04/2024 19:49:39 : Test Start!
+22/04/2024 19:49:40 : Inside Step - I check the state of database table oc_customer
+22/04/2024 19:49:40 : Connecting to DB...
+22/04/2024 19:49:40 : __________________________Database Response___________________________________
+22/04/2024 19:49:40 : Customer ID:2 | First Name:Georgi | Last Name:Petrov | Email:petrov@test.test | Telephone:0883225512 | Newsletter:0 | Date Added:2023-11-24 15:13:50
+22/04/2024 19:49:40 : Customer ID:3 | First Name:Gergana | Last Name:Dimitrova | Email:dimitrova@test.test | Telephone:0888888888 | Newsletter:1 | Date Added:2023-11-24 15:16:16
+22/04/2024 19:49:40 : Customer ID:40 | First Name:Kiril | Last Name:Todorov | Email:todorov@test.test | Telephone:0883198565 | Newsletter:1 | Date Added:2023-11-28 18:26:48
+22/04/2024 19:49:40 : Customer ID:223 | First Name:Vasil | Last Name:Vasilev | Email:vasilev@test.test | Telephone:0884395614 | Newsletter:1 | Date Added:2024-04-22 19:49:08
+22/04/2024 19:49:40 : Customer ID:224 | First Name:Ivan | Last Name:Ivanov | Email:ivanov@test.test | Telephone:0887446682 | Newsletter:1 | Date Added:2024-04-22 19:49:39
+22/04/2024 19:49:40 : ____________________________________________________________________________
+22/04/2024 19:49:40 : Disconnecting from DB...
+22/04/2024 19:49:40 : Inside Step - I send GET HTTP request
+22/04/2024 19:49:40 : Connecting to DB...
+22/04/2024 19:49:40 : __________________________Database Response___________________________________
+22/04/2024 19:49:40 : Customer ID:2 | First Name:Georgi | Last Name:Petrov | Email:petrov@test.test | Telephone:0883225512 | Newsletter:0 | Date Added:2023-11-24 15:13:50
+22/04/2024 19:49:40 : Customer ID:3 | First Name:Gergana | Last Name:Dimitrova | Email:dimitrova@test.test | Telephone:0888888888 | Newsletter:1 | Date Added:2023-11-24 15:16:16
+22/04/2024 19:49:40 : Customer ID:40 | First Name:Kiril | Last Name:Todorov | Email:todorov@test.test | Telephone:0883198565 | Newsletter:1 | Date Added:2023-11-28 18:26:48
+22/04/2024 19:49:40 : Customer ID:223 | First Name:Vasil | Last Name:Vasilev | Email:vasilev@test.test | Telephone:0884395614 | Newsletter:1 | Date Added:2024-04-22 19:49:08
+22/04/2024 19:49:40 : Customer ID:224 | First Name:Ivan | Last Name:Ivanov | Email:ivanov@test.test | Telephone:0887446682 | Newsletter:1 | Date Added:2024-04-22 19:49:39
+22/04/2024 19:49:40 : ____________________________________________________________________________
+22/04/2024 19:49:40 : Disconnecting from DB...
+22/04/2024 19:49:40 : Inside Step - I receive a Response
+22/04/2024 19:49:40 : Connecting to DB...
+22/04/2024 19:49:40 : __________________________Database Response___________________________________
+22/04/2024 19:49:40 : Customer ID:2 | First Name:Georgi | Last Name:Petrov | Email:petrov@test.test | Telephone:0883225512 | Newsletter:0 | Date Added:2023-11-24 15:13:50
+22/04/2024 19:49:40 : Customer ID:3 | First Name:Gergana | Last Name:Dimitrova | Email:dimitrova@test.test | Telephone:0888888888 | Newsletter:1 | Date Added:2023-11-24 15:16:16
+22/04/2024 19:49:40 : Customer ID:40 | First Name:Kiril | Last Name:Todorov | Email:todorov@test.test | Telephone:0883198565 | Newsletter:1 | Date Added:2023-11-28 18:26:48
+22/04/2024 19:49:40 : Customer ID:223 | First Name:Vasil | Last Name:Vasilev | Email:vasilev@test.test | Telephone:0884395614 | Newsletter:1 | Date Added:2024-04-22 19:49:08
+22/04/2024 19:49:40 : Customer ID:224 | First Name:Ivan | Last Name:Ivanov | Email:ivanov@test.test | Telephone:0887446682 | Newsletter:1 | Date Added:2024-04-22 19:49:39
+22/04/2024 19:49:40 : ____________________________________________________________________________
+22/04/2024 19:49:40 : Disconnecting from DB...
+22/04/2024 19:49:40 : Test End!
+_________________________________________________________________________________________
+22/04/2024 19:49:40 : Test Start!
+22/04/2024 19:49:41 : Inside Step - I Read database customer table
+22/04/2024 19:49:41 : Connecting to DB...
+22/04/2024 19:49:41 : __________________________Database Response___________________________________
+22/04/2024 19:49:41 : Customer ID:2 | First Name:Georgi | Last Name:Petrov | Email:petrov@test.test | Telephone:0883225512 | Newsletter:0 | Date Added:2023-11-24 15:13:50
+22/04/2024 19:49:41 : Customer ID:3 | First Name:Gergana | Last Name:Dimitrova | Email:dimitrova@test.test | Telephone:0888888888 | Newsletter:1 | Date Added:2023-11-24 15:16:16
+22/04/2024 19:49:41 : Customer ID:40 | First Name:Kiril | Last Name:Todorov | Email:todorov@test.test | Telephone:0883198565 | Newsletter:1 | Date Added:2023-11-28 18:26:48
+22/04/2024 19:49:41 : Customer ID:223 | First Name:Vasil | Last Name:Vasilev | Email:vasilev@test.test | Telephone:0884395614 | Newsletter:1 | Date Added:2024-04-22 19:49:08
+22/04/2024 19:49:41 : Customer ID:224 | First Name:Ivan | Last Name:Ivanov | Email:ivanov@test.test | Telephone:0887446682 | Newsletter:1 | Date Added:2024-04-22 19:49:39
+22/04/2024 19:49:41 : ____________________________________________________________________________
+22/04/2024 19:49:41 : Disconnecting from DB...
+22/04/2024 19:49:41 : Inside Step - I send UPDATE HTTP request
+22/04/2024 19:49:41 : Connecting to DB...
+22/04/2024 19:49:41 : __________________________Updating Values___________________________________
+22/04/2024 19:49:41 : Disconnecting from DB...
+22/04/2024 19:49:41 : Inside Step - I receive a Response
+22/04/2024 19:49:41 : Connecting to DB...
+22/04/2024 19:49:41 : __________________________Database Response___________________________________
+22/04/2024 19:49:41 : Customer ID:2 | First Name:Georgi | Last Name:Petrov | Email:petrov@test.test | Telephone:0883225512 | Newsletter:0 | Date Added:2023-11-24 15:13:50
+22/04/2024 19:49:41 : Customer ID:3 | First Name:Gergana | Last Name:Dimitrova | Email:dimitrova@test.test | Telephone:0888888888 | Newsletter:1 | Date Added:2023-11-24 15:16:16
+22/04/2024 19:49:41 : Customer ID:40 | First Name:Kiril | Last Name:Todorov | Email:todorov@test.test | Telephone:0883198565 | Newsletter:1 | Date Added:2023-11-28 18:26:48
+22/04/2024 19:49:41 : Customer ID:223 | First Name:Vasil | Last Name:Vasilev | Email:vasilev@test.test | Telephone:0884395614 | Newsletter:1 | Date Added:2024-04-22 19:49:08
+22/04/2024 19:49:41 : Customer ID:224 | First Name:Ivan | Last Name:Ivanov | Email:ivanov@test.test | Telephone:0887446682 | Newsletter:1 | Date Added:2024-04-22 19:49:39
+22/04/2024 19:49:41 : ____________________________________________________________________________
+22/04/2024 19:49:41 : Disconnecting from DB...
+22/04/2024 19:49:41 : Test End!
+_________________________________________________________________________________________
+22/04/2024 19:49:42 : Test Start!
+22/04/2024 19:49:43 : Inside Step - I Read database customer table
+22/04/2024 19:49:43 : Connecting to DB...
+22/04/2024 19:49:43 : __________________________Database Response___________________________________
+22/04/2024 19:49:43 : Customer ID:2 | First Name:Georgi | Last Name:Petrov | Email:petrov@test.test | Telephone:0883225512 | Newsletter:0 | Date Added:2023-11-24 15:13:50
+22/04/2024 19:49:43 : Customer ID:3 | First Name:Gergana | Last Name:Dimitrova | Email:dimitrova@test.test | Telephone:0888888888 | Newsletter:1 | Date Added:2023-11-24 15:16:16
+22/04/2024 19:49:43 : Customer ID:40 | First Name:Kiril | Last Name:Todorov | Email:todorov@test.test | Telephone:0883198565 | Newsletter:1 | Date Added:2023-11-28 18:26:48
+22/04/2024 19:49:43 : Customer ID:223 | First Name:Vasil | Last Name:Vasilev | Email:vasilev@test.test | Telephone:0884395614 | Newsletter:1 | Date Added:2024-04-22 19:49:08
+22/04/2024 19:49:43 : Customer ID:224 | First Name:Ivan | Last Name:Ivanov | Email:ivanov@test.test | Telephone:0887446682 | Newsletter:1 | Date Added:2024-04-22 19:49:39
+22/04/2024 19:49:43 : ____________________________________________________________________________
+22/04/2024 19:49:43 : Disconnecting from DB...
+22/04/2024 19:49:43 : Inside Step - I send DELETE HTTP request
+22/04/2024 19:49:43 : Connecting to DB...
+22/04/2024 19:49:43 : __________________________Deleting Customer_________________________________
+22/04/2024 19:49:43 : Disconnecting from DB...
+22/04/2024 19:49:43 : Inside Step - I receive a Response
+22/04/2024 19:49:43 : Connecting to DB...
+22/04/2024 19:49:43 : __________________________Database Response___________________________________
+22/04/2024 19:49:43 : Customer ID:2 | First Name:Georgi | Last Name:Petrov | Email:petrov@test.test | Telephone:0883225512 | Newsletter:0 | Date Added:2023-11-24 15:13:50
+22/04/2024 19:49:43 : Customer ID:3 | First Name:Gergana | Last Name:Dimitrova | Email:dimitrova@test.test | Telephone:0888888888 | Newsletter:1 | Date Added:2023-11-24 15:16:16
+22/04/2024 19:49:43 : Customer ID:40 | First Name:Kiril | Last Name:Todorov | Email:todorov@test.test | Telephone:0883198565 | Newsletter:1 | Date Added:2023-11-28 18:26:48
+22/04/2024 19:49:43 : Customer ID:223 | First Name:Vasil | Last Name:Vasilev | Email:vasilev@test.test | Telephone:0884395614 | Newsletter:1 | Date Added:2024-04-22 19:49:08
+22/04/2024 19:49:43 : ____________________________________________________________________________
+22/04/2024 19:49:43 : Disconnecting from DB...
+22/04/2024 19:49:43 : Test End!
+_________________________________________________________________________________________
+22/04/2024 19:50:03 : Test Start!
+22/04/2024 19:50:07 : Inside Step - the user is on home page
+22/04/2024 19:50:08 : Inside Step - the user add  "Samsung SyncMaster 941BW" product to shopping cart from homepage
+22/04/2024 19:50:11 : Inside Step - click on <Checkout> button in header
+22/04/2024 19:50:12 : Inside Step - select <Guest Checkout> in checkout page
+22/04/2024 19:50:14 : Inside Step - go through all checkout steps filling all required fields with valid credentials
+22/04/2024 19:50:18 : Inside Step - click on <Confirm Order> button
+22/04/2024 19:50:19 : Inside Step - the user should be redirected to success page and see "Your order has been placed!" message.
+22/04/2024 19:50:20 : Test End!
+_________________________________________________________________________________________
+22/04/2024 19:50:20 : Test Start!
+22/04/2024 19:50:23 : Inside Step - the user have a profile in website and is on home page
+22/04/2024 19:50:23 : Connecting to DB...
+22/04/2024 19:50:23 : __________________________Create Customer___________________________________
+22/04/2024 19:50:23 : Disconnecting from DB...
+22/04/2024 19:50:23 : Connecting to DB...
+22/04/2024 19:50:23 : __________________________Database Response___________________________________
+22/04/2024 19:50:23 : Customer ID:2 | First Name:Georgi | Last Name:Petrov | Email:petrov@test.test | Telephone:0883225512 | Newsletter:0 | Date Added:2023-11-24 15:13:50
+22/04/2024 19:50:23 : Customer ID:3 | First Name:Gergana | Last Name:Dimitrova | Email:dimitrova@test.test | Telephone:0888888888 | Newsletter:1 | Date Added:2023-11-24 15:16:16
+22/04/2024 19:50:23 : Customer ID:40 | First Name:Kiril | Last Name:Todorov | Email:todorov@test.test | Telephone:0883198565 | Newsletter:1 | Date Added:2023-11-28 18:26:48
+22/04/2024 19:50:23 : Customer ID:223 | First Name:Vasil | Last Name:Vasilev | Email:vasilev@test.test | Telephone:0884395614 | Newsletter:1 | Date Added:2024-04-22 19:49:08
+22/04/2024 19:50:23 : Customer ID:225 | First Name:Ivan | Last Name:Ivanov | Email:ivanov@test.test | Telephone:0887446682 | Newsletter:1 | Date Added:2024-04-22 19:50:24
+22/04/2024 19:50:23 : ____________________________________________________________________________
+22/04/2024 19:50:23 : Disconnecting from DB...
+22/04/2024 19:50:24 : Inside Step - the user login into his profile with email ivanov@test.test, and password ivanov
+22/04/2024 19:50:25 : Inside Step - the user add "iPod Touch" product to shopping cart from product page
+22/04/2024 19:50:29 : Inside Step - click on <Checkout> button in header
+22/04/2024 19:50:30 : Inside Step - go through all checkout steps filling all required fields with valid user credentials
+22/04/2024 19:50:34 : Inside Step - click on <Confirm Order> button
+22/04/2024 19:50:35 : Inside Step - the user must be redirected to success page and see "Your order has been placed!" message.
+22/04/2024 19:50:36 : Connecting to DB...
+22/04/2024 19:50:36 : __________________________Deleting Customer_________________________________
+22/04/2024 19:50:36 : Disconnecting from DB...
+22/04/2024 19:50:36 : Connecting to DB...
+22/04/2024 19:50:36 : __________________________Database Response___________________________________
+22/04/2024 19:50:36 : Customer ID:2 | First Name:Georgi | Last Name:Petrov | Email:petrov@test.test | Telephone:0883225512 | Newsletter:0 | Date Added:2023-11-24 15:13:50
+22/04/2024 19:50:36 : Customer ID:3 | First Name:Gergana | Last Name:Dimitrova | Email:dimitrova@test.test | Telephone:0888888888 | Newsletter:1 | Date Added:2023-11-24 15:16:16
+22/04/2024 19:50:36 : Customer ID:40 | First Name:Kiril | Last Name:Todorov | Email:todorov@test.test | Telephone:0883198565 | Newsletter:1 | Date Added:2023-11-28 18:26:48
+22/04/2024 19:50:36 : Customer ID:223 | First Name:Vasil | Last Name:Vasilev | Email:vasilev@test.test | Telephone:0884395614 | Newsletter:1 | Date Added:2024-04-22 19:49:08
+22/04/2024 19:50:36 : ____________________________________________________________________________
+22/04/2024 19:50:36 : Disconnecting from DB...
+22/04/2024 19:50:36 : Test End!
+_________________________________________________________________________________________
+22/04/2024 19:50:36 : Test Start!
+22/04/2024 19:50:39 : Inside Step - the user have a profile in website and is on home page
+22/04/2024 19:50:39 : Connecting to DB...
+22/04/2024 19:50:39 : __________________________Create Customer___________________________________
+22/04/2024 19:50:39 : Disconnecting from DB...
+22/04/2024 19:50:39 : Connecting to DB...
+22/04/2024 19:50:39 : __________________________Database Response___________________________________
+22/04/2024 19:50:39 : Customer ID:2 | First Name:Georgi | Last Name:Petrov | Email:petrov@test.test | Telephone:0883225512 | Newsletter:0 | Date Added:2023-11-24 15:13:50
+22/04/2024 19:50:39 : Customer ID:3 | First Name:Gergana | Last Name:Dimitrova | Email:dimitrova@test.test | Telephone:0888888888 | Newsletter:1 | Date Added:2023-11-24 15:16:16
+22/04/2024 19:50:39 : Customer ID:40 | First Name:Kiril | Last Name:Todorov | Email:todorov@test.test | Telephone:0883198565 | Newsletter:1 | Date Added:2023-11-28 18:26:48
+22/04/2024 19:50:39 : Customer ID:223 | First Name:Vasil | Last Name:Vasilev | Email:vasilev@test.test | Telephone:0884395614 | Newsletter:1 | Date Added:2024-04-22 19:49:08
+22/04/2024 19:50:39 : Customer ID:226 | First Name:Ivan | Last Name:Ivanov | Email:ivanov@test.test | Telephone:0887446682 | Newsletter:1 | Date Added:2024-04-22 19:50:40
+22/04/2024 19:50:39 : ____________________________________________________________________________
+22/04/2024 19:50:39 : Disconnecting from DB...
+22/04/2024 19:50:40 : Inside Step - the user login into his profile with email ivanov@test.test, and password ivanov
+22/04/2024 19:50:41 : Inside Step - user add product from homepage to his wishlist
+22/04/2024 19:50:45 : <<< Shows Alert: Success: You have added MacBook to your wish list! >>>
+22/04/2024 19:50:45 : Inside Step - click on <Wish List> button in header
+22/04/2024 19:50:46 : Inside Step - the user should be redirected to his wishlist page and see added product there.
+22/04/2024 19:50:46 : Wishlist contains items.
+22/04/2024 19:50:46 : Wishlist items are valid.
+22/04/2024 19:50:46 : Connecting to DB...
+22/04/2024 19:50:46 : __________________________Deleting Customer_________________________________
+22/04/2024 19:50:46 : Disconnecting from DB...
+22/04/2024 19:50:46 : Connecting to DB...
+22/04/2024 19:50:46 : __________________________Database Response___________________________________
+22/04/2024 19:50:46 : Customer ID:2 | First Name:Georgi | Last Name:Petrov | Email:petrov@test.test | Telephone:0883225512 | Newsletter:0 | Date Added:2023-11-24 15:13:50
+22/04/2024 19:50:46 : Customer ID:3 | First Name:Gergana | Last Name:Dimitrova | Email:dimitrova@test.test | Telephone:0888888888 | Newsletter:1 | Date Added:2023-11-24 15:16:16
+22/04/2024 19:50:46 : Customer ID:40 | First Name:Kiril | Last Name:Todorov | Email:todorov@test.test | Telephone:0883198565 | Newsletter:1 | Date Added:2023-11-28 18:26:48
+22/04/2024 19:50:46 : Customer ID:223 | First Name:Vasil | Last Name:Vasilev | Email:vasilev@test.test | Telephone:0884395614 | Newsletter:1 | Date Added:2024-04-22 19:49:08
+22/04/2024 19:50:46 : ____________________________________________________________________________
+22/04/2024 19:50:46 : Disconnecting from DB...
+22/04/2024 19:50:46 : Test End!
+_________________________________________________________________________________________
+22/04/2024 19:50:46 : Test Start!
+22/04/2024 19:50:50 : Inside Step - the user is on home page
+22/04/2024 19:50:50 : Inside Step - the user open <About Us> link in footer
+22/04/2024 19:50:51 : Inside Step - the user should see About Us page.
+22/04/2024 19:50:51 : Redirect is successful!
+22/04/2024 19:50:51 : Test End!
+_________________________________________________________________________________________
+22/04/2024 19:50:51 : Test Start!
+22/04/2024 19:50:54 : Inside Step - the user is on home page
+22/04/2024 19:50:55 : Inside Step - the user open <Delivery Information> link in footer
+22/04/2024 19:50:55 : Inside Step - the user should see Delivery Information page.
+22/04/2024 19:50:55 : Redirect is successful!
+22/04/2024 19:50:55 : Test End!
+_________________________________________________________________________________________
+22/04/2024 19:50:55 : Test Start!
+22/04/2024 19:50:59 : Inside Step - the user is on home page
+22/04/2024 19:51:00 : Inside Step - the user open <Privacy Policy> link in footer
+22/04/2024 19:51:00 : Inside Step - the user should see Privacy Policy page.
+22/04/2024 19:51:00 : Redirect is successful!
+22/04/2024 19:51:00 : Test End!
+_________________________________________________________________________________________
+22/04/2024 19:51:00 : Test Start!
+22/04/2024 19:51:03 : Inside Step - the user is on home page
+22/04/2024 19:51:04 : Inside Step - the user open <Terms & Conditions> link in footer
+22/04/2024 19:51:04 : Inside Step - the user should see Terms & Conditions page.
+22/04/2024 19:51:04 : Redirect is successful!
+22/04/2024 19:51:04 : Test End!
+_________________________________________________________________________________________
+22/04/2024 19:51:05 : Test Start!
+22/04/2024 19:51:08 : Inside Step - the user is on home page
+22/04/2024 19:51:08 : Inside Step - the user navigate to contact page
+22/04/2024 19:51:09 : Inside Step - fill <Your Name> field as Ivan Ivanov
+22/04/2024 19:51:09 : Inside Step - fill <E-Mail Address> as ivanov@test.test
+22/04/2024 19:51:09 : Inside Step - fill <Enquiry> as This is the test message!
+22/04/2024 19:51:09 : Inside Step - click on <Submit> button
+22/04/2024 19:51:10 : Inside Step - the user should see "Your enquiry has been successfully sent to the store owner!" message.
+22/04/2024 19:51:10 : Test End!
+_________________________________________________________________________________________
+22/04/2024 19:51:10 : Test Start!
+22/04/2024 19:51:13 : Inside Step - the user is on home page
+22/04/2024 19:51:14 : Inside Step - the user navigate to product page
+22/04/2024 19:51:15 : Inside Step - click on `Reviews` tab
+22/04/2024 19:51:16 : Inside Step - fill the review form with valid data
+22/04/2024 19:51:16 : Inside Step - click on `Continue` button
+22/04/2024 19:51:16 : Inside Step - the user should see "Thank you for your review. It has been submitted to the webmaster for approval." notification message.
+22/04/2024 19:51:17 : Test End!
+_________________________________________________________________________________________
+22/04/2024 19:51:17 : Test Start!
+22/04/2024 19:51:20 : Inside Step - the user is on home page
+22/04/2024 19:51:21 : Inside Step - the user enters registration page
+22/04/2024 19:51:21 : Inside Step - insert valid credentials
+22/04/2024 19:51:22 : Inside Step - click on Continue button
+22/04/2024 19:51:22 : Registration failed. Error: Warning: E-Mail Address is already registered!
+22/04/2024 19:51:22 : Test End!
+_________________________________________________________________________________________
+22/04/2024 19:51:23 : Test Start!
+22/04/2024 19:51:26 : Inside Step - the user is on home page
+22/04/2024 19:51:26 : Inside Step - the user enter keyword iPod in header search bar
+22/04/2024 19:51:27 : Inside Step - click on search button
+22/04/2024 19:51:27 : Inside Step - the user should be redirected to search result page and see all products containing provided keyword.
+22/04/2024 19:51:27 : Search result - Product name: iPod Classic
+22/04/2024 19:51:27 : Search result - Product name: iPod Nano
+22/04/2024 19:51:27 : Search result - Product name: iPod Shuffle
+22/04/2024 19:51:27 : Search result - Product name: iPod Touch
+22/04/2024 19:51:27 : Test End!
+_________________________________________________________________________________________
+22/04/2024 19:51:27 : Test Start!
+22/04/2024 19:51:30 : Inside Step - the user is on home page
+22/04/2024 19:51:31 : Inside Step - the user clicks on mini cart in header
+22/04/2024 19:51:32 : Inside Step - the user should see Your shopping cart is empty! minicart message.
+22/04/2024 19:51:32 : Test End!
+_________________________________________________________________________________________
+22/04/2024 19:51:32 : Test Start!
+22/04/2024 19:51:35 : Inside Step - the user is on home page
+22/04/2024 19:51:36 : Inside Step - the user clicks on Checkout link in header
+22/04/2024 19:51:38 : Inside Step - the user should be redirected to shopping cart page and see "Your shopping cart is empty!" message.
+22/04/2024 19:51:38 : Test End!
+_________________________________________________________________________________________
+22/04/2024 19:51:38 : Test Start!
+22/04/2024 19:51:42 : Inside Step - the user is on home page
+22/04/2024 19:51:43 : Inside Step - the user add "MacBook" product in shopping cart from home page
+22/04/2024 19:51:44 : Inside Step - user clicks on mini cart in header he sees added product data
+22/04/2024 19:51:45 : Cart items are valid.
+22/04/2024 19:51:45 : Inside Step - navigate to shopping cart page
+22/04/2024 19:51:47 : Inside Step - the product data in the shopping cart page must be the same as mini cart product data
+22/04/2024 19:51:47 : Cart contains items.
+22/04/2024 19:51:47 : Cart items are valid.
+22/04/2024 19:51:47 : Test End!
+_________________________________________________________________________________________
+22/04/2024 19:51:47 : Test Start!
+22/04/2024 19:51:50 : Inside Step - the user is on home page
+22/04/2024 19:51:51 : Inside Step - the user add "iMac" product in shopping cart from home page
+22/04/2024 19:51:53 : Inside Step - navigate to shopping cart page
+22/04/2024 19:51:54 : Inside Step - user click on "iMac" product delete button
+22/04/2024 19:51:54 : Cart contains items.
+22/04/2024 19:51:54 : Cart items are valid.
+22/04/2024 19:51:54 : Inside Step - the user should see "Your shopping cart is empty!" message on the Shopping Cart page.
+22/04/2024 19:51:55 : Test End!
+_________________________________________________________________________________________
+22/04/2024 19:51:55 : Test Start!
+22/04/2024 19:51:58 : Inside Step - the user is on home page
+22/04/2024 19:51:59 : Inside Step - the user add "iPod Nano" product in shopping cart from home page
+22/04/2024 19:52:01 : Inside Step - navigate to shopping cart page
+22/04/2024 19:52:02 : Inside Step - select  "iPod Nano"  product and insert new value "2" in product quantity field and click update button
+22/04/2024 19:52:02 : Cart contains items.
+22/04/2024 19:52:02 : Cart items are valid.
+22/04/2024 19:52:02 : Inside Step - user should see  "iPod Nano" product total price be multiplied by "2
+22/04/2024 19:52:02 : Product price: 100.0 | Product Qty: 2 | Product Total: 200.0 | Product Multiplied Price: 200.0
+22/04/2024 19:52:02 : Test End!
+_________________________________________________________________________________________
+22/04/2024 19:52:03 : Test Start!
+22/04/2024 19:52:06 : Inside Step - I check the state of database table oc_customer
+22/04/2024 19:52:06 : Connecting to DB...
+22/04/2024 19:52:06 : __________________________Database Response___________________________________
+22/04/2024 19:52:06 : Customer ID:2 | First Name:Georgi | Last Name:Petrov | Email:petrov@test.test | Telephone:0883225512 | Newsletter:0 | Date Added:2023-11-24 15:13:50
+22/04/2024 19:52:06 : Customer ID:3 | First Name:Gergana | Last Name:Dimitrova | Email:dimitrova@test.test | Telephone:0888888888 | Newsletter:1 | Date Added:2023-11-24 15:16:16
+22/04/2024 19:52:06 : Customer ID:40 | First Name:Kiril | Last Name:Todorov | Email:todorov@test.test | Telephone:0883198565 | Newsletter:1 | Date Added:2023-11-28 18:26:48
+22/04/2024 19:52:06 : Customer ID:223 | First Name:Vasil | Last Name:Vasilev | Email:vasilev@test.test | Telephone:0884395614 | Newsletter:1 | Date Added:2024-04-22 19:49:08
+22/04/2024 19:52:06 : ____________________________________________________________________________
+22/04/2024 19:52:06 : Disconnecting from DB...
+22/04/2024 19:52:06 : Inside Step - I send POST HTTP request
+22/04/2024 19:52:06 : Connecting to DB...
+22/04/2024 19:52:06 : __________________________Create Customer___________________________________
+22/04/2024 19:52:06 : Disconnecting from DB...
+22/04/2024 19:52:06 : Inside Step - I receive a Response
+22/04/2024 19:52:06 : Connecting to DB...
+22/04/2024 19:52:06 : __________________________Database Response___________________________________
+22/04/2024 19:52:06 : Customer ID:2 | First Name:Georgi | Last Name:Petrov | Email:petrov@test.test | Telephone:0883225512 | Newsletter:0 | Date Added:2023-11-24 15:13:50
+22/04/2024 19:52:06 : Customer ID:3 | First Name:Gergana | Last Name:Dimitrova | Email:dimitrova@test.test | Telephone:0888888888 | Newsletter:1 | Date Added:2023-11-24 15:16:16
+22/04/2024 19:52:06 : Customer ID:40 | First Name:Kiril | Last Name:Todorov | Email:todorov@test.test | Telephone:0883198565 | Newsletter:1 | Date Added:2023-11-28 18:26:48
+22/04/2024 19:52:06 : Customer ID:223 | First Name:Vasil | Last Name:Vasilev | Email:vasilev@test.test | Telephone:0884395614 | Newsletter:1 | Date Added:2024-04-22 19:49:08
+22/04/2024 19:52:06 : Customer ID:227 | First Name:Ivan | Last Name:Ivanov | Email:ivanov@test.test | Telephone:0887446682 | Newsletter:1 | Date Added:2024-04-22 19:52:06
+22/04/2024 19:52:06 : ____________________________________________________________________________
+22/04/2024 19:52:06 : Disconnecting from DB...
+22/04/2024 19:52:06 : Test End!
+_________________________________________________________________________________________
+22/04/2024 19:52:06 : Test Start!
+22/04/2024 19:52:09 : Inside Step - I check the state of database table oc_customer
+22/04/2024 19:52:09 : Connecting to DB...
+22/04/2024 19:52:09 : __________________________Database Response___________________________________
+22/04/2024 19:52:09 : Customer ID:2 | First Name:Georgi | Last Name:Petrov | Email:petrov@test.test | Telephone:0883225512 | Newsletter:0 | Date Added:2023-11-24 15:13:50
+22/04/2024 19:52:09 : Customer ID:3 | First Name:Gergana | Last Name:Dimitrova | Email:dimitrova@test.test | Telephone:0888888888 | Newsletter:1 | Date Added:2023-11-24 15:16:16
+22/04/2024 19:52:09 : Customer ID:40 | First Name:Kiril | Last Name:Todorov | Email:todorov@test.test | Telephone:0883198565 | Newsletter:1 | Date Added:2023-11-28 18:26:48
+22/04/2024 19:52:09 : Customer ID:223 | First Name:Vasil | Last Name:Vasilev | Email:vasilev@test.test | Telephone:0884395614 | Newsletter:1 | Date Added:2024-04-22 19:49:08
+22/04/2024 19:52:09 : Customer ID:227 | First Name:Ivan | Last Name:Ivanov | Email:ivanov@test.test | Telephone:0887446682 | Newsletter:1 | Date Added:2024-04-22 19:52:06
+22/04/2024 19:52:09 : ____________________________________________________________________________
+22/04/2024 19:52:09 : Disconnecting from DB...
+22/04/2024 19:52:09 : Inside Step - I send GET HTTP request
+22/04/2024 19:52:09 : Connecting to DB...
+22/04/2024 19:52:09 : __________________________Database Response___________________________________
+22/04/2024 19:52:09 : Customer ID:2 | First Name:Georgi | Last Name:Petrov | Email:petrov@test.test | Telephone:0883225512 | Newsletter:0 | Date Added:2023-11-24 15:13:50
+22/04/2024 19:52:09 : Customer ID:3 | First Name:Gergana | Last Name:Dimitrova | Email:dimitrova@test.test | Telephone:0888888888 | Newsletter:1 | Date Added:2023-11-24 15:16:16
+22/04/2024 19:52:09 : Customer ID:40 | First Name:Kiril | Last Name:Todorov | Email:todorov@test.test | Telephone:0883198565 | Newsletter:1 | Date Added:2023-11-28 18:26:48
+22/04/2024 19:52:09 : Customer ID:223 | First Name:Vasil | Last Name:Vasilev | Email:vasilev@test.test | Telephone:0884395614 | Newsletter:1 | Date Added:2024-04-22 19:49:08
+22/04/2024 19:52:09 : Customer ID:227 | First Name:Ivan | Last Name:Ivanov | Email:ivanov@test.test | Telephone:0887446682 | Newsletter:1 | Date Added:2024-04-22 19:52:06
+22/04/2024 19:52:09 : ____________________________________________________________________________
+22/04/2024 19:52:09 : Disconnecting from DB...
+22/04/2024 19:52:09 : Inside Step - I receive a Response
+22/04/2024 19:52:09 : Connecting to DB...
+22/04/2024 19:52:09 : __________________________Database Response___________________________________
+22/04/2024 19:52:09 : Customer ID:2 | First Name:Georgi | Last Name:Petrov | Email:petrov@test.test | Telephone:0883225512 | Newsletter:0 | Date Added:2023-11-24 15:13:50
+22/04/2024 19:52:09 : Customer ID:3 | First Name:Gergana | Last Name:Dimitrova | Email:dimitrova@test.test | Telephone:0888888888 | Newsletter:1 | Date Added:2023-11-24 15:16:16
+22/04/2024 19:52:09 : Customer ID:40 | First Name:Kiril | Last Name:Todorov | Email:todorov@test.test | Telephone:0883198565 | Newsletter:1 | Date Added:2023-11-28 18:26:48
+22/04/2024 19:52:09 : Customer ID:223 | First Name:Vasil | Last Name:Vasilev | Email:vasilev@test.test | Telephone:0884395614 | Newsletter:1 | Date Added:2024-04-22 19:49:08
+22/04/2024 19:52:09 : Customer ID:227 | First Name:Ivan | Last Name:Ivanov | Email:ivanov@test.test | Telephone:0887446682 | Newsletter:1 | Date Added:2024-04-22 19:52:06
+22/04/2024 19:52:09 : ____________________________________________________________________________
+22/04/2024 19:52:09 : Disconnecting from DB...
+22/04/2024 19:52:09 : Test End!
+_________________________________________________________________________________________
+22/04/2024 19:52:09 : Test Start!
+22/04/2024 19:52:12 : Inside Step - I Read database customer table
+22/04/2024 19:52:12 : Connecting to DB...
+22/04/2024 19:52:12 : __________________________Database Response___________________________________
+22/04/2024 19:52:12 : Customer ID:2 | First Name:Georgi | Last Name:Petrov | Email:petrov@test.test | Telephone:0883225512 | Newsletter:0 | Date Added:2023-11-24 15:13:50
+22/04/2024 19:52:12 : Customer ID:3 | First Name:Gergana | Last Name:Dimitrova | Email:dimitrova@test.test | Telephone:0888888888 | Newsletter:1 | Date Added:2023-11-24 15:16:16
+22/04/2024 19:52:12 : Customer ID:40 | First Name:Kiril | Last Name:Todorov | Email:todorov@test.test | Telephone:0883198565 | Newsletter:1 | Date Added:2023-11-28 18:26:48
+22/04/2024 19:52:12 : Customer ID:223 | First Name:Vasil | Last Name:Vasilev | Email:vasilev@test.test | Telephone:0884395614 | Newsletter:1 | Date Added:2024-04-22 19:49:08
+22/04/2024 19:52:12 : Customer ID:227 | First Name:Ivan | Last Name:Ivanov | Email:ivanov@test.test | Telephone:0887446682 | Newsletter:1 | Date Added:2024-04-22 19:52:06
+22/04/2024 19:52:12 : ____________________________________________________________________________
+22/04/2024 19:52:12 : Disconnecting from DB...
+22/04/2024 19:52:12 : Inside Step - I send UPDATE HTTP request
+22/04/2024 19:52:12 : Connecting to DB...
+22/04/2024 19:52:12 : __________________________Updating Values___________________________________
+22/04/2024 19:52:12 : Disconnecting from DB...
+22/04/2024 19:52:12 : Inside Step - I receive a Response
+22/04/2024 19:52:12 : Connecting to DB...
+22/04/2024 19:52:12 : __________________________Database Response___________________________________
+22/04/2024 19:52:12 : Customer ID:2 | First Name:Georgi | Last Name:Petrov | Email:petrov@test.test | Telephone:0883225512 | Newsletter:0 | Date Added:2023-11-24 15:13:50
+22/04/2024 19:52:12 : Customer ID:3 | First Name:Gergana | Last Name:Dimitrova | Email:dimitrova@test.test | Telephone:0888888888 | Newsletter:1 | Date Added:2023-11-24 15:16:16
+22/04/2024 19:52:12 : Customer ID:40 | First Name:Kiril | Last Name:Todorov | Email:todorov@test.test | Telephone:0883198565 | Newsletter:1 | Date Added:2023-11-28 18:26:48
+22/04/2024 19:52:12 : Customer ID:223 | First Name:Vasil | Last Name:Vasilev | Email:vasilev@test.test | Telephone:0884395614 | Newsletter:1 | Date Added:2024-04-22 19:49:08
+22/04/2024 19:52:12 : Customer ID:227 | First Name:Ivan | Last Name:Ivanov | Email:ivanov@test.test | Telephone:0887446682 | Newsletter:1 | Date Added:2024-04-22 19:52:06
+22/04/2024 19:52:12 : ____________________________________________________________________________
+22/04/2024 19:52:12 : Disconnecting from DB...
+22/04/2024 19:52:12 : Test End!
+_________________________________________________________________________________________
+22/04/2024 19:52:12 : Test Start!
+22/04/2024 19:52:15 : Inside Step - I Read database customer table
+22/04/2024 19:52:15 : Connecting to DB...
+22/04/2024 19:52:15 : __________________________Database Response___________________________________
+22/04/2024 19:52:15 : Customer ID:2 | First Name:Georgi | Last Name:Petrov | Email:petrov@test.test | Telephone:0883225512 | Newsletter:0 | Date Added:2023-11-24 15:13:50
+22/04/2024 19:52:15 : Customer ID:3 | First Name:Gergana | Last Name:Dimitrova | Email:dimitrova@test.test | Telephone:0888888888 | Newsletter:1 | Date Added:2023-11-24 15:16:16
+22/04/2024 19:52:15 : Customer ID:40 | First Name:Kiril | Last Name:Todorov | Email:todorov@test.test | Telephone:0883198565 | Newsletter:1 | Date Added:2023-11-28 18:26:48
+22/04/2024 19:52:15 : Customer ID:223 | First Name:Vasil | Last Name:Vasilev | Email:vasilev@test.test | Telephone:0884395614 | Newsletter:1 | Date Added:2024-04-22 19:49:08
+22/04/2024 19:52:15 : Customer ID:227 | First Name:Ivan | Last Name:Ivanov | Email:ivanov@test.test | Telephone:0887446682 | Newsletter:1 | Date Added:2024-04-22 19:52:06
+22/04/2024 19:52:15 : ____________________________________________________________________________
+22/04/2024 19:52:15 : Disconnecting from DB...
+22/04/2024 19:52:15 : Inside Step - I send DELETE HTTP request
+22/04/2024 19:52:15 : Connecting to DB...
+22/04/2024 19:52:15 : __________________________Deleting Customer_________________________________
+22/04/2024 19:52:15 : Disconnecting from DB...
+22/04/2024 19:52:15 : Inside Step - I receive a Response
+22/04/2024 19:52:15 : Connecting to DB...
+22/04/2024 19:52:15 : __________________________Database Response___________________________________
+22/04/2024 19:52:15 : Customer ID:2 | First Name:Georgi | Last Name:Petrov | Email:petrov@test.test | Telephone:0883225512 | Newsletter:0 | Date Added:2023-11-24 15:13:50
+22/04/2024 19:52:15 : Customer ID:3 | First Name:Gergana | Last Name:Dimitrova | Email:dimitrova@test.test | Telephone:0888888888 | Newsletter:1 | Date Added:2023-11-24 15:16:16
+22/04/2024 19:52:15 : Customer ID:40 | First Name:Kiril | Last Name:Todorov | Email:todorov@test.test | Telephone:0883198565 | Newsletter:1 | Date Added:2023-11-28 18:26:48
+22/04/2024 19:52:15 : Customer ID:223 | First Name:Vasil | Last Name:Vasilev | Email:vasilev@test.test | Telephone:0884395614 | Newsletter:1 | Date Added:2024-04-22 19:49:08
+22/04/2024 19:52:15 : ____________________________________________________________________________
+22/04/2024 19:52:15 : Disconnecting from DB...
+22/04/2024 19:52:15 : Test End!
+_________________________________________________________________________________________
+22/04/2024 19:52:42 : Test Start!
+22/04/2024 19:52:46 : Inside Step - the user is on home page
+22/04/2024 19:52:47 : Inside Step - the user add  "Samsung SyncMaster 941BW" product to shopping cart from homepage
+22/04/2024 19:52:49 : Inside Step - click on <Checkout> button in header
+22/04/2024 19:52:50 : Inside Step - select <Guest Checkout> in checkout page
+22/04/2024 19:52:51 : Inside Step - go through all checkout steps filling all required fields with valid credentials
+22/04/2024 19:52:56 : Inside Step - click on <Confirm Order> button
+22/04/2024 19:52:56 : Inside Step - the user should be redirected to success page and see "Your order has been placed!" message.
+22/04/2024 19:52:57 : Test End!
+_________________________________________________________________________________________
+22/04/2024 19:52:58 : Test Start!
+22/04/2024 19:53:02 : Inside Step - the user have a profile in website and is on home page
+22/04/2024 19:53:02 : Connecting to DB...
+22/04/2024 19:53:02 : __________________________Create Customer___________________________________
+22/04/2024 19:53:02 : Disconnecting from DB...
+22/04/2024 19:53:02 : Connecting to DB...
+22/04/2024 19:53:02 : __________________________Database Response___________________________________
+22/04/2024 19:53:02 : Customer ID:2 | First Name:Georgi | Last Name:Petrov | Email:petrov@test.test | Telephone:0883225512 | Newsletter:0 | Date Added:2023-11-24 15:13:50
+22/04/2024 19:53:02 : Customer ID:3 | First Name:Gergana | Last Name:Dimitrova | Email:dimitrova@test.test | Telephone:0888888888 | Newsletter:1 | Date Added:2023-11-24 15:16:16
+22/04/2024 19:53:02 : Customer ID:40 | First Name:Kiril | Last Name:Todorov | Email:todorov@test.test | Telephone:0883198565 | Newsletter:1 | Date Added:2023-11-28 18:26:48
+22/04/2024 19:53:02 : Customer ID:223 | First Name:Vasil | Last Name:Vasilev | Email:vasilev@test.test | Telephone:0884395614 | Newsletter:1 | Date Added:2024-04-22 19:49:08
+22/04/2024 19:53:02 : Customer ID:228 | First Name:Ivan | Last Name:Ivanov | Email:ivanov@test.test | Telephone:0887446682 | Newsletter:1 | Date Added:2024-04-22 19:53:02
+22/04/2024 19:53:02 : ____________________________________________________________________________
+22/04/2024 19:53:02 : Disconnecting from DB...
+22/04/2024 19:53:03 : Inside Step - the user login into his profile with email ivanov@test.test, and password ivanov
+22/04/2024 19:53:04 : Inside Step - the user add "iPod Touch" product to shopping cart from product page
+22/04/2024 19:53:07 : Inside Step - click on <Checkout> button in header
+22/04/2024 19:53:07 : Inside Step - go through all checkout steps filling all required fields with valid user credentials
+22/04/2024 19:53:12 : Inside Step - click on <Confirm Order> button
+22/04/2024 19:53:13 : Inside Step - the user must be redirected to success page and see "Your order has been placed!" message.
+22/04/2024 19:53:14 : Connecting to DB...
+22/04/2024 19:53:14 : __________________________Deleting Customer_________________________________
+22/04/2024 19:53:14 : Disconnecting from DB...
+22/04/2024 19:53:14 : Connecting to DB...
+22/04/2024 19:53:14 : __________________________Database Response___________________________________
+22/04/2024 19:53:14 : Customer ID:2 | First Name:Georgi | Last Name:Petrov | Email:petrov@test.test | Telephone:0883225512 | Newsletter:0 | Date Added:2023-11-24 15:13:50
+22/04/2024 19:53:14 : Customer ID:3 | First Name:Gergana | Last Name:Dimitrova | Email:dimitrova@test.test | Telephone:0888888888 | Newsletter:1 | Date Added:2023-11-24 15:16:16
+22/04/2024 19:53:14 : Customer ID:40 | First Name:Kiril | Last Name:Todorov | Email:todorov@test.test | Telephone:0883198565 | Newsletter:1 | Date Added:2023-11-28 18:26:48
+22/04/2024 19:53:14 : Customer ID:223 | First Name:Vasil | Last Name:Vasilev | Email:vasilev@test.test | Telephone:0884395614 | Newsletter:1 | Date Added:2024-04-22 19:49:08
+22/04/2024 19:53:14 : ____________________________________________________________________________
+22/04/2024 19:53:14 : Disconnecting from DB...
+22/04/2024 19:53:14 : Test End!
+_________________________________________________________________________________________
+22/04/2024 19:53:15 : Test Start!
+22/04/2024 19:53:18 : Inside Step - the user have a profile in website and is on home page
+22/04/2024 19:53:18 : Connecting to DB...
+22/04/2024 19:53:18 : __________________________Create Customer___________________________________
+22/04/2024 19:53:18 : Disconnecting from DB...
+22/04/2024 19:53:18 : Connecting to DB...
+22/04/2024 19:53:19 : __________________________Database Response___________________________________
+22/04/2024 19:53:19 : Customer ID:2 | First Name:Georgi | Last Name:Petrov | Email:petrov@test.test | Telephone:0883225512 | Newsletter:0 | Date Added:2023-11-24 15:13:50
+22/04/2024 19:53:19 : Customer ID:3 | First Name:Gergana | Last Name:Dimitrova | Email:dimitrova@test.test | Telephone:0888888888 | Newsletter:1 | Date Added:2023-11-24 15:16:16
+22/04/2024 19:53:19 : Customer ID:40 | First Name:Kiril | Last Name:Todorov | Email:todorov@test.test | Telephone:0883198565 | Newsletter:1 | Date Added:2023-11-28 18:26:48
+22/04/2024 19:53:19 : Customer ID:223 | First Name:Vasil | Last Name:Vasilev | Email:vasilev@test.test | Telephone:0884395614 | Newsletter:1 | Date Added:2024-04-22 19:49:08
+22/04/2024 19:53:19 : Customer ID:229 | First Name:Ivan | Last Name:Ivanov | Email:ivanov@test.test | Telephone:0887446682 | Newsletter:1 | Date Added:2024-04-22 19:53:19
+22/04/2024 19:53:19 : ____________________________________________________________________________
+22/04/2024 19:53:19 : Disconnecting from DB...
+22/04/2024 19:53:19 : Inside Step - the user login into his profile with email ivanov@test.test, and password ivanov
+22/04/2024 19:53:20 : Inside Step - user add product from homepage to his wishlist
+22/04/2024 19:53:23 : <<< Shows Alert: Success: You have added MacBook to your wish list! >>>
+22/04/2024 19:53:23 : Inside Step - click on <Wish List> button in header
+22/04/2024 19:53:24 : Inside Step - the user should be redirected to his wishlist page and see added product there.
+22/04/2024 19:53:24 : Wishlist contains items.
+22/04/2024 19:53:24 : Wishlist items are valid.
+22/04/2024 19:53:24 : Connecting to DB...
+22/04/2024 19:53:24 : __________________________Deleting Customer_________________________________
+22/04/2024 19:53:24 : Disconnecting from DB...
+22/04/2024 19:53:24 : Connecting to DB...
+22/04/2024 19:53:24 : __________________________Database Response___________________________________
+22/04/2024 19:53:24 : Customer ID:2 | First Name:Georgi | Last Name:Petrov | Email:petrov@test.test | Telephone:0883225512 | Newsletter:0 | Date Added:2023-11-24 15:13:50
+22/04/2024 19:53:24 : Customer ID:3 | First Name:Gergana | Last Name:Dimitrova | Email:dimitrova@test.test | Telephone:0888888888 | Newsletter:1 | Date Added:2023-11-24 15:16:16
+22/04/2024 19:53:24 : Customer ID:40 | First Name:Kiril | Last Name:Todorov | Email:todorov@test.test | Telephone:0883198565 | Newsletter:1 | Date Added:2023-11-28 18:26:48
+22/04/2024 19:53:24 : Customer ID:223 | First Name:Vasil | Last Name:Vasilev | Email:vasilev@test.test | Telephone:0884395614 | Newsletter:1 | Date Added:2024-04-22 19:49:08
+22/04/2024 19:53:24 : ____________________________________________________________________________
+22/04/2024 19:53:24 : Disconnecting from DB...
+22/04/2024 19:53:24 : Test End!
+_________________________________________________________________________________________
+22/04/2024 19:53:25 : Test Start!
+22/04/2024 19:53:28 : Inside Step - the user is on home page
+22/04/2024 19:53:29 : Inside Step - the user open <About Us> link in footer
+22/04/2024 19:53:29 : Inside Step - the user should see About Us page.
+22/04/2024 19:53:29 : Redirect is successful!
+22/04/2024 19:53:29 : Test End!
+_________________________________________________________________________________________
+22/04/2024 19:53:30 : Test Start!
+22/04/2024 19:53:34 : Inside Step - the user is on home page
+22/04/2024 19:53:34 : Inside Step - the user open <Delivery Information> link in footer
+22/04/2024 19:53:35 : Inside Step - the user should see Delivery Information page.
+22/04/2024 19:53:35 : Redirect is successful!
+22/04/2024 19:53:35 : Test End!
+_________________________________________________________________________________________
+22/04/2024 19:53:35 : Test Start!
+22/04/2024 19:53:39 : Inside Step - the user is on home page
+22/04/2024 19:53:40 : Inside Step - the user open <Privacy Policy> link in footer
+22/04/2024 19:53:40 : Inside Step - the user should see Privacy Policy page.
+22/04/2024 19:53:40 : Redirect is successful!
+22/04/2024 19:53:40 : Test End!
+_________________________________________________________________________________________
+22/04/2024 19:53:41 : Test Start!
+22/04/2024 19:53:44 : Inside Step - the user is on home page
+22/04/2024 19:53:45 : Inside Step - the user open <Terms & Conditions> link in footer
+22/04/2024 19:53:45 : Inside Step - the user should see Terms & Conditions page.
+22/04/2024 19:53:45 : Redirect is successful!
+22/04/2024 19:53:45 : Test End!
+_________________________________________________________________________________________
+22/04/2024 19:53:46 : Test Start!
+22/04/2024 19:53:50 : Inside Step - the user is on home page
+22/04/2024 19:53:50 : Inside Step - the user navigate to contact page
+22/04/2024 19:53:51 : Inside Step - fill <Your Name> field as Ivan Ivanov
+22/04/2024 19:53:51 : Inside Step - fill <E-Mail Address> as ivanov@test.test
+22/04/2024 19:53:51 : Inside Step - fill <Enquiry> as This is the test message!
+22/04/2024 19:53:51 : Inside Step - click on <Submit> button
+22/04/2024 19:53:52 : Inside Step - the user should see "Your enquiry has been successfully sent to the store owner!" message.
+22/04/2024 19:53:52 : Test End!
+_________________________________________________________________________________________
+22/04/2024 19:53:52 : Test Start!
+22/04/2024 19:53:56 : Inside Step - the user is on home page
+22/04/2024 19:53:57 : Inside Step - the user navigate to product page
+22/04/2024 19:53:57 : Inside Step - click on `Reviews` tab
+22/04/2024 19:53:58 : Inside Step - fill the review form with valid data
+22/04/2024 19:53:59 : Inside Step - click on `Continue` button
+22/04/2024 19:53:59 : Inside Step - the user should see "Thank you for your review. It has been submitted to the webmaster for approval." notification message.
+22/04/2024 19:53:59 : Test End!
+_________________________________________________________________________________________
+22/04/2024 19:54:00 : Test Start!
+22/04/2024 19:54:03 : Inside Step - the user is on home page
+22/04/2024 19:54:04 : Inside Step - the user enters registration page
+22/04/2024 19:54:05 : Inside Step - insert valid credentials
+22/04/2024 19:54:07 : Inside Step - click on Continue button
+22/04/2024 19:54:07 : Registration failed. Error: Warning: E-Mail Address is already registered!
+22/04/2024 19:54:07 : Test End!
+_________________________________________________________________________________________
+22/04/2024 19:54:08 : Test Start!
+22/04/2024 19:54:11 : Inside Step - the user is on home page
+22/04/2024 19:54:12 : Inside Step - the user enter keyword iPod in header search bar
+22/04/2024 19:54:12 : Inside Step - click on search button
+22/04/2024 19:54:12 : Inside Step - the user should be redirected to search result page and see all products containing provided keyword.
+22/04/2024 19:54:13 : Search result - Product name: iPod Classic
+22/04/2024 19:54:13 : Search result - Product name: iPod Nano
+22/04/2024 19:54:13 : Search result - Product name: iPod Shuffle
+22/04/2024 19:54:13 : Search result - Product name: iPod Touch
+22/04/2024 19:54:13 : Test End!
+_________________________________________________________________________________________
+22/04/2024 19:54:13 : Test Start!
+22/04/2024 19:54:17 : Inside Step - the user is on home page
+22/04/2024 19:54:17 : Inside Step - the user clicks on mini cart in header
+22/04/2024 19:54:18 : Inside Step - the user should see Your shopping cart is empty! minicart message.
+22/04/2024 19:54:18 : Test End!
+_________________________________________________________________________________________
+22/04/2024 19:54:19 : Test Start!
+22/04/2024 19:54:23 : Inside Step - the user is on home page
+22/04/2024 19:54:23 : Inside Step - the user clicks on Checkout link in header
+22/04/2024 19:54:25 : Inside Step - the user should be redirected to shopping cart page and see "Your shopping cart is empty!" message.
+22/04/2024 19:54:25 : Test End!
+_________________________________________________________________________________________
+22/04/2024 19:54:26 : Test Start!
+22/04/2024 19:54:29 : Inside Step - the user is on home page
+22/04/2024 19:54:30 : Inside Step - the user add "MacBook" product in shopping cart from home page
+22/04/2024 19:54:31 : Inside Step - user clicks on mini cart in header he sees added product data
+22/04/2024 19:54:32 : Cart items are valid.
+22/04/2024 19:54:32 : Inside Step - navigate to shopping cart page
+22/04/2024 19:54:33 : Inside Step - the product data in the shopping cart page must be the same as mini cart product data
+22/04/2024 19:54:33 : Cart contains items.
+22/04/2024 19:54:33 : Cart items are valid.
+22/04/2024 19:54:33 : Test End!
+_________________________________________________________________________________________
+22/04/2024 19:54:33 : Test Start!
+22/04/2024 19:54:37 : Inside Step - the user is on home page
+22/04/2024 19:54:38 : Inside Step - the user add "iMac" product in shopping cart from home page
+22/04/2024 19:54:39 : Inside Step - navigate to shopping cart page
+22/04/2024 19:54:40 : Inside Step - user click on "iMac" product delete button
+22/04/2024 19:54:40 : Cart contains items.
+22/04/2024 19:54:40 : Cart items are valid.
+22/04/2024 19:54:40 : Inside Step - the user should see "Your shopping cart is empty!" message on the Shopping Cart page.
+22/04/2024 19:54:40 : Test End!
+_________________________________________________________________________________________
+22/04/2024 19:54:41 : Test Start!
+22/04/2024 19:54:45 : Inside Step - the user is on home page
+22/04/2024 19:54:45 : Inside Step - the user add "iPod Nano" product in shopping cart from home page
+22/04/2024 19:54:47 : Inside Step - navigate to shopping cart page
+22/04/2024 19:54:47 : Inside Step - select  "iPod Nano"  product and insert new value "2" in product quantity field and click update button
+22/04/2024 19:54:47 : Cart contains items.
+22/04/2024 19:54:47 : Cart items are valid.
+22/04/2024 19:54:48 : Inside Step - user should see  "iPod Nano" product total price be multiplied by "2
+22/04/2024 19:54:48 : Product price: 100.0 | Product Qty: 2 | Product Total: 200.0 | Product Multiplied Price: 200.0
+22/04/2024 19:54:48 : Test End!
+_________________________________________________________________________________________
+22/04/2024 19:54:49 : Test Start!
+22/04/2024 19:54:52 : Inside Step - I check the state of database table oc_customer
+22/04/2024 19:54:52 : Connecting to DB...
+22/04/2024 19:54:52 : __________________________Database Response___________________________________
+22/04/2024 19:54:52 : Customer ID:2 | First Name:Georgi | Last Name:Petrov | Email:petrov@test.test | Telephone:0883225512 | Newsletter:0 | Date Added:2023-11-24 15:13:50
+22/04/2024 19:54:52 : Customer ID:3 | First Name:Gergana | Last Name:Dimitrova | Email:dimitrova@test.test | Telephone:0888888888 | Newsletter:1 | Date Added:2023-11-24 15:16:16
+22/04/2024 19:54:52 : Customer ID:40 | First Name:Kiril | Last Name:Todorov | Email:todorov@test.test | Telephone:0883198565 | Newsletter:1 | Date Added:2023-11-28 18:26:48
+22/04/2024 19:54:52 : Customer ID:223 | First Name:Vasil | Last Name:Vasilev | Email:vasilev@test.test | Telephone:0884395614 | Newsletter:1 | Date Added:2024-04-22 19:49:08
+22/04/2024 19:54:52 : ____________________________________________________________________________
+22/04/2024 19:54:52 : Disconnecting from DB...
+22/04/2024 19:54:52 : Inside Step - I send POST HTTP request
+22/04/2024 19:54:52 : Connecting to DB...
+22/04/2024 19:54:52 : __________________________Create Customer___________________________________
+22/04/2024 19:54:52 : Disconnecting from DB...
+22/04/2024 19:54:52 : Inside Step - I receive a Response
+22/04/2024 19:54:52 : Connecting to DB...
+22/04/2024 19:54:52 : __________________________Database Response___________________________________
+22/04/2024 19:54:52 : Customer ID:2 | First Name:Georgi | Last Name:Petrov | Email:petrov@test.test | Telephone:0883225512 | Newsletter:0 | Date Added:2023-11-24 15:13:50
+22/04/2024 19:54:52 : Customer ID:3 | First Name:Gergana | Last Name:Dimitrova | Email:dimitrova@test.test | Telephone:0888888888 | Newsletter:1 | Date Added:2023-11-24 15:16:16
+22/04/2024 19:54:52 : Customer ID:40 | First Name:Kiril | Last Name:Todorov | Email:todorov@test.test | Telephone:0883198565 | Newsletter:1 | Date Added:2023-11-28 18:26:48
+22/04/2024 19:54:52 : Customer ID:223 | First Name:Vasil | Last Name:Vasilev | Email:vasilev@test.test | Telephone:0884395614 | Newsletter:1 | Date Added:2024-04-22 19:49:08
+22/04/2024 19:54:52 : Customer ID:230 | First Name:Ivan | Last Name:Ivanov | Email:ivanov@test.test | Telephone:0887446682 | Newsletter:1 | Date Added:2024-04-22 19:54:53
+22/04/2024 19:54:52 : ____________________________________________________________________________
+22/04/2024 19:54:52 : Disconnecting from DB...
+22/04/2024 19:54:52 : Test End!
+_________________________________________________________________________________________
+22/04/2024 19:54:54 : Test Start!
+22/04/2024 19:54:57 : Inside Step - I check the state of database table oc_customer
+22/04/2024 19:54:57 : Connecting to DB...
+22/04/2024 19:54:57 : __________________________Database Response___________________________________
+22/04/2024 19:54:57 : Customer ID:2 | First Name:Georgi | Last Name:Petrov | Email:petrov@test.test | Telephone:0883225512 | Newsletter:0 | Date Added:2023-11-24 15:13:50
+22/04/2024 19:54:57 : Customer ID:3 | First Name:Gergana | Last Name:Dimitrova | Email:dimitrova@test.test | Telephone:0888888888 | Newsletter:1 | Date Added:2023-11-24 15:16:16
+22/04/2024 19:54:57 : Customer ID:40 | First Name:Kiril | Last Name:Todorov | Email:todorov@test.test | Telephone:0883198565 | Newsletter:1 | Date Added:2023-11-28 18:26:48
+22/04/2024 19:54:57 : Customer ID:223 | First Name:Vasil | Last Name:Vasilev | Email:vasilev@test.test | Telephone:0884395614 | Newsletter:1 | Date Added:2024-04-22 19:49:08
+22/04/2024 19:54:57 : Customer ID:230 | First Name:Ivan | Last Name:Ivanov | Email:ivanov@test.test | Telephone:0887446682 | Newsletter:1 | Date Added:2024-04-22 19:54:53
+22/04/2024 19:54:57 : ____________________________________________________________________________
+22/04/2024 19:54:57 : Disconnecting from DB...
+22/04/2024 19:54:57 : Inside Step - I send GET HTTP request
+22/04/2024 19:54:57 : Connecting to DB...
+22/04/2024 19:54:57 : __________________________Database Response___________________________________
+22/04/2024 19:54:57 : Customer ID:2 | First Name:Georgi | Last Name:Petrov | Email:petrov@test.test | Telephone:0883225512 | Newsletter:0 | Date Added:2023-11-24 15:13:50
+22/04/2024 19:54:57 : Customer ID:3 | First Name:Gergana | Last Name:Dimitrova | Email:dimitrova@test.test | Telephone:0888888888 | Newsletter:1 | Date Added:2023-11-24 15:16:16
+22/04/2024 19:54:57 : Customer ID:40 | First Name:Kiril | Last Name:Todorov | Email:todorov@test.test | Telephone:0883198565 | Newsletter:1 | Date Added:2023-11-28 18:26:48
+22/04/2024 19:54:57 : Customer ID:223 | First Name:Vasil | Last Name:Vasilev | Email:vasilev@test.test | Telephone:0884395614 | Newsletter:1 | Date Added:2024-04-22 19:49:08
+22/04/2024 19:54:57 : Customer ID:230 | First Name:Ivan | Last Name:Ivanov | Email:ivanov@test.test | Telephone:0887446682 | Newsletter:1 | Date Added:2024-04-22 19:54:53
+22/04/2024 19:54:57 : ____________________________________________________________________________
+22/04/2024 19:54:57 : Disconnecting from DB...
+22/04/2024 19:54:57 : Inside Step - I receive a Response
+22/04/2024 19:54:57 : Connecting to DB...
+22/04/2024 19:54:57 : __________________________Database Response___________________________________
+22/04/2024 19:54:57 : Customer ID:2 | First Name:Georgi | Last Name:Petrov | Email:petrov@test.test | Telephone:0883225512 | Newsletter:0 | Date Added:2023-11-24 15:13:50
+22/04/2024 19:54:57 : Customer ID:3 | First Name:Gergana | Last Name:Dimitrova | Email:dimitrova@test.test | Telephone:0888888888 | Newsletter:1 | Date Added:2023-11-24 15:16:16
+22/04/2024 19:54:57 : Customer ID:40 | First Name:Kiril | Last Name:Todorov | Email:todorov@test.test | Telephone:0883198565 | Newsletter:1 | Date Added:2023-11-28 18:26:48
+22/04/2024 19:54:57 : Customer ID:223 | First Name:Vasil | Last Name:Vasilev | Email:vasilev@test.test | Telephone:0884395614 | Newsletter:1 | Date Added:2024-04-22 19:49:08
+22/04/2024 19:54:57 : Customer ID:230 | First Name:Ivan | Last Name:Ivanov | Email:ivanov@test.test | Telephone:0887446682 | Newsletter:1 | Date Added:2024-04-22 19:54:53
+22/04/2024 19:54:57 : ____________________________________________________________________________
+22/04/2024 19:54:57 : Disconnecting from DB...
+22/04/2024 19:54:57 : Test End!
+_________________________________________________________________________________________
+22/04/2024 19:54:58 : Test Start!
+22/04/2024 19:55:02 : Inside Step - I Read database customer table
+22/04/2024 19:55:02 : Connecting to DB...
+22/04/2024 19:55:02 : __________________________Database Response___________________________________
+22/04/2024 19:55:02 : Customer ID:2 | First Name:Georgi | Last Name:Petrov | Email:petrov@test.test | Telephone:0883225512 | Newsletter:0 | Date Added:2023-11-24 15:13:50
+22/04/2024 19:55:02 : Customer ID:3 | First Name:Gergana | Last Name:Dimitrova | Email:dimitrova@test.test | Telephone:0888888888 | Newsletter:1 | Date Added:2023-11-24 15:16:16
+22/04/2024 19:55:02 : Customer ID:40 | First Name:Kiril | Last Name:Todorov | Email:todorov@test.test | Telephone:0883198565 | Newsletter:1 | Date Added:2023-11-28 18:26:48
+22/04/2024 19:55:02 : Customer ID:223 | First Name:Vasil | Last Name:Vasilev | Email:vasilev@test.test | Telephone:0884395614 | Newsletter:1 | Date Added:2024-04-22 19:49:08
+22/04/2024 19:55:02 : Customer ID:230 | First Name:Ivan | Last Name:Ivanov | Email:ivanov@test.test | Telephone:0887446682 | Newsletter:1 | Date Added:2024-04-22 19:54:53
+22/04/2024 19:55:02 : ____________________________________________________________________________
+22/04/2024 19:55:02 : Disconnecting from DB...
+22/04/2024 19:55:02 : Inside Step - I send UPDATE HTTP request
+22/04/2024 19:55:02 : Connecting to DB...
+22/04/2024 19:55:02 : __________________________Updating Values___________________________________
+22/04/2024 19:55:02 : Disconnecting from DB...
+22/04/2024 19:55:02 : Inside Step - I receive a Response
+22/04/2024 19:55:02 : Connecting to DB...
+22/04/2024 19:55:02 : __________________________Database Response___________________________________
+22/04/2024 19:55:02 : Customer ID:2 | First Name:Georgi | Last Name:Petrov | Email:petrov@test.test | Telephone:0883225512 | Newsletter:0 | Date Added:2023-11-24 15:13:50
+22/04/2024 19:55:02 : Customer ID:3 | First Name:Gergana | Last Name:Dimitrova | Email:dimitrova@test.test | Telephone:0888888888 | Newsletter:1 | Date Added:2023-11-24 15:16:16
+22/04/2024 19:55:02 : Customer ID:40 | First Name:Kiril | Last Name:Todorov | Email:todorov@test.test | Telephone:0883198565 | Newsletter:1 | Date Added:2023-11-28 18:26:48
+22/04/2024 19:55:02 : Customer ID:223 | First Name:Vasil | Last Name:Vasilev | Email:vasilev@test.test | Telephone:0884395614 | Newsletter:1 | Date Added:2024-04-22 19:49:08
+22/04/2024 19:55:02 : Customer ID:230 | First Name:Ivan | Last Name:Ivanov | Email:ivanov@test.test | Telephone:0887446682 | Newsletter:1 | Date Added:2024-04-22 19:54:53
+22/04/2024 19:55:02 : ____________________________________________________________________________
+22/04/2024 19:55:02 : Disconnecting from DB...
+22/04/2024 19:55:02 : Test End!
+_________________________________________________________________________________________
+22/04/2024 19:55:02 : Test Start!
+22/04/2024 19:55:06 : Inside Step - I Read database customer table
+22/04/2024 19:55:06 : Connecting to DB...
+22/04/2024 19:55:06 : __________________________Database Response___________________________________
+22/04/2024 19:55:06 : Customer ID:2 | First Name:Georgi | Last Name:Petrov | Email:petrov@test.test | Telephone:0883225512 | Newsletter:0 | Date Added:2023-11-24 15:13:50
+22/04/2024 19:55:06 : Customer ID:3 | First Name:Gergana | Last Name:Dimitrova | Email:dimitrova@test.test | Telephone:0888888888 | Newsletter:1 | Date Added:2023-11-24 15:16:16
+22/04/2024 19:55:06 : Customer ID:40 | First Name:Kiril | Last Name:Todorov | Email:todorov@test.test | Telephone:0883198565 | Newsletter:1 | Date Added:2023-11-28 18:26:48
+22/04/2024 19:55:06 : Customer ID:223 | First Name:Vasil | Last Name:Vasilev | Email:vasilev@test.test | Telephone:0884395614 | Newsletter:1 | Date Added:2024-04-22 19:49:08
+22/04/2024 19:55:06 : Customer ID:230 | First Name:Ivan | Last Name:Ivanov | Email:ivanov@test.test | Telephone:0887446682 | Newsletter:1 | Date Added:2024-04-22 19:54:53
+22/04/2024 19:55:06 : ____________________________________________________________________________
+22/04/2024 19:55:06 : Disconnecting from DB...
+22/04/2024 19:55:06 : Inside Step - I send DELETE HTTP request
+22/04/2024 19:55:06 : Connecting to DB...
+22/04/2024 19:55:06 : __________________________Deleting Customer_________________________________
+22/04/2024 19:55:06 : Disconnecting from DB...
+22/04/2024 19:55:06 : Inside Step - I receive a Response
+22/04/2024 19:55:06 : Connecting to DB...
+22/04/2024 19:55:06 : __________________________Database Response___________________________________
+22/04/2024 19:55:06 : Customer ID:2 | First Name:Georgi | Last Name:Petrov | Email:petrov@test.test | Telephone:0883225512 | Newsletter:0 | Date Added:2023-11-24 15:13:50
+22/04/2024 19:55:06 : Customer ID:3 | First Name:Gergana | Last Name:Dimitrova | Email:dimitrova@test.test | Telephone:0888888888 | Newsletter:1 | Date Added:2023-11-24 15:16:16
+22/04/2024 19:55:06 : Customer ID:40 | First Name:Kiril | Last Name:Todorov | Email:todorov@test.test | Telephone:0883198565 | Newsletter:1 | Date Added:2023-11-28 18:26:48
+22/04/2024 19:55:06 : Customer ID:223 | First Name:Vasil | Last Name:Vasilev | Email:vasilev@test.test | Telephone:0884395614 | Newsletter:1 | Date Added:2024-04-22 19:49:08
+22/04/2024 19:55:06 : ____________________________________________________________________________
+22/04/2024 19:55:06 : Disconnecting from DB...
+22/04/2024 19:55:06 : Test End!
+_________________________________________________________________________________________

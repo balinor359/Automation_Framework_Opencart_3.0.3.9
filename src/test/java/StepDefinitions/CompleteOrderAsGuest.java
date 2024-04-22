@@ -1,10 +1,8 @@
 package StepDefinitions;
 
-import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import test.opencart.pom.CheckoutPage;
 import test.opencart.pom.HomePage;
-import test.opencart.pom.OrderSuccessPage;
 import test.opencart.utilities.MyFileWriter;
 import test.opencart.utilities.TestUtilities;
 

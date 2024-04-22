@@ -47,6 +47,10 @@ public class CheckoutPage extends TestUtilities {
     private WebElement selectZone;
     @FindBy(xpath = ".//input[@id='button-guest']")
     private WebElement btnGuestStep2;
+    @FindBy(xpath = ".//input[@id='button-payment-address']")
+    private WebElement btnContinueStep2;
+    @FindBy(xpath = ".//input[@id='button-shipping-address']")
+    private WebElement btnContinueStep3;
     @FindBy(xpath = ".//textarea[@qa='add-order-comment']")
     private WebElement orderCommentTextarea;
     @FindBy(xpath = ".//input[@id='button-shipping-method']")
@@ -161,6 +165,57 @@ public class CheckoutPage extends TestUtilities {
         /* Click "Continue" button on step 2 */
         TestUtilities.waitClickable(driver, btnGuestStep2, 5);
         btnGuestStep2.click();
+
+    }
+
+    /* This method fill billing details */
+    public void fillCheckoutFormUser(String firstName, String lastName, String address, String city, String postCode, String country, String region) {
+
+        /* Clear, click and input data into the field */
+        TestUtilities.waitClickable(driver, inputFirstName, 5);
+        inputFirstName.clear();
+        inputFirstName.click();
+        inputFirstName.sendKeys(firstName);
+
+        /* Clear, click and input data into the field */
+        TestUtilities.waitClickable(driver, inputLastName, 5);
+        inputLastName.clear();
+        inputLastName.click();
+        inputLastName.sendKeys(lastName);
+
+        /* Clear, click and input data into the field */
+        TestUtilities.waitClickable(driver, inputAddress1, 5);
+        inputAddress1.clear();
+        inputAddress1.click();
+        inputAddress1.sendKeys(address);
+
+        /* Clear, click and input data into the field */
+        TestUtilities.waitClickable(driver, inputCity, 5);
+        inputCity.clear();
+        inputCity.click();
+        inputCity.sendKeys(city);
+
+        /* Clear, click and input data into the field */
+        TestUtilities.waitClickable(driver, inputPostCode, 5);
+        inputPostCode.clear();
+        inputPostCode.click();
+        inputPostCode.sendKeys(postCode);
+
+        /* Select country */
+        Select countrySelect = new Select(selectCountry);
+        countrySelect.selectByVisibleText(country);
+
+        /* Select region */
+        Select countryZone = new Select(selectZone);
+        countryZone.selectByVisibleText(region);
+
+        /* Click "Continue" button on step 2 */
+        TestUtilities.waitClickable(driver, btnContinueStep2, 5);
+        btnContinueStep2.click();
+
+        /* Click "Continue" button on step 3 */
+        TestUtilities.waitClickable(driver, btnContinueStep3, 5);
+        btnContinueStep3.click();
 
     }
 

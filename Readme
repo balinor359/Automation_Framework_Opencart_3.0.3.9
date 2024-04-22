@@ -12,9 +12,3 @@ The Framework includes:
 - Folder containing Selenium webdrivers for Chrome / Edge / Firefox
 - Folder "log" - containing a log file of the executed tests
 - JAVA Objects for Products and Customers, used in tests.
-
-
-FOLLOWING FEATURES ARE UNDER DEVELOPMENT !!!
-
- - Checkout
-    - CompleteOrderAsLoggedUser.feature

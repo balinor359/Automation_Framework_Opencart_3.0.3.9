@@ -210,6 +210,5 @@ public class CartPage extends TestUtilities {
         String alertMessage = successMsg.getText().replace("×", "").trim();
         Assert.assertEquals(alertMessage, GenericMessages.SUCCESS_MESSAGE_TEXT, GenericMessages.SUCCESS_MESSAGE_DIFFERENT_MESSAGE);
     }
-//Assert.assertEquals(homePage.getItemsInTheCart(), 2, HomePage.CART_BADGE_WRONG_AMOUNT);
 
 }

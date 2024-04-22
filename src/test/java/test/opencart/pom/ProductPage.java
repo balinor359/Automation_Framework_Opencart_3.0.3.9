@@ -18,6 +18,12 @@ public class ProductPage extends TestUtilities {
     /* Declaring page elements */
     @FindBy(xpath = ".//h1[@qa='product_name_heading']")
     private WebElement heading;
+    @FindBy(xpath = ".//h2[@qa='product_price']")
+    private WebElement productPrice;
+    @FindBy(xpath = ".//img[@qa='product_thumb']")
+    private WebElement productImg;
+    @FindBy(xpath = ".//button[@id='button-cart']")
+    private WebElement productAddToCartBtn;
     @FindBy(xpath = ".//a[@qa='tab-description-trigger']")
     private WebElement tabDescriptionTrigger;
     @FindBy(xpath = ".//a[@qa='tab-review-trigger']")
@@ -144,4 +150,42 @@ public class ProductPage extends TestUtilities {
         Assert.assertEquals(reviewSuccessMsg.getText(), message, GenericMessages.SUCCESS_MESSAGE_DIFFERENT_MESSAGE);
     }
 
+
+    /* Method who add product to the Cart */
+    public void addProductToCart() {
+        productAddToCartBtn.click();
+    }
+
+
+    /* This method validate product data */
+    public void productValidator() {
+
+        /* Take element - Name */
+        Assert.assertTrue(heading.isDisplayed(), GenericMessages.PRODUCTS_NAME_MISSING_MESSAGE);
+        String productNameText = heading.getText();
+
+        /* Take element - Price */
+        Assert.assertTrue(productPrice.isDisplayed(), GenericMessages.PRODUCT_PRICE_MISSING_MESSAGE);
+        String productPriceText = productPrice.getText();
+
+        /* Take element - Image */
+        Assert.assertTrue(productImg.isDisplayed(), GenericMessages.PRODUCT_IMAGE_MISSING_MESSAGE);
+
+        HomePage homePage = new HomePage(TestUtilities.driver);
+        String productImageUrl = homePage.extractImageUrlWithoutDimensionsAndFileType(productImg.getAttribute("src"));
+
+
+        /* Go through all products in productList */
+        for (Product product : Product.productList) {
+
+            /* If element from product page match with element from productList compare their name, price and img src */
+            if (productNameText.equals(product.getName())) {
+
+                Assert.assertEquals(productNameText, product.getName(), GenericMessages.PRODUCTS_NAME_IS_DIFFERENT_MESSAGE);
+                Assert.assertEquals(productPriceText, product.getPrice(), GenericMessages.PRODUCT_PRICE_IS_DIFFERENT_MESSAGE);
+                Assert.assertEquals(productImageUrl, product.getImageSrc(), GenericMessages.PRODUCT_IMAGE_IS_DIFFERENT_MESSAGE);
+
+            }
+        }
+    }
 }
